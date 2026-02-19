@@ -1,6 +1,6 @@
 # WalkScape Wiki Scraper
 
-Current scope scrapes the WalkScape `Skills` overview page and the 10 skill pages linked from that overview into structured markdown for AI use.
+TypeScript + pnpm scraper for WalkScape wiki pages. Current scope scrapes the WalkScape `Skills` overview page and all linked skill pages into structured markdown for AI use.
 
 `scrape-wiki` extends this with `Core Mechanics`, `Activities` (including activity pages listed in the Activities table), and `Recipes`.
 
@@ -19,9 +19,9 @@ Current scope scrapes the WalkScape `Skills` overview page and the 10 skill page
 ## Copy-paste run commands
 
 ```bash
-uv sync
-uv run python -m walkscape_scraper.main scrape-wiki
-uv run mkdocs serve
+pnpm install
+pnpm scrape:wiki
+mkdocs serve
 ```
 
 Open the local URL shown by MkDocs (usually `http://127.0.0.1:8000`) to validate rendering.
@@ -29,19 +29,19 @@ Open the local URL shown by MkDocs (usually `http://127.0.0.1:8000`) to validate
 ## Build static docs
 
 ```bash
-uv run mkdocs build
+mkdocs build
 ```
 
 ## Optional: skills-only refresh
 
 ```bash
-uv run python -m walkscape_scraper.main scrape-skills
+pnpm scrape:skills
 ```
 
 ## Optional: incremental refresh (skip unchanged pages)
 
 ```bash
-uv run python -m walkscape_scraper.main scrape-wiki --incremental
+pnpm scrape:wiki:incremental
 ```
 
 Incremental mode compares each page's `source_oldid` and skips rewriting markdown/raw files when unchanged.

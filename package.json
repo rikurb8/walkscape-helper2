@@ -1,0 +1,25 @@
+{
+  "name": "walkscape-wiki-scraper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TypeScript scraper for WalkScape wiki pages",
+  "type": "module",
+  "packageManager": "pnpm@10.5.2",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "scrape:skills": "tsx src/main.ts scrape-skills",
+    "scrape:skills:incremental": "tsx src/main.ts scrape-skills --incremental",
+    "scrape:wiki": "tsx src/main.ts scrape-wiki",
+    "scrape:wiki:incremental": "tsx src/main.ts scrape-wiki --incremental"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "turndown": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.8",
+    "@types/turndown": "^5.0.5",
+    "tsx": "^4.20.5",
+    "typescript": "^5.8.2"
+  }
+}
