@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 import { renderMarkdownTables, renderStructuredData } from "./extract.js";
 import { rewriteInternalLinks } from "./link-rewrite.js";
 import type { CollectionResult, PageRecord, ScrapeProgressHandler, WriteStats } from "./types.js";
-import { asciiJsonStringify, normalizeTitle, safeReadDir, toPosix, yamlQuote } from "./utils.js";
+import { asciiJsonStringify, normalizeTitle, safeReadDir, toPosix } from "./utils.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -38,11 +38,11 @@ export async function writeCollectionsOutput(
   input.onProgress?.({
     phase: "write",
     stage: "progress",
-    message: "Updating docs index and MkDocs navigation"
+    message: "Updating docs index and VitePress navigation"
   });
 
   await writeDocsIndex(collections);
-  await writeMkdocsConfig(collections);
+  await writeVitePressConfig(collections);
   return writeReport(collections, input.includeExtended, input.incremental, writeStats);
 }
 
@@ -51,6 +51,7 @@ async function prepareOutputDirectories(collections: CollectionResult[]): Promis
   const rawRoot = path.join(PROJECT_ROOT, "data", "raw");
 
   await fs.mkdir(docsRoot, { recursive: true });
+  await fs.mkdir(path.join(PROJECT_ROOT, "docs", ".vitepress"), { recursive: true });
   await fs.mkdir(rawRoot, { recursive: true });
   await fs.mkdir(path.join(PROJECT_ROOT, "reports"), { recursive: true });
 
@@ -193,47 +194,82 @@ function buildTitleToPathMap(allPages: PageRecord[]): Map<string, string> {
 async function writeDocsIndex(collections: CollectionResult[]): Promise<void> {
   const lines = ["# WalkScape Wiki Scraper", ""];
   for (const collection of collections) {
-    lines.push(`- [${collection.sectionTitle}](wiki/${collection.sectionSlug}/index.md)`);
+    lines.push(`- [${collection.sectionTitle}](wiki/${collection.sectionSlug}/)`);
   }
   lines.push("");
 
   await fs.writeFile(path.join(PROJECT_ROOT, "docs", "index.md"), `${lines.join("\n")}`, "utf-8");
 }
 
-async function writeMkdocsConfig(collections: CollectionResult[]): Promise<void> {
-  const navLines = [
-    "site_name: WalkScape Wiki Scraper",
-    "site_description: Local validation viewer for scraped WalkScape markdown",
-    "theme:",
-    "  name: material",
+async function writeVitePressConfig(collections: CollectionResult[]): Promise<void> {
+  const nav = buildVitePressNav(collections);
+  const sidebar = buildVitePressSidebar(collections);
+  const configText = [
+    'import { defineConfig } from "vitepress";',
     "",
-    "nav:",
-    "  - Home: index.md"
-  ];
+    `const nav = ${asciiJsonStringify(nav)};`,
+    "",
+    `const sidebar = ${asciiJsonStringify(sidebar)};`,
+    "",
+    "export default defineConfig({",
+    '  title: "WalkScape Wiki Scraper",',
+    '  description: "Local validation viewer for scraped WalkScape markdown",',
+    "  cleanUrls: true,",
+    "  themeConfig: {",
+    "    nav,",
+    "    sidebar,",
+    "    search: {",
+    '      provider: "local"',
+    "    }",
+    "  }",
+    "});",
+    ""
+  ].join("\n");
 
+  const configFile = path.join(PROJECT_ROOT, "docs", ".vitepress", "config.mts");
+  await fs.writeFile(configFile, configText, "utf-8");
+}
+
+function buildVitePressNav(collections: CollectionResult[]): Array<{ text: string; link: string }> {
+  const nav = [{ text: "Home", link: "/" }];
   for (const collection of collections) {
-    navLines.push(`  - ${yamlQuote(collection.sectionTitle)}:`);
-    navLines.push(`      - Overview: wiki/${collection.sectionSlug}/index.md`);
+    nav.push({
+      text: collection.sectionTitle,
+      link: `/wiki/${collection.sectionSlug}/`
+    });
+  }
+  return nav;
+}
+
+function buildVitePressSidebar(
+  collections: CollectionResult[]
+): Array<{ text: string; items: Array<{ text: string; link: string }> }> {
+  const sidebar: Array<{ text: string; items: Array<{ text: string; link: string }> }> = [];
+  for (const collection of collections) {
+    const items: Array<{ text: string; link: string }> = [{ text: "Overview", link: `/wiki/${collection.sectionSlug}/` }];
 
     for (const page of collection.pageRecords) {
       if (page.isRoot) {
         continue;
       }
-      navLines.push(`      - ${yamlQuote(page.title)}: wiki/${collection.sectionSlug}/${page.slug}.md`);
+      items.push({ text: page.title, link: toVitePressLink(page.outputRelpath) });
     }
+
+    sidebar.push({ text: collection.sectionTitle, items });
   }
 
-  navLines.push(
-    "",
-    "markdown_extensions:",
-    "  - tables",
-    "  - admonition",
-    "  - toc:",
-    "      permalink: true",
-    ""
-  );
+  return sidebar;
+}
 
-  await fs.writeFile(path.join(PROJECT_ROOT, "mkdocs.yml"), navLines.join("\n"), "utf-8");
+function toVitePressLink(markdownRelpath: string): string {
+  const withoutExtension = toPosix(markdownRelpath).replace(/\.md$/i, "");
+  if (withoutExtension === "index") {
+    return "/";
+  }
+  if (withoutExtension.endsWith("/index")) {
+    return `/${withoutExtension.slice(0, -"/index".length)}/`;
+  }
+  return `/${withoutExtension}`;
 }
 
 async function writeReport(

@@ -7,6 +7,9 @@
   "packageManager": "pnpm@10.5.2",
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
     "scrape": "tsx src/main.ts",
     "scrape:skills": "tsx src/main.ts scrape-skills",
     "scrape:skills:incremental": "tsx src/main.ts scrape-skills --incremental",
@@ -23,6 +26,7 @@
     "@types/node": "^22.13.8",
     "@types/turndown": "^5.0.5",
     "tsx": "^4.20.5",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "vitepress": "^1.6.4"
   }
 }

@@ -1,3 +1,3 @@
 # WalkScape Wiki Scraper
 
-- [Skills](wiki/skills/index.md)
+- [Skills](wiki/skills/)

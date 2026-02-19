@@ -24,14 +24,14 @@ TypeScript + pnpm scraper for WalkScape wiki pages. Current scope scrapes the Wa
 - `data/raw/*.json` - raw MediaWiki parse response snapshots for each scraped page
 - `reports/skills_scrape_report.json` - summary for `scrape-skills`
 - `reports/wiki_scrape_report.json` - summary for `scrape-wiki`
-- `mkdocs.yml` - auto-generated docs nav for the scraped pages
+- `docs/.vitepress/config.mts` - auto-generated VitePress navigation/sidebar config for scraped pages
 
 ## Copy-paste run commands
 
 ```bash
 pnpm install
 pnpm scrape:wiki
-mkdocs serve
+pnpm docs:dev
 ```
 
 You can inspect CLI help with:
@@ -40,12 +40,18 @@ You can inspect CLI help with:
 pnpm scrape --help
 ```
 
-Open the local URL shown by MkDocs (usually `http://127.0.0.1:8000`) to validate rendering.
+Open the local URL shown by VitePress (usually `http://localhost:5173`) to validate rendering.
 
 ## Build static docs
 
 ```bash
-mkdocs build
+pnpm docs:build
+```
+
+To preview the built site locally:
+
+```bash
+pnpm docs:preview
 ```
 
 ## Optional: skills-only refresh
