@@ -2,7 +2,7 @@
 title: "Agility"
 source_url: "https://wiki.walkscape.app/wiki/Agility"
 source_oldid: 12938
-scraped_at: "2026-02-19T18:54:37.432576+00:00"
+scraped_at: "2026-02-19T21:19:40.318Z"
 categories:
   - "Pages_That_Automatically_Update"
   - "Skills"
@@ -25,17 +25,17 @@ In addition to the variation in experience gained from traveling, so does the ch
 
 There is no efficiency cap on the traveling activity. However there is a 100 step minimum between 2 locations (10 steps per node).
 
-See [Traveling (Mechanics)](https://wiki.walkscape.app/wiki/Traveling_(Mechanics) "Traveling (Mechanics)") for more information on calculations for experience and efficiency.
+See [Traveling (Mechanics)](https://wiki.walkscape.app/wiki/Traveling_\(Mechanics\) "Traveling (Mechanics)") for more information on calculations for experience and efficiency.
 
 ## Activities
 
-The following [activities](../activities/index.md) can be done indefinitely without needing [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Some have [equipment requirements](https://wiki.walkscape.app/wiki/Keywords#Gear_and_Tool_Keywords "Keywords") or other requirements that need to be satisfied in order to start the activity.
+The following [activities](https://wiki.walkscape.app/wiki/Activities "Activities") can be done indefinitely without needing [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Some have [equipment requirements](https://wiki.walkscape.app/wiki/Keywords#Gear_and_Tool_Keywords "Keywords") or other requirements that need to be satisfied in order to start the activity.
 
-For [activities](../activities/index.md) involving two [skills](index.md), the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
+For [activities](https://wiki.walkscape.app/wiki/Activities "Activities") involving two [skills](index.md), the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
 
-So, if the [activity](../activities/index.md) has a Agility level requirement, it will be eligible to drop [Agility Chests](https://wiki.walkscape.app/wiki/Agility_chest "Agility chest").
+So, if the [activity](https://wiki.walkscape.app/wiki/Activities "Activities") has a Agility level requirement, it will be eligible to drop [Agility Chests](https://wiki.walkscape.app/wiki/Agility_chest "Agility chest").
 
-When performing an [activity](../activities/index.md) for a [skill](index.md), only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
+When performing an [activity](https://wiki.walkscape.app/wiki/Activities "Activities") for a [skill](index.md), only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
 
 The following activities are eligible to drop [Agility Chests](https://wiki.walkscape.app/wiki/Agility_chest "Agility chest").
 
@@ -53,11 +53,11 @@ The following activities are eligible to drop [Agility Chests](https://wiki.walk
 
 [Edit Guides](https://wiki.walkscape.app/wiki/Guide:Agility "Guide:Agility")
 
-- [Pure Agility Challenge](https://wiki.walkscape.app/wiki/Guide:Agility/Pure_Agility_Challenge "Guide:Agility/Pure Agility Challenge")
+-   [Pure Agility Challenge](https://wiki.walkscape.app/wiki/Guide:Agility/Pure_Agility_Challenge "Guide:Agility/Pure Agility Challenge")
 
 ### Traveling
 
-*[Traveling](https://wiki.walkscape.app/wiki/Traveling "Traveling") has no subpages to list.*
+_[Traveling](https://wiki.walkscape.app/wiki/Traveling "Traveling") has no subpages to list._
 
 [Edit Guides](https://wiki.walkscape.app/wiki/Guide:Traveling "Guide:Traveling")
 
@@ -65,14 +65,14 @@ The following activities are eligible to drop [Agility Chests](https://wiki.walk
 
 [Edit Gear Sets](https://wiki.walkscape.app/wiki/Gear:Agility "Gear:Agility")
 
-- [Max XP](https://wiki.walkscape.app/wiki/Gear:Agility/Max_XP "Gear:Agility/Max XP")
+-   [Max XP](https://wiki.walkscape.app/wiki/Gear:Agility/Max_XP "Gear:Agility/Max XP")
 
 ### Traveling
 
-- [GDTE Hybrid](https://wiki.walkscape.app/wiki/Gear:Traveling/GDTE_Hybrid "Gear:Traveling/GDTE Hybrid")
-- [General](https://wiki.walkscape.app/wiki/Gear:Traveling/General "Gear:Traveling/General")
-- [Jarvonia](https://wiki.walkscape.app/wiki/Gear:Traveling/Jarvonia "Gear:Traveling/Jarvonia")
-- [Syrenthia](https://wiki.walkscape.app/wiki/Gear:Traveling/Syrenthia "Gear:Traveling/Syrenthia")
+-   [GDTE Hybrid](https://wiki.walkscape.app/wiki/Gear:Traveling/GDTE_Hybrid "Gear:Traveling/GDTE Hybrid")
+-   [General](https://wiki.walkscape.app/wiki/Gear:Traveling/General "Gear:Traveling/General")
+-   [Jarvonia](https://wiki.walkscape.app/wiki/Gear:Traveling/Jarvonia "Gear:Traveling/Jarvonia")
+-   [Syrenthia](https://wiki.walkscape.app/wiki/Gear:Traveling/Syrenthia "Gear:Traveling/Syrenthia")
 
 [Edit Gear Sets](https://wiki.walkscape.app/wiki/Gear:Traveling "Gear:Traveling")
 

@@ -2,7 +2,7 @@
 title: "Trinketry"
 source_url: "https://wiki.walkscape.app/wiki/Trinketry"
 source_oldid: 34641
-scraped_at: "2026-02-19T18:55:25.648676+00:00"
+scraped_at: "2026-02-19T21:20:25.930Z"
 categories:
   - "Pages_That_Automatically_Update"
   - "Skills"
@@ -17,13 +17,13 @@ The **Trinketry** [skill](index.md) allows you to shape rough gems into cut gems
 
 ## Activities
 
-The following [activities](../activities/index.md) can be done indefinitely without needing [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Some have [equipment requirements](https://wiki.walkscape.app/wiki/Keywords#Gear_and_Tool_Keywords "Keywords") or other requirements that need to be satisfied in order to start the activity.
+The following [activities](https://wiki.walkscape.app/wiki/Activities "Activities") can be done indefinitely without needing [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Some have [equipment requirements](https://wiki.walkscape.app/wiki/Keywords#Gear_and_Tool_Keywords "Keywords") or other requirements that need to be satisfied in order to start the activity.
 
-For [activities](../activities/index.md) involving two [skills](index.md), the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
+For [activities](https://wiki.walkscape.app/wiki/Activities "Activities") involving two [skills](index.md), the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
 
-So, if the [activity](../activities/index.md) has a Trinketry level requirement, it will be eligible to drop [Trinketry Chests](https://wiki.walkscape.app/wiki/Trinketry_chest "Trinketry chest").
+So, if the [activity](https://wiki.walkscape.app/wiki/Activities "Activities") has a Trinketry level requirement, it will be eligible to drop [Trinketry Chests](https://wiki.walkscape.app/wiki/Trinketry_chest "Trinketry chest").
 
-When performing an [activity](../activities/index.md) for a [skill](index.md), only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
+When performing an [activity](https://wiki.walkscape.app/wiki/Activities "Activities") for a [skill](index.md), only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
 
 The following activities are eligible to drop [Trinketry Chests](https://wiki.walkscape.app/wiki/Trinketry_chest "Trinketry chest").
 
@@ -35,7 +35,7 @@ No activities give bonus Trinketry experience.
 
 The following activities are completed through recipes and thus require [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Additionally, they may have service requirements, usually in the form of a service location. All recipes produce one of the final products by default.
 
-Trinketry also gets a bonus of +1 [Crafting Outcome](https://wiki.walkscape.app/wiki/Crafting_Outcome "Crafting Outcome") per level beyond a [Trinketry Recipe's](../recipes/index.md) level requirement toward [crafted items](https://wiki.walkscape.app/wiki/Crafted_items "Crafted items") with no cap.
+Trinketry also gets a bonus of +1 [Crafting Outcome](https://wiki.walkscape.app/wiki/Crafting_Outcome "Crafting Outcome") per level beyond a [Trinketry Recipe's](https://wiki.walkscape.app/wiki/Recipes "Recipes") level requirement toward [crafted items](https://wiki.walkscape.app/wiki/Crafted_items "Crafted items") with no cap.
 
 The following activities are eligible to drop [Trinketry chests](https://wiki.walkscape.app/wiki/Trinketry_chest "Trinketry chest").
 
@@ -59,9 +59,9 @@ No guide exists yet. [You can help make one.](https://wiki.walkscape.app/index.p
 
 [Edit Gear Sets](https://wiki.walkscape.app/wiki/Gear:Trinketry "Gear:Trinketry")
 
-- [Jarvonia max output processing](https://wiki.walkscape.app/wiki/Gear:Trinketry/Jarvonia_max_output_processing "Gear:Trinketry/Jarvonia max output processing")
-- [Least materials needed Jarvonia setup](https://wiki.walkscape.app/wiki/Gear:Trinketry/Least_materials_needed_Jarvonia_setup "Gear:Trinketry/Least materials needed Jarvonia setup")
-- [NMC gear](https://wiki.walkscape.app/wiki/Gear:Trinketry/NMC_gear "Gear:Trinketry/NMC gear")
+-   [Jarvonia max output processing](https://wiki.walkscape.app/wiki/Gear:Trinketry/Jarvonia_max_output_processing "Gear:Trinketry/Jarvonia max output processing")
+-   [Least materials needed Jarvonia setup](https://wiki.walkscape.app/wiki/Gear:Trinketry/Least_materials_needed_Jarvonia_setup "Gear:Trinketry/Least materials needed Jarvonia setup")
+-   [NMC gear](https://wiki.walkscape.app/wiki/Gear:Trinketry/NMC_gear "Gear:Trinketry/NMC gear")
 
 ## Trivia
 
@@ -77,46 +77,46 @@ No guide exists yet. [You can help make one.](https://wiki.walkscape.app/index.p
 
 | Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
 | --- | --- | --- | --- | --- |
-| Create a Jarvonian flower necklace | Trinketry lvl. 1 | None | 3 x Moondaisy 3 x Snowdrop | 1 x Jarvonian flower necklace |
-| Shape an opal | Trinketry lvl. 1 | Needs Basic Trinketry Bench service or better. | 1 x Rough opal | 1 x Opal |
-| Create a silver ring | Trinketry lvl. 5 | Needs Basic Trinketry Bench service or better. | 2 x Silver bar | 1 x Silver ring |
-| Shape a star pearl | Trinketry lvl. 8 | Needs Basic Trinketry Bench service or better. | 1 x Rough star pearl | 1 x Star pearl |
-| Create a silver opal ring | Trinketry lvl. 10 | Needs Basic Trinketry Bench service or better. | 1 x Opal 1 x Silver bar | 1 x Silver opal ring |
-| Create a gold ring | Trinketry lvl. 15 | Needs Basic Trinketry Bench service or better. | 2 x Gold bar | 1 x Gold ring |
-| Shape a wrentmarine | Trinketry lvl. 15 | Needs Basic Trinketry Bench service or better. | 1 x Rough wrentmarine | 1 x Wrentmarine |
-| Create a silver star pearl ring | Trinketry lvl. 17 | Needs Basic Trinketry Bench service or better. | 1 x Star pearl 1 x Silver bar | 1 x Silver star pearl ring |
-| Create a gold opal ring | Trinketry lvl. 20 | Needs Basic Trinketry Bench service or better. | 1 x Opal 1 x Gold bar | 1 x Gold opal ring |
-| Shape a topaz | Trinketry lvl. 21 | Needs Basic Trinketry Bench service or better. | 1 x Rough topaz | 1 x Topaz |
-| Create a silver wrentmarine ring | Trinketry lvl. 24 | Needs Basic Trinketry Bench service or better. | 1 x Wrentmarine 1 x Silver bar | 1 x Silver wrentmarine ring |
-| Shape a jade | Trinketry lvl. 26 | Needs Basic Trinketry Bench service or better. | 1 x Rough jade | 1 x Jade |
-| Create a gold star pearl ring | Trinketry lvl. 27 | Needs Basic Trinketry Bench service or better. | 1 x Star pearl 1 x Gold bar | 1 x Gold star pearl ring |
-| Create an amulet of finding | Trinketry lvl. 27 | Needs Basic Trinketry Bench service or better. | 1 x Compass trinket 1 x Gold bar 1 x Silver bar | 1 x Amulet of finding |
-| Create a silver topaz ring | Trinketry lvl. 30 | Needs Basic Trinketry Bench service or better. | 1 x Topaz 1 x Silver bar | 1 x Silver topaz ring |
-| Shape a ruby | Trinketry lvl. 30 | Needs Basic Trinketry Bench service or better. | 1 x Rough ruby | 1 x Ruby |
-| Create an amulet of eel | Trinketry lvl. 31 | Needs Basic Trinketry Bench service or better. | 1 x Eel trinket 1 x Gold bar 1 x Silver bar | 1 x Amulet of eel |
-| Create an amulet of heron | Trinketry lvl. 33 | Needs Basic Trinketry Bench service or better. | 1 x Heron trinket 1 x Gold bar 1 x Silver bar | 1 x Amulet of heron |
-| Create a gold wrentmarine ring | Trinketry lvl. 34 | Needs Basic Trinketry Bench service or better. | 1 x Wrentmarine 1 x Gold bar | 1 x Gold wrentmarine ring |
-| Shape a sun stone | Trinketry lvl. 34 | Needs Basic Trinketry Bench service or better. | 1 x Rough sun stone | 1 x Sun stone |
-| Create a silver jade ring | Trinketry lvl. 35 | Needs Basic Trinketry Bench service or better. | 1 x Jade 1 x Silver bar | 1 x Silver jade ring |
-| Create an amulet of bat | Trinketry lvl. 35 | Needs Basic Trinketry Bench service or better. | 1 x Bat trinket 1 x Gold bar 1 x Silver bar | 1 x Amulet of bat |
-| Create an amulet of cooling ice | Trinketry lvl. 37 | Needs Basic Trinketry Bench service or better. | 1 x Cooling icicle trinket 1 x Gold bar 1 x Silver bar | 1 x Amulet of cooling ice |
-| Shape an ethernite | Trinketry lvl. 38 | Needs Basic Trinketry Bench service or better. | 1 x Rough ethernite | 1 x Ethernite |
-| Create a silver ruby ring | Trinketry lvl. 39 | Needs Basic Trinketry Bench service or better. | 1 x Ruby 1 x Silver bar | 1 x Silver ruby ring |
-| Create a gold topaz ring | Trinketry lvl. 40 | Needs Basic Trinketry Bench service or better. | 1 x Topaz 1 x Gold bar | 1 x Gold topaz ring |
-| Create an amulet of root | Trinketry lvl. 41 | Needs Basic Trinketry Bench service or better. | 1 x Circular root trinket 1 x Gold bar 1 x Silver bar | 1 x Amulet of circular root |
-| Create an amulet of pink pearl | Trinketry lvl. 42 | Needs Basic Trinketry Bench service or better. | 1 x Pink pearl trinket 10 x Pearls | 1 x Amulet of pink pearl |
-| Create a silver sun stone ring | Trinketry lvl. 43 | Needs Basic Trinketry Bench service or better. | 1 x Sun stone 1 x Silver bar | 1 x Silver sun stone ring |
-| Create an amulet of measuring spoons | Trinketry lvl. 43 | Needs Basic Trinketry Bench service or better. | 1 x Measuring spoons trinket 1 x Gold bar 1 x Silver bar | 1 x Amulet of measuring spoon |
-| Create a gold jade ring | Trinketry lvl. 45 | Needs Basic Trinketry Bench service or better. | 1 x Jade 1 x Gold bar | 1 x Gold jade ring |
-| Create an amulet of shrimp | Trinketry lvl. 45 | Needs Basic Trinketry Bench service or better. | 1 x Shrimp trinket 1 x Gold bar 1 x Silver bar | 1 x Amulet of shrimp |
-| Create a silver ethernite ring | Trinketry lvl. 47 | Needs Basic Trinketry Bench service or better. | 1 x Ethernite 1 x Silver bar | 1 x Silver ethernite ring |
-| Create a gold ruby ring | Trinketry lvl. 49 | Needs Basic Trinketry Bench service or better. | 1 x Ruby 1 x Gold bar | 1 x Gold ruby ring |
-| Create an amulet of beaver | Trinketry lvl. 49 | Needs Basic Trinketry Bench service or better. | 1 x Beaver trinket 1 x Gold bar 1 x Silver bar | 1 x Amulet of beaver |
-| Create an amulet of lucky rabbit's foot | Trinketry lvl. 51 | Needs Advanced Trinketry Bench service or better. | 1 x Lucky rabbit foot trinket 1 x Gold bar 1 x Silver bar | 1 x Amulet of lucky rabbit's foot |
-| Create a gold sun stone ring | Trinketry lvl. 53 | Needs Advanced Trinketry Bench service or better. | 1 x Sun stone 1 x Gold bar | 1 x Gold sun stone ring |
-| Create a Wraithwater flower necklace | Trinketry lvl. 55 | None | 2 x Widow's kiss 2 x Bones | 1 x Wraithwater flower necklace |
-| Create an amulet of animal kingdom | Trinketry lvl. 55 | Needs Advanced Trinketry Bench service or better. | 1 x Beaver trinket 1 x Gold bar 1 x Silver bar 1 x Heron trinket 1 x Shrimp trinket 1 x Eel trinket 1 x Bat trinket 1 x Shark tooth trinket 1 x Lucky rabbit foot trinket | 1 x Amulet of the animal kingdom |
-| Create a gold ethernite ring | Trinketry lvl. 57 | Needs Advanced Trinketry Bench service or better. | 1 x Ethernite 1 x Gold bar | 1 x Gold ethernite ring |
+| Create a Jarvonian flower necklace | Trinketry lvl. 1 | None | 3x Moondaisy 3x Snowdrop | 1x Jarvonian flower necklace |
+| Shape an opal | Trinketry lvl. 1 | Needs Basic Trinketry Bench service or better. | 1x Rough opal | 1x Opal |
+| Create a silver ring | Trinketry lvl. 5 | Needs Basic Trinketry Bench service or better. | 2x Silver bar | 1x Silver ring |
+| Shape a star pearl | Trinketry lvl. 8 | Needs Basic Trinketry Bench service or better. | 1x Rough star pearl | 1x Star pearl |
+| Create a silver opal ring | Trinketry lvl. 10 | Needs Basic Trinketry Bench service or better. | 1x Opal 1x Silver bar | 1x Silver opal ring |
+| Create a gold ring | Trinketry lvl. 15 | Needs Basic Trinketry Bench service or better. | 2x Gold bar | 1x Gold ring |
+| Shape a wrentmarine | Trinketry lvl. 15 | Needs Basic Trinketry Bench service or better. | 1x Rough wrentmarine | 1x Wrentmarine |
+| Create a silver star pearl ring | Trinketry lvl. 17 | Needs Basic Trinketry Bench service or better. | 1x Star pearl 1x Silver bar | 1x Silver star pearl ring |
+| Create a gold opal ring | Trinketry lvl. 20 | Needs Basic Trinketry Bench service or better. | 1x Opal 1x Gold bar | 1x Gold opal ring |
+| Shape a topaz | Trinketry lvl. 21 | Needs Basic Trinketry Bench service or better. | 1x Rough topaz | 1x Topaz |
+| Create a silver wrentmarine ring | Trinketry lvl. 24 | Needs Basic Trinketry Bench service or better. | 1x Wrentmarine 1x Silver bar | 1x Silver wrentmarine ring |
+| Shape a jade | Trinketry lvl. 26 | Needs Basic Trinketry Bench service or better. | 1x Rough jade | 1x Jade |
+| Create a gold star pearl ring | Trinketry lvl. 27 | Needs Basic Trinketry Bench service or better. | 1x Star pearl 1x Gold bar | 1x Gold star pearl ring |
+| Create an amulet of finding | Trinketry lvl. 27 | Needs Basic Trinketry Bench service or better. | 1x Compass trinket 1x Gold bar 1x Silver bar | 1x Amulet of finding |
+| Create a silver topaz ring | Trinketry lvl. 30 | Needs Basic Trinketry Bench service or better. | 1x Topaz 1x Silver bar | 1x Silver topaz ring |
+| Shape a ruby | Trinketry lvl. 30 | Needs Basic Trinketry Bench service or better. | 1x Rough ruby | 1x Ruby |
+| Create an amulet of eel | Trinketry lvl. 31 | Needs Basic Trinketry Bench service or better. | 1x Eel trinket 1x Gold bar 1x Silver bar | 1x Amulet of eel |
+| Create an amulet of heron | Trinketry lvl. 33 | Needs Basic Trinketry Bench service or better. | 1x Heron trinket 1x Gold bar 1x Silver bar | 1x Amulet of heron |
+| Create a gold wrentmarine ring | Trinketry lvl. 34 | Needs Basic Trinketry Bench service or better. | 1x Wrentmarine 1x Gold bar | 1x Gold wrentmarine ring |
+| Shape a sun stone | Trinketry lvl. 34 | Needs Basic Trinketry Bench service or better. | 1x Rough sun stone | 1x Sun stone |
+| Create a silver jade ring | Trinketry lvl. 35 | Needs Basic Trinketry Bench service or better. | 1x Jade 1x Silver bar | 1x Silver jade ring |
+| Create an amulet of bat | Trinketry lvl. 35 | Needs Basic Trinketry Bench service or better. | 1x Bat trinket 1x Gold bar 1x Silver bar | 1x Amulet of bat |
+| Create an amulet of cooling ice | Trinketry lvl. 37 | Needs Basic Trinketry Bench service or better. | 1x Cooling icicle trinket 1x Gold bar 1x Silver bar | 1x Amulet of cooling ice |
+| Shape an ethernite | Trinketry lvl. 38 | Needs Basic Trinketry Bench service or better. | 1x Rough ethernite | 1x Ethernite |
+| Create a silver ruby ring | Trinketry lvl. 39 | Needs Basic Trinketry Bench service or better. | 1x Ruby 1x Silver bar | 1x Silver ruby ring |
+| Create a gold topaz ring | Trinketry lvl. 40 | Needs Basic Trinketry Bench service or better. | 1x Topaz 1x Gold bar | 1x Gold topaz ring |
+| Create an amulet of root | Trinketry lvl. 41 | Needs Basic Trinketry Bench service or better. | 1x Circular root trinket 1x Gold bar 1x Silver bar | 1x Amulet of circular root |
+| Create an amulet of pink pearl | Trinketry lvl. 42 | Needs Basic Trinketry Bench service or better. | 1x Pink pearl trinket 10x Pearls | 1x Amulet of pink pearl |
+| Create a silver sun stone ring | Trinketry lvl. 43 | Needs Basic Trinketry Bench service or better. | 1x Sun stone 1x Silver bar | 1x Silver sun stone ring |
+| Create an amulet of measuring spoons | Trinketry lvl. 43 | Needs Basic Trinketry Bench service or better. | 1x Measuring spoons trinket 1x Gold bar 1x Silver bar | 1x Amulet of measuring spoon |
+| Create a gold jade ring | Trinketry lvl. 45 | Needs Basic Trinketry Bench service or better. | 1x Jade 1x Gold bar | 1x Gold jade ring |
+| Create an amulet of shrimp | Trinketry lvl. 45 | Needs Basic Trinketry Bench service or better. | 1x Shrimp trinket 1x Gold bar 1x Silver bar | 1x Amulet of shrimp |
+| Create a silver ethernite ring | Trinketry lvl. 47 | Needs Basic Trinketry Bench service or better. | 1x Ethernite 1x Silver bar | 1x Silver ethernite ring |
+| Create a gold ruby ring | Trinketry lvl. 49 | Needs Basic Trinketry Bench service or better. | 1x Ruby 1x Gold bar | 1x Gold ruby ring |
+| Create an amulet of beaver | Trinketry lvl. 49 | Needs Basic Trinketry Bench service or better. | 1x Beaver trinket 1x Gold bar 1x Silver bar | 1x Amulet of beaver |
+| Create an amulet of lucky rabbit's foot | Trinketry lvl. 51 | Needs Advanced Trinketry Bench service or better. | 1x Lucky rabbit foot trinket 1x Gold bar 1x Silver bar | 1x Amulet of lucky rabbit's foot |
+| Create a gold sun stone ring | Trinketry lvl. 53 | Needs Advanced Trinketry Bench service or better. | 1x Sun stone 1x Gold bar | 1x Gold sun stone ring |
+| Create a Wraithwater flower necklace | Trinketry lvl. 55 | None | 2x Widow's kiss 2x Bones | 1x Wraithwater flower necklace |
+| Create an amulet of animal kingdom | Trinketry lvl. 55 | Needs Advanced Trinketry Bench service or better. | 1x Beaver trinket 1x Gold bar 1x Silver bar 1x Heron trinket 1x Shrimp trinket 1x Eel trinket 1x Bat trinket 1x Shark tooth trinket 1x Lucky rabbit foot trinket | 1x Amulet of the animal kingdom |
+| Create a gold ethernite ring | Trinketry lvl. 57 | Needs Advanced Trinketry Bench service or better. | 1x Ethernite 1x Gold bar | 1x Gold ethernite ring |
 
 ### Table 3 (Recipes)
 
@@ -238,281 +238,281 @@ No guide exists yet. [You can help make one.](https://wiki.walkscape.app/index.p
           "Recipe Name": "Create a Jarvonian flower necklace",
           "Level": "Trinketry lvl. 1",
           "Service Requirement": "None",
-          "Materials Used": "3 x Moondaisy 3 x Snowdrop",
-          "Recipe Outputs": "1 x Jarvonian flower necklace"
+          "Materials Used": "3x Moondaisy 3x Snowdrop",
+          "Recipe Outputs": "1x Jarvonian flower necklace"
         },
         {
           "Recipe Name": "Shape an opal",
           "Level": "Trinketry lvl. 1",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Rough opal",
-          "Recipe Outputs": "1 x Opal"
+          "Materials Used": "1x Rough opal",
+          "Recipe Outputs": "1x Opal"
         },
         {
           "Recipe Name": "Create a silver ring",
           "Level": "Trinketry lvl. 5",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "2 x Silver bar",
-          "Recipe Outputs": "1 x Silver ring"
+          "Materials Used": "2x Silver bar",
+          "Recipe Outputs": "1x Silver ring"
         },
         {
           "Recipe Name": "Shape a star pearl",
           "Level": "Trinketry lvl. 8",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Rough star pearl",
-          "Recipe Outputs": "1 x Star pearl"
+          "Materials Used": "1x Rough star pearl",
+          "Recipe Outputs": "1x Star pearl"
         },
         {
           "Recipe Name": "Create a silver opal ring",
           "Level": "Trinketry lvl. 10",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Opal 1 x Silver bar",
-          "Recipe Outputs": "1 x Silver opal ring"
+          "Materials Used": "1x Opal 1x Silver bar",
+          "Recipe Outputs": "1x Silver opal ring"
         },
         {
           "Recipe Name": "Create a gold ring",
           "Level": "Trinketry lvl. 15",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "2 x Gold bar",
-          "Recipe Outputs": "1 x Gold ring"
+          "Materials Used": "2x Gold bar",
+          "Recipe Outputs": "1x Gold ring"
         },
         {
           "Recipe Name": "Shape a wrentmarine",
           "Level": "Trinketry lvl. 15",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Rough wrentmarine",
-          "Recipe Outputs": "1 x Wrentmarine"
+          "Materials Used": "1x Rough wrentmarine",
+          "Recipe Outputs": "1x Wrentmarine"
         },
         {
           "Recipe Name": "Create a silver star pearl ring",
           "Level": "Trinketry lvl. 17",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Star pearl 1 x Silver bar",
-          "Recipe Outputs": "1 x Silver star pearl ring"
+          "Materials Used": "1x Star pearl 1x Silver bar",
+          "Recipe Outputs": "1x Silver star pearl ring"
         },
         {
           "Recipe Name": "Create a gold opal ring",
           "Level": "Trinketry lvl. 20",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Opal 1 x Gold bar",
-          "Recipe Outputs": "1 x Gold opal ring"
+          "Materials Used": "1x Opal 1x Gold bar",
+          "Recipe Outputs": "1x Gold opal ring"
         },
         {
           "Recipe Name": "Shape a topaz",
           "Level": "Trinketry lvl. 21",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Rough topaz",
-          "Recipe Outputs": "1 x Topaz"
+          "Materials Used": "1x Rough topaz",
+          "Recipe Outputs": "1x Topaz"
         },
         {
           "Recipe Name": "Create a silver wrentmarine ring",
           "Level": "Trinketry lvl. 24",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Wrentmarine 1 x Silver bar",
-          "Recipe Outputs": "1 x Silver wrentmarine ring"
+          "Materials Used": "1x Wrentmarine 1x Silver bar",
+          "Recipe Outputs": "1x Silver wrentmarine ring"
         },
         {
           "Recipe Name": "Shape a jade",
           "Level": "Trinketry lvl. 26",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Rough jade",
-          "Recipe Outputs": "1 x Jade"
+          "Materials Used": "1x Rough jade",
+          "Recipe Outputs": "1x Jade"
         },
         {
           "Recipe Name": "Create a gold star pearl ring",
           "Level": "Trinketry lvl. 27",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Star pearl 1 x Gold bar",
-          "Recipe Outputs": "1 x Gold star pearl ring"
+          "Materials Used": "1x Star pearl 1x Gold bar",
+          "Recipe Outputs": "1x Gold star pearl ring"
         },
         {
           "Recipe Name": "Create an amulet of finding",
           "Level": "Trinketry lvl. 27",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Compass trinket 1 x Gold bar 1 x Silver bar",
-          "Recipe Outputs": "1 x Amulet of finding"
+          "Materials Used": "1x Compass trinket 1x Gold bar 1x Silver bar",
+          "Recipe Outputs": "1x Amulet of finding"
         },
         {
           "Recipe Name": "Create a silver topaz ring",
           "Level": "Trinketry lvl. 30",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Topaz 1 x Silver bar",
-          "Recipe Outputs": "1 x Silver topaz ring"
+          "Materials Used": "1x Topaz 1x Silver bar",
+          "Recipe Outputs": "1x Silver topaz ring"
         },
         {
           "Recipe Name": "Shape a ruby",
           "Level": "Trinketry lvl. 30",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Rough ruby",
-          "Recipe Outputs": "1 x Ruby"
+          "Materials Used": "1x Rough ruby",
+          "Recipe Outputs": "1x Ruby"
         },
         {
           "Recipe Name": "Create an amulet of eel",
           "Level": "Trinketry lvl. 31",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Eel trinket 1 x Gold bar 1 x Silver bar",
-          "Recipe Outputs": "1 x Amulet of eel"
+          "Materials Used": "1x Eel trinket 1x Gold bar 1x Silver bar",
+          "Recipe Outputs": "1x Amulet of eel"
         },
         {
           "Recipe Name": "Create an amulet of heron",
           "Level": "Trinketry lvl. 33",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Heron trinket 1 x Gold bar 1 x Silver bar",
-          "Recipe Outputs": "1 x Amulet of heron"
+          "Materials Used": "1x Heron trinket 1x Gold bar 1x Silver bar",
+          "Recipe Outputs": "1x Amulet of heron"
         },
         {
           "Recipe Name": "Create a gold wrentmarine ring",
           "Level": "Trinketry lvl. 34",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Wrentmarine 1 x Gold bar",
-          "Recipe Outputs": "1 x Gold wrentmarine ring"
+          "Materials Used": "1x Wrentmarine 1x Gold bar",
+          "Recipe Outputs": "1x Gold wrentmarine ring"
         },
         {
           "Recipe Name": "Shape a sun stone",
           "Level": "Trinketry lvl. 34",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Rough sun stone",
-          "Recipe Outputs": "1 x Sun stone"
+          "Materials Used": "1x Rough sun stone",
+          "Recipe Outputs": "1x Sun stone"
         },
         {
           "Recipe Name": "Create a silver jade ring",
           "Level": "Trinketry lvl. 35",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Jade 1 x Silver bar",
-          "Recipe Outputs": "1 x Silver jade ring"
+          "Materials Used": "1x Jade 1x Silver bar",
+          "Recipe Outputs": "1x Silver jade ring"
         },
         {
           "Recipe Name": "Create an amulet of bat",
           "Level": "Trinketry lvl. 35",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Bat trinket 1 x Gold bar 1 x Silver bar",
-          "Recipe Outputs": "1 x Amulet of bat"
+          "Materials Used": "1x Bat trinket 1x Gold bar 1x Silver bar",
+          "Recipe Outputs": "1x Amulet of bat"
         },
         {
           "Recipe Name": "Create an amulet of cooling ice",
           "Level": "Trinketry lvl. 37",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Cooling icicle trinket 1 x Gold bar 1 x Silver bar",
-          "Recipe Outputs": "1 x Amulet of cooling ice"
+          "Materials Used": "1x Cooling icicle trinket 1x Gold bar 1x Silver bar",
+          "Recipe Outputs": "1x Amulet of cooling ice"
         },
         {
           "Recipe Name": "Shape an ethernite",
           "Level": "Trinketry lvl. 38",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Rough ethernite",
-          "Recipe Outputs": "1 x Ethernite"
+          "Materials Used": "1x Rough ethernite",
+          "Recipe Outputs": "1x Ethernite"
         },
         {
           "Recipe Name": "Create a silver ruby ring",
           "Level": "Trinketry lvl. 39",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Ruby 1 x Silver bar",
-          "Recipe Outputs": "1 x Silver ruby ring"
+          "Materials Used": "1x Ruby 1x Silver bar",
+          "Recipe Outputs": "1x Silver ruby ring"
         },
         {
           "Recipe Name": "Create a gold topaz ring",
           "Level": "Trinketry lvl. 40",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Topaz 1 x Gold bar",
-          "Recipe Outputs": "1 x Gold topaz ring"
+          "Materials Used": "1x Topaz 1x Gold bar",
+          "Recipe Outputs": "1x Gold topaz ring"
         },
         {
           "Recipe Name": "Create an amulet of root",
           "Level": "Trinketry lvl. 41",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Circular root trinket 1 x Gold bar 1 x Silver bar",
-          "Recipe Outputs": "1 x Amulet of circular root"
+          "Materials Used": "1x Circular root trinket 1x Gold bar 1x Silver bar",
+          "Recipe Outputs": "1x Amulet of circular root"
         },
         {
           "Recipe Name": "Create an amulet of pink pearl",
           "Level": "Trinketry lvl. 42",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Pink pearl trinket 10 x Pearls",
-          "Recipe Outputs": "1 x Amulet of pink pearl"
+          "Materials Used": "1x Pink pearl trinket 10x Pearls",
+          "Recipe Outputs": "1x Amulet of pink pearl"
         },
         {
           "Recipe Name": "Create a silver sun stone ring",
           "Level": "Trinketry lvl. 43",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Sun stone 1 x Silver bar",
-          "Recipe Outputs": "1 x Silver sun stone ring"
+          "Materials Used": "1x Sun stone 1x Silver bar",
+          "Recipe Outputs": "1x Silver sun stone ring"
         },
         {
           "Recipe Name": "Create an amulet of measuring spoons",
           "Level": "Trinketry lvl. 43",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Measuring spoons trinket 1 x Gold bar 1 x Silver bar",
-          "Recipe Outputs": "1 x Amulet of measuring spoon"
+          "Materials Used": "1x Measuring spoons trinket 1x Gold bar 1x Silver bar",
+          "Recipe Outputs": "1x Amulet of measuring spoon"
         },
         {
           "Recipe Name": "Create a gold jade ring",
           "Level": "Trinketry lvl. 45",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Jade 1 x Gold bar",
-          "Recipe Outputs": "1 x Gold jade ring"
+          "Materials Used": "1x Jade 1x Gold bar",
+          "Recipe Outputs": "1x Gold jade ring"
         },
         {
           "Recipe Name": "Create an amulet of shrimp",
           "Level": "Trinketry lvl. 45",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Shrimp trinket 1 x Gold bar 1 x Silver bar",
-          "Recipe Outputs": "1 x Amulet of shrimp"
+          "Materials Used": "1x Shrimp trinket 1x Gold bar 1x Silver bar",
+          "Recipe Outputs": "1x Amulet of shrimp"
         },
         {
           "Recipe Name": "Create a silver ethernite ring",
           "Level": "Trinketry lvl. 47",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Ethernite 1 x Silver bar",
-          "Recipe Outputs": "1 x Silver ethernite ring"
+          "Materials Used": "1x Ethernite 1x Silver bar",
+          "Recipe Outputs": "1x Silver ethernite ring"
         },
         {
           "Recipe Name": "Create a gold ruby ring",
           "Level": "Trinketry lvl. 49",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Ruby 1 x Gold bar",
-          "Recipe Outputs": "1 x Gold ruby ring"
+          "Materials Used": "1x Ruby 1x Gold bar",
+          "Recipe Outputs": "1x Gold ruby ring"
         },
         {
           "Recipe Name": "Create an amulet of beaver",
           "Level": "Trinketry lvl. 49",
           "Service Requirement": "Needs Basic Trinketry Bench service or better.",
-          "Materials Used": "1 x Beaver trinket 1 x Gold bar 1 x Silver bar",
-          "Recipe Outputs": "1 x Amulet of beaver"
+          "Materials Used": "1x Beaver trinket 1x Gold bar 1x Silver bar",
+          "Recipe Outputs": "1x Amulet of beaver"
         },
         {
           "Recipe Name": "Create an amulet of lucky rabbit's foot",
           "Level": "Trinketry lvl. 51",
           "Service Requirement": "Needs Advanced Trinketry Bench service or better.",
-          "Materials Used": "1 x Lucky rabbit foot trinket 1 x Gold bar 1 x Silver bar",
-          "Recipe Outputs": "1 x Amulet of lucky rabbit's foot"
+          "Materials Used": "1x Lucky rabbit foot trinket 1x Gold bar 1x Silver bar",
+          "Recipe Outputs": "1x Amulet of lucky rabbit's foot"
         },
         {
           "Recipe Name": "Create a gold sun stone ring",
           "Level": "Trinketry lvl. 53",
           "Service Requirement": "Needs Advanced Trinketry Bench service or better.",
-          "Materials Used": "1 x Sun stone 1 x Gold bar",
-          "Recipe Outputs": "1 x Gold sun stone ring"
+          "Materials Used": "1x Sun stone 1x Gold bar",
+          "Recipe Outputs": "1x Gold sun stone ring"
         },
         {
           "Recipe Name": "Create a Wraithwater flower necklace",
           "Level": "Trinketry lvl. 55",
           "Service Requirement": "None",
-          "Materials Used": "2 x Widow's kiss 2 x Bones",
-          "Recipe Outputs": "1 x Wraithwater flower necklace"
+          "Materials Used": "2x Widow's kiss 2x Bones",
+          "Recipe Outputs": "1x Wraithwater flower necklace"
         },
         {
           "Recipe Name": "Create an amulet of animal kingdom",
           "Level": "Trinketry lvl. 55",
           "Service Requirement": "Needs Advanced Trinketry Bench service or better.",
-          "Materials Used": "1 x Beaver trinket 1 x Gold bar 1 x Silver bar 1 x Heron trinket 1 x Shrimp trinket 1 x Eel trinket 1 x Bat trinket 1 x Shark tooth trinket 1 x Lucky rabbit foot trinket",
-          "Recipe Outputs": "1 x Amulet of the animal kingdom"
+          "Materials Used": "1x Beaver trinket 1x Gold bar 1x Silver bar 1x Heron trinket 1x Shrimp trinket 1x Eel trinket 1x Bat trinket 1x Shark tooth trinket 1x Lucky rabbit foot trinket",
+          "Recipe Outputs": "1x Amulet of the animal kingdom"
         },
         {
           "Recipe Name": "Create a gold ethernite ring",
           "Level": "Trinketry lvl. 57",
           "Service Requirement": "Needs Advanced Trinketry Bench service or better.",
-          "Materials Used": "1 x Ethernite 1 x Gold bar",
-          "Recipe Outputs": "1 x Gold ethernite ring"
+          "Materials Used": "1x Ethernite 1x Gold bar",
+          "Recipe Outputs": "1x Gold ethernite ring"
         }
       ]
     },

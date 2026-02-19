@@ -1,6 +1,6 @@
 {
   "mode": "scrape-skills",
-  "incremental": true,
+  "incremental": false,
   "sections": [
     {
       "section": "Skills",
@@ -27,11 +27,11 @@
   "pages_generated_total": 11,
   "tables_found_total": 51,
   "write_stats": {
-    "docs_written": 0,
-    "docs_skipped": 11,
+    "docs_written": 11,
+    "docs_skipped": 0,
     "docs_removed": 0,
-    "raw_written": 0,
-    "raw_skipped": 11,
+    "raw_written": 11,
+    "raw_skipped": 0,
     "raw_removed": 0
   },
   "warnings": []

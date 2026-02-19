@@ -2,7 +2,7 @@
 title: "Skills"
 source_url: "https://wiki.walkscape.app/wiki/Skills"
 source_oldid: 35338
-scraped_at: "2026-02-19T18:54:36.641352+00:00"
+scraped_at: "2026-02-19T21:19:39.770Z"
 categories:
   - "Pages_Updated_for_QoL_&_OTA_Update"
   - "Skills"
@@ -21,9 +21,9 @@ The Total Level represents the sum of all of the current levels a character has.
 
 There is also a [Character Level](https://wiki.walkscape.app/wiki/Character_Level "Character Level") that is a "pure" representation of how much you've walked in total. There are no modifiers that can affect it. This level can affect character unlocks like larger [saved step](https://wiki.walkscape.app/wiki/Saved_steps "Saved steps") amounts and additional [toolbelt](https://wiki.walkscape.app/wiki/Toolbelt "Toolbelt") slots.
 
-For [activities](../activities/index.md) involving two skills, the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
+For [activities](https://wiki.walkscape.app/wiki/Activities "Activities") involving two skills, the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
 
-When performing an [activity](../activities/index.md) for a skill, only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
+When performing an [activity](https://wiki.walkscape.app/wiki/Activities "Activities") for a skill, only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
 
 ## Skills
 

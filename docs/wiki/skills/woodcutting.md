@@ -2,7 +2,7 @@
 title: "Woodcutting"
 source_url: "https://wiki.walkscape.app/wiki/Woodcutting"
 source_oldid: 12935
-scraped_at: "2026-02-19T18:55:26.155939+00:00"
+scraped_at: "2026-02-19T21:20:26.286Z"
 categories:
   - "Pages_That_Automatically_Update"
   - "Skills"
@@ -17,13 +17,13 @@ The **Woodcutting** [skill](index.md) allows you to gather logs from chopping tr
 
 ## Activities
 
-The following [activities](../activities/index.md) can be done indefinitely without needing [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Some have [equipment requirements](https://wiki.walkscape.app/wiki/Keywords#Gear_and_Tool_Keywords "Keywords") or other requirements that need to be satisfied in order to start the activity.
+The following [activities](https://wiki.walkscape.app/wiki/Activities "Activities") can be done indefinitely without needing [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Some have [equipment requirements](https://wiki.walkscape.app/wiki/Keywords#Gear_and_Tool_Keywords "Keywords") or other requirements that need to be satisfied in order to start the activity.
 
-For [activities](../activities/index.md) involving two [skills](index.md), the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
+For [activities](https://wiki.walkscape.app/wiki/Activities "Activities") involving two [skills](index.md), the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
 
-So, if the [activity](../activities/index.md) has a Woodcutting level requirement, it will be eligible to drop [Woodcutting Chests](https://wiki.walkscape.app/wiki/Woodcutting_chest "Woodcutting chest"). Additionally, activities involving cutting trees have a chance to drop [Bird Nests](https://wiki.walkscape.app/wiki/Bird_Nests "Bird Nests") as well.
+So, if the [activity](https://wiki.walkscape.app/wiki/Activities "Activities") has a Woodcutting level requirement, it will be eligible to drop [Woodcutting Chests](https://wiki.walkscape.app/wiki/Woodcutting_chest "Woodcutting chest"). Additionally, activities involving cutting trees have a chance to drop [Bird Nests](https://wiki.walkscape.app/wiki/Bird_Nests "Bird Nests") as well.
 
-When performing an [activity](../activities/index.md) for a [skill](index.md), only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
+When performing an [activity](https://wiki.walkscape.app/wiki/Activities "Activities") for a [skill](index.md), only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
 
 The following activities are eligible to drop [Woodcutting Chests](https://wiki.walkscape.app/wiki/Woodcutting_chest "Woodcutting chest").
 
@@ -45,8 +45,8 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ## Trivia
 
-- When the Closed Beta Test released, Woodcutting had the best exp/step in the game with cutting mangrove trees.
-- GNAT Encon (enconvenient) was the first person to reach 99 in a skill with woodcutting and was awarded an IRL cape from Schamppu as an achievement during the closed beta test.
+-   When the Closed Beta Test released, Woodcutting had the best exp/step in the game with cutting mangrove trees.
+-   GNAT Encon (enconvenient) was the first person to reach 99 in a skill with woodcutting and was awarded an IRL cape from Schamppu as an achievement during the closed beta test.
 
 ## Extracted Tables
 

@@ -4,6 +4,16 @@ TypeScript + pnpm scraper for WalkScape wiki pages. Current scope scrapes the Wa
 
 `scrape-wiki` extends this with `Core Mechanics`, `Activities` (including activity pages listed in the Activities table), and `Recipes`.
 
+## Code structure
+
+- `src/main.ts` - oclif CLI entrypoint (`--help`, flags, and live progress spinner)
+- `src/scraper/index.ts` - public scraper entry API (`runScrape`)
+- `src/scraper/collections.ts` - section/page discovery and collection building
+- `src/scraper/writers.ts` - markdown/raw/doc-nav/report output writing
+- `src/scraper/link-rewrite.ts` - internal wiki link rewriting for generated docs
+- `src/scraper/api.ts` - MediaWiki API fetch/parsing layer
+- `src/scraper/extract.ts` - HTML cleanup, table extraction, and markdown rendering
+
 ## What it generates
 
 - `docs/wiki/skills/index.md` - cleaned overview markdown + extracted tables + structured JSON block
@@ -22,6 +32,12 @@ TypeScript + pnpm scraper for WalkScape wiki pages. Current scope scrapes the Wa
 pnpm install
 pnpm scrape:wiki
 mkdocs serve
+```
+
+You can inspect CLI help with:
+
+```bash
+pnpm scrape --help
 ```
 
 Open the local URL shown by MkDocs (usually `http://127.0.0.1:8000`) to validate rendering.
@@ -45,3 +61,5 @@ pnpm scrape:wiki:incremental
 ```
 
 Incremental mode compares each page's `source_oldid` and skips rewriting markdown/raw files when unchanged.
+
+During scraping, the CLI shows TUI-style progress updates for both collection and writing phases so you can follow page-by-page progress.

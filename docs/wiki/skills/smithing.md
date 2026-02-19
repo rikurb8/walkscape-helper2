@@ -2,7 +2,7 @@
 title: "Smithing"
 source_url: "https://wiki.walkscape.app/wiki/Smithing"
 source_oldid: 34282
-scraped_at: "2026-02-19T18:55:17.303417+00:00"
+scraped_at: "2026-02-19T21:20:16.424Z"
 categories:
   - "Pages_That_Automatically_Update"
   - "Skills"
@@ -17,13 +17,13 @@ The **Smithing** [skill](index.md) allows you to smelt ores into bars as well as
 
 ## Activities
 
-The following [activities](../activities/index.md) can be done indefinitely without needing [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Some have [equipment requirements](https://wiki.walkscape.app/wiki/Keywords#Gear_and_Tool_Keywords "Keywords") or other requirements that need to be satisfied in order to start the activity.
+The following [activities](https://wiki.walkscape.app/wiki/Activities "Activities") can be done indefinitely without needing [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Some have [equipment requirements](https://wiki.walkscape.app/wiki/Keywords#Gear_and_Tool_Keywords "Keywords") or other requirements that need to be satisfied in order to start the activity.
 
-For [activities](../activities/index.md) involving two [skills](index.md), the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
+For [activities](https://wiki.walkscape.app/wiki/Activities "Activities") involving two [skills](index.md), the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
 
-So, if the [activity](../activities/index.md) has a Smithing level requirement, it will be eligible to drop [Smithing Chests](https://wiki.walkscape.app/wiki/Smithing_chest "Smithing chest").
+So, if the [activity](https://wiki.walkscape.app/wiki/Activities "Activities") has a Smithing level requirement, it will be eligible to drop [Smithing Chests](https://wiki.walkscape.app/wiki/Smithing_chest "Smithing chest").
 
-When performing an [activity](../activities/index.md) for a [skill](index.md), only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
+When performing an [activity](https://wiki.walkscape.app/wiki/Activities "Activities") for a [skill](index.md), only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
 
 The following activities are eligible to drop [Smithing Chests](https://wiki.walkscape.app/wiki/Smithing_chest "Smithing chest").
 
@@ -37,7 +37,7 @@ The following activities are eligible to drop [Smithing Chests](https://wiki.wal
 
 The following activities are completed through recipes and thus require [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Additionally, they may have service requirements, usually in the form of a service location. All recipes produce one of the final products by default.
 
-Smithing also gets a bonus of +1 [Crafting Outcome](https://wiki.walkscape.app/wiki/Crafting_Outcome "Crafting Outcome") per level beyond a [Smithing Recipe's](../recipes/index.md) level requirement toward [crafted items](https://wiki.walkscape.app/wiki/Crafted_items "Crafted items") with no cap.
+Smithing also gets a bonus of +1 [Crafting Outcome](https://wiki.walkscape.app/wiki/Crafting_Outcome "Crafting Outcome") per level beyond a [Smithing Recipe's](https://wiki.walkscape.app/wiki/Recipes "Recipes") level requirement toward [crafted items](https://wiki.walkscape.app/wiki/Crafted_items "Crafted items") with no cap.
 
 The following activities are eligible to drop [Smithing chests](https://wiki.walkscape.app/wiki/Smithing_chest "Smithing chest").
 
@@ -61,8 +61,8 @@ No guide exists yet. [You can help make one.](https://wiki.walkscape.app/index.p
 
 [Edit Gear Sets](https://wiki.walkscape.app/wiki/Gear:Smithing "Gear:Smithing")
 
-- [Bulk Fine Bar Smithing](https://wiki.walkscape.app/wiki/Gear:Smithing/Bulk_Fine_Bar_Smithing "Gear:Smithing/Bulk Fine Bar Smithing")
-- [Frozen Forge Sword and Shield Smithing](https://wiki.walkscape.app/wiki/Gear:Smithing/Frozen_Forge_Sword_and_Shield_Smithing "Gear:Smithing/Frozen Forge Sword and Shield Smithing")
+-   [Bulk Fine Bar Smithing](https://wiki.walkscape.app/wiki/Gear:Smithing/Bulk_Fine_Bar_Smithing "Gear:Smithing/Bulk Fine Bar Smithing")
+-   [Frozen Forge Sword and Shield Smithing](https://wiki.walkscape.app/wiki/Gear:Smithing/Frozen_Forge_Sword_and_Shield_Smithing "Gear:Smithing/Frozen Forge Sword and Shield Smithing")
 
 ## Trivia
 
@@ -88,37 +88,37 @@ No guide exists yet. [You can help make one.](https://wiki.walkscape.app/index.p
 
 | Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
 | --- | --- | --- | --- | --- |
-| Smelt a copper bar | Smithing lvl. 1 | Needs Basic Forge service or better. | 2 x Copper ore | 1 x Copper bar |
-| Create a copper bar (Scrap) | Smithing lvl. 1 | Needs Basic Forge service or better. | 5 x Metal scrap | 1 x Copper bar |
-| Make a copper shield | Smithing lvl. 3 | Needs Basic Forge service or better. | 2 x Copper bar | 1 x Copper shield |
-| Smelt a silver bar | Smithing lvl. 5 | Needs Basic Forge service or better. | 7 x Silver nugget or 2 x Silver ore | 1 x Silver bar |
-| Make a copper sword | Smithing lvl. 6 | Needs Basic Forge service or better. | 2 x Copper bar | 1 x Copper sword |
-| Smelt a bronze bar | Smithing lvl. 10 | Needs Basic Forge service or better. | 1 x Copper ore 1 x Tin ore | 1 x Bronze bar |
-| Create a bronze bar (Scrap) | Smithing lvl. 10 | Needs Basic Forge service or better. | 10 x Metal scrap | 1 x Bronze bar |
-| Make a bronze shield | Smithing lvl. 13 | Needs Basic Forge service or better. | 2 x Bronze bar | 1 x Bronze shield |
-| Smelt a gold bar | Smithing lvl. 15 | Needs Basic Forge service or better. | 7 x Gold nugget or 2 x Gold ore | 1 x Gold bar |
-| Make a bronze sword | Smithing lvl. 16 | Needs Basic Forge service or better. | 2 x Bronze bar | 1 x Bronze sword |
-| Smelt an iron bar | Smithing lvl. 20 | Needs Basic Forge service or better. | 2 x Iron ore | 1 x Iron bar |
-| Create an iron bar (Scrap) | Smithing lvl. 20 | Needs Basic Forge service or better. | 20 x Metal scrap | 1 x Iron bar |
-| Make an iron shield | Smithing lvl. 23 | Needs Basic Forge service or better. | 2 x Iron bar | 1 x Iron shield |
-| Make an iron sword | Smithing lvl. 26 | Needs Basic Forge service or better. | 2 x Iron bar | 1 x Iron sword |
-| Smelt a steel bar | Smithing lvl. 30 | Needs Basic Forge service or better. | 2 x Iron ore 1 x Coal | 1 x Steel bar |
-| Create a steel bar (Scrap) | Smithing lvl. 30 | Needs Basic Forge service or better. | 40 x Metal scrap | 1 x Steel bar |
-| Make a steel shield | Smithing lvl. 33 | Needs Basic Forge service or better. | 2 x Steel bar | 1 x Steel shield |
-| Make a steel sword | Smithing lvl. 36 | Needs Basic Forge service or better. | 2 x Steel bar | 1 x Steel sword |
-| Smelt a tarsilium bar | Smithing lvl. 40 | Needs Basic Forge service or better. | 1 x Tarsilium ore 2 x Coal | 1 x Tarsilium bar |
-| Create a tarsilium bar (Scrap) | Smithing lvl. 40 | Needs Basic Forge service or better. | 80 x Metal scrap | 1 x Tarsilium bar |
-| Make tarsilium-toed boots | Smithing lvl. 41 | Needs Basic Forge service or better. | 2 x Tarsilium bar 1 x Steel-toe boots | 1 x Tarsilium-toed boots |
-| Make a tarsilium shield | Smithing lvl. 43 | Needs Basic Forge service or better. | 2 x Tarsilium bar | 1 x Tarsilium shield |
-| Smelt a hydrilium bar | Smithing lvl. 45 | Needs Basic Forge service or better. | 1 x Kelp 1 x Hydrilium | 1 x Hydrilium bar |
-| Make a tarsilium sword | Smithing lvl. 46 | Needs Basic Forge service or better. | 2 x Tarsilium bar | 1 x Tarsilium sword |
-| Smelt a farganite bar | Smithing lvl. 50 | Needs Advanced Forge service or better. | 1 x Farganite ore 3 x Coal | 1 x Farganite bar |
-| Make a farganite shield | Smithing lvl. 53 | Needs Advanced Forge service or better. | 2 x Farganite bar | 1 x Farganite shield |
-| Smelt into ectoplasm | Smithing lvl. 55 | Needs Advanced Cursed Forge service or better. | 1 x Ectoplasm rock | 2 x Ectoplasm |
-| Make a farganite sword | Smithing lvl. 56 | Needs Advanced Forge service or better. | 2 x Farganite bar | 1 x Farganite sword |
-| Make a gem shield | Smithing lvl. 59 | Needs Advanced Forge service or better. | 2 x Farganite bar 1 x Gold bar 1 x Sun stone 1 x Ruby 1 x Jade 1 x Topaz 1 x Wrentmarine | 1 x Gem shield |
-| Smelt an adamant bar | Smithing lvl. 60 | Needs Advanced Forge service or better. | 1 x Adamant ore 1 x Crystal coal | 1 x Adamant bar |
-| Smelt a violite bar | Smithing lvl. 70 | Needs Advanced Forge service or better. | 1 x Violite ore 2 x Crystal coal | 1 x Violite bar |
+| Smelt a copper bar | Smithing lvl. 1 | Needs Basic Forge service or better. | 2x Copper ore | 1x Copper bar |
+| Create a copper bar (Scrap) | Smithing lvl. 1 | Needs Basic Forge service or better. | 5x Metal scrap | 1x Copper bar |
+| Make a copper shield | Smithing lvl. 3 | Needs Basic Forge service or better. | 2x Copper bar | 1x Copper shield |
+| Smelt a silver bar | Smithing lvl. 5 | Needs Basic Forge service or better. | 7x Silver nugget or 2x Silver ore | 1x Silver bar |
+| Make a copper sword | Smithing lvl. 6 | Needs Basic Forge service or better. | 2x Copper bar | 1x Copper sword |
+| Smelt a bronze bar | Smithing lvl. 10 | Needs Basic Forge service or better. | 1x Copper ore 1x Tin ore | 1x Bronze bar |
+| Create a bronze bar (Scrap) | Smithing lvl. 10 | Needs Basic Forge service or better. | 10x Metal scrap | 1x Bronze bar |
+| Make a bronze shield | Smithing lvl. 13 | Needs Basic Forge service or better. | 2x Bronze bar | 1x Bronze shield |
+| Smelt a gold bar | Smithing lvl. 15 | Needs Basic Forge service or better. | 7x Gold nugget or 2x Gold ore | 1x Gold bar |
+| Make a bronze sword | Smithing lvl. 16 | Needs Basic Forge service or better. | 2x Bronze bar | 1x Bronze sword |
+| Smelt an iron bar | Smithing lvl. 20 | Needs Basic Forge service or better. | 2x Iron ore | 1x Iron bar |
+| Create an iron bar (Scrap) | Smithing lvl. 20 | Needs Basic Forge service or better. | 20x Metal scrap | 1x Iron bar |
+| Make an iron shield | Smithing lvl. 23 | Needs Basic Forge service or better. | 2x Iron bar | 1x Iron shield |
+| Make an iron sword | Smithing lvl. 26 | Needs Basic Forge service or better. | 2x Iron bar | 1x Iron sword |
+| Smelt a steel bar | Smithing lvl. 30 | Needs Basic Forge service or better. | 2x Iron ore 1x Coal | 1x Steel bar |
+| Create a steel bar (Scrap) | Smithing lvl. 30 | Needs Basic Forge service or better. | 40x Metal scrap | 1x Steel bar |
+| Make a steel shield | Smithing lvl. 33 | Needs Basic Forge service or better. | 2x Steel bar | 1x Steel shield |
+| Make a steel sword | Smithing lvl. 36 | Needs Basic Forge service or better. | 2x Steel bar | 1x Steel sword |
+| Smelt a tarsilium bar | Smithing lvl. 40 | Needs Basic Forge service or better. | 1x Tarsilium ore 2x Coal | 1x Tarsilium bar |
+| Create a tarsilium bar (Scrap) | Smithing lvl. 40 | Needs Basic Forge service or better. | 80x Metal scrap | 1x Tarsilium bar |
+| Make tarsilium-toed boots | Smithing lvl. 41 | Needs Basic Forge service or better. | 2x Tarsilium bar 1x Steel-toe boots | 1x Tarsilium-toed boots |
+| Make a tarsilium shield | Smithing lvl. 43 | Needs Basic Forge service or better. | 2x Tarsilium bar | 1x Tarsilium shield |
+| Smelt a hydrilium bar | Smithing lvl. 45 | Needs Basic Forge service or better. | 1x Kelp 1x Hydrilium | 1x Hydrilium bar |
+| Make a tarsilium sword | Smithing lvl. 46 | Needs Basic Forge service or better. | 2x Tarsilium bar | 1x Tarsilium sword |
+| Smelt a farganite bar | Smithing lvl. 50 | Needs Advanced Forge service or better. | 1x Farganite ore 3x Coal | 1x Farganite bar |
+| Make a farganite shield | Smithing lvl. 53 | Needs Advanced Forge service or better. | 2x Farganite bar | 1x Farganite shield |
+| Smelt into ectoplasm | Smithing lvl. 55 | Needs Advanced Cursed Forge service or better. | 1x Ectoplasm rock | 2x Ectoplasm |
+| Make a farganite sword | Smithing lvl. 56 | Needs Advanced Forge service or better. | 2x Farganite bar | 1x Farganite sword |
+| Make a gem shield | Smithing lvl. 59 | Needs Advanced Forge service or better. | 2x Farganite bar 1x Gold bar 1x Sun stone 1x Ruby 1x Jade 1x Topaz 1x Wrentmarine | 1x Gem shield |
+| Smelt an adamant bar | Smithing lvl. 60 | Needs Advanced Forge service or better. | 1x Adamant ore 1x Crystal coal | 1x Adamant bar |
+| Smelt a violite bar | Smithing lvl. 70 | Needs Advanced Forge service or better. | 1x Violite ore 2x Crystal coal | 1x Violite bar |
 
 ### Table 4 (Recipes)
 
@@ -318,218 +318,218 @@ No guide exists yet. [You can help make one.](https://wiki.walkscape.app/index.p
           "Recipe Name": "Smelt a copper bar",
           "Level": "Smithing lvl. 1",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "2 x Copper ore",
-          "Recipe Outputs": "1 x Copper bar"
+          "Materials Used": "2x Copper ore",
+          "Recipe Outputs": "1x Copper bar"
         },
         {
           "Recipe Name": "Create a copper bar (Scrap)",
           "Level": "Smithing lvl. 1",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "5 x Metal scrap",
-          "Recipe Outputs": "1 x Copper bar"
+          "Materials Used": "5x Metal scrap",
+          "Recipe Outputs": "1x Copper bar"
         },
         {
           "Recipe Name": "Make a copper shield",
           "Level": "Smithing lvl. 3",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "2 x Copper bar",
-          "Recipe Outputs": "1 x Copper shield"
+          "Materials Used": "2x Copper bar",
+          "Recipe Outputs": "1x Copper shield"
         },
         {
           "Recipe Name": "Smelt a silver bar",
           "Level": "Smithing lvl. 5",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "7 x Silver nugget or 2 x Silver ore",
-          "Recipe Outputs": "1 x Silver bar"
+          "Materials Used": "7x Silver nugget or 2x Silver ore",
+          "Recipe Outputs": "1x Silver bar"
         },
         {
           "Recipe Name": "Make a copper sword",
           "Level": "Smithing lvl. 6",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "2 x Copper bar",
-          "Recipe Outputs": "1 x Copper sword"
+          "Materials Used": "2x Copper bar",
+          "Recipe Outputs": "1x Copper sword"
         },
         {
           "Recipe Name": "Smelt a bronze bar",
           "Level": "Smithing lvl. 10",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "1 x Copper ore 1 x Tin ore",
-          "Recipe Outputs": "1 x Bronze bar"
+          "Materials Used": "1x Copper ore 1x Tin ore",
+          "Recipe Outputs": "1x Bronze bar"
         },
         {
           "Recipe Name": "Create a bronze bar (Scrap)",
           "Level": "Smithing lvl. 10",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "10 x Metal scrap",
-          "Recipe Outputs": "1 x Bronze bar"
+          "Materials Used": "10x Metal scrap",
+          "Recipe Outputs": "1x Bronze bar"
         },
         {
           "Recipe Name": "Make a bronze shield",
           "Level": "Smithing lvl. 13",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "2 x Bronze bar",
-          "Recipe Outputs": "1 x Bronze shield"
+          "Materials Used": "2x Bronze bar",
+          "Recipe Outputs": "1x Bronze shield"
         },
         {
           "Recipe Name": "Smelt a gold bar",
           "Level": "Smithing lvl. 15",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "7 x Gold nugget or 2 x Gold ore",
-          "Recipe Outputs": "1 x Gold bar"
+          "Materials Used": "7x Gold nugget or 2x Gold ore",
+          "Recipe Outputs": "1x Gold bar"
         },
         {
           "Recipe Name": "Make a bronze sword",
           "Level": "Smithing lvl. 16",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "2 x Bronze bar",
-          "Recipe Outputs": "1 x Bronze sword"
+          "Materials Used": "2x Bronze bar",
+          "Recipe Outputs": "1x Bronze sword"
         },
         {
           "Recipe Name": "Smelt an iron bar",
           "Level": "Smithing lvl. 20",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "2 x Iron ore",
-          "Recipe Outputs": "1 x Iron bar"
+          "Materials Used": "2x Iron ore",
+          "Recipe Outputs": "1x Iron bar"
         },
         {
           "Recipe Name": "Create an iron bar (Scrap)",
           "Level": "Smithing lvl. 20",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "20 x Metal scrap",
-          "Recipe Outputs": "1 x Iron bar"
+          "Materials Used": "20x Metal scrap",
+          "Recipe Outputs": "1x Iron bar"
         },
         {
           "Recipe Name": "Make an iron shield",
           "Level": "Smithing lvl. 23",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "2 x Iron bar",
-          "Recipe Outputs": "1 x Iron shield"
+          "Materials Used": "2x Iron bar",
+          "Recipe Outputs": "1x Iron shield"
         },
         {
           "Recipe Name": "Make an iron sword",
           "Level": "Smithing lvl. 26",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "2 x Iron bar",
-          "Recipe Outputs": "1 x Iron sword"
+          "Materials Used": "2x Iron bar",
+          "Recipe Outputs": "1x Iron sword"
         },
         {
           "Recipe Name": "Smelt a steel bar",
           "Level": "Smithing lvl. 30",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "2 x Iron ore 1 x Coal",
-          "Recipe Outputs": "1 x Steel bar"
+          "Materials Used": "2x Iron ore 1x Coal",
+          "Recipe Outputs": "1x Steel bar"
         },
         {
           "Recipe Name": "Create a steel bar (Scrap)",
           "Level": "Smithing lvl. 30",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "40 x Metal scrap",
-          "Recipe Outputs": "1 x Steel bar"
+          "Materials Used": "40x Metal scrap",
+          "Recipe Outputs": "1x Steel bar"
         },
         {
           "Recipe Name": "Make a steel shield",
           "Level": "Smithing lvl. 33",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "2 x Steel bar",
-          "Recipe Outputs": "1 x Steel shield"
+          "Materials Used": "2x Steel bar",
+          "Recipe Outputs": "1x Steel shield"
         },
         {
           "Recipe Name": "Make a steel sword",
           "Level": "Smithing lvl. 36",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "2 x Steel bar",
-          "Recipe Outputs": "1 x Steel sword"
+          "Materials Used": "2x Steel bar",
+          "Recipe Outputs": "1x Steel sword"
         },
         {
           "Recipe Name": "Smelt a tarsilium bar",
           "Level": "Smithing lvl. 40",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "1 x Tarsilium ore 2 x Coal",
-          "Recipe Outputs": "1 x Tarsilium bar"
+          "Materials Used": "1x Tarsilium ore 2x Coal",
+          "Recipe Outputs": "1x Tarsilium bar"
         },
         {
           "Recipe Name": "Create a tarsilium bar (Scrap)",
           "Level": "Smithing lvl. 40",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "80 x Metal scrap",
-          "Recipe Outputs": "1 x Tarsilium bar"
+          "Materials Used": "80x Metal scrap",
+          "Recipe Outputs": "1x Tarsilium bar"
         },
         {
           "Recipe Name": "Make tarsilium-toed boots",
           "Level": "Smithing lvl. 41",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "2 x Tarsilium bar 1 x Steel-toe boots",
-          "Recipe Outputs": "1 x Tarsilium-toed boots"
+          "Materials Used": "2x Tarsilium bar 1x Steel-toe boots",
+          "Recipe Outputs": "1x Tarsilium-toed boots"
         },
         {
           "Recipe Name": "Make a tarsilium shield",
           "Level": "Smithing lvl. 43",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "2 x Tarsilium bar",
-          "Recipe Outputs": "1 x Tarsilium shield"
+          "Materials Used": "2x Tarsilium bar",
+          "Recipe Outputs": "1x Tarsilium shield"
         },
         {
           "Recipe Name": "Smelt a hydrilium bar",
           "Level": "Smithing lvl. 45",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "1 x Kelp 1 x Hydrilium",
-          "Recipe Outputs": "1 x Hydrilium bar"
+          "Materials Used": "1x Kelp 1x Hydrilium",
+          "Recipe Outputs": "1x Hydrilium bar"
         },
         {
           "Recipe Name": "Make a tarsilium sword",
           "Level": "Smithing lvl. 46",
           "Service Requirement": "Needs Basic Forge service or better.",
-          "Materials Used": "2 x Tarsilium bar",
-          "Recipe Outputs": "1 x Tarsilium sword"
+          "Materials Used": "2x Tarsilium bar",
+          "Recipe Outputs": "1x Tarsilium sword"
         },
         {
           "Recipe Name": "Smelt a farganite bar",
           "Level": "Smithing lvl. 50",
           "Service Requirement": "Needs Advanced Forge service or better.",
-          "Materials Used": "1 x Farganite ore 3 x Coal",
-          "Recipe Outputs": "1 x Farganite bar"
+          "Materials Used": "1x Farganite ore 3x Coal",
+          "Recipe Outputs": "1x Farganite bar"
         },
         {
           "Recipe Name": "Make a farganite shield",
           "Level": "Smithing lvl. 53",
           "Service Requirement": "Needs Advanced Forge service or better.",
-          "Materials Used": "2 x Farganite bar",
-          "Recipe Outputs": "1 x Farganite shield"
+          "Materials Used": "2x Farganite bar",
+          "Recipe Outputs": "1x Farganite shield"
         },
         {
           "Recipe Name": "Smelt into ectoplasm",
           "Level": "Smithing lvl. 55",
           "Service Requirement": "Needs Advanced Cursed Forge service or better.",
-          "Materials Used": "1 x Ectoplasm rock",
-          "Recipe Outputs": "2 x Ectoplasm"
+          "Materials Used": "1x Ectoplasm rock",
+          "Recipe Outputs": "2x Ectoplasm"
         },
         {
           "Recipe Name": "Make a farganite sword",
           "Level": "Smithing lvl. 56",
           "Service Requirement": "Needs Advanced Forge service or better.",
-          "Materials Used": "2 x Farganite bar",
-          "Recipe Outputs": "1 x Farganite sword"
+          "Materials Used": "2x Farganite bar",
+          "Recipe Outputs": "1x Farganite sword"
         },
         {
           "Recipe Name": "Make a gem shield",
           "Level": "Smithing lvl. 59",
           "Service Requirement": "Needs Advanced Forge service or better.",
-          "Materials Used": "2 x Farganite bar 1 x Gold bar 1 x Sun stone 1 x Ruby 1 x Jade 1 x Topaz 1 x Wrentmarine",
-          "Recipe Outputs": "1 x Gem shield"
+          "Materials Used": "2x Farganite bar 1x Gold bar 1x Sun stone 1x Ruby 1x Jade 1x Topaz 1x Wrentmarine",
+          "Recipe Outputs": "1x Gem shield"
         },
         {
           "Recipe Name": "Smelt an adamant bar",
           "Level": "Smithing lvl. 60",
           "Service Requirement": "Needs Advanced Forge service or better.",
-          "Materials Used": "1 x Adamant ore 1 x Crystal coal",
-          "Recipe Outputs": "1 x Adamant bar"
+          "Materials Used": "1x Adamant ore 1x Crystal coal",
+          "Recipe Outputs": "1x Adamant bar"
         },
         {
           "Recipe Name": "Smelt a violite bar",
           "Level": "Smithing lvl. 70",
           "Service Requirement": "Needs Advanced Forge service or better.",
-          "Materials Used": "1 x Violite ore 2 x Crystal coal",
-          "Recipe Outputs": "1 x Violite bar"
+          "Materials Used": "1x Violite ore 2x Crystal coal",
+          "Recipe Outputs": "1x Violite bar"
         }
       ]
     },

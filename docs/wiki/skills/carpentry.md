@@ -2,7 +2,7 @@
 title: "Carpentry"
 source_url: "https://wiki.walkscape.app/wiki/Carpentry"
 source_oldid: 34283
-scraped_at: "2026-02-19T18:54:39.482960+00:00"
+scraped_at: "2026-02-19T21:19:42.092Z"
 categories:
   - "Pages_That_Automatically_Update"
   - "Skills"
@@ -17,13 +17,13 @@ The **Carpentry** [skill](index.md) is primarily used to process [material](http
 
 ## Activities
 
-The following [activities](../activities/index.md) can be done indefinitely without needing [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Some have [equipment requirements](https://wiki.walkscape.app/wiki/Keywords#Gear_and_Tool_Keywords "Keywords") or other requirements that need to be satisfied in order to start the activity.
+The following [activities](https://wiki.walkscape.app/wiki/Activities "Activities") can be done indefinitely without needing [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Some have [equipment requirements](https://wiki.walkscape.app/wiki/Keywords#Gear_and_Tool_Keywords "Keywords") or other requirements that need to be satisfied in order to start the activity.
 
-For [activities](../activities/index.md) involving two [skills](index.md), the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
+For [activities](https://wiki.walkscape.app/wiki/Activities "Activities") involving two [skills](index.md), the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
 
-So, if the [activity](../activities/index.md) has a Carpentry level requirement, it will be eligible to drop [Carpentry Chests](https://wiki.walkscape.app/wiki/Carpentry_chest "Carpentry chest").
+So, if the [activity](https://wiki.walkscape.app/wiki/Activities "Activities") has a Carpentry level requirement, it will be eligible to drop [Carpentry Chests](https://wiki.walkscape.app/wiki/Carpentry_chest "Carpentry chest").
 
-When performing an [activity](../activities/index.md) for a [skill](index.md), only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
+When performing an [activity](https://wiki.walkscape.app/wiki/Activities "Activities") for a [skill](index.md), only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
 
 The following activities are eligible to drop [Carpentry Chests](https://wiki.walkscape.app/wiki/Carpentry_chest "Carpentry chest").
 
@@ -35,7 +35,7 @@ No activities give bonus Carpentry experience.
 
 The following activities are completed through recipes and thus require [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Additionally, they may have service requirements, usually in the form of a service location. All recipes produce one of the final products by default.
 
-Carpentry also gets a bonus of +1 [Crafting Outcome](https://wiki.walkscape.app/wiki/Crafting_Outcome "Crafting Outcome") per level beyond a [Carpentry Recipe's](../recipes/index.md) level requirement toward [crafted items](https://wiki.walkscape.app/wiki/Crafted_items "Crafted items") with no cap.
+Carpentry also gets a bonus of +1 [Crafting Outcome](https://wiki.walkscape.app/wiki/Crafting_Outcome "Crafting Outcome") per level beyond a [Carpentry Recipe's](https://wiki.walkscape.app/wiki/Recipes "Recipes") level requirement toward [crafted items](https://wiki.walkscape.app/wiki/Crafted_items "Crafted items") with no cap.
 
 The following activities are eligible to drop [Carpentry chests](https://wiki.walkscape.app/wiki/Carpentry_chest "Carpentry chest").
 
@@ -61,7 +61,7 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ## Trivia
 
-- When the Closed Beta released, Carpentry was the only artisan based [skill](index.md) that had an endless resource-less form of training in the game.
+-   When the Closed Beta released, Carpentry was the only artisan based [skill](index.md) that had an endless resource-less form of training in the game.
 
 ## Extracted Tables
 
@@ -85,27 +85,27 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 | Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
 | --- | --- | --- | --- | --- |
-| Cut a birch plank | Carpentry lvl. 1 | Needs Basic Sawmill service or better. | 2 x Birch logs | 1 x Birch plank |
-| Make a wooden shield | Carpentry lvl. 1 | Needs Basic Sawmill service or better. | 2 x Birch plank | 1 x Wooden shield |
-| Make a wooden sword | Carpentry lvl. 1 | Needs Basic Sawmill service or better. | 2 x Birch plank | 1 x Wooden sword |
-| Create a birch plank (Scrap) | Carpentry lvl. 1 | Needs Basic Sawmill service or better. | 5 x Wood scrap | 1 x Birch plank |
-| Cut a pine plank | Carpentry lvl. 10 | Needs Basic Sawmill service or better. | 2 x Pine logs | 1 x Pine plank |
-| Create a pine plank (Scrap) | Carpentry lvl. 10 | Needs Basic Sawmill service or better. | 10 x Wood scrap | 1 x Pine plank |
-| Cut a spruce plank | Carpentry lvl. 20 | Needs Basic Sawmill service or better. | 2 x Spruce logs | 1 x Spruce plank |
-| Create a spruce plank (Scrap) | Carpentry lvl. 20 | Needs Basic Sawmill service or better. | 20 x Wood scrap | 1 x Spruce plank |
-| Cut an oak plank | Carpentry lvl. 25 | Needs Basic Sawmill service or better. | 2 x Oak logs | 1 x Oak plank |
-| Create an oak plank (Scrap) | Carpentry lvl. 25 | Needs Basic Sawmill service or better. | 30 x Wood scrap | 1 x Oak plank |
-| Cut a maple plank | Carpentry lvl. 30 | Needs Basic Sawmill service or better. | 2 x Maple logs | 1 x Maple plank |
-| Create a maple plank (Scrap) | Carpentry lvl. 30 | Needs Basic Sawmill service or better. | 40 x Wood scrap | 1 x Maple plank |
-| Cut a teak plank | Carpentry lvl. 40 | Needs Basic Sawmill service or better. | 2 x Teak logs | 1 x Teak plank |
-| Cut a willow plank | Carpentry lvl. 40 | Needs Basic Sawmill service or better. | 2 x Willow logs | 1 x Willow plank |
-| Create a teak plank (Scrap) | Carpentry lvl. 40 | Needs Basic Sawmill service or better. | 80 x Wood scrap | 1 x Teak plank |
-| Create a willow plank (Scrap) | Carpentry lvl. 40 | Needs Basic Sawmill service or better. | 80 x Wood scrap | 1 x Willow plank |
-| Cut a bamboo plank | Carpentry lvl. 45 | Needs Basic Sawmill service or better. | 2 x Bamboo logs | 1 x Bamboo plank |
-| Cut a coral plank | Carpentry lvl. 45 | Needs Basic Sawmill service or better. | 2 x Coral | 1 x Coral plank |
-| Cut a mangrove plank | Carpentry lvl. 50 | Needs Advanced Sawmill service or better. | 2 x Mangrove logs | 1 x Mangrove plank |
-| Cut into ectoplasm | Carpentry lvl. 55 | Needs Advanced Cursed Sawmill service or better. | 2 x Ectoplasm logs | 2 x Ectoplasm |
-| Cut a yew plank | Carpentry lvl. 60 | Needs Advanced Sawmill service or better. | 2 x Yew logs | 1 x Yew plank |
+| Cut a birch plank | Carpentry lvl. 1 | Needs Basic Sawmill service or better. | 2x Birch logs | 1x Birch plank |
+| Make a wooden shield | Carpentry lvl. 1 | Needs Basic Sawmill service or better. | 2x Birch plank | 1x Wooden shield |
+| Make a wooden sword | Carpentry lvl. 1 | Needs Basic Sawmill service or better. | 2x Birch plank | 1x Wooden sword |
+| Create a birch plank (Scrap) | Carpentry lvl. 1 | Needs Basic Sawmill service or better. | 5x Wood scrap | 1x Birch plank |
+| Cut a pine plank | Carpentry lvl. 10 | Needs Basic Sawmill service or better. | 2x Pine logs | 1x Pine plank |
+| Create a pine plank (Scrap) | Carpentry lvl. 10 | Needs Basic Sawmill service or better. | 10x Wood scrap | 1x Pine plank |
+| Cut a spruce plank | Carpentry lvl. 20 | Needs Basic Sawmill service or better. | 2x Spruce logs | 1x Spruce plank |
+| Create a spruce plank (Scrap) | Carpentry lvl. 20 | Needs Basic Sawmill service or better. | 20x Wood scrap | 1x Spruce plank |
+| Cut an oak plank | Carpentry lvl. 25 | Needs Basic Sawmill service or better. | 2x Oak logs | 1x Oak plank |
+| Create an oak plank (Scrap) | Carpentry lvl. 25 | Needs Basic Sawmill service or better. | 30x Wood scrap | 1x Oak plank |
+| Cut a maple plank | Carpentry lvl. 30 | Needs Basic Sawmill service or better. | 2x Maple logs | 1x Maple plank |
+| Create a maple plank (Scrap) | Carpentry lvl. 30 | Needs Basic Sawmill service or better. | 40x Wood scrap | 1x Maple plank |
+| Cut a teak plank | Carpentry lvl. 40 | Needs Basic Sawmill service or better. | 2x Teak logs | 1x Teak plank |
+| Cut a willow plank | Carpentry lvl. 40 | Needs Basic Sawmill service or better. | 2x Willow logs | 1x Willow plank |
+| Create a teak plank (Scrap) | Carpentry lvl. 40 | Needs Basic Sawmill service or better. | 80x Wood scrap | 1x Teak plank |
+| Create a willow plank (Scrap) | Carpentry lvl. 40 | Needs Basic Sawmill service or better. | 80x Wood scrap | 1x Willow plank |
+| Cut a bamboo plank | Carpentry lvl. 45 | Needs Basic Sawmill service or better. | 2x Bamboo logs | 1x Bamboo plank |
+| Cut a coral plank | Carpentry lvl. 45 | Needs Basic Sawmill service or better. | 2x Coral | 1x Coral plank |
+| Cut a mangrove plank | Carpentry lvl. 50 | Needs Advanced Sawmill service or better. | 2x Mangrove logs | 1x Mangrove plank |
+| Cut into ectoplasm | Carpentry lvl. 55 | Needs Advanced Cursed Sawmill service or better. | 2x Ectoplasm logs | 2x Ectoplasm |
+| Cut a yew plank | Carpentry lvl. 60 | Needs Advanced Sawmill service or better. | 2x Yew logs | 1x Yew plank |
 
 ### Table 3 (Recipes)
 
@@ -341,148 +341,148 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
           "Recipe Name": "Cut a birch plank",
           "Level": "Carpentry lvl. 1",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "2 x Birch logs",
-          "Recipe Outputs": "1 x Birch plank"
+          "Materials Used": "2x Birch logs",
+          "Recipe Outputs": "1x Birch plank"
         },
         {
           "Recipe Name": "Make a wooden shield",
           "Level": "Carpentry lvl. 1",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "2 x Birch plank",
-          "Recipe Outputs": "1 x Wooden shield"
+          "Materials Used": "2x Birch plank",
+          "Recipe Outputs": "1x Wooden shield"
         },
         {
           "Recipe Name": "Make a wooden sword",
           "Level": "Carpentry lvl. 1",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "2 x Birch plank",
-          "Recipe Outputs": "1 x Wooden sword"
+          "Materials Used": "2x Birch plank",
+          "Recipe Outputs": "1x Wooden sword"
         },
         {
           "Recipe Name": "Create a birch plank (Scrap)",
           "Level": "Carpentry lvl. 1",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "5 x Wood scrap",
-          "Recipe Outputs": "1 x Birch plank"
+          "Materials Used": "5x Wood scrap",
+          "Recipe Outputs": "1x Birch plank"
         },
         {
           "Recipe Name": "Cut a pine plank",
           "Level": "Carpentry lvl. 10",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "2 x Pine logs",
-          "Recipe Outputs": "1 x Pine plank"
+          "Materials Used": "2x Pine logs",
+          "Recipe Outputs": "1x Pine plank"
         },
         {
           "Recipe Name": "Create a pine plank (Scrap)",
           "Level": "Carpentry lvl. 10",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "10 x Wood scrap",
-          "Recipe Outputs": "1 x Pine plank"
+          "Materials Used": "10x Wood scrap",
+          "Recipe Outputs": "1x Pine plank"
         },
         {
           "Recipe Name": "Cut a spruce plank",
           "Level": "Carpentry lvl. 20",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "2 x Spruce logs",
-          "Recipe Outputs": "1 x Spruce plank"
+          "Materials Used": "2x Spruce logs",
+          "Recipe Outputs": "1x Spruce plank"
         },
         {
           "Recipe Name": "Create a spruce plank (Scrap)",
           "Level": "Carpentry lvl. 20",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "20 x Wood scrap",
-          "Recipe Outputs": "1 x Spruce plank"
+          "Materials Used": "20x Wood scrap",
+          "Recipe Outputs": "1x Spruce plank"
         },
         {
           "Recipe Name": "Cut an oak plank",
           "Level": "Carpentry lvl. 25",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "2 x Oak logs",
-          "Recipe Outputs": "1 x Oak plank"
+          "Materials Used": "2x Oak logs",
+          "Recipe Outputs": "1x Oak plank"
         },
         {
           "Recipe Name": "Create an oak plank (Scrap)",
           "Level": "Carpentry lvl. 25",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "30 x Wood scrap",
-          "Recipe Outputs": "1 x Oak plank"
+          "Materials Used": "30x Wood scrap",
+          "Recipe Outputs": "1x Oak plank"
         },
         {
           "Recipe Name": "Cut a maple plank",
           "Level": "Carpentry lvl. 30",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "2 x Maple logs",
-          "Recipe Outputs": "1 x Maple plank"
+          "Materials Used": "2x Maple logs",
+          "Recipe Outputs": "1x Maple plank"
         },
         {
           "Recipe Name": "Create a maple plank (Scrap)",
           "Level": "Carpentry lvl. 30",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "40 x Wood scrap",
-          "Recipe Outputs": "1 x Maple plank"
+          "Materials Used": "40x Wood scrap",
+          "Recipe Outputs": "1x Maple plank"
         },
         {
           "Recipe Name": "Cut a teak plank",
           "Level": "Carpentry lvl. 40",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "2 x Teak logs",
-          "Recipe Outputs": "1 x Teak plank"
+          "Materials Used": "2x Teak logs",
+          "Recipe Outputs": "1x Teak plank"
         },
         {
           "Recipe Name": "Cut a willow plank",
           "Level": "Carpentry lvl. 40",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "2 x Willow logs",
-          "Recipe Outputs": "1 x Willow plank"
+          "Materials Used": "2x Willow logs",
+          "Recipe Outputs": "1x Willow plank"
         },
         {
           "Recipe Name": "Create a teak plank (Scrap)",
           "Level": "Carpentry lvl. 40",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "80 x Wood scrap",
-          "Recipe Outputs": "1 x Teak plank"
+          "Materials Used": "80x Wood scrap",
+          "Recipe Outputs": "1x Teak plank"
         },
         {
           "Recipe Name": "Create a willow plank (Scrap)",
           "Level": "Carpentry lvl. 40",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "80 x Wood scrap",
-          "Recipe Outputs": "1 x Willow plank"
+          "Materials Used": "80x Wood scrap",
+          "Recipe Outputs": "1x Willow plank"
         },
         {
           "Recipe Name": "Cut a bamboo plank",
           "Level": "Carpentry lvl. 45",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "2 x Bamboo logs",
-          "Recipe Outputs": "1 x Bamboo plank"
+          "Materials Used": "2x Bamboo logs",
+          "Recipe Outputs": "1x Bamboo plank"
         },
         {
           "Recipe Name": "Cut a coral plank",
           "Level": "Carpentry lvl. 45",
           "Service Requirement": "Needs Basic Sawmill service or better.",
-          "Materials Used": "2 x Coral",
-          "Recipe Outputs": "1 x Coral plank"
+          "Materials Used": "2x Coral",
+          "Recipe Outputs": "1x Coral plank"
         },
         {
           "Recipe Name": "Cut a mangrove plank",
           "Level": "Carpentry lvl. 50",
           "Service Requirement": "Needs Advanced Sawmill service or better.",
-          "Materials Used": "2 x Mangrove logs",
-          "Recipe Outputs": "1 x Mangrove plank"
+          "Materials Used": "2x Mangrove logs",
+          "Recipe Outputs": "1x Mangrove plank"
         },
         {
           "Recipe Name": "Cut into ectoplasm",
           "Level": "Carpentry lvl. 55",
           "Service Requirement": "Needs Advanced Cursed Sawmill service or better.",
-          "Materials Used": "2 x Ectoplasm logs",
-          "Recipe Outputs": "2 x Ectoplasm"
+          "Materials Used": "2x Ectoplasm logs",
+          "Recipe Outputs": "2x Ectoplasm"
         },
         {
           "Recipe Name": "Cut a yew plank",
           "Level": "Carpentry lvl. 60",
           "Service Requirement": "Needs Advanced Sawmill service or better.",
-          "Materials Used": "2 x Yew logs",
-          "Recipe Outputs": "1 x Yew plank"
+          "Materials Used": "2x Yew logs",
+          "Recipe Outputs": "1x Yew plank"
         }
       ]
     },

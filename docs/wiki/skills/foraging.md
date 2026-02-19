@@ -2,7 +2,7 @@
 title: "Foraging"
 source_url: "https://wiki.walkscape.app/wiki/Foraging"
 source_oldid: 34284
-scraped_at: "2026-02-19T18:55:08.710788+00:00"
+scraped_at: "2026-02-19T21:20:08.221Z"
 categories:
   - "Pages_That_Automatically_Update"
   - "Skills"
@@ -17,13 +17,13 @@ The **Foraging** [skill](index.md) allows you to gather things from nature and u
 
 ## Activities
 
-The following [activities](../activities/index.md) can be done indefinitely without needing [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Some have [equipment requirements](https://wiki.walkscape.app/wiki/Keywords#Gear_and_Tool_Keywords "Keywords") or other requirements that need to be satisfied in order to start the activity.
+The following [activities](https://wiki.walkscape.app/wiki/Activities "Activities") can be done indefinitely without needing [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Some have [equipment requirements](https://wiki.walkscape.app/wiki/Keywords#Gear_and_Tool_Keywords "Keywords") or other requirements that need to be satisfied in order to start the activity.
 
-For [activities](../activities/index.md) involving two [skills](index.md), the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
+For [activities](https://wiki.walkscape.app/wiki/Activities "Activities") involving two [skills](index.md), the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
 
-So, if the [activity](../activities/index.md) has a Foraging level requirement, it will be eligible to drop [Foraging Chests](https://wiki.walkscape.app/wiki/Foraging_chest "Foraging chest").
+So, if the [activity](https://wiki.walkscape.app/wiki/Activities "Activities") has a Foraging level requirement, it will be eligible to drop [Foraging Chests](https://wiki.walkscape.app/wiki/Foraging_chest "Foraging chest").
 
-When performing an [activity](../activities/index.md) for a [skill](index.md), only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
+When performing an [activity](https://wiki.walkscape.app/wiki/Activities "Activities") for a [skill](index.md), only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
 
 The following activities are eligible to drop [Foraging Chests](https://wiki.walkscape.app/wiki/Foraging_chest "Foraging chest").
 
@@ -45,7 +45,7 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ## Trivia
 
-- During the closed beta test, the existence of the Legendary Foraging tool, the ([Blue Ice Sickle](https://wiki.walkscape.app/wiki/Blue_Ice_Sickle "Blue Ice Sickle")), was heavily speculated on until it was first found.
+-   During the closed beta test, the existence of the Legendary Foraging tool, the ([Blue Ice Sickle](https://wiki.walkscape.app/wiki/Blue_Ice_Sickle "Blue Ice Sickle")), was heavily speculated on until it was first found.
 
 ## Extracted Tables
 

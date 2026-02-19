@@ -2,7 +2,7 @@
 title: "Crafting"
 source_url: "https://wiki.walkscape.app/wiki/Crafting"
 source_oldid: 34289
-scraped_at: "2026-02-19T18:55:07.650132+00:00"
+scraped_at: "2026-02-19T21:20:07.428Z"
 categories:
   - "Pages_That_Automatically_Update"
   - "Skills"
@@ -17,13 +17,13 @@ The **Crafting** [skill](index.md) allows you to create [tools](https://wiki.wal
 
 ## Activities
 
-The following [activities](../activities/index.md) can be done indefinitely without needing [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Some have [equipment requirements](https://wiki.walkscape.app/wiki/Keywords#Gear_and_Tool_Keywords "Keywords") or other requirements that need to be satisfied in order to start the activity.
+The following [activities](https://wiki.walkscape.app/wiki/Activities "Activities") can be done indefinitely without needing [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Some have [equipment requirements](https://wiki.walkscape.app/wiki/Keywords#Gear_and_Tool_Keywords "Keywords") or other requirements that need to be satisfied in order to start the activity.
 
-For [activities](../activities/index.md) involving two [skills](index.md), the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
+For [activities](https://wiki.walkscape.app/wiki/Activities "Activities") involving two [skills](index.md), the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
 
-So, if the [activity](../activities/index.md) has a Crafting level requirement, it will be eligible to drop [Crafting Chests](https://wiki.walkscape.app/wiki/Crafting_chest "Crafting chest").
+So, if the [activity](https://wiki.walkscape.app/wiki/Activities "Activities") has a Crafting level requirement, it will be eligible to drop [Crafting Chests](https://wiki.walkscape.app/wiki/Crafting_chest "Crafting chest").
 
-When performing an [activity](../activities/index.md) for a [skill](index.md), only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
+When performing an [activity](https://wiki.walkscape.app/wiki/Activities "Activities") for a [skill](index.md), only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
 
 The following activities are eligible to drop [Crafting Chests](https://wiki.walkscape.app/wiki/Crafting_chest "Crafting chest").
 
@@ -37,7 +37,7 @@ The following activities are eligible to drop [Crafting Chests](https://wiki.wal
 
 The following activities are completed through recipes and thus require [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Additionally, they may have service requirements, usually in the form of a service location. All recipes produce one of the final products by default.
 
-Crafting also gets a bonus of +1 [Crafting Outcome](https://wiki.walkscape.app/wiki/Crafting_Outcome "Crafting Outcome") per level beyond a [Crafting Recipe's](../recipes/index.md) level requirement toward [crafted items](https://wiki.walkscape.app/wiki/Crafted_items "Crafted items") with no cap.
+Crafting also gets a bonus of +1 [Crafting Outcome](https://wiki.walkscape.app/wiki/Crafting_Outcome "Crafting Outcome") per level beyond a [Crafting Recipe's](https://wiki.walkscape.app/wiki/Recipes "Recipes") level requirement toward [crafted items](https://wiki.walkscape.app/wiki/Crafted_items "Crafted items") with no cap.
 
 The following activities are eligible to drop [Crafting chests](https://wiki.walkscape.app/wiki/Crafting_chest "Crafting chest").
 
@@ -57,19 +57,19 @@ The following activities are eligible to drop [Crafting chests](https://wiki.wal
 
 [Edit Guides](https://wiki.walkscape.app/wiki/Guide:Crafting "Guide:Crafting")
 
-- [Bulk Hydrilium Crafting](https://wiki.walkscape.app/wiki/Guide:Crafting/Bulk_Hydrilium_Crafting "Guide:Crafting/Bulk Hydrilium Crafting")
+-   [Bulk Hydrilium Crafting](https://wiki.walkscape.app/wiki/Guide:Crafting/Bulk_Hydrilium_Crafting "Guide:Crafting/Bulk Hydrilium Crafting")
 
 ## Gear Sets
 
 [Edit Gear Sets](https://wiki.walkscape.app/wiki/Gear:Crafting "Gear:Crafting")
 
-- [Best Crafting Outcome](https://wiki.walkscape.app/wiki/Gear:Crafting/Best_Crafting_Outcome "Gear:Crafting/Best Crafting Outcome")
-- [Underwater Best Crafting Outcome](https://wiki.walkscape.app/wiki/Gear:Crafting/Underwater_Best_Crafting_Outcome "Gear:Crafting/Underwater Best Crafting Outcome")
+-   [Best Crafting Outcome](https://wiki.walkscape.app/wiki/Gear:Crafting/Best_Crafting_Outcome "Gear:Crafting/Best Crafting Outcome")
+-   [Underwater Best Crafting Outcome](https://wiki.walkscape.app/wiki/Gear:Crafting/Underwater_Best_Crafting_Outcome "Gear:Crafting/Underwater Best Crafting Outcome")
 
 ## Trivia
 
-- Due to Steel Tools requiring [Maple Planks](https://wiki.walkscape.app/wiki/Maple_Plank "Maple Plank") to make them, new players are often confused about where to find [maple trees](https://wiki.walkscape.app/wiki/Maple_trees "Maple trees"). Thinking that they should still be able to find them in [Jarvonia](https://wiki.walkscape.app/wiki/Jarvonia "Jarvonia"), while they are one of the first things they discover are unique to the [GDTE](https://wiki.walkscape.app/wiki/Grand_Duchy_of_Trellin-Erdwise_(GDTE) "Grand Duchy of Trellin-Erdwise (GDTE)") region - requiring the [Jarvonian Letter of Passage](https://wiki.walkscape.app/wiki/Jarvonian_Letter_of_Passage "Jarvonian Letter of Passage").
-- New players usually want to Craft a [Wooden Fishing Pole](https://wiki.walkscape.app/wiki/Wooden_Fishing_Pole "Wooden Fishing Pole") and get confused on where to get [Fishing Line](https://wiki.walkscape.app/wiki/Fishing_Line "Fishing Line"), thinking they should be able craft it. However, you can find this for sale at the [Frosthook Emporium](https://wiki.walkscape.app/wiki/Frosthook_Emporium "Frosthook Emporium") fishing store in [Port Skildar](https://wiki.walkscape.app/wiki/Port_Skildar "Port Skildar") in quantities of 100 daily for 3 money each as well as from certain [activities](../activities/index.md).
+-   Due to Steel Tools requiring [Maple Planks](https://wiki.walkscape.app/wiki/Maple_Plank "Maple Plank") to make them, new players are often confused about where to find [maple trees](https://wiki.walkscape.app/wiki/Maple_trees "Maple trees"). Thinking that they should still be able to find them in [Jarvonia](https://wiki.walkscape.app/wiki/Jarvonia "Jarvonia"), while they are one of the first things they discover are unique to the [GDTE](https://wiki.walkscape.app/wiki/Grand_Duchy_of_Trellin-Erdwise_\(GDTE\) "Grand Duchy of Trellin-Erdwise (GDTE)") region - requiring the [Jarvonian Letter of Passage](https://wiki.walkscape.app/wiki/Jarvonian_Letter_of_Passage "Jarvonian Letter of Passage").
+-   New players usually want to Craft a [Wooden Fishing Pole](https://wiki.walkscape.app/wiki/Wooden_Fishing_Pole "Wooden Fishing Pole") and get confused on where to get [Fishing Line](https://wiki.walkscape.app/wiki/Fishing_Line "Fishing Line"), thinking they should be able craft it. However, you can find this for sale at the [Frosthook Emporium](https://wiki.walkscape.app/wiki/Frosthook_Emporium "Frosthook Emporium") fishing store in [Port Skildar](https://wiki.walkscape.app/wiki/Port_Skildar "Port Skildar") in quantities of 100 daily for 3 money each as well as from certain [activities](https://wiki.walkscape.app/wiki/Activities "Activities").
 
 ## Extracted Tables
 
@@ -92,79 +92,79 @@ The following activities are eligible to drop [Crafting chests](https://wiki.wal
 
 | Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
 | --- | --- | --- | --- | --- |
-| Make a basic hatchet | Crafting lvl. 1 | None | 2 x Stone 1 x Wooden stick | 1 x Basic hatchet |
-| Make a basic pickaxe | Crafting lvl. 1 | None | 2 x Stone 1 x Wooden stick | 1 x Basic pickaxe |
-| Make a basic sickle | Crafting lvl. 1 | None | 1 x Stone 1 x Wooden stick 1 x Twine | 1 x Basic sickle |
-| Spin flax into twine | Crafting lvl. 1 | None | 2 x Flax | 1 x Twine |
-| Craft a copper hatchet | Crafting lvl. 2 | Needs Basic Workshop service or better. | 2 x Copper bar 1 x Birch plank | 1 x Copper hatchet |
-| Craft a copper pickaxe | Crafting lvl. 2 | Needs Basic Workshop service or better. | 2 x Copper bar 1 x Birch plank | 1 x Copper pickaxe |
-| Craft a copper sickle | Crafting lvl. 2 | Needs Basic Workshop service or better. | 1 x Copper bar 1 x Birch plank 1 x Twine | 1 x Copper sickle |
-| Weave a basic fishing net | Crafting lvl. 2 | None | 1 x Twine | 1 x Basic fishing net |
-| Craft a basic fishing rod | Crafting lvl. 4 | Needs Basic Workshop service or better. | 3 x Wooden stick 1 x Fishing line | 1 x Wooden fishing pole |
-| Craft a bag of rocks | Crafting lvl. 5 | None | 1 x Sturdy branch 1 x Large stone | 1 x Bag of rocks |
-| Craft a bronze hatchet | Crafting lvl. 10 | Needs Basic Workshop service or better. | 2 x Bronze bar 1 x Pine plank | 1 x Bronze hatchet |
-| Craft a bronze pickaxe | Crafting lvl. 10 | Needs Basic Workshop service or better. | 2 x Bronze bar 1 x Pine plank | 1 x Bronze pickaxe |
-| Craft a pine fishing rod | Crafting lvl. 10 | Needs Basic Workshop service or better. | 3 x Pine plank 1 x Fishing line | 1 x Pine fishing rod |
-| Upcycle trash | Crafting lvl. 10 | Needs Basic Workshop service or better. | 1 x Trash | 1 x Wood scrap |
-| Craft a bronze wrench | Crafting lvl. 11 | Needs Basic Workshop service or better. | 1 x Simple wrench 2 x Bronze bar | 1 x Bronze wrench |
-| Craft a bronze hammer | Crafting lvl. 12 | Needs Basic Workshop service or better. | 1 x Simple hammer 2 x Bronze bar | 1 x Bronze hammer |
-| Craft a bronze pan | Crafting lvl. 12 | Needs Basic Workshop service or better. | 1 x Simple pan 2 x Bronze bar | 1 x Bronze pan |
-| Craft a bronze saw | Crafting lvl. 12 | Needs Basic Workshop service or better. | 1 x Simple saw 2 x Bronze bar | 1 x Bronze saw |
-| Craft a wanderlust walking stick | Crafting lvl. 12 | Needs Basic Workshop service or better. | 2 x Silver bar 1 x Walking stick | 1 x Wanderlust walking stick |
-| Craft a bronze chisel | Crafting lvl. 14 | Needs Basic Workshop service or better. | 1 x Simple chisel 2 x Bronze bar | 1 x Bronze chisel |
-| Weave a large fishing net | Crafting lvl. 15 | Needs Basic Workshop service or better. | 2 x Twine | 1 x Large fishing net |
-| Craft an iron hatchet | Crafting lvl. 20 | Needs Basic Workshop service or better. | 2 x Iron bar 1 x Spruce plank | 1 x Iron hatchet |
-| Craft an iron pickaxe | Crafting lvl. 20 | Needs Basic Workshop service or better. | 2 x Iron bar 1 x Spruce plank | 1 x Iron pickaxe |
-| Craft an iron sickle | Crafting lvl. 20 | Needs Basic Workshop service or better. | 1 x Iron bar 1 x Spruce plank 1 x Twine | 1 x Iron sickle |
-| Craft a fishing spear | Crafting lvl. 25 | Needs Basic Workshop service or better. | 1 x Iron bar 2 x Maple plank | 1 x Fishing spear |
-| Craft a kelp diving mask | Crafting lvl. 25 | Needs Basic Workshop service or better. | 2 x Hardened kelp | 1 x Kelp diving mask |
-| Craft a kelp diving pants | Crafting lvl. 25 | Needs Basic Workshop service or better. | 2 x Hardened kelp | 1 x Kelp diving pants |
-| Craft a kelp diving shirt | Crafting lvl. 25 | Needs Basic Workshop service or better. | 2 x Hardened kelp | 1 x Kelp diving shirt |
-| Craft a steel hatchet | Crafting lvl. 30 | Needs Basic Workshop service or better. | 2 x Steel bar 1 x Maple plank | 1 x Steel hatchet |
-| Craft a steel pickaxe | Crafting lvl. 30 | Needs Basic Workshop service or better. | 2 x Steel bar 1 x Maple plank | 1 x Steel pickaxe |
-| Craft a steel sickle | Crafting lvl. 30 | Needs Basic Workshop service or better. | 1 x Steel bar 1 x Maple plank 1 x Twine | 1 x Steel sickle |
-| Craft an oak fishing rod | Crafting lvl. 30 | Needs Basic Workshop service or better. | 3 x Oak plank 1 x Fishing line | 1 x Oak fishing rod |
-| Craft a lobster pot | Crafting lvl. 35 | Needs Basic Workshop service or better. | 2 x Steel bar 2 x Teak plank | 1 x Lobster Pot |
-| Craft a jellyfishing net | Crafting lvl. 37 | Needs Basic Workshop service or better. | 2 x Kelp twine 1 x Sturdy branch | 1 x Jellyfishing net |
-| Craft kelp twine | Crafting lvl. 37 | Needs Basic Workshop service or better. | 1 x Hardened kelp | 1 x Kelp twine |
-| Craft reinforced bellows | Crafting lvl. 37 | Needs Basic Workshop service or better. | 2 x Steel bar 1 x Forge bellows | 1 x Reinforced bellows |
-| Craft a jade tipped steel pan | Crafting lvl. 38 | Needs Basic Workshop service or better. | 1 x Simple pan 1 x Steel bar 1 x Jade | 1 x Jade tipped steel pan |
-| Craft a tarsilium hatchet | Crafting lvl. 40 | Needs Basic Workshop service or better. | 2 x Tarsilium bar 1 x Teak plank | 1 x Tarsilium hatchet |
-| Craft a tarsilium pickaxe | Crafting lvl. 40 | Needs Basic Workshop service or better. | 2 x Tarsilium bar 1 x Teak plank | 1 x Tarsilium pickaxe |
-| Craft a willow fishing rod | Crafting lvl. 40 | Needs Basic Workshop service or better. | 3 x Willow plank 1 x Fishing line | 1 x Willow fishing rod |
-| Craft a tarsilium hammer | Crafting lvl. 42 | Needs Basic Workshop service or better. | 1 x Simple hammer 2 x Tarsilium bar | 1 x Tarsilium hammer |
-| Craft a tarsilium saw | Crafting lvl. 42 | Needs Basic Workshop service or better. | 1 x Simple saw 2 x Tarsilium bar | 1 x Tarsilium saw |
-| Craft a topaz tipped chisel | Crafting lvl. 44 | Needs Basic Workshop service or better. | 1 x Simple chisel 1 x Steel bar 1 x Topaz | 1 x Topaz tipped chisel |
-| Craft a coral fishing spear | Crafting lvl. 45 | Needs Basic Workshop service or better. | 1 x Hydrilium bar 2 x Coral plank | 1 x Coral fishing spear |
-| Craft a hydrilium diving helm | Crafting lvl. 45 | Needs Basic Workshop service or better. | 2 x Hydrilium | 1 x Hydrilium diving helm |
-| Craft a hydrilium diving leggings | Crafting lvl. 45 | Needs Basic Workshop service or better. | 2 x Hydrilium | 1 x Hydrilium diving leggings |
-| Craft a hydrilium diving torso | Crafting lvl. 45 | Needs Basic Workshop service or better. | 2 x Hydrilium | 1 x Hydrilium diving torso |
-| Craft a hydrilium hatchet | Crafting lvl. 45 | Needs Basic Workshop service or better. | 2 x Hydrilium bar 1 x Coral plank | 1 x Hydrilium hatchet |
-| Craft a hydrilium pickaxe | Crafting lvl. 45 | Needs Basic Workshop service or better. | 2 x Hydrilium bar 1 x Coral plank | 1 x Hydrilium pickaxe |
-| Craft a hydrilium sickle | Crafting lvl. 45 | Needs Basic Workshop service or better. | 1 x Hydrilium bar 1 x Coral plank 1 x Kelp twine | 1 x Hydrilium sickle |
-| Craft hydrilium | Crafting lvl. 45 | Needs Basic Workshop service or better. | 1 x Hardened kelp 2 x Volcanic rock | 1 x Hydrilium |
-| Craft a hydrilium wrench | Crafting lvl. 46 | Needs Basic Workshop service or better. | 1 x Simple wrench 2 x Hydrilium bar | 1 x Hydrilium wrench |
-| Craft a farganite hatchet | Crafting lvl. 50 | Needs Advanced Workshop service or better. | 2 x Farganite bar 1 x Mangrove plank | 1 x Farganite hatchet |
-| Craft a farganite pickaxe | Crafting lvl. 50 | Needs Advanced Workshop service or better. | 2 x Farganite bar 1 x Mangrove plank | 1 x Farganite pickaxe |
-| Craft a hydrilium log splitter | Crafting lvl. 52 | Needs Advanced Workshop service or better. | 2 x Hydrilium bar 1 x Log splitter | 1 x Hydrilium log splitter |
-| Craft a hydrilium magnet | Crafting lvl. 54 | Needs Advanced Workshop service or better. | 2 x Hydrilium bar 1 x Miner's magnet | 1 x Hydrilium magnet |
-| Craft a mangrove basket | Crafting lvl. 55 | Needs Advanced Workshop service or better. | 2 x Mangrove plank 1 x Big basket 1 x Log basket | 1 x Mangrove basket |
-| Craft a spectral fishing cagespear | Crafting lvl. 55 | Needs Advanced Cursed Workshop service or better. | 3 x Bones 10 x Ectoplasm | 1 x Spectral fishing cagespear |
-| Craft a spectral fishing rod | Crafting lvl. 55 | Needs Advanced Cursed Workshop service or better. | 3 x Bones 10 x Ectoplasm | 1 x Spectral fishing rod |
-| Craft a spectral hatchet | Crafting lvl. 55 | Needs Advanced Cursed Workshop service or better. | 3 x Bones 10 x Ectoplasm | 1 x Spectral hatchet |
-| Craft a spectral pickaxe | Crafting lvl. 55 | Needs Advanced Cursed Workshop service or better. | 3 x Bones 10 x Ectoplasm | 1 x Spectral pickaxe |
-| Craft a spectral sickle | Crafting lvl. 55 | Needs Advanced Cursed Workshop service or better. | 3 x Bones 10 x Ectoplasm | 1 x Spectral sickle |
-| Craft a spectral chisel | Crafting lvl. 58 | Needs Advanced Cursed Workshop service or better. | 5 x Bones 15 x Ectoplasm | 1 x Spectral chisel |
-| Craft a spectral hammer | Crafting lvl. 58 | Needs Advanced Cursed Workshop service or better. | 5 x Bones 15 x Ectoplasm | 1 x Spectral hammer |
-| Craft a spectral pan | Crafting lvl. 58 | Needs Advanced Cursed Workshop service or better. | 5 x Bones 15 x Ectoplasm | 1 x Spectral pan |
-| Craft a spectral saw | Crafting lvl. 58 | Needs Advanced Cursed Workshop service or better. | 5 x Bones 15 x Ectoplasm | 1 x Spectral saw |
-| Craft a spectral wrench | Crafting lvl. 58 | Needs Advanced Cursed Workshop service or better. | 5 x Bones 15 x Ectoplasm | 1 x Spectral wrench |
-| Craft an adamant hatchet | Crafting lvl. 60 | Needs Advanced Workshop service or better. | 2 x Adamant bar 1 x Yew plank | 1 x Adamant hatchet |
-| Craft an adamant pickaxe | Crafting lvl. 60 | Needs Advanced Workshop service or better. | 2 x Adamant bar 1 x Yew plank | 1 x Adamant pickaxe |
-| Craft ironweed twine | Crafting lvl. 60 | Needs Advanced Workshop service or better. | 2 x Ironweed | 1 x Ironweed twine |
-| Craft a violite hatchet | Crafting lvl. 70 | Needs Advanced Workshop service or better. | 2 x Violite bar 1 x Mahogany plank | 1 x Violite hatchet |
-| Craft a violite pickaxe | Crafting lvl. 70 | Needs Advanced Workshop service or better. | 2 x Violite bar 1 x Mahogany plank | 1 x Violite pickaxe |
-| Craft a violite sickle | Crafting lvl. 70 | Needs Advanced Workshop service or better. | 1 x Violite bar 1 x Mahogany plank 1 x Ironweed twine | 1 x Violite sickle |
+| Make a basic hatchet | Crafting lvl. 1 | None | 2x Stone 1x Wooden stick | 1x Basic hatchet |
+| Make a basic pickaxe | Crafting lvl. 1 | None | 2x Stone 1x Wooden stick | 1x Basic pickaxe |
+| Make a basic sickle | Crafting lvl. 1 | None | 1x Stone 1x Wooden stick 1x Twine | 1x Basic sickle |
+| Spin flax into twine | Crafting lvl. 1 | None | 2x Flax | 1x Twine |
+| Craft a copper hatchet | Crafting lvl. 2 | Needs Basic Workshop service or better. | 2x Copper bar 1x Birch plank | 1x Copper hatchet |
+| Craft a copper pickaxe | Crafting lvl. 2 | Needs Basic Workshop service or better. | 2x Copper bar 1x Birch plank | 1x Copper pickaxe |
+| Craft a copper sickle | Crafting lvl. 2 | Needs Basic Workshop service or better. | 1x Copper bar 1x Birch plank 1x Twine | 1x Copper sickle |
+| Weave a basic fishing net | Crafting lvl. 2 | None | 1x Twine | 1x Basic fishing net |
+| Craft a basic fishing rod | Crafting lvl. 4 | Needs Basic Workshop service or better. | 3x Wooden stick 1x Fishing line | 1x Wooden fishing pole |
+| Craft a bag of rocks | Crafting lvl. 5 | None | 1x Sturdy branch 1x Large stone | 1x Bag of rocks |
+| Craft a bronze hatchet | Crafting lvl. 10 | Needs Basic Workshop service or better. | 2x Bronze bar 1x Pine plank | 1x Bronze hatchet |
+| Craft a bronze pickaxe | Crafting lvl. 10 | Needs Basic Workshop service or better. | 2x Bronze bar 1x Pine plank | 1x Bronze pickaxe |
+| Craft a pine fishing rod | Crafting lvl. 10 | Needs Basic Workshop service or better. | 3x Pine plank 1x Fishing line | 1x Pine fishing rod |
+| Upcycle trash | Crafting lvl. 10 | Needs Basic Workshop service or better. | 1x Trash | 1x Wood scrap |
+| Craft a bronze wrench | Crafting lvl. 11 | Needs Basic Workshop service or better. | 1x Simple wrench 2x Bronze bar | 1x Bronze wrench |
+| Craft a bronze hammer | Crafting lvl. 12 | Needs Basic Workshop service or better. | 1x Simple hammer 2x Bronze bar | 1x Bronze hammer |
+| Craft a bronze pan | Crafting lvl. 12 | Needs Basic Workshop service or better. | 1x Simple pan 2x Bronze bar | 1x Bronze pan |
+| Craft a bronze saw | Crafting lvl. 12 | Needs Basic Workshop service or better. | 1x Simple saw 2x Bronze bar | 1x Bronze saw |
+| Craft a wanderlust walking stick | Crafting lvl. 12 | Needs Basic Workshop service or better. | 2x Silver bar 1x Walking stick | 1x Wanderlust walking stick |
+| Craft a bronze chisel | Crafting lvl. 14 | Needs Basic Workshop service or better. | 1x Simple chisel 2x Bronze bar | 1x Bronze chisel |
+| Weave a large fishing net | Crafting lvl. 15 | Needs Basic Workshop service or better. | 2x Twine | 1x Large fishing net |
+| Craft an iron hatchet | Crafting lvl. 20 | Needs Basic Workshop service or better. | 2x Iron bar 1x Spruce plank | 1x Iron hatchet |
+| Craft an iron pickaxe | Crafting lvl. 20 | Needs Basic Workshop service or better. | 2x Iron bar 1x Spruce plank | 1x Iron pickaxe |
+| Craft an iron sickle | Crafting lvl. 20 | Needs Basic Workshop service or better. | 1x Iron bar 1x Spruce plank 1x Twine | 1x Iron sickle |
+| Craft a fishing spear | Crafting lvl. 25 | Needs Basic Workshop service or better. | 1x Iron bar 2x Maple plank | 1x Fishing spear |
+| Craft a kelp diving mask | Crafting lvl. 25 | Needs Basic Workshop service or better. | 2x Hardened kelp | 1x Kelp diving mask |
+| Craft a kelp diving pants | Crafting lvl. 25 | Needs Basic Workshop service or better. | 2x Hardened kelp | 1x Kelp diving pants |
+| Craft a kelp diving shirt | Crafting lvl. 25 | Needs Basic Workshop service or better. | 2x Hardened kelp | 1x Kelp diving shirt |
+| Craft a steel hatchet | Crafting lvl. 30 | Needs Basic Workshop service or better. | 2x Steel bar 1x Maple plank | 1x Steel hatchet |
+| Craft a steel pickaxe | Crafting lvl. 30 | Needs Basic Workshop service or better. | 2x Steel bar 1x Maple plank | 1x Steel pickaxe |
+| Craft a steel sickle | Crafting lvl. 30 | Needs Basic Workshop service or better. | 1x Steel bar 1x Maple plank 1x Twine | 1x Steel sickle |
+| Craft an oak fishing rod | Crafting lvl. 30 | Needs Basic Workshop service or better. | 3x Oak plank 1x Fishing line | 1x Oak fishing rod |
+| Craft a lobster pot | Crafting lvl. 35 | Needs Basic Workshop service or better. | 2x Steel bar 2x Teak plank | 1x Lobster Pot |
+| Craft a jellyfishing net | Crafting lvl. 37 | Needs Basic Workshop service or better. | 2x Kelp twine 1x Sturdy branch | 1x Jellyfishing net |
+| Craft kelp twine | Crafting lvl. 37 | Needs Basic Workshop service or better. | 1x Hardened kelp | 1x Kelp twine |
+| Craft reinforced bellows | Crafting lvl. 37 | Needs Basic Workshop service or better. | 2x Steel bar 1x Forge bellows | 1x Reinforced bellows |
+| Craft a jade tipped steel pan | Crafting lvl. 38 | Needs Basic Workshop service or better. | 1x Simple pan 1x Steel bar 1x Jade | 1x Jade tipped steel pan |
+| Craft a tarsilium hatchet | Crafting lvl. 40 | Needs Basic Workshop service or better. | 2x Tarsilium bar 1x Teak plank | 1x Tarsilium hatchet |
+| Craft a tarsilium pickaxe | Crafting lvl. 40 | Needs Basic Workshop service or better. | 2x Tarsilium bar 1x Teak plank | 1x Tarsilium pickaxe |
+| Craft a willow fishing rod | Crafting lvl. 40 | Needs Basic Workshop service or better. | 3x Willow plank 1x Fishing line | 1x Willow fishing rod |
+| Craft a tarsilium hammer | Crafting lvl. 42 | Needs Basic Workshop service or better. | 1x Simple hammer 2x Tarsilium bar | 1x Tarsilium hammer |
+| Craft a tarsilium saw | Crafting lvl. 42 | Needs Basic Workshop service or better. | 1x Simple saw 2x Tarsilium bar | 1x Tarsilium saw |
+| Craft a topaz tipped chisel | Crafting lvl. 44 | Needs Basic Workshop service or better. | 1x Simple chisel 1x Steel bar 1x Topaz | 1x Topaz tipped chisel |
+| Craft a coral fishing spear | Crafting lvl. 45 | Needs Basic Workshop service or better. | 1x Hydrilium bar 2x Coral plank | 1x Coral fishing spear |
+| Craft a hydrilium diving helm | Crafting lvl. 45 | Needs Basic Workshop service or better. | 2x Hydrilium | 1x Hydrilium diving helm |
+| Craft a hydrilium diving leggings | Crafting lvl. 45 | Needs Basic Workshop service or better. | 2x Hydrilium | 1x Hydrilium diving leggings |
+| Craft a hydrilium diving torso | Crafting lvl. 45 | Needs Basic Workshop service or better. | 2x Hydrilium | 1x Hydrilium diving torso |
+| Craft a hydrilium hatchet | Crafting lvl. 45 | Needs Basic Workshop service or better. | 2x Hydrilium bar 1x Coral plank | 1x Hydrilium hatchet |
+| Craft a hydrilium pickaxe | Crafting lvl. 45 | Needs Basic Workshop service or better. | 2x Hydrilium bar 1x Coral plank | 1x Hydrilium pickaxe |
+| Craft a hydrilium sickle | Crafting lvl. 45 | Needs Basic Workshop service or better. | 1x Hydrilium bar 1x Coral plank 1x Kelp twine | 1x Hydrilium sickle |
+| Craft hydrilium | Crafting lvl. 45 | Needs Basic Workshop service or better. | 1x Hardened kelp 2x Volcanic rock | 1x Hydrilium |
+| Craft a hydrilium wrench | Crafting lvl. 46 | Needs Basic Workshop service or better. | 1x Simple wrench 2x Hydrilium bar | 1x Hydrilium wrench |
+| Craft a farganite hatchet | Crafting lvl. 50 | Needs Advanced Workshop service or better. | 2x Farganite bar 1x Mangrove plank | 1x Farganite hatchet |
+| Craft a farganite pickaxe | Crafting lvl. 50 | Needs Advanced Workshop service or better. | 2x Farganite bar 1x Mangrove plank | 1x Farganite pickaxe |
+| Craft a hydrilium log splitter | Crafting lvl. 52 | Needs Advanced Workshop service or better. | 2x Hydrilium bar 1x Log splitter | 1x Hydrilium log splitter |
+| Craft a hydrilium magnet | Crafting lvl. 54 | Needs Advanced Workshop service or better. | 2x Hydrilium bar 1x Miner's magnet | 1x Hydrilium magnet |
+| Craft a mangrove basket | Crafting lvl. 55 | Needs Advanced Workshop service or better. | 2x Mangrove plank 1x Big basket 1x Log basket | 1x Mangrove basket |
+| Craft a spectral fishing cagespear | Crafting lvl. 55 | Needs Advanced Cursed Workshop service or better. | 3x Bones 10x Ectoplasm | 1x Spectral fishing cagespear |
+| Craft a spectral fishing rod | Crafting lvl. 55 | Needs Advanced Cursed Workshop service or better. | 3x Bones 10x Ectoplasm | 1x Spectral fishing rod |
+| Craft a spectral hatchet | Crafting lvl. 55 | Needs Advanced Cursed Workshop service or better. | 3x Bones 10x Ectoplasm | 1x Spectral hatchet |
+| Craft a spectral pickaxe | Crafting lvl. 55 | Needs Advanced Cursed Workshop service or better. | 3x Bones 10x Ectoplasm | 1x Spectral pickaxe |
+| Craft a spectral sickle | Crafting lvl. 55 | Needs Advanced Cursed Workshop service or better. | 3x Bones 10x Ectoplasm | 1x Spectral sickle |
+| Craft a spectral chisel | Crafting lvl. 58 | Needs Advanced Cursed Workshop service or better. | 5x Bones 15x Ectoplasm | 1x Spectral chisel |
+| Craft a spectral hammer | Crafting lvl. 58 | Needs Advanced Cursed Workshop service or better. | 5x Bones 15x Ectoplasm | 1x Spectral hammer |
+| Craft a spectral pan | Crafting lvl. 58 | Needs Advanced Cursed Workshop service or better. | 5x Bones 15x Ectoplasm | 1x Spectral pan |
+| Craft a spectral saw | Crafting lvl. 58 | Needs Advanced Cursed Workshop service or better. | 5x Bones 15x Ectoplasm | 1x Spectral saw |
+| Craft a spectral wrench | Crafting lvl. 58 | Needs Advanced Cursed Workshop service or better. | 5x Bones 15x Ectoplasm | 1x Spectral wrench |
+| Craft an adamant hatchet | Crafting lvl. 60 | Needs Advanced Workshop service or better. | 2x Adamant bar 1x Yew plank | 1x Adamant hatchet |
+| Craft an adamant pickaxe | Crafting lvl. 60 | Needs Advanced Workshop service or better. | 2x Adamant bar 1x Yew plank | 1x Adamant pickaxe |
+| Craft ironweed twine | Crafting lvl. 60 | Needs Advanced Workshop service or better. | 2x Ironweed | 1x Ironweed twine |
+| Craft a violite hatchet | Crafting lvl. 70 | Needs Advanced Workshop service or better. | 2x Violite bar 1x Mahogany plank | 1x Violite hatchet |
+| Craft a violite pickaxe | Crafting lvl. 70 | Needs Advanced Workshop service or better. | 2x Violite bar 1x Mahogany plank | 1x Violite pickaxe |
+| Craft a violite sickle | Crafting lvl. 70 | Needs Advanced Workshop service or better. | 1x Violite bar 1x Mahogany plank 1x Ironweed twine | 1x Violite sickle |
 
 ### Table 4 (Recipes)
 
@@ -390,512 +390,512 @@ The following activities are eligible to drop [Crafting chests](https://wiki.wal
           "Recipe Name": "Make a basic hatchet",
           "Level": "Crafting lvl. 1",
           "Service Requirement": "None",
-          "Materials Used": "2 x Stone 1 x Wooden stick",
-          "Recipe Outputs": "1 x Basic hatchet"
+          "Materials Used": "2x Stone 1x Wooden stick",
+          "Recipe Outputs": "1x Basic hatchet"
         },
         {
           "Recipe Name": "Make a basic pickaxe",
           "Level": "Crafting lvl. 1",
           "Service Requirement": "None",
-          "Materials Used": "2 x Stone 1 x Wooden stick",
-          "Recipe Outputs": "1 x Basic pickaxe"
+          "Materials Used": "2x Stone 1x Wooden stick",
+          "Recipe Outputs": "1x Basic pickaxe"
         },
         {
           "Recipe Name": "Make a basic sickle",
           "Level": "Crafting lvl. 1",
           "Service Requirement": "None",
-          "Materials Used": "1 x Stone 1 x Wooden stick 1 x Twine",
-          "Recipe Outputs": "1 x Basic sickle"
+          "Materials Used": "1x Stone 1x Wooden stick 1x Twine",
+          "Recipe Outputs": "1x Basic sickle"
         },
         {
           "Recipe Name": "Spin flax into twine",
           "Level": "Crafting lvl. 1",
           "Service Requirement": "None",
-          "Materials Used": "2 x Flax",
-          "Recipe Outputs": "1 x Twine"
+          "Materials Used": "2x Flax",
+          "Recipe Outputs": "1x Twine"
         },
         {
           "Recipe Name": "Craft a copper hatchet",
           "Level": "Crafting lvl. 2",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Copper bar 1 x Birch plank",
-          "Recipe Outputs": "1 x Copper hatchet"
+          "Materials Used": "2x Copper bar 1x Birch plank",
+          "Recipe Outputs": "1x Copper hatchet"
         },
         {
           "Recipe Name": "Craft a copper pickaxe",
           "Level": "Crafting lvl. 2",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Copper bar 1 x Birch plank",
-          "Recipe Outputs": "1 x Copper pickaxe"
+          "Materials Used": "2x Copper bar 1x Birch plank",
+          "Recipe Outputs": "1x Copper pickaxe"
         },
         {
           "Recipe Name": "Craft a copper sickle",
           "Level": "Crafting lvl. 2",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Copper bar 1 x Birch plank 1 x Twine",
-          "Recipe Outputs": "1 x Copper sickle"
+          "Materials Used": "1x Copper bar 1x Birch plank 1x Twine",
+          "Recipe Outputs": "1x Copper sickle"
         },
         {
           "Recipe Name": "Weave a basic fishing net",
           "Level": "Crafting lvl. 2",
           "Service Requirement": "None",
-          "Materials Used": "1 x Twine",
-          "Recipe Outputs": "1 x Basic fishing net"
+          "Materials Used": "1x Twine",
+          "Recipe Outputs": "1x Basic fishing net"
         },
         {
           "Recipe Name": "Craft a basic fishing rod",
           "Level": "Crafting lvl. 4",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "3 x Wooden stick 1 x Fishing line",
-          "Recipe Outputs": "1 x Wooden fishing pole"
+          "Materials Used": "3x Wooden stick 1x Fishing line",
+          "Recipe Outputs": "1x Wooden fishing pole"
         },
         {
           "Recipe Name": "Craft a bag of rocks",
           "Level": "Crafting lvl. 5",
           "Service Requirement": "None",
-          "Materials Used": "1 x Sturdy branch 1 x Large stone",
-          "Recipe Outputs": "1 x Bag of rocks"
+          "Materials Used": "1x Sturdy branch 1x Large stone",
+          "Recipe Outputs": "1x Bag of rocks"
         },
         {
           "Recipe Name": "Craft a bronze hatchet",
           "Level": "Crafting lvl. 10",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Bronze bar 1 x Pine plank",
-          "Recipe Outputs": "1 x Bronze hatchet"
+          "Materials Used": "2x Bronze bar 1x Pine plank",
+          "Recipe Outputs": "1x Bronze hatchet"
         },
         {
           "Recipe Name": "Craft a bronze pickaxe",
           "Level": "Crafting lvl. 10",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Bronze bar 1 x Pine plank",
-          "Recipe Outputs": "1 x Bronze pickaxe"
+          "Materials Used": "2x Bronze bar 1x Pine plank",
+          "Recipe Outputs": "1x Bronze pickaxe"
         },
         {
           "Recipe Name": "Craft a pine fishing rod",
           "Level": "Crafting lvl. 10",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "3 x Pine plank 1 x Fishing line",
-          "Recipe Outputs": "1 x Pine fishing rod"
+          "Materials Used": "3x Pine plank 1x Fishing line",
+          "Recipe Outputs": "1x Pine fishing rod"
         },
         {
           "Recipe Name": "Upcycle trash",
           "Level": "Crafting lvl. 10",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Trash",
-          "Recipe Outputs": "1 x Wood scrap"
+          "Materials Used": "1x Trash",
+          "Recipe Outputs": "1x Wood scrap"
         },
         {
           "Recipe Name": "Craft a bronze wrench",
           "Level": "Crafting lvl. 11",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Simple wrench 2 x Bronze bar",
-          "Recipe Outputs": "1 x Bronze wrench"
+          "Materials Used": "1x Simple wrench 2x Bronze bar",
+          "Recipe Outputs": "1x Bronze wrench"
         },
         {
           "Recipe Name": "Craft a bronze hammer",
           "Level": "Crafting lvl. 12",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Simple hammer 2 x Bronze bar",
-          "Recipe Outputs": "1 x Bronze hammer"
+          "Materials Used": "1x Simple hammer 2x Bronze bar",
+          "Recipe Outputs": "1x Bronze hammer"
         },
         {
           "Recipe Name": "Craft a bronze pan",
           "Level": "Crafting lvl. 12",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Simple pan 2 x Bronze bar",
-          "Recipe Outputs": "1 x Bronze pan"
+          "Materials Used": "1x Simple pan 2x Bronze bar",
+          "Recipe Outputs": "1x Bronze pan"
         },
         {
           "Recipe Name": "Craft a bronze saw",
           "Level": "Crafting lvl. 12",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Simple saw 2 x Bronze bar",
-          "Recipe Outputs": "1 x Bronze saw"
+          "Materials Used": "1x Simple saw 2x Bronze bar",
+          "Recipe Outputs": "1x Bronze saw"
         },
         {
           "Recipe Name": "Craft a wanderlust walking stick",
           "Level": "Crafting lvl. 12",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Silver bar 1 x Walking stick",
-          "Recipe Outputs": "1 x Wanderlust walking stick"
+          "Materials Used": "2x Silver bar 1x Walking stick",
+          "Recipe Outputs": "1x Wanderlust walking stick"
         },
         {
           "Recipe Name": "Craft a bronze chisel",
           "Level": "Crafting lvl. 14",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Simple chisel 2 x Bronze bar",
-          "Recipe Outputs": "1 x Bronze chisel"
+          "Materials Used": "1x Simple chisel 2x Bronze bar",
+          "Recipe Outputs": "1x Bronze chisel"
         },
         {
           "Recipe Name": "Weave a large fishing net",
           "Level": "Crafting lvl. 15",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Twine",
-          "Recipe Outputs": "1 x Large fishing net"
+          "Materials Used": "2x Twine",
+          "Recipe Outputs": "1x Large fishing net"
         },
         {
           "Recipe Name": "Craft an iron hatchet",
           "Level": "Crafting lvl. 20",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Iron bar 1 x Spruce plank",
-          "Recipe Outputs": "1 x Iron hatchet"
+          "Materials Used": "2x Iron bar 1x Spruce plank",
+          "Recipe Outputs": "1x Iron hatchet"
         },
         {
           "Recipe Name": "Craft an iron pickaxe",
           "Level": "Crafting lvl. 20",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Iron bar 1 x Spruce plank",
-          "Recipe Outputs": "1 x Iron pickaxe"
+          "Materials Used": "2x Iron bar 1x Spruce plank",
+          "Recipe Outputs": "1x Iron pickaxe"
         },
         {
           "Recipe Name": "Craft an iron sickle",
           "Level": "Crafting lvl. 20",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Iron bar 1 x Spruce plank 1 x Twine",
-          "Recipe Outputs": "1 x Iron sickle"
+          "Materials Used": "1x Iron bar 1x Spruce plank 1x Twine",
+          "Recipe Outputs": "1x Iron sickle"
         },
         {
           "Recipe Name": "Craft a fishing spear",
           "Level": "Crafting lvl. 25",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Iron bar 2 x Maple plank",
-          "Recipe Outputs": "1 x Fishing spear"
+          "Materials Used": "1x Iron bar 2x Maple plank",
+          "Recipe Outputs": "1x Fishing spear"
         },
         {
           "Recipe Name": "Craft a kelp diving mask",
           "Level": "Crafting lvl. 25",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Hardened kelp",
-          "Recipe Outputs": "1 x Kelp diving mask"
+          "Materials Used": "2x Hardened kelp",
+          "Recipe Outputs": "1x Kelp diving mask"
         },
         {
           "Recipe Name": "Craft a kelp diving pants",
           "Level": "Crafting lvl. 25",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Hardened kelp",
-          "Recipe Outputs": "1 x Kelp diving pants"
+          "Materials Used": "2x Hardened kelp",
+          "Recipe Outputs": "1x Kelp diving pants"
         },
         {
           "Recipe Name": "Craft a kelp diving shirt",
           "Level": "Crafting lvl. 25",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Hardened kelp",
-          "Recipe Outputs": "1 x Kelp diving shirt"
+          "Materials Used": "2x Hardened kelp",
+          "Recipe Outputs": "1x Kelp diving shirt"
         },
         {
           "Recipe Name": "Craft a steel hatchet",
           "Level": "Crafting lvl. 30",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Steel bar 1 x Maple plank",
-          "Recipe Outputs": "1 x Steel hatchet"
+          "Materials Used": "2x Steel bar 1x Maple plank",
+          "Recipe Outputs": "1x Steel hatchet"
         },
         {
           "Recipe Name": "Craft a steel pickaxe",
           "Level": "Crafting lvl. 30",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Steel bar 1 x Maple plank",
-          "Recipe Outputs": "1 x Steel pickaxe"
+          "Materials Used": "2x Steel bar 1x Maple plank",
+          "Recipe Outputs": "1x Steel pickaxe"
         },
         {
           "Recipe Name": "Craft a steel sickle",
           "Level": "Crafting lvl. 30",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Steel bar 1 x Maple plank 1 x Twine",
-          "Recipe Outputs": "1 x Steel sickle"
+          "Materials Used": "1x Steel bar 1x Maple plank 1x Twine",
+          "Recipe Outputs": "1x Steel sickle"
         },
         {
           "Recipe Name": "Craft an oak fishing rod",
           "Level": "Crafting lvl. 30",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "3 x Oak plank 1 x Fishing line",
-          "Recipe Outputs": "1 x Oak fishing rod"
+          "Materials Used": "3x Oak plank 1x Fishing line",
+          "Recipe Outputs": "1x Oak fishing rod"
         },
         {
           "Recipe Name": "Craft a lobster pot",
           "Level": "Crafting lvl. 35",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Steel bar 2 x Teak plank",
-          "Recipe Outputs": "1 x Lobster Pot"
+          "Materials Used": "2x Steel bar 2x Teak plank",
+          "Recipe Outputs": "1x Lobster Pot"
         },
         {
           "Recipe Name": "Craft a jellyfishing net",
           "Level": "Crafting lvl. 37",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Kelp twine 1 x Sturdy branch",
-          "Recipe Outputs": "1 x Jellyfishing net"
+          "Materials Used": "2x Kelp twine 1x Sturdy branch",
+          "Recipe Outputs": "1x Jellyfishing net"
         },
         {
           "Recipe Name": "Craft kelp twine",
           "Level": "Crafting lvl. 37",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Hardened kelp",
-          "Recipe Outputs": "1 x Kelp twine"
+          "Materials Used": "1x Hardened kelp",
+          "Recipe Outputs": "1x Kelp twine"
         },
         {
           "Recipe Name": "Craft reinforced bellows",
           "Level": "Crafting lvl. 37",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Steel bar 1 x Forge bellows",
-          "Recipe Outputs": "1 x Reinforced bellows"
+          "Materials Used": "2x Steel bar 1x Forge bellows",
+          "Recipe Outputs": "1x Reinforced bellows"
         },
         {
           "Recipe Name": "Craft a jade tipped steel pan",
           "Level": "Crafting lvl. 38",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Simple pan 1 x Steel bar 1 x Jade",
-          "Recipe Outputs": "1 x Jade tipped steel pan"
+          "Materials Used": "1x Simple pan 1x Steel bar 1x Jade",
+          "Recipe Outputs": "1x Jade tipped steel pan"
         },
         {
           "Recipe Name": "Craft a tarsilium hatchet",
           "Level": "Crafting lvl. 40",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Tarsilium bar 1 x Teak plank",
-          "Recipe Outputs": "1 x Tarsilium hatchet"
+          "Materials Used": "2x Tarsilium bar 1x Teak plank",
+          "Recipe Outputs": "1x Tarsilium hatchet"
         },
         {
           "Recipe Name": "Craft a tarsilium pickaxe",
           "Level": "Crafting lvl. 40",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Tarsilium bar 1 x Teak plank",
-          "Recipe Outputs": "1 x Tarsilium pickaxe"
+          "Materials Used": "2x Tarsilium bar 1x Teak plank",
+          "Recipe Outputs": "1x Tarsilium pickaxe"
         },
         {
           "Recipe Name": "Craft a willow fishing rod",
           "Level": "Crafting lvl. 40",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "3 x Willow plank 1 x Fishing line",
-          "Recipe Outputs": "1 x Willow fishing rod"
+          "Materials Used": "3x Willow plank 1x Fishing line",
+          "Recipe Outputs": "1x Willow fishing rod"
         },
         {
           "Recipe Name": "Craft a tarsilium hammer",
           "Level": "Crafting lvl. 42",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Simple hammer 2 x Tarsilium bar",
-          "Recipe Outputs": "1 x Tarsilium hammer"
+          "Materials Used": "1x Simple hammer 2x Tarsilium bar",
+          "Recipe Outputs": "1x Tarsilium hammer"
         },
         {
           "Recipe Name": "Craft a tarsilium saw",
           "Level": "Crafting lvl. 42",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Simple saw 2 x Tarsilium bar",
-          "Recipe Outputs": "1 x Tarsilium saw"
+          "Materials Used": "1x Simple saw 2x Tarsilium bar",
+          "Recipe Outputs": "1x Tarsilium saw"
         },
         {
           "Recipe Name": "Craft a topaz tipped chisel",
           "Level": "Crafting lvl. 44",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Simple chisel 1 x Steel bar 1 x Topaz",
-          "Recipe Outputs": "1 x Topaz tipped chisel"
+          "Materials Used": "1x Simple chisel 1x Steel bar 1x Topaz",
+          "Recipe Outputs": "1x Topaz tipped chisel"
         },
         {
           "Recipe Name": "Craft a coral fishing spear",
           "Level": "Crafting lvl. 45",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Hydrilium bar 2 x Coral plank",
-          "Recipe Outputs": "1 x Coral fishing spear"
+          "Materials Used": "1x Hydrilium bar 2x Coral plank",
+          "Recipe Outputs": "1x Coral fishing spear"
         },
         {
           "Recipe Name": "Craft a hydrilium diving helm",
           "Level": "Crafting lvl. 45",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Hydrilium",
-          "Recipe Outputs": "1 x Hydrilium diving helm"
+          "Materials Used": "2x Hydrilium",
+          "Recipe Outputs": "1x Hydrilium diving helm"
         },
         {
           "Recipe Name": "Craft a hydrilium diving leggings",
           "Level": "Crafting lvl. 45",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Hydrilium",
-          "Recipe Outputs": "1 x Hydrilium diving leggings"
+          "Materials Used": "2x Hydrilium",
+          "Recipe Outputs": "1x Hydrilium diving leggings"
         },
         {
           "Recipe Name": "Craft a hydrilium diving torso",
           "Level": "Crafting lvl. 45",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Hydrilium",
-          "Recipe Outputs": "1 x Hydrilium diving torso"
+          "Materials Used": "2x Hydrilium",
+          "Recipe Outputs": "1x Hydrilium diving torso"
         },
         {
           "Recipe Name": "Craft a hydrilium hatchet",
           "Level": "Crafting lvl. 45",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Hydrilium bar 1 x Coral plank",
-          "Recipe Outputs": "1 x Hydrilium hatchet"
+          "Materials Used": "2x Hydrilium bar 1x Coral plank",
+          "Recipe Outputs": "1x Hydrilium hatchet"
         },
         {
           "Recipe Name": "Craft a hydrilium pickaxe",
           "Level": "Crafting lvl. 45",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "2 x Hydrilium bar 1 x Coral plank",
-          "Recipe Outputs": "1 x Hydrilium pickaxe"
+          "Materials Used": "2x Hydrilium bar 1x Coral plank",
+          "Recipe Outputs": "1x Hydrilium pickaxe"
         },
         {
           "Recipe Name": "Craft a hydrilium sickle",
           "Level": "Crafting lvl. 45",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Hydrilium bar 1 x Coral plank 1 x Kelp twine",
-          "Recipe Outputs": "1 x Hydrilium sickle"
+          "Materials Used": "1x Hydrilium bar 1x Coral plank 1x Kelp twine",
+          "Recipe Outputs": "1x Hydrilium sickle"
         },
         {
           "Recipe Name": "Craft hydrilium",
           "Level": "Crafting lvl. 45",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Hardened kelp 2 x Volcanic rock",
-          "Recipe Outputs": "1 x Hydrilium"
+          "Materials Used": "1x Hardened kelp 2x Volcanic rock",
+          "Recipe Outputs": "1x Hydrilium"
         },
         {
           "Recipe Name": "Craft a hydrilium wrench",
           "Level": "Crafting lvl. 46",
           "Service Requirement": "Needs Basic Workshop service or better.",
-          "Materials Used": "1 x Simple wrench 2 x Hydrilium bar",
-          "Recipe Outputs": "1 x Hydrilium wrench"
+          "Materials Used": "1x Simple wrench 2x Hydrilium bar",
+          "Recipe Outputs": "1x Hydrilium wrench"
         },
         {
           "Recipe Name": "Craft a farganite hatchet",
           "Level": "Crafting lvl. 50",
           "Service Requirement": "Needs Advanced Workshop service or better.",
-          "Materials Used": "2 x Farganite bar 1 x Mangrove plank",
-          "Recipe Outputs": "1 x Farganite hatchet"
+          "Materials Used": "2x Farganite bar 1x Mangrove plank",
+          "Recipe Outputs": "1x Farganite hatchet"
         },
         {
           "Recipe Name": "Craft a farganite pickaxe",
           "Level": "Crafting lvl. 50",
           "Service Requirement": "Needs Advanced Workshop service or better.",
-          "Materials Used": "2 x Farganite bar 1 x Mangrove plank",
-          "Recipe Outputs": "1 x Farganite pickaxe"
+          "Materials Used": "2x Farganite bar 1x Mangrove plank",
+          "Recipe Outputs": "1x Farganite pickaxe"
         },
         {
           "Recipe Name": "Craft a hydrilium log splitter",
           "Level": "Crafting lvl. 52",
           "Service Requirement": "Needs Advanced Workshop service or better.",
-          "Materials Used": "2 x Hydrilium bar 1 x Log splitter",
-          "Recipe Outputs": "1 x Hydrilium log splitter"
+          "Materials Used": "2x Hydrilium bar 1x Log splitter",
+          "Recipe Outputs": "1x Hydrilium log splitter"
         },
         {
           "Recipe Name": "Craft a hydrilium magnet",
           "Level": "Crafting lvl. 54",
           "Service Requirement": "Needs Advanced Workshop service or better.",
-          "Materials Used": "2 x Hydrilium bar 1 x Miner's magnet",
-          "Recipe Outputs": "1 x Hydrilium magnet"
+          "Materials Used": "2x Hydrilium bar 1x Miner's magnet",
+          "Recipe Outputs": "1x Hydrilium magnet"
         },
         {
           "Recipe Name": "Craft a mangrove basket",
           "Level": "Crafting lvl. 55",
           "Service Requirement": "Needs Advanced Workshop service or better.",
-          "Materials Used": "2 x Mangrove plank 1 x Big basket 1 x Log basket",
-          "Recipe Outputs": "1 x Mangrove basket"
+          "Materials Used": "2x Mangrove plank 1x Big basket 1x Log basket",
+          "Recipe Outputs": "1x Mangrove basket"
         },
         {
           "Recipe Name": "Craft a spectral fishing cagespear",
           "Level": "Crafting lvl. 55",
           "Service Requirement": "Needs Advanced Cursed Workshop service or better.",
-          "Materials Used": "3 x Bones 10 x Ectoplasm",
-          "Recipe Outputs": "1 x Spectral fishing cagespear"
+          "Materials Used": "3x Bones 10x Ectoplasm",
+          "Recipe Outputs": "1x Spectral fishing cagespear"
         },
         {
           "Recipe Name": "Craft a spectral fishing rod",
           "Level": "Crafting lvl. 55",
           "Service Requirement": "Needs Advanced Cursed Workshop service or better.",
-          "Materials Used": "3 x Bones 10 x Ectoplasm",
-          "Recipe Outputs": "1 x Spectral fishing rod"
+          "Materials Used": "3x Bones 10x Ectoplasm",
+          "Recipe Outputs": "1x Spectral fishing rod"
         },
         {
           "Recipe Name": "Craft a spectral hatchet",
           "Level": "Crafting lvl. 55",
           "Service Requirement": "Needs Advanced Cursed Workshop service or better.",
-          "Materials Used": "3 x Bones 10 x Ectoplasm",
-          "Recipe Outputs": "1 x Spectral hatchet"
+          "Materials Used": "3x Bones 10x Ectoplasm",
+          "Recipe Outputs": "1x Spectral hatchet"
         },
         {
           "Recipe Name": "Craft a spectral pickaxe",
           "Level": "Crafting lvl. 55",
           "Service Requirement": "Needs Advanced Cursed Workshop service or better.",
-          "Materials Used": "3 x Bones 10 x Ectoplasm",
-          "Recipe Outputs": "1 x Spectral pickaxe"
+          "Materials Used": "3x Bones 10x Ectoplasm",
+          "Recipe Outputs": "1x Spectral pickaxe"
         },
         {
           "Recipe Name": "Craft a spectral sickle",
           "Level": "Crafting lvl. 55",
           "Service Requirement": "Needs Advanced Cursed Workshop service or better.",
-          "Materials Used": "3 x Bones 10 x Ectoplasm",
-          "Recipe Outputs": "1 x Spectral sickle"
+          "Materials Used": "3x Bones 10x Ectoplasm",
+          "Recipe Outputs": "1x Spectral sickle"
         },
         {
           "Recipe Name": "Craft a spectral chisel",
           "Level": "Crafting lvl. 58",
           "Service Requirement": "Needs Advanced Cursed Workshop service or better.",
-          "Materials Used": "5 x Bones 15 x Ectoplasm",
-          "Recipe Outputs": "1 x Spectral chisel"
+          "Materials Used": "5x Bones 15x Ectoplasm",
+          "Recipe Outputs": "1x Spectral chisel"
         },
         {
           "Recipe Name": "Craft a spectral hammer",
           "Level": "Crafting lvl. 58",
           "Service Requirement": "Needs Advanced Cursed Workshop service or better.",
-          "Materials Used": "5 x Bones 15 x Ectoplasm",
-          "Recipe Outputs": "1 x Spectral hammer"
+          "Materials Used": "5x Bones 15x Ectoplasm",
+          "Recipe Outputs": "1x Spectral hammer"
         },
         {
           "Recipe Name": "Craft a spectral pan",
           "Level": "Crafting lvl. 58",
           "Service Requirement": "Needs Advanced Cursed Workshop service or better.",
-          "Materials Used": "5 x Bones 15 x Ectoplasm",
-          "Recipe Outputs": "1 x Spectral pan"
+          "Materials Used": "5x Bones 15x Ectoplasm",
+          "Recipe Outputs": "1x Spectral pan"
         },
         {
           "Recipe Name": "Craft a spectral saw",
           "Level": "Crafting lvl. 58",
           "Service Requirement": "Needs Advanced Cursed Workshop service or better.",
-          "Materials Used": "5 x Bones 15 x Ectoplasm",
-          "Recipe Outputs": "1 x Spectral saw"
+          "Materials Used": "5x Bones 15x Ectoplasm",
+          "Recipe Outputs": "1x Spectral saw"
         },
         {
           "Recipe Name": "Craft a spectral wrench",
           "Level": "Crafting lvl. 58",
           "Service Requirement": "Needs Advanced Cursed Workshop service or better.",
-          "Materials Used": "5 x Bones 15 x Ectoplasm",
-          "Recipe Outputs": "1 x Spectral wrench"
+          "Materials Used": "5x Bones 15x Ectoplasm",
+          "Recipe Outputs": "1x Spectral wrench"
         },
         {
           "Recipe Name": "Craft an adamant hatchet",
           "Level": "Crafting lvl. 60",
           "Service Requirement": "Needs Advanced Workshop service or better.",
-          "Materials Used": "2 x Adamant bar 1 x Yew plank",
-          "Recipe Outputs": "1 x Adamant hatchet"
+          "Materials Used": "2x Adamant bar 1x Yew plank",
+          "Recipe Outputs": "1x Adamant hatchet"
         },
         {
           "Recipe Name": "Craft an adamant pickaxe",
           "Level": "Crafting lvl. 60",
           "Service Requirement": "Needs Advanced Workshop service or better.",
-          "Materials Used": "2 x Adamant bar 1 x Yew plank",
-          "Recipe Outputs": "1 x Adamant pickaxe"
+          "Materials Used": "2x Adamant bar 1x Yew plank",
+          "Recipe Outputs": "1x Adamant pickaxe"
         },
         {
           "Recipe Name": "Craft ironweed twine",
           "Level": "Crafting lvl. 60",
           "Service Requirement": "Needs Advanced Workshop service or better.",
-          "Materials Used": "2 x Ironweed",
-          "Recipe Outputs": "1 x Ironweed twine"
+          "Materials Used": "2x Ironweed",
+          "Recipe Outputs": "1x Ironweed twine"
         },
         {
           "Recipe Name": "Craft a violite hatchet",
           "Level": "Crafting lvl. 70",
           "Service Requirement": "Needs Advanced Workshop service or better.",
-          "Materials Used": "2 x Violite bar 1 x Mahogany plank",
-          "Recipe Outputs": "1 x Violite hatchet"
+          "Materials Used": "2x Violite bar 1x Mahogany plank",
+          "Recipe Outputs": "1x Violite hatchet"
         },
         {
           "Recipe Name": "Craft a violite pickaxe",
           "Level": "Crafting lvl. 70",
           "Service Requirement": "Needs Advanced Workshop service or better.",
-          "Materials Used": "2 x Violite bar 1 x Mahogany plank",
-          "Recipe Outputs": "1 x Violite pickaxe"
+          "Materials Used": "2x Violite bar 1x Mahogany plank",
+          "Recipe Outputs": "1x Violite pickaxe"
         },
         {
           "Recipe Name": "Craft a violite sickle",
           "Level": "Crafting lvl. 70",
           "Service Requirement": "Needs Advanced Workshop service or better.",
-          "Materials Used": "1 x Violite bar 1 x Mahogany plank 1 x Ironweed twine",
-          "Recipe Outputs": "1 x Violite sickle"
+          "Materials Used": "1x Violite bar 1x Mahogany plank 1x Ironweed twine",
+          "Recipe Outputs": "1x Violite sickle"
         }
       ]
     },

@@ -2,7 +2,7 @@
 title: "Cooking"
 source_url: "https://wiki.walkscape.app/wiki/Cooking"
 source_oldid: 13472
-scraped_at: "2026-02-19T18:54:46.771728+00:00"
+scraped_at: "2026-02-19T21:19:48.249Z"
 categories:
   - "Pages_That_Automatically_Update"
   - "Skills"
@@ -17,13 +17,13 @@ The **Cooking** [skill](index.md) allows you to prepare [consumables](https://wi
 
 ## Activities
 
-The following [activities](../activities/index.md) can be done indefinitely without needing [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Some have [equipment requirements](https://wiki.walkscape.app/wiki/Keywords#Gear_and_Tool_Keywords "Keywords") or other requirements that need to be satisfied in order to start the activity.
+The following [activities](https://wiki.walkscape.app/wiki/Activities "Activities") can be done indefinitely without needing [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Some have [equipment requirements](https://wiki.walkscape.app/wiki/Keywords#Gear_and_Tool_Keywords "Keywords") or other requirements that need to be satisfied in order to start the activity.
 
-For [activities](../activities/index.md) involving two [skills](index.md), the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
+For [activities](https://wiki.walkscape.app/wiki/Activities "Activities") involving two [skills](index.md), the player is only eligible to earn [chests](https://wiki.walkscape.app/wiki/Chests "Chests") in skills that have actual level requirements.
 
-So, if the [activity](../activities/index.md) has a Cooking level requirement, it will be eligible to drop [Cooking Chests](https://wiki.walkscape.app/wiki/Cooking_chest "Cooking chest").
+So, if the [activity](https://wiki.walkscape.app/wiki/Activities "Activities") has a Cooking level requirement, it will be eligible to drop [Cooking Chests](https://wiki.walkscape.app/wiki/Cooking_chest "Cooking chest").
 
-When performing an [activity](../activities/index.md) for a [skill](index.md), only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
+When performing an [activity](https://wiki.walkscape.app/wiki/Activities "Activities") for a [skill](index.md), only the primary skill is factored in for the player's [equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment") bonuses, the "2nd Skill" will also be affected by the equipment [attributes](https://wiki.walkscape.app/wiki/Attributes "Attributes") based toward the "1st Skill" (IE: +1 Exp will apply to the "2nd Skill" as well).
 
 The following activities are eligible to drop [Cooking Chests](https://wiki.walkscape.app/wiki/Cooking_chest "Cooking chest").
 
@@ -35,7 +35,7 @@ No activities give bonus Cooking experience.
 
 The following activities are completed through recipes and thus require [materials](https://wiki.walkscape.app/wiki/Materials "Materials"). Additionally, they may have service requirements, usually in the form of a service location. All recipes produce one of the final products by default.
 
-Cooking also gets a bonus of +1 [Crafting Outcome](https://wiki.walkscape.app/wiki/Crafting_Outcome "Crafting Outcome") per level beyond a [Cooking Recipe's](../recipes/index.md) level requirement toward [crafted items](https://wiki.walkscape.app/wiki/Crafted_items "Crafted items") with no cap.
+Cooking also gets a bonus of +1 [Crafting Outcome](https://wiki.walkscape.app/wiki/Crafting_Outcome "Crafting Outcome") per level beyond a [Cooking Recipe's](https://wiki.walkscape.app/wiki/Recipes "Recipes") level requirement toward [crafted items](https://wiki.walkscape.app/wiki/Crafted_items "Crafted items") with no cap.
 
 The following activities are eligible to drop [Cooking chests](https://wiki.walkscape.app/wiki/Cooking_chest "Cooking chest").
 
@@ -76,47 +76,47 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 | Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
 | --- | --- | --- | --- | --- |
-| Fry a perch | Cooking lvl. 1 | Needs Basic Kitchen service or better. | 1 x Raw perch | 1 x Cooked perch |
-| Fry a shrimp | Cooking lvl. 1 | Needs Basic Kitchen service or better. | 1 x Raw shrimp | 1 x Cooked shrimp |
-| Brew nettle tea | Cooking lvl. 3 | Needs Basic Kitchen service or better. | 2 x Nettle | 1 x Nettle tea |
-| Fry a carp | Cooking lvl. 5 | Needs Basic Kitchen service or better. | 1 x Raw carp | 1 x Cooked carp |
-| Bake bread | Cooking lvl. 8 | Needs Basic Kitchen service or better. | 1 x Wheat | 1 x Bread |
-| Fry a pike | Cooking lvl. 10 | Needs Basic Kitchen service or better. | 1 x Raw pike | 1 x Cooked pike |
-| Make porridge | Cooking lvl. 15 | Needs Basic Kitchen service or better. | 1 x Wheat | 1 x Porridge |
-| Make pancakes | Cooking lvl. 17 | Needs Basic Kitchen service or better. | 2 x Wheat 1 x Milk | 1 x Pancake |
-| Brew beer | Cooking lvl. 18 | Needs Basic Kitchen service or better. | 10 x Wheat | 5 x Beer |
-| Fry a trout | Cooking lvl. 20 | Needs Basic Kitchen service or better. | 1 x Raw trout | 1 x Cooked trout |
-| Ferment wine | Cooking lvl. 21 | Needs Basic Kitchen service or better. | 15 x Berries | 5 x Wine |
-| Mix chocolate milk | Cooking lvl. 22 | Needs Basic Kitchen service or better. | 1 x Chocolate 1 x Milk | 1 x Chocolate milk |
-| Bake a bagel | Cooking lvl. 25 | Needs Basic Kitchen service or better. | 2 x Wheat | 1 x Bagel |
-| Make milk | Cooking lvl. 25 | Needs Basic Kitchen service or better. | 1 x Milkweed | 1 x Milk |
-| Make pickles | Cooking lvl. 27 | Needs Basic Kitchen service or better. | 1 x Cucumber 1 x Salt crystal | 1 x Pickles |
-| Fry a jellyfish | Cooking lvl. 30 | Needs Basic Kitchen service or better. | 1 x Raw jellyfish | 1 x Cooked jellyfish |
-| Fry a salmon | Cooking lvl. 30 | Needs Basic Kitchen service or better. | 1 x Raw salmon | 1 x Cooked salmon |
-| Make trout soup | Cooking lvl. 30 | Needs Basic Kitchen service or better. | 3 x Raw trout | 1 x Trout soup |
-| Make mushroom curry | Cooking lvl. 32 | Needs Basic Kitchen service or better. | 2 x Mushroom 1 x Tomato | 1 x Mushroom curry |
-| Fry a lobster | Cooking lvl. 35 | Needs Basic Kitchen service or better. | 1 x Raw lobster | 1 x Cooked lobster |
-| Harden kelp | Cooking lvl. 35 | Needs Basic Kitchen service or better. | 2 x Kelp | 1 x Hardened kelp |
-| Make a mud pie | Cooking lvl. 35 | Needs Basic Kitchen service or better. | 1 x Mud 2 x Wheat | 1 x Mud pie |
-| Prepare a kelp roll | Cooking lvl. 36 | Needs Basic Kitchen service or better. | 3 x Sweet kelp | 1 x Kelp rolls |
-| Make a jelly sandwich | Cooking lvl. 37 | Needs Basic Kitchen service or better. | 2 x Berries 2 x Bread | 1 x Jelly sandwich |
-| Assemble dynamite | Cooking lvl. 38 | Needs Basic Kitchen service or better. | 2 x Salt crystal 1 x Volcanic ash | 1 x Dynamite |
-| Fry a swordfish | Cooking lvl. 40 | Needs Basic Kitchen service or better. | 1 x Raw swordfish | 1 x Cooked swordfish |
-| Make a roasted bell pepper | Cooking lvl. 44 | Needs Basic Kitchen service or better. | 1 x Bell pepper 5 x Pepper | 1 x Roasted bell pepper |
-| Brew saltrum | Cooking lvl. 45 | Needs Basic Kitchen service or better. | 1 x Salty hops 1 x Salt crystal | 1 x Saltrum |
-| Fry a squid | Cooking lvl. 45 | Needs Basic Kitchen service or better. | 1 x Raw squid | 1 x Cooked squid |
-| Fry a stingray | Cooking lvl. 45 | Needs Basic Kitchen service or better. | 1 x Raw stingray | 1 x Cooked stingray |
-| Make a sweet carrot pie | Cooking lvl. 45 | Needs Basic Kitchen service or better. | 1 x Carrot 1 x Honeycomb 1 x Wheat 1 x Egg 1 x Potato | 1 x Sweet carrot pie |
-| Bake salmon pie | Cooking lvl. 46 | Needs Basic Kitchen service or better. | 2 x Raw salmon 1 x Wheat 1 x Egg 1 x Potato | 1 x Salmon pie |
-| Make a fried fish sandwich | Cooking lvl. 46 | Needs Basic Kitchen service or better. | 1 x Raw swordfish 2 x Bread | 1 x Fried fish sandwich |
-| Prepare an underwater salad | Cooking lvl. 46 | Needs Basic Kitchen service or better. | 1 x Sea cabbage 1 x Sea spinach 1 x Underwater lotus | 1 x Underwater salad |
-| Ferment fortified wine | Cooking lvl. 47 | Needs Basic Kitchen service or better. | 10 x Wine 5 x Rotbud | 5 x Fortified wine |
-| Fry a shark | Cooking lvl. 50 | Needs Advanced Kitchen service or better. | 1 x Raw shark | 1 x Cooked shark |
-| Cook into ectoplasm | Cooking lvl. 55 | Needs Advanced Cursed Kitchen service or better. | 1 x Ectoplasm fish | 2 x Ectoplasm |
-| Fry a largemouth bass | Cooking lvl. 55 | Needs Advanced Kitchen service or better. | 1 x Raw largemouth bass | 1 x Cooked largemouth bass |
-| Distill moonshine | Cooking lvl. 57 | Needs Advanced Cursed Kitchen service or better. | 10 x Beer 5 x Ectoplasm | 5 x Moonshine |
-| Fry an anglerfish | Cooking lvl. 60 | Needs Advanced Kitchen service or better. | 1 x Raw anglerfish | 1 x Cooked anglerfish |
-| Ferment fireball wine | Cooking lvl. 63 | Needs Advanced Kitchen service or better. | 10 x Fortified wine 5 x Crystallized flame | 5 x Fireball wine |
+| Fry a perch | Cooking lvl. 1 | Needs Basic Kitchen service or better. | 1x Raw perch | 1x Cooked perch |
+| Fry a shrimp | Cooking lvl. 1 | Needs Basic Kitchen service or better. | 1x Raw shrimp | 1x Cooked shrimp |
+| Brew nettle tea | Cooking lvl. 3 | Needs Basic Kitchen service or better. | 2x Nettle | 1x Nettle tea |
+| Fry a carp | Cooking lvl. 5 | Needs Basic Kitchen service or better. | 1x Raw carp | 1x Cooked carp |
+| Bake bread | Cooking lvl. 8 | Needs Basic Kitchen service or better. | 1x Wheat | 1x Bread |
+| Fry a pike | Cooking lvl. 10 | Needs Basic Kitchen service or better. | 1x Raw pike | 1x Cooked pike |
+| Make porridge | Cooking lvl. 15 | Needs Basic Kitchen service or better. | 1x Wheat | 1x Porridge |
+| Make pancakes | Cooking lvl. 17 | Needs Basic Kitchen service or better. | 2x Wheat 1x Milk | 1x Pancake |
+| Brew beer | Cooking lvl. 18 | Needs Basic Kitchen service or better. | 10x Wheat | 5x Beer |
+| Fry a trout | Cooking lvl. 20 | Needs Basic Kitchen service or better. | 1x Raw trout | 1x Cooked trout |
+| Ferment wine | Cooking lvl. 21 | Needs Basic Kitchen service or better. | 15x Berries | 5x Wine |
+| Mix chocolate milk | Cooking lvl. 22 | Needs Basic Kitchen service or better. | 1x Chocolate 1x Milk | 1x Chocolate milk |
+| Bake a bagel | Cooking lvl. 25 | Needs Basic Kitchen service or better. | 2x Wheat | 1x Bagel |
+| Make milk | Cooking lvl. 25 | Needs Basic Kitchen service or better. | 1x Milkweed | 1x Milk |
+| Make pickles | Cooking lvl. 27 | Needs Basic Kitchen service or better. | 1x Cucumber 1x Salt crystal | 1x Pickles |
+| Fry a jellyfish | Cooking lvl. 30 | Needs Basic Kitchen service or better. | 1x Raw jellyfish | 1x Cooked jellyfish |
+| Fry a salmon | Cooking lvl. 30 | Needs Basic Kitchen service or better. | 1x Raw salmon | 1x Cooked salmon |
+| Make trout soup | Cooking lvl. 30 | Needs Basic Kitchen service or better. | 3x Raw trout | 1x Trout soup |
+| Make mushroom curry | Cooking lvl. 32 | Needs Basic Kitchen service or better. | 2x Mushroom 1x Tomato | 1x Mushroom curry |
+| Fry a lobster | Cooking lvl. 35 | Needs Basic Kitchen service or better. | 1x Raw lobster | 1x Cooked lobster |
+| Harden kelp | Cooking lvl. 35 | Needs Basic Kitchen service or better. | 2x Kelp | 1x Hardened kelp |
+| Make a mud pie | Cooking lvl. 35 | Needs Basic Kitchen service or better. | 1x Mud 2x Wheat | 1x Mud pie |
+| Prepare a kelp roll | Cooking lvl. 36 | Needs Basic Kitchen service or better. | 3x Sweet kelp | 1x Kelp rolls |
+| Make a jelly sandwich | Cooking lvl. 37 | Needs Basic Kitchen service or better. | 2x Berries 2x Bread | 1x Jelly sandwich |
+| Assemble dynamite | Cooking lvl. 38 | Needs Basic Kitchen service or better. | 2x Salt crystal 1x Volcanic ash | 1x Dynamite |
+| Fry a swordfish | Cooking lvl. 40 | Needs Basic Kitchen service or better. | 1x Raw swordfish | 1x Cooked swordfish |
+| Make a roasted bell pepper | Cooking lvl. 44 | Needs Basic Kitchen service or better. | 1x Bell pepper 5x Pepper | 1x Roasted bell pepper |
+| Brew saltrum | Cooking lvl. 45 | Needs Basic Kitchen service or better. | 1x Salty hops 1x Salt crystal | 1x Saltrum |
+| Fry a squid | Cooking lvl. 45 | Needs Basic Kitchen service or better. | 1x Raw squid | 1x Cooked squid |
+| Fry a stingray | Cooking lvl. 45 | Needs Basic Kitchen service or better. | 1x Raw stingray | 1x Cooked stingray |
+| Make a sweet carrot pie | Cooking lvl. 45 | Needs Basic Kitchen service or better. | 1x Carrot 1x Honeycomb 1x Wheat 1x Egg 1x Potato | 1x Sweet carrot pie |
+| Bake salmon pie | Cooking lvl. 46 | Needs Basic Kitchen service or better. | 2x Raw salmon 1x Wheat 1x Egg 1x Potato | 1x Salmon pie |
+| Make a fried fish sandwich | Cooking lvl. 46 | Needs Basic Kitchen service or better. | 1x Raw swordfish 2x Bread | 1x Fried fish sandwich |
+| Prepare an underwater salad | Cooking lvl. 46 | Needs Basic Kitchen service or better. | 1x Sea cabbage 1x Sea spinach 1x Underwater lotus | 1x Underwater salad |
+| Ferment fortified wine | Cooking lvl. 47 | Needs Basic Kitchen service or better. | 10x Wine 5x Rotbud | 5x Fortified wine |
+| Fry a shark | Cooking lvl. 50 | Needs Advanced Kitchen service or better. | 1x Raw shark | 1x Cooked shark |
+| Cook into ectoplasm | Cooking lvl. 55 | Needs Advanced Cursed Kitchen service or better. | 1x Ectoplasm fish | 2x Ectoplasm |
+| Fry a largemouth bass | Cooking lvl. 55 | Needs Advanced Kitchen service or better. | 1x Raw largemouth bass | 1x Cooked largemouth bass |
+| Distill moonshine | Cooking lvl. 57 | Needs Advanced Cursed Kitchen service or better. | 10x Beer 5x Ectoplasm | 5x Moonshine |
+| Fry an anglerfish | Cooking lvl. 60 | Needs Advanced Kitchen service or better. | 1x Raw anglerfish | 1x Cooked anglerfish |
+| Ferment fireball wine | Cooking lvl. 63 | Needs Advanced Kitchen service or better. | 10x Fortified wine 5x Crystallized flame | 5x Fireball wine |
 
 ### Table 3 (Recipes)
 
@@ -281,288 +281,288 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
           "Recipe Name": "Fry a perch",
           "Level": "Cooking lvl. 1",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Raw perch",
-          "Recipe Outputs": "1 x Cooked perch"
+          "Materials Used": "1x Raw perch",
+          "Recipe Outputs": "1x Cooked perch"
         },
         {
           "Recipe Name": "Fry a shrimp",
           "Level": "Cooking lvl. 1",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Raw shrimp",
-          "Recipe Outputs": "1 x Cooked shrimp"
+          "Materials Used": "1x Raw shrimp",
+          "Recipe Outputs": "1x Cooked shrimp"
         },
         {
           "Recipe Name": "Brew nettle tea",
           "Level": "Cooking lvl. 3",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "2 x Nettle",
-          "Recipe Outputs": "1 x Nettle tea"
+          "Materials Used": "2x Nettle",
+          "Recipe Outputs": "1x Nettle tea"
         },
         {
           "Recipe Name": "Fry a carp",
           "Level": "Cooking lvl. 5",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Raw carp",
-          "Recipe Outputs": "1 x Cooked carp"
+          "Materials Used": "1x Raw carp",
+          "Recipe Outputs": "1x Cooked carp"
         },
         {
           "Recipe Name": "Bake bread",
           "Level": "Cooking lvl. 8",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Wheat",
-          "Recipe Outputs": "1 x Bread"
+          "Materials Used": "1x Wheat",
+          "Recipe Outputs": "1x Bread"
         },
         {
           "Recipe Name": "Fry a pike",
           "Level": "Cooking lvl. 10",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Raw pike",
-          "Recipe Outputs": "1 x Cooked pike"
+          "Materials Used": "1x Raw pike",
+          "Recipe Outputs": "1x Cooked pike"
         },
         {
           "Recipe Name": "Make porridge",
           "Level": "Cooking lvl. 15",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Wheat",
-          "Recipe Outputs": "1 x Porridge"
+          "Materials Used": "1x Wheat",
+          "Recipe Outputs": "1x Porridge"
         },
         {
           "Recipe Name": "Make pancakes",
           "Level": "Cooking lvl. 17",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "2 x Wheat 1 x Milk",
-          "Recipe Outputs": "1 x Pancake"
+          "Materials Used": "2x Wheat 1x Milk",
+          "Recipe Outputs": "1x Pancake"
         },
         {
           "Recipe Name": "Brew beer",
           "Level": "Cooking lvl. 18",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "10 x Wheat",
-          "Recipe Outputs": "5 x Beer"
+          "Materials Used": "10x Wheat",
+          "Recipe Outputs": "5x Beer"
         },
         {
           "Recipe Name": "Fry a trout",
           "Level": "Cooking lvl. 20",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Raw trout",
-          "Recipe Outputs": "1 x Cooked trout"
+          "Materials Used": "1x Raw trout",
+          "Recipe Outputs": "1x Cooked trout"
         },
         {
           "Recipe Name": "Ferment wine",
           "Level": "Cooking lvl. 21",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "15 x Berries",
-          "Recipe Outputs": "5 x Wine"
+          "Materials Used": "15x Berries",
+          "Recipe Outputs": "5x Wine"
         },
         {
           "Recipe Name": "Mix chocolate milk",
           "Level": "Cooking lvl. 22",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Chocolate 1 x Milk",
-          "Recipe Outputs": "1 x Chocolate milk"
+          "Materials Used": "1x Chocolate 1x Milk",
+          "Recipe Outputs": "1x Chocolate milk"
         },
         {
           "Recipe Name": "Bake a bagel",
           "Level": "Cooking lvl. 25",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "2 x Wheat",
-          "Recipe Outputs": "1 x Bagel"
+          "Materials Used": "2x Wheat",
+          "Recipe Outputs": "1x Bagel"
         },
         {
           "Recipe Name": "Make milk",
           "Level": "Cooking lvl. 25",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Milkweed",
-          "Recipe Outputs": "1 x Milk"
+          "Materials Used": "1x Milkweed",
+          "Recipe Outputs": "1x Milk"
         },
         {
           "Recipe Name": "Make pickles",
           "Level": "Cooking lvl. 27",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Cucumber 1 x Salt crystal",
-          "Recipe Outputs": "1 x Pickles"
+          "Materials Used": "1x Cucumber 1x Salt crystal",
+          "Recipe Outputs": "1x Pickles"
         },
         {
           "Recipe Name": "Fry a jellyfish",
           "Level": "Cooking lvl. 30",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Raw jellyfish",
-          "Recipe Outputs": "1 x Cooked jellyfish"
+          "Materials Used": "1x Raw jellyfish",
+          "Recipe Outputs": "1x Cooked jellyfish"
         },
         {
           "Recipe Name": "Fry a salmon",
           "Level": "Cooking lvl. 30",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Raw salmon",
-          "Recipe Outputs": "1 x Cooked salmon"
+          "Materials Used": "1x Raw salmon",
+          "Recipe Outputs": "1x Cooked salmon"
         },
         {
           "Recipe Name": "Make trout soup",
           "Level": "Cooking lvl. 30",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "3 x Raw trout",
-          "Recipe Outputs": "1 x Trout soup"
+          "Materials Used": "3x Raw trout",
+          "Recipe Outputs": "1x Trout soup"
         },
         {
           "Recipe Name": "Make mushroom curry",
           "Level": "Cooking lvl. 32",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "2 x Mushroom 1 x Tomato",
-          "Recipe Outputs": "1 x Mushroom curry"
+          "Materials Used": "2x Mushroom 1x Tomato",
+          "Recipe Outputs": "1x Mushroom curry"
         },
         {
           "Recipe Name": "Fry a lobster",
           "Level": "Cooking lvl. 35",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Raw lobster",
-          "Recipe Outputs": "1 x Cooked lobster"
+          "Materials Used": "1x Raw lobster",
+          "Recipe Outputs": "1x Cooked lobster"
         },
         {
           "Recipe Name": "Harden kelp",
           "Level": "Cooking lvl. 35",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "2 x Kelp",
-          "Recipe Outputs": "1 x Hardened kelp"
+          "Materials Used": "2x Kelp",
+          "Recipe Outputs": "1x Hardened kelp"
         },
         {
           "Recipe Name": "Make a mud pie",
           "Level": "Cooking lvl. 35",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Mud 2 x Wheat",
-          "Recipe Outputs": "1 x Mud pie"
+          "Materials Used": "1x Mud 2x Wheat",
+          "Recipe Outputs": "1x Mud pie"
         },
         {
           "Recipe Name": "Prepare a kelp roll",
           "Level": "Cooking lvl. 36",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "3 x Sweet kelp",
-          "Recipe Outputs": "1 x Kelp rolls"
+          "Materials Used": "3x Sweet kelp",
+          "Recipe Outputs": "1x Kelp rolls"
         },
         {
           "Recipe Name": "Make a jelly sandwich",
           "Level": "Cooking lvl. 37",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "2 x Berries 2 x Bread",
-          "Recipe Outputs": "1 x Jelly sandwich"
+          "Materials Used": "2x Berries 2x Bread",
+          "Recipe Outputs": "1x Jelly sandwich"
         },
         {
           "Recipe Name": "Assemble dynamite",
           "Level": "Cooking lvl. 38",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "2 x Salt crystal 1 x Volcanic ash",
-          "Recipe Outputs": "1 x Dynamite"
+          "Materials Used": "2x Salt crystal 1x Volcanic ash",
+          "Recipe Outputs": "1x Dynamite"
         },
         {
           "Recipe Name": "Fry a swordfish",
           "Level": "Cooking lvl. 40",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Raw swordfish",
-          "Recipe Outputs": "1 x Cooked swordfish"
+          "Materials Used": "1x Raw swordfish",
+          "Recipe Outputs": "1x Cooked swordfish"
         },
         {
           "Recipe Name": "Make a roasted bell pepper",
           "Level": "Cooking lvl. 44",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Bell pepper 5 x Pepper",
-          "Recipe Outputs": "1 x Roasted bell pepper"
+          "Materials Used": "1x Bell pepper 5x Pepper",
+          "Recipe Outputs": "1x Roasted bell pepper"
         },
         {
           "Recipe Name": "Brew saltrum",
           "Level": "Cooking lvl. 45",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Salty hops 1 x Salt crystal",
-          "Recipe Outputs": "1 x Saltrum"
+          "Materials Used": "1x Salty hops 1x Salt crystal",
+          "Recipe Outputs": "1x Saltrum"
         },
         {
           "Recipe Name": "Fry a squid",
           "Level": "Cooking lvl. 45",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Raw squid",
-          "Recipe Outputs": "1 x Cooked squid"
+          "Materials Used": "1x Raw squid",
+          "Recipe Outputs": "1x Cooked squid"
         },
         {
           "Recipe Name": "Fry a stingray",
           "Level": "Cooking lvl. 45",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Raw stingray",
-          "Recipe Outputs": "1 x Cooked stingray"
+          "Materials Used": "1x Raw stingray",
+          "Recipe Outputs": "1x Cooked stingray"
         },
         {
           "Recipe Name": "Make a sweet carrot pie",
           "Level": "Cooking lvl. 45",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Carrot 1 x Honeycomb 1 x Wheat 1 x Egg 1 x Potato",
-          "Recipe Outputs": "1 x Sweet carrot pie"
+          "Materials Used": "1x Carrot 1x Honeycomb 1x Wheat 1x Egg 1x Potato",
+          "Recipe Outputs": "1x Sweet carrot pie"
         },
         {
           "Recipe Name": "Bake salmon pie",
           "Level": "Cooking lvl. 46",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "2 x Raw salmon 1 x Wheat 1 x Egg 1 x Potato",
-          "Recipe Outputs": "1 x Salmon pie"
+          "Materials Used": "2x Raw salmon 1x Wheat 1x Egg 1x Potato",
+          "Recipe Outputs": "1x Salmon pie"
         },
         {
           "Recipe Name": "Make a fried fish sandwich",
           "Level": "Cooking lvl. 46",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Raw swordfish 2 x Bread",
-          "Recipe Outputs": "1 x Fried fish sandwich"
+          "Materials Used": "1x Raw swordfish 2x Bread",
+          "Recipe Outputs": "1x Fried fish sandwich"
         },
         {
           "Recipe Name": "Prepare an underwater salad",
           "Level": "Cooking lvl. 46",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "1 x Sea cabbage 1 x Sea spinach 1 x Underwater lotus",
-          "Recipe Outputs": "1 x Underwater salad"
+          "Materials Used": "1x Sea cabbage 1x Sea spinach 1x Underwater lotus",
+          "Recipe Outputs": "1x Underwater salad"
         },
         {
           "Recipe Name": "Ferment fortified wine",
           "Level": "Cooking lvl. 47",
           "Service Requirement": "Needs Basic Kitchen service or better.",
-          "Materials Used": "10 x Wine 5 x Rotbud",
-          "Recipe Outputs": "5 x Fortified wine"
+          "Materials Used": "10x Wine 5x Rotbud",
+          "Recipe Outputs": "5x Fortified wine"
         },
         {
           "Recipe Name": "Fry a shark",
           "Level": "Cooking lvl. 50",
           "Service Requirement": "Needs Advanced Kitchen service or better.",
-          "Materials Used": "1 x Raw shark",
-          "Recipe Outputs": "1 x Cooked shark"
+          "Materials Used": "1x Raw shark",
+          "Recipe Outputs": "1x Cooked shark"
         },
         {
           "Recipe Name": "Cook into ectoplasm",
           "Level": "Cooking lvl. 55",
           "Service Requirement": "Needs Advanced Cursed Kitchen service or better.",
-          "Materials Used": "1 x Ectoplasm fish",
-          "Recipe Outputs": "2 x Ectoplasm"
+          "Materials Used": "1x Ectoplasm fish",
+          "Recipe Outputs": "2x Ectoplasm"
         },
         {
           "Recipe Name": "Fry a largemouth bass",
           "Level": "Cooking lvl. 55",
           "Service Requirement": "Needs Advanced Kitchen service or better.",
-          "Materials Used": "1 x Raw largemouth bass",
-          "Recipe Outputs": "1 x Cooked largemouth bass"
+          "Materials Used": "1x Raw largemouth bass",
+          "Recipe Outputs": "1x Cooked largemouth bass"
         },
         {
           "Recipe Name": "Distill moonshine",
           "Level": "Cooking lvl. 57",
           "Service Requirement": "Needs Advanced Cursed Kitchen service or better.",
-          "Materials Used": "10 x Beer 5 x Ectoplasm",
-          "Recipe Outputs": "5 x Moonshine"
+          "Materials Used": "10x Beer 5x Ectoplasm",
+          "Recipe Outputs": "5x Moonshine"
         },
         {
           "Recipe Name": "Fry an anglerfish",
           "Level": "Cooking lvl. 60",
           "Service Requirement": "Needs Advanced Kitchen service or better.",
-          "Materials Used": "1 x Raw anglerfish",
-          "Recipe Outputs": "1 x Cooked anglerfish"
+          "Materials Used": "1x Raw anglerfish",
+          "Recipe Outputs": "1x Cooked anglerfish"
         },
         {
           "Recipe Name": "Ferment fireball wine",
           "Level": "Cooking lvl. 63",
           "Service Requirement": "Needs Advanced Kitchen service or better.",
-          "Materials Used": "10 x Fortified wine 5 x Crystallized flame",
-          "Recipe Outputs": "5 x Fireball wine"
+          "Materials Used": "10x Fortified wine 5x Crystallized flame",
+          "Recipe Outputs": "5x Fireball wine"
         }
       ]
     },
