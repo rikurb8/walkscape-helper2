@@ -14,6 +14,12 @@ interface BuildCollectionInput {
   onProgress?: ScrapeProgressHandler;
 }
 
+interface RecipeTarget {
+  skillTitle: string;
+  recipeTitle: string;
+  sourcePageTitle: string;
+}
+
 export async function collectSections(
   selectedCollections: ScrapeCollection[],
   onProgress?: ScrapeProgressHandler
@@ -34,7 +40,7 @@ export async function collectSections(
     collections.push(await buildActivitiesCollection(fetchCache, onProgress));
   }
   if (selected.has("recipes")) {
-    collections.push(await buildSinglePageCollection("recipes", "Recipes", "Recipes", fetchCache, onProgress));
+    collections.push(await buildRecipesCollection(fetchCache, onProgress));
   }
 
   return collections;
@@ -66,6 +72,116 @@ async function buildActivitiesCollection(fetchCache: FetchCache, onProgress?: Sc
     fetchCache,
     onProgress
   });
+}
+
+async function buildRecipesCollection(fetchCache: FetchCache, onProgress?: ScrapeProgressHandler): Promise<CollectionResult> {
+  const sectionSlug = "recipes";
+  const sectionTitle = "Recipes";
+  const rootTitle = "Recipes";
+
+  const warnings: string[] = [];
+  const { parsed: rootPage, doc: rootDoc } = await fetchPageDocument(rootTitle, fetchCache);
+  const { targets: recipeTargets, warnings: targetWarnings } = deriveRecipeTargets(rootDoc.tables);
+  warnings.push(...targetWarnings);
+
+  const totalPages = recipeTargets.length + 1;
+  let completedPages = 1;
+
+  onProgress?.({
+    phase: "collect",
+    stage: "start",
+    message: `Collecting section ${sectionTitle}`,
+    sectionTitle,
+    current: 0,
+    total: totalPages
+  });
+
+  const pageRecords = [
+    {
+      sectionSlug,
+      sectionTitle,
+      title: rootPage.title,
+      slug: "index",
+      isRoot: true,
+      parsed: rootPage,
+      extracted: rootDoc,
+      outputRelpath: path.join("wiki", sectionSlug, "index.md")
+    }
+  ];
+
+  onProgress?.({
+    phase: "collect",
+    stage: "progress",
+    message: `Fetched ${rootPage.title}`,
+    sectionTitle,
+    pageTitle: rootPage.title,
+    current: completedPages,
+    total: totalPages
+  });
+
+  const usedSlugs = new Set<string>(["index"]);
+
+  for (const target of recipeTargets) {
+    try {
+      const { parsed: childPage, doc: childDoc } = await fetchPageDocument(target.sourcePageTitle, fetchCache);
+      const baseSlug = path.join(slugifyTitle(target.skillTitle), slugifyTitle(target.recipeTitle));
+      const slug = uniqueSlug(baseSlug, usedSlugs);
+
+      pageRecords.push({
+        sectionSlug,
+        sectionTitle,
+        title: target.recipeTitle,
+        slug,
+        isRoot: false,
+        parsed: childPage,
+        extracted: childDoc,
+        outputRelpath: path.join("wiki", sectionSlug, `${slug}.md`)
+      });
+
+      completedPages += 1;
+      onProgress?.({
+        phase: "collect",
+        stage: "progress",
+        message: `Fetched ${target.recipeTitle}`,
+        sectionTitle,
+        pageTitle: target.recipeTitle,
+        current: completedPages,
+        total: totalPages
+      });
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      warnings.push(
+        `Failed to fetch recipe '${target.recipeTitle}' from '${target.sourcePageTitle}' in section '${sectionTitle}': ${message}`
+      );
+      completedPages += 1;
+      onProgress?.({
+        phase: "collect",
+        stage: "warning",
+        message: `Failed to fetch recipe ${target.recipeTitle}: ${message}`,
+        sectionTitle,
+        pageTitle: target.recipeTitle,
+        current: completedPages,
+        total: totalPages
+      });
+    }
+  }
+
+  onProgress?.({
+    phase: "collect",
+    stage: "complete",
+    message: `Collected ${pageRecords.length} page(s) in ${sectionTitle}`,
+    sectionTitle,
+    current: totalPages,
+    total: totalPages
+  });
+
+  return {
+    sectionSlug,
+    sectionTitle,
+    rootTitle: rootPage.title,
+    pageRecords,
+    warnings
+  };
 }
 
 async function buildSinglePageCollection(
@@ -256,6 +372,88 @@ function deriveActivityTitles(tables: ExtractedTable[]): string[] {
   }
 
   throw new Error("Could not find Activity Name column in Activities tables");
+}
+
+function deriveRecipeTargets(tables: ExtractedTable[]): { targets: RecipeTarget[]; warnings: string[] } {
+  const targets: RecipeTarget[] = [];
+  const warnings: string[] = [];
+  const seen = new Set<string>();
+
+  for (const table of tables) {
+    const recipeColumn = resolveRecipeColumn(table.columns);
+    if (!recipeColumn) {
+      continue;
+    }
+
+    const skillTitle = table.section.trim() || "recipes";
+    for (let i = 0; i < table.rows.length; i += 1) {
+      const row = table.rows[i] ?? {};
+      const rowLinks = table.rowLinks[i] ?? {};
+      const recipeTitle = (row[recipeColumn] ?? "").trim();
+      if (!recipeTitle) {
+        continue;
+      }
+
+      const sourceHref = rowLinks[recipeColumn]?.[0] ?? "";
+      const sourcePageTitle = parseWikiTitleFromHref(sourceHref);
+      if (!sourcePageTitle) {
+        warnings.push(`Could not derive recipe page for '${recipeTitle}' in section '${skillTitle}'`);
+        continue;
+      }
+
+      const dedupeKey = `${normalizeTitle(skillTitle)}::${normalizeTitle(recipeTitle)}`;
+      if (seen.has(dedupeKey)) {
+        continue;
+      }
+
+      seen.add(dedupeKey);
+      targets.push({
+        skillTitle,
+        recipeTitle,
+        sourcePageTitle
+      });
+    }
+  }
+
+  return { targets, warnings };
+}
+
+function resolveRecipeColumn(columns: string[]): string {
+  for (const column of columns) {
+    if (normalizeTitle(column) === "recipe name") {
+      return column;
+    }
+  }
+
+  for (const column of columns) {
+    if (normalizeTitle(column).startsWith("recipe")) {
+      return column;
+    }
+  }
+
+  return "";
+}
+
+function parseWikiTitleFromHref(href: string): string {
+  if (!href) {
+    return "";
+  }
+
+  try {
+    const url = new URL(href);
+    let rawTitle = "";
+
+    if (url.pathname.startsWith("/wiki/")) {
+      rawTitle = url.pathname.slice("/wiki/".length);
+    } else if (url.pathname === "/index.php") {
+      rawTitle = url.searchParams.get("title") ?? "";
+    }
+
+    rawTitle = rawTitle.replace(/^Special:MyLanguage\//i, "");
+    return decodeURIComponent(rawTitle).replace(/_/g, " ").trim();
+  } catch {
+    return "";
+  }
 }
 
 function extractUniqueColumnValues(rows: Record<string, string>[], column: string): string[] {

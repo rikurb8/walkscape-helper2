@@ -59,6 +59,8 @@ export interface WriteStats {
   rawWritten: number;
   rawSkipped: number;
   rawRemoved: number;
+  structuredWritten: number;
+  structuredRemoved: number;
 }
 
 export type FetchCache = Map<string, { parsed: ParsedPage; extracted: ExtractedDocument }>;

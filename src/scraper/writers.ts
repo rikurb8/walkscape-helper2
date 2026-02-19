@@ -26,7 +26,6 @@ interface RenderPageMarkdownInput {
   categories: string[];
   body: string;
   markdownTables: string;
-  structuredData: string;
 }
 
 export async function writeCollectionsOutput(
@@ -39,11 +38,10 @@ export async function writeCollectionsOutput(
   input.onProgress?.({
     phase: "write",
     stage: "progress",
-    message: "Updating docs index and VitePress navigation"
+    message: "Updating docs index"
   });
 
   await writeDocsIndex(collections);
-  await writeVitePressConfig(collections);
   return writeReport(collections, input.selectedCollections, input.incremental, input.requestCount, writeStats);
 }
 
@@ -73,7 +71,9 @@ async function writeCollectionOutputs(
     docsRemoved: 0,
     rawWritten: 0,
     rawSkipped: 0,
-    rawRemoved: 0
+    rawRemoved: 0,
+    structuredWritten: 0,
+    structuredRemoved: 0
   };
 
   const allPages = collections.flatMap((collection) => collection.pageRecords);
@@ -102,7 +102,6 @@ async function writeCollectionOutputs(
     } else {
       const body = rewriteInternalLinks(page.extracted.bodyMarkdown, page.outputRelpath, titleToPath);
       const markdownTables = renderMarkdownTables(page.extracted.tables);
-      const structuredData = renderStructuredData(page.extracted.tables);
 
       const markdown = renderPageMarkdown({
         title: page.title,
@@ -111,8 +110,7 @@ async function writeCollectionOutputs(
         scrapedAt: page.extracted.scrapedAt,
         categories: page.parsed.categories,
         body,
-        markdownTables,
-        structuredData
+        markdownTables
       });
 
       await fs.writeFile(outputFile, markdown, "utf-8");
@@ -130,6 +128,14 @@ async function writeCollectionOutputs(
       await fs.writeFile(rawFile, asciiJsonStringify(page.parsed.rawPayload), "utf-8");
       stats.rawWritten += 1;
     }
+
+    const structuredFile = path.join(PROJECT_ROOT, "data", "raw", page.sectionSlug, `${page.slug}_structured.json`);
+    await fs.mkdir(path.dirname(structuredFile), { recursive: true });
+    expectedRawPaths.add(path.resolve(structuredFile));
+
+    const structuredData = renderStructuredData(page.extracted.tables);
+    await fs.writeFile(structuredFile, structuredData, "utf-8");
+    stats.structuredWritten += 1;
 
     completedPages += 1;
     onProgress?.({
@@ -165,7 +171,11 @@ async function writeCollectionOutputs(
       const target = path.resolve(path.join(sectionRawDir, item));
       if (!expectedRawPaths.has(target)) {
         await fs.unlink(target);
-        stats.rawRemoved += 1;
+        if (item.endsWith("_structured.json")) {
+          stats.structuredRemoved += 1;
+        } else {
+          stats.rawRemoved += 1;
+        }
       }
     }
   }
@@ -202,77 +212,6 @@ async function writeDocsIndex(collections: CollectionResult[]): Promise<void> {
   await fs.writeFile(path.join(PROJECT_ROOT, "docs", "index.md"), `${lines.join("\n")}`, "utf-8");
 }
 
-async function writeVitePressConfig(collections: CollectionResult[]): Promise<void> {
-  const nav = buildVitePressNav(collections);
-  const sidebar = buildVitePressSidebar(collections);
-  const configText = [
-    'import { defineConfig } from "vitepress";',
-    "",
-    `const nav = ${asciiJsonStringify(nav)};`,
-    "",
-    `const sidebar = ${asciiJsonStringify(sidebar)};`,
-    "",
-    "export default defineConfig({",
-    '  title: "WalkScape Wiki Scraper",',
-    '  description: "Local validation viewer for scraped WalkScape markdown",',
-    "  cleanUrls: true,",
-    "  themeConfig: {",
-    "    nav,",
-    "    sidebar,",
-    "    search: {",
-    '      provider: "local"',
-    "    }",
-    "  }",
-    "});",
-    ""
-  ].join("\n");
-
-  const configFile = path.join(PROJECT_ROOT, "docs", ".vitepress", "config.mts");
-  await fs.writeFile(configFile, configText, "utf-8");
-}
-
-function buildVitePressNav(collections: CollectionResult[]): Array<{ text: string; link: string }> {
-  const nav = [{ text: "Home", link: "/" }];
-  for (const collection of collections) {
-    nav.push({
-      text: collection.sectionTitle,
-      link: `/wiki/${collection.sectionSlug}/`
-    });
-  }
-  return nav;
-}
-
-function buildVitePressSidebar(
-  collections: CollectionResult[]
-): Array<{ text: string; items: Array<{ text: string; link: string }> }> {
-  const sidebar: Array<{ text: string; items: Array<{ text: string; link: string }> }> = [];
-  for (const collection of collections) {
-    const items: Array<{ text: string; link: string }> = [{ text: "Overview", link: `/wiki/${collection.sectionSlug}/` }];
-
-    for (const page of collection.pageRecords) {
-      if (page.isRoot) {
-        continue;
-      }
-      items.push({ text: page.title, link: toVitePressLink(page.outputRelpath) });
-    }
-
-    sidebar.push({ text: collection.sectionTitle, items });
-  }
-
-  return sidebar;
-}
-
-function toVitePressLink(markdownRelpath: string): string {
-  const withoutExtension = toPosix(markdownRelpath).replace(/\.md$/i, "");
-  if (withoutExtension === "index") {
-    return "/";
-  }
-  if (withoutExtension.endsWith("/index")) {
-    return `/${withoutExtension.slice(0, -"/index".length)}/`;
-  }
-  return `/${withoutExtension}`;
-}
-
 async function writeReport(
   collections: CollectionResult[],
   selectedCollections: ScrapeCollection[],
@@ -294,7 +233,9 @@ async function writeReport(
       docs_removed: writeStats.docsRemoved,
       raw_written: writeStats.rawWritten,
       raw_skipped: writeStats.rawSkipped,
-      raw_removed: writeStats.rawRemoved
+      raw_removed: writeStats.rawRemoved,
+      structured_written: writeStats.structuredWritten,
+      structured_removed: writeStats.structuredRemoved
     },
     warnings: []
   };
@@ -347,7 +288,6 @@ function renderPageMarkdown(input: RenderPageMarkdownInput): string {
   if (input.markdownTables) {
     sections.push(`## Extracted Tables\n\n${input.markdownTables}`);
   }
-  sections.push(`## Structured Data\n\n\`\`\`json\n${input.structuredData}\n\`\`\``);
 
   return `${sections.join("\n\n").trimEnd()}\n`;
 }

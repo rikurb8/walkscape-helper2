@@ -16,12 +16,13 @@ Supported collections: `skills`, `core-mechanics`, `activities` (including activ
 
 ## What it generates
 
-- `docs/wiki/skills/index.md` - cleaned overview markdown + extracted tables + structured JSON block
+- `docs/wiki/skills/index.md` - cleaned overview markdown + extracted tables
 - `docs/wiki/skills/*.md` - one cleaned page for each skill found in overview (`agility.md`, `carpentry.md`, etc.)
 - `docs/wiki/core-mechanics/index.md` - cleaned Core Mechanics page
 - `docs/wiki/activities/index.md` + `docs/wiki/activities/*.md` - Activities overview and activity pages found from the Activities table
 - `docs/wiki/recipes/index.md` - cleaned Recipes page with extracted tables
-- `data/raw/*.json` - raw MediaWiki parse response snapshots for each scraped page
+- `data/raw/*_parse.json` - raw MediaWiki parse response snapshots for each scraped page
+- `data/raw/*_structured.json` - extracted table data payload for each scraped page
 - `reports/scrape_report.json` - summary for the latest scrape run
 - `docs/.vitepress/config.mts` - auto-generated VitePress navigation/sidebar config for scraped pages
 
