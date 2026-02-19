@@ -1,0 +1,1 @@
+"""WalkScape wiki scraper package."""

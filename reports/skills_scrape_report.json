@@ -1,0 +1,38 @@
+{
+  "mode": "scrape-skills",
+  "incremental": true,
+  "sections": [
+    {
+      "section": "Skills",
+      "section_slug": "skills",
+      "root_title": "Skills",
+      "pages_generated": 11,
+      "tables_found": 51,
+      "output_files": [
+        "docs/wiki/skills/index.md",
+        "docs/wiki/skills/agility.md",
+        "docs/wiki/skills/carpentry.md",
+        "docs/wiki/skills/cooking.md",
+        "docs/wiki/skills/crafting.md",
+        "docs/wiki/skills/fishing.md",
+        "docs/wiki/skills/foraging.md",
+        "docs/wiki/skills/mining.md",
+        "docs/wiki/skills/smithing.md",
+        "docs/wiki/skills/trinketry.md",
+        "docs/wiki/skills/woodcutting.md"
+      ],
+      "warnings": []
+    }
+  ],
+  "pages_generated_total": 11,
+  "tables_found_total": 51,
+  "write_stats": {
+    "docs_written": 0,
+    "docs_skipped": 11,
+    "docs_removed": 0,
+    "raw_written": 0,
+    "raw_skipped": 11,
+    "raw_removed": 0
+  },
+  "warnings": []
+}

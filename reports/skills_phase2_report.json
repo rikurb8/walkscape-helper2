@@ -1,0 +1,31 @@
+{
+  "phase": "phase2",
+  "root_page": "Skills",
+  "skill_pages": [
+    "Agility",
+    "Carpentry",
+    "Cooking",
+    "Crafting",
+    "Fishing",
+    "Foraging",
+    "Mining",
+    "Smithing",
+    "Trinketry",
+    "Woodcutting"
+  ],
+  "pages_generated": 11,
+  "output_files": [
+    "docs/wiki/skills/index.md",
+    "docs/wiki/skills/agility.md",
+    "docs/wiki/skills/carpentry.md",
+    "docs/wiki/skills/cooking.md",
+    "docs/wiki/skills/crafting.md",
+    "docs/wiki/skills/fishing.md",
+    "docs/wiki/skills/foraging.md",
+    "docs/wiki/skills/mining.md",
+    "docs/wiki/skills/smithing.md",
+    "docs/wiki/skills/trinketry.md",
+    "docs/wiki/skills/woodcutting.md"
+  ],
+  "tables_found_total": 51
+}
