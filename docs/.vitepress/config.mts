@@ -6,58 +6,18 @@ const nav = [
     "link": "/"
   },
   {
-    "text": "Skills",
-    "link": "/wiki/skills/"
+    "text": "Recipes",
+    "link": "/wiki/recipes/"
   }
 ];
 
 const sidebar = [
   {
-    "text": "Skills",
+    "text": "Recipes",
     "items": [
       {
         "text": "Overview",
-        "link": "/wiki/skills/"
-      },
-      {
-        "text": "Agility",
-        "link": "/wiki/skills/agility"
-      },
-      {
-        "text": "Carpentry",
-        "link": "/wiki/skills/carpentry"
-      },
-      {
-        "text": "Cooking",
-        "link": "/wiki/skills/cooking"
-      },
-      {
-        "text": "Crafting",
-        "link": "/wiki/skills/crafting"
-      },
-      {
-        "text": "Fishing",
-        "link": "/wiki/skills/fishing"
-      },
-      {
-        "text": "Foraging",
-        "link": "/wiki/skills/foraging"
-      },
-      {
-        "text": "Mining",
-        "link": "/wiki/skills/mining"
-      },
-      {
-        "text": "Smithing",
-        "link": "/wiki/skills/smithing"
-      },
-      {
-        "text": "Trinketry",
-        "link": "/wiki/skills/trinketry"
-      },
-      {
-        "text": "Woodcutting",
-        "link": "/wiki/skills/woodcutting"
+        "link": "/wiki/recipes/"
       }
     ]
   }

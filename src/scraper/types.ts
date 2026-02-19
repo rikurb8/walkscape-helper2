@@ -1,9 +1,9 @@
 import type { ParsedPage } from "./api.js";
 import type { ExtractedDocument } from "./extract.js";
 
-export const SUPPORTED_SCRAPE_COMMANDS = ["scrape-skills", "scrape-wiki"] as const;
+export const SUPPORTED_COLLECTIONS = ["skills", "core-mechanics", "activities", "recipes"] as const;
 
-export type ScrapeCommand = (typeof SUPPORTED_SCRAPE_COMMANDS)[number];
+export type ScrapeCollection = (typeof SUPPORTED_COLLECTIONS)[number];
 
 export type ScrapeProgressPhase = "collect" | "write";
 
@@ -22,12 +22,13 @@ export interface ScrapeProgressEvent {
 export type ScrapeProgressHandler = (event: ScrapeProgressEvent) => void;
 
 export interface ScrapeOptions {
+  collections?: ScrapeCollection[];
   incremental?: boolean;
   onProgress?: ScrapeProgressHandler;
 }
 
 export interface ScrapeRunResult {
-  command: ScrapeCommand;
+  collections: ScrapeCollection[];
   sectionCount: number;
   summary: Record<string, unknown>;
 }

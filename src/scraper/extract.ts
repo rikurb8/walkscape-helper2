@@ -6,6 +6,7 @@ export interface ExtractedTable {
   section: string;
   columns: string[];
   rows: Record<string, string>[];
+  rowLinks: Record<string, string[]>[];
 }
 
 export interface ExtractedDocument {
@@ -55,7 +56,8 @@ export function renderStructuredData(tables: ExtractedTable[]): string {
       index: table.index,
       section: table.section,
       columns: table.columns,
-      rows: table.rows
+      rows: table.rows,
+      row_links: table.rowLinks
     }))
   };
 
@@ -130,13 +132,14 @@ function extractTables($: CheerioAPI, root: any): ExtractedTable[] {
     }
 
     if (tag === "table") {
-      const { columns, rows } = parseWikitable($, $(element));
+      const { columns, rows, rowLinks } = parseWikitable($, $(element));
       if (columns.length && rows.length) {
         tables.push({
           index: tableIndex,
           section: currentSection,
           columns,
-          rows
+          rows,
+          rowLinks
         });
         tableIndex += 1;
       }
@@ -146,12 +149,18 @@ function extractTables($: CheerioAPI, root: any): ExtractedTable[] {
   return tables;
 }
 
-function parseWikitable($: CheerioAPI, table: any): { columns: string[]; rows: Record<string, string>[] } {
+function parseWikitable($: CheerioAPI, table: any): {
+  columns: string[];
+  rows: Record<string, string>[];
+  rowLinks: Record<string, string[]>[];
+} {
   const grid: string[][] = [];
-  const spanMap = new Map<number, { text: string; remaining: number }>();
+  const linkGrid: string[][][] = [];
+  const spanMap = new Map<number, { text: string; links: string[]; remaining: number }>();
 
   table.find("tr").each((_: number, tr: any) => {
     const row: string[] = [];
+    const rowLinks: string[][] = [];
     let col = 0;
 
     const flushSpansUntil = (targetCol?: number): void => {
@@ -161,11 +170,13 @@ function parseWikitable($: CheerioAPI, table: any): { columns: string[]; rows: R
           break;
         }
         ensureLength(row, col + 1);
+        ensureLinksLength(rowLinks, col + 1);
         row[col] = entry.text;
+        rowLinks[col] = [...entry.links];
         if (entry.remaining <= 1) {
           spanMap.delete(col);
         } else {
-          spanMap.set(col, { text: entry.text, remaining: entry.remaining - 1 });
+          spanMap.set(col, { text: entry.text, links: entry.links, remaining: entry.remaining - 1 });
         }
         col += 1;
       }
@@ -179,14 +190,17 @@ function parseWikitable($: CheerioAPI, table: any): { columns: string[]; rows: R
       }
 
       const text = cleanCellText($(cell).text());
+      const links = extractCellLinks($, cell);
       const rowspan = safeInt($(cell).attr("rowspan"), 1);
       const colspan = safeInt($(cell).attr("colspan"), 1);
 
       for (let i = 0; i < colspan; i += 1) {
         ensureLength(row, col + i + 1);
+        ensureLinksLength(rowLinks, col + i + 1);
         row[col + i] = text;
+        rowLinks[col + i] = [...links];
         if (rowspan > 1) {
-          spanMap.set(col + i, { text, remaining: rowspan - 1 });
+          spanMap.set(col + i, { text, links: [...links], remaining: rowspan - 1 });
         }
       }
       col += colspan;
@@ -195,25 +209,32 @@ function parseWikitable($: CheerioAPI, table: any): { columns: string[]; rows: R
     flushSpansUntil();
     if (row.some((cell) => cell.trim())) {
       grid.push(row);
+      linkGrid.push(rowLinks);
     }
   });
 
   if (!grid.length) {
-    return { columns: [], rows: [] };
+    return { columns: [], rows: [], rowLinks: [] };
   }
 
   const maxCols = Math.max(...grid.map((row) => row.length));
-  for (const row of grid) {
-    ensureLength(row, maxCols);
+  for (let i = 0; i < grid.length; i += 1) {
+    ensureLength(grid[i], maxCols);
+    ensureLinksLength(linkGrid[i], maxCols);
   }
 
   let header = normalizeHeaders(grid[0]);
   let bodyRows = grid.slice(1);
+  let bodyLinkRows = linkGrid.slice(1);
   if (!bodyRows.length) {
-    return { columns: [], rows: [] };
+    return { columns: [], rows: [], rowLinks: [] };
   }
 
-  ({ headers: header, rows: bodyRows } = dropEmptyColumnsFromMatrix(header, bodyRows));
+  const compacted = dropEmptyColumnsFromMatrix(header, bodyRows);
+  header = compacted.headers;
+  bodyRows = compacted.rows;
+  bodyLinkRows = bodyLinkRows.map((row) => compacted.keepIndices.map((index) => row[index] ?? []));
+
   header = simplifyHeaders(header);
 
   const rowObjects = bodyRows.map((row) => {
@@ -224,15 +245,26 @@ function parseWikitable($: CheerioAPI, table: any): { columns: string[]; rows: R
     return result;
   });
 
-  return { columns: header, rows: rowObjects };
+  const rowLinkObjects = bodyLinkRows.map((row) => {
+    const result: Record<string, string[]> = {};
+    for (let i = 0; i < header.length; i += 1) {
+      const links = row[i] ?? [];
+      if (links.length) {
+        result[header[i]] = links;
+      }
+    }
+    return result;
+  });
+
+  return { columns: header, rows: rowObjects, rowLinks: rowLinkObjects };
 }
 
 function dropEmptyColumnsFromMatrix(
   headers: string[],
   matrix: string[][]
-): { headers: string[]; rows: string[][] } {
+): { headers: string[]; rows: string[][]; keepIndices: number[] } {
   if (!headers.length || !matrix.length) {
-    return { headers, rows: matrix };
+    return { headers, rows: matrix, keepIndices: headers.map((_, index) => index) };
   }
 
   const keepIndices: number[] = [];
@@ -245,7 +277,39 @@ function dropEmptyColumnsFromMatrix(
 
   const newHeaders = keepIndices.map((index) => headers[index]);
   const newRows = matrix.map((row) => keepIndices.map((index) => row[index] ?? ""));
-  return { headers: newHeaders, rows: newRows };
+  return { headers: newHeaders, rows: newRows, keepIndices };
+}
+
+function extractCellLinks($: CheerioAPI, cell: any): string[] {
+  const links: string[] = [];
+  const seen = new Set<string>();
+
+  $(cell)
+    .find("a[href]")
+    .each((_: number, anchor: any) => {
+      const rawHref = $(anchor).attr("href") ?? "";
+      const href = normalizeHref(rawHref);
+      if (!href || seen.has(href)) {
+        return;
+      }
+
+      seen.add(href);
+      links.push(href);
+    });
+
+  return links;
+}
+
+function normalizeHref(href: string): string {
+  if (!href || href.startsWith("#")) {
+    return "";
+  }
+
+  if (href.startsWith("/wiki/") || href.startsWith("/index.php")) {
+    return `https://wiki.walkscape.app${href}`;
+  }
+
+  return href;
 }
 
 function normalizeHeaders(headers: string[]): string[] {
@@ -301,6 +365,12 @@ function safeInt(value: string | undefined, fallback: number): number {
 function ensureLength(row: string[], length: number): void {
   while (row.length < length) {
     row.push("");
+  }
+}
+
+function ensureLinksLength(row: string[][], length: number): void {
+  while (row.length < length) {
+    row.push([]);
   }
 }
 

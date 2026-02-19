@@ -1,8 +1,8 @@
 # WalkScape Wiki Scraper
 
-TypeScript + pnpm scraper for WalkScape wiki pages. Current scope scrapes the WalkScape `Skills` overview page and all linked skill pages into structured markdown for AI use.
+TypeScript + pnpm scraper for WalkScape wiki pages. The default run scrapes all supported collections into structured markdown for AI use.
 
-`scrape-wiki` extends this with `Core Mechanics`, `Activities` (including activity pages listed in the Activities table), and `Recipes`.
+Supported collections: `skills`, `core-mechanics`, `activities` (including activity pages listed in the Activities table), and `recipes`.
 
 ## Code structure
 
@@ -22,15 +22,14 @@ TypeScript + pnpm scraper for WalkScape wiki pages. Current scope scrapes the Wa
 - `docs/wiki/activities/index.md` + `docs/wiki/activities/*.md` - Activities overview and activity pages found from the Activities table
 - `docs/wiki/recipes/index.md` - cleaned Recipes page with extracted tables
 - `data/raw/*.json` - raw MediaWiki parse response snapshots for each scraped page
-- `reports/skills_scrape_report.json` - summary for `scrape-skills`
-- `reports/wiki_scrape_report.json` - summary for `scrape-wiki`
+- `reports/scrape_report.json` - summary for the latest scrape run
 - `docs/.vitepress/config.mts` - auto-generated VitePress navigation/sidebar config for scraped pages
 
 ## Copy-paste run commands
 
 ```bash
 pnpm install
-pnpm scrape:wiki
+pnpm scrape
 pnpm docs:dev
 ```
 
@@ -54,16 +53,22 @@ To preview the built site locally:
 pnpm docs:preview
 ```
 
-## Optional: skills-only refresh
+## Optional: specific collections only
 
 ```bash
-pnpm scrape:skills
+pnpm scrape --collections skills --collections recipes
 ```
 
 ## Optional: incremental refresh (skip unchanged pages)
 
 ```bash
-pnpm scrape:wiki:incremental
+pnpm scrape --incremental
+```
+
+You can also pass a comma-separated collection list positionally:
+
+```bash
+pnpm scrape skills,activities
 ```
 
 Incremental mode compares each page's `source_oldid` and skips rewriting markdown/raw files when unchanged.

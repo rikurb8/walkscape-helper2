@@ -1,4 +1,8 @@
 const API_BASE = "https://wiki.walkscape.app/api.php";
+const REQUEST_INTERVAL_MS = 500;
+
+let requestCount = 0;
+let nextRequestAt = 0;
 
 export interface ParsedPage {
   title: string;
@@ -8,6 +12,15 @@ export interface ParsedPage {
   categories: string[];
   sourceUrl: string;
   rawPayload: Record<string, unknown>;
+}
+
+export function resetRequestCount(): void {
+  requestCount = 0;
+  nextRequestAt = 0;
+}
+
+export function getRequestCount(): number {
+  return requestCount;
 }
 
 interface MediaWikiError {
@@ -68,6 +81,9 @@ export async function fetchParsedPage(pageTitle: string): Promise<ParsedPage> {
 }
 
 async function fetchJson(url: string): Promise<MediaWikiResponse> {
+  await waitForRateLimit();
+  requestCount += 1;
+
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 60_000);
 
@@ -80,4 +96,16 @@ async function fetchJson(url: string): Promise<MediaWikiResponse> {
   } finally {
     clearTimeout(timer);
   }
+}
+
+async function waitForRateLimit(): Promise<void> {
+  const now = Date.now();
+  const waitMs = Math.max(0, nextRequestAt - now);
+  if (waitMs > 0) {
+    await new Promise<void>((resolve) => {
+      setTimeout(resolve, waitMs);
+    });
+  }
+
+  nextRequestAt = Date.now() + REQUEST_INTERVAL_MS;
 }

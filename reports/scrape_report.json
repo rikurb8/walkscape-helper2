@@ -1,0 +1,32 @@
+{
+  "mode": "scrape",
+  "collections": [
+    "recipes"
+  ],
+  "incremental": false,
+  "sections": [
+    {
+      "section": "Recipes",
+      "section_slug": "recipes",
+      "root_title": "Recipes",
+      "pages_generated": 1,
+      "tables_found": 5,
+      "output_files": [
+        "docs/wiki/recipes/index.md"
+      ],
+      "warnings": []
+    }
+  ],
+  "pages_generated_total": 1,
+  "tables_found_total": 5,
+  "request_count": 1,
+  "write_stats": {
+    "docs_written": 1,
+    "docs_skipped": 0,
+    "docs_removed": 0,
+    "raw_written": 1,
+    "raw_skipped": 0,
+    "raw_removed": 0
+  },
+  "warnings": []
+}

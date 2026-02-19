@@ -1,29 +1,38 @@
+import { getRequestCount, resetRequestCount } from "./api.js";
 import { collectSections } from "./collections.js";
 import {
-  type ScrapeCommand,
+  type ScrapeCollection,
   type ScrapeOptions,
   type ScrapeRunResult,
-  SUPPORTED_SCRAPE_COMMANDS
+  SUPPORTED_COLLECTIONS
 } from "./types.js";
 import { writeCollectionsOutput } from "./writers.js";
 
-export { SUPPORTED_SCRAPE_COMMANDS } from "./types.js";
-export type { ScrapeCommand, ScrapeOptions, ScrapeRunResult } from "./types.js";
+export { SUPPORTED_COLLECTIONS } from "./types.js";
+export type { ScrapeCollection, ScrapeOptions, ScrapeRunResult } from "./types.js";
 
-export function isScrapeCommand(command: string): command is ScrapeCommand {
-  return (SUPPORTED_SCRAPE_COMMANDS as readonly string[]).includes(command);
+export function isScrapeCollection(collection: string): collection is ScrapeCollection {
+  return (SUPPORTED_COLLECTIONS as readonly string[]).includes(collection);
 }
 
-export async function runScrape(command: ScrapeCommand, options: ScrapeOptions = {}): Promise<ScrapeRunResult> {
+export async function runScrape(options: ScrapeOptions = {}): Promise<ScrapeRunResult> {
+  const collections = options.collections ?? [...SUPPORTED_COLLECTIONS];
   const incremental = options.incremental ?? false;
-  const includeExtended = command === "scrape-wiki";
   const onProgress = options.onProgress;
-  const collections = await collectSections(includeExtended, onProgress);
-  const summary = await writeCollectionsOutput(collections, { includeExtended, incremental, onProgress });
+
+  resetRequestCount();
+  const sectionCollections = await collectSections(collections, onProgress);
+  const requestCount = getRequestCount();
+  const summary = await writeCollectionsOutput(sectionCollections, {
+    selectedCollections: collections,
+    incremental,
+    requestCount,
+    onProgress
+  });
 
   return {
-    command,
-    sectionCount: collections.length,
+    collections,
+    sectionCount: sectionCollections.length,
     summary
   };
 }
@@ -32,10 +41,12 @@ export function printScrapeSummary(result: ScrapeRunResult): void {
   const { sectionCount, summary } = result;
   const pagesGenerated = Number(summary.pages_generated_total ?? 0);
   const tablesFound = Number(summary.tables_found_total ?? 0);
+  const requestCount = Number(summary.request_count ?? 0);
   const writeStats = (summary.write_stats as Record<string, unknown>) ?? {};
 
   console.log(`Generated ${pagesGenerated} page(s) across ${sectionCount} section(s)`);
   console.log(`Extracted ${tablesFound} table(s) total`);
+  console.log(`MediaWiki requests: ${requestCount}`);
 
   const docsWritten = writeStats.docs_written;
   const docsSkipped = writeStats.docs_skipped;

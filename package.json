@@ -10,19 +10,18 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "scrape": "tsx src/main.ts",
-    "scrape:skills": "tsx src/main.ts scrape-skills",
-    "scrape:skills:incremental": "tsx src/main.ts scrape-skills --incremental",
-    "scrape:wiki": "tsx src/main.ts scrape-wiki",
-    "scrape:wiki:incremental": "tsx src/main.ts scrape-wiki --incremental"
+    "scrape": "tsx src/main.ts"
   },
   "dependencies": {
     "@oclif/core": "^4.8.0",
     "cheerio": "^1.1.2",
+    "marked": "^15.0.12",
+    "marked-terminal": "^7.3.0",
     "ora": "^9.3.0",
     "turndown": "^7.2.0"
   },
   "devDependencies": {
+    "@types/marked-terminal": "^6.1.1",
     "@types/node": "^22.13.8",
     "@types/turndown": "^5.0.5",
     "tsx": "^4.20.5",

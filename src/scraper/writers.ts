@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 
 import { renderMarkdownTables, renderStructuredData } from "./extract.js";
 import { rewriteInternalLinks } from "./link-rewrite.js";
-import type { CollectionResult, PageRecord, ScrapeProgressHandler, WriteStats } from "./types.js";
+import type { CollectionResult, PageRecord, ScrapeCollection, ScrapeProgressHandler, WriteStats } from "./types.js";
 import { asciiJsonStringify, normalizeTitle, safeReadDir, toPosix } from "./utils.js";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -12,8 +12,9 @@ const __dirname = path.dirname(__filename);
 const PROJECT_ROOT = path.resolve(__dirname, "../..");
 
 interface WriteCollectionsInput {
-  includeExtended: boolean;
+  selectedCollections: ScrapeCollection[];
   incremental: boolean;
+  requestCount: number;
   onProgress?: ScrapeProgressHandler;
 }
 
@@ -43,7 +44,7 @@ export async function writeCollectionsOutput(
 
   await writeDocsIndex(collections);
   await writeVitePressConfig(collections);
-  return writeReport(collections, input.includeExtended, input.incremental, writeStats);
+  return writeReport(collections, input.selectedCollections, input.incremental, input.requestCount, writeStats);
 }
 
 async function prepareOutputDirectories(collections: CollectionResult[]): Promise<void> {
@@ -274,16 +275,19 @@ function toVitePressLink(markdownRelpath: string): string {
 
 async function writeReport(
   collections: CollectionResult[],
-  includeExtended: boolean,
+  selectedCollections: ScrapeCollection[],
   incremental: boolean,
+  requestCount: number,
   writeStats: WriteStats
 ): Promise<Record<string, unknown>> {
   const report: Record<string, unknown> = {
-    mode: includeExtended ? "scrape-wiki" : "scrape-skills",
+    mode: "scrape",
+    collections: selectedCollections,
     incremental,
     sections: [],
     pages_generated_total: 0,
     tables_found_total: 0,
+    request_count: requestCount,
     write_stats: {
       docs_written: writeStats.docsWritten,
       docs_skipped: writeStats.docsSkipped,
@@ -316,7 +320,7 @@ async function writeReport(
     warnings.push(...collection.warnings);
   }
 
-  const reportName = includeExtended ? "wiki_scrape_report.json" : "skills_scrape_report.json";
+  const reportName = "scrape_report.json";
   const reportPath = path.join(PROJECT_ROOT, "reports", reportName);
   await fs.writeFile(reportPath, asciiJsonStringify(report), "utf-8");
 

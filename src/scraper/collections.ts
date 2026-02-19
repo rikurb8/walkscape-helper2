@@ -2,7 +2,7 @@ import path from "node:path";
 
 import { fetchParsedPage } from "./api.js";
 import { extractDocument, type ExtractedDocument, type ExtractedTable } from "./extract.js";
-import type { CollectionResult, FetchCache, ScrapeProgressHandler } from "./types.js";
+import type { CollectionResult, FetchCache, ScrapeCollection, ScrapeProgressHandler } from "./types.js";
 import { normalizeTitle, slugifyTitle, uniqueSlug } from "./utils.js";
 
 interface BuildCollectionInput {
@@ -14,17 +14,26 @@ interface BuildCollectionInput {
   onProgress?: ScrapeProgressHandler;
 }
 
-export async function collectSections(includeExtended: boolean, onProgress?: ScrapeProgressHandler): Promise<CollectionResult[]> {
+export async function collectSections(
+  selectedCollections: ScrapeCollection[],
+  onProgress?: ScrapeProgressHandler
+): Promise<CollectionResult[]> {
   const fetchCache: FetchCache = new Map();
   const collections: CollectionResult[] = [];
+  const selected = new Set<ScrapeCollection>(selectedCollections);
 
-  collections.push(await buildSkillsCollection(fetchCache, onProgress));
-
-  if (includeExtended) {
+  if (selected.has("skills")) {
+    collections.push(await buildSkillsCollection(fetchCache, onProgress));
+  }
+  if (selected.has("core-mechanics")) {
     collections.push(
       await buildSinglePageCollection("core-mechanics", "Core Mechanics", "Core Mechanics", fetchCache, onProgress)
     );
+  }
+  if (selected.has("activities")) {
     collections.push(await buildActivitiesCollection(fetchCache, onProgress));
+  }
+  if (selected.has("recipes")) {
     collections.push(await buildSinglePageCollection("recipes", "Recipes", "Recipes", fetchCache, onProgress));
   }
 

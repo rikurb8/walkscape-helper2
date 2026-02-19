@@ -6,7 +6,7 @@ High-level map of the scraped WalkScape wiki data in this repo.
 
 - Total markdown pages in `docs/wiki`: **129**
 - Total raw parse snapshots in `data/raw`: **139**
-- Last scrape mode (per report): `scrape-wiki --incremental`
+- Last scrape mode (per report): `scrape --incremental`
 
 ## Data Layout
 
@@ -26,8 +26,7 @@ data/
     *.json                  # 12 top-level legacy/root snapshots
 
 reports/
-  wiki_scrape_report.json  # overall wiki scrape summary
-  skills_scrape_report.json
+  scrape_report.json       # latest scrape summary
   skills_phase1_report.json
   skills_phase2_report.json
 ```
