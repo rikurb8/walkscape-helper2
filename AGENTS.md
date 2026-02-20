@@ -8,138 +8,95 @@ Guidance for coding agents working in `walkscape-wiki-scraper`.
 - Prefer small, surgical changes that match existing patterns.
 - Do not introduce new frameworks/tools unless requested.
 
-## Rule Files Check
+## Priority and Consistency Defaults
 
-- `.cursorrules`: not present.
-- `.cursor/rules/`: not present.
-- `.github/copilot-instructions.md`: not present.
-- If any of these are added later, treat them as highest-priority local instructions.
+- Highest-priority local rules (if present): `.cursorrules`, `.cursor/rules/`, `.github/copilot-instructions.md`.
+- Interpret requirement words strictly: **MUST** is required, **SHOULD** is expected unless there is a documented reason not to.
+- Use existing repository patterns as the default tie-breaker for ambiguous implementation choices.
+- Choose the smallest behavior-preserving diff that satisfies the request.
+- Avoid opportunistic refactors, renames, or structural churn outside task scope.
+- Keep outputs deterministic unless the task explicitly requires a format change.
+- Record assumptions in handoff notes when requirements are incomplete.
 
-## Tech Stack Snapshot
+## Domain and Architecture
 
-- Language: TypeScript (`strict` mode).
-- Runtime target: Node.js, ESM modules.
+- Language/runtime: TypeScript (`strict`), Node.js ESM.
 - Package manager: `pnpm` (`pnpm@10.5.2`).
-- CLI framework: `@oclif/core`.
-- HTML parsing: `cheerio`.
-- HTML -> Markdown: `turndown`.
-- Docs preview/build: `vitepress`.
+- Core libraries: `@oclif/core`, `cheerio`, `turndown`, `vitepress`.
+- Problem domain: keep WalkScape wiki knowledge local, deterministic, and queryable.
+- System has two primary modules:
+  - `Scraper` (`src/scraper/*`): discovers wiki pages, fetches MediaWiki content, extracts/normalizes sections and tables, rewrites internal links, and writes deterministic artifacts to `docs/`, `data/raw/`, and `reports/`.
+  - `Mastra` (`src/mastra/*`): local Q&A/planning layer over generated wiki data; provides agent/workflow/tooling entrypoints for asking questions, guide context, search, and evaluations.
+- CLI entrypoints:
+  - `src/main.ts`: scraper CLI.
+  - `src/mastra/index.ts`: Mastra runtime setup and workflow/agent wiring.
 
-## Project Layout
-
-- `src/main.ts`: CLI entrypoint and flag parsing.
-- `src/scraper/index.ts`: public scraper API and summary printing.
-- `src/scraper/api.ts`: MediaWiki fetch + rate limiting.
-- `src/scraper/collections.ts`: page discovery and collection assembly.
-- `src/scraper/extract.ts`: HTML cleanup and table extraction.
-- `src/scraper/writers.ts`: markdown/raw/report/docs config output.
-- `src/scraper/link-rewrite.ts`: internal link rewriting.
-- `src/scraper/types.ts`: shared types and constants.
-- `src/scraper/utils.ts`: utility helpers.
-
-## Setup Commands
+## Commands
 
 - Install deps: `pnpm install`
-- Run scraper: `pnpm scrape`
-- CLI help: `pnpm scrape --help`
-- Run specific collections: `pnpm scrape --collections skills --collections recipes`
-- Incremental scrape: `pnpm scrape --incremental`
-
-## Build / Lint / Test Commands
-
-Current `package.json` scripts:
-
 - Build TypeScript: `pnpm build`
-- Run docs dev server: `pnpm docs:dev`
+- Run scraper: `pnpm scrape`
+- Scraper help: `pnpm scrape --help`
+- Incremental scrape: `pnpm scrape --incremental`
+- Targeted scrape example: `pnpm scrape --collections skills --collections recipes`
 - Build docs site: `pnpm docs:build`
-- Preview docs build: `pnpm docs:preview`
-- Run scraper entrypoint: `pnpm scrape`
 
-Lint status in this repo:
+## Standard Task Workflow
 
-- No lint script/config is currently committed.
-- Do not invent lint tooling in routine changes.
-- For code health checks, use `pnpm build` as the baseline gate.
+- Read relevant files first and bound scope before editing.
+- Implement minimal source changes required to satisfy the request.
+- Run task CI checks appropriate to the change.
+- Self-review the full diff for accidental edits, consistency drift, and type safety issues.
+- Finish by meeting all Land the Plane requirements.
 
-Test status in this repo:
+## Verification and CI
 
-- No test runner or test script is currently committed.
-- There are no existing `*.test.*` / `*.spec.*` files in `src/`.
-- Validation currently relies on build success + scraper/docs smoke checks.
+- Task CI baseline
+  - `pnpm build`
+  - `pnpm scrape --collections skills --incremental`
+  - `pnpm docs:build` (required when docs/config/content may be affected)
+- Lint status: no lint script/config is committed; do not invent lint tooling in routine changes.
+- Test status: no test runner is committed; validation currently relies on build success plus scraper/docs smoke checks.
+- Use full scrape only when needed (it performs network requests and rewrites generated outputs).
 
-Single-test execution guidance:
+## Code Conventions
 
-- Not applicable right now (no test framework configured).
-- If a test framework is added, document and use its file-level command, e.g.:
-- `pnpm test -- path/to/file.test.ts`
-- `pnpm vitest path/to/file.test.ts`
-- `node --test path/to/file.test.ts`
-- Pick the command that matches the committed test tool; do not assume.
-
-## Recommended Verification Workflow
-
-- `pnpm build`
-- `pnpm scrape --collections skills --incremental`
-- `pnpm docs:build`
-
-Use full scrape only when needed (it performs network requests and rewrites generated docs/raw output).
-
-## TypeScript and Module Conventions
-
-- Use ESM import/export syntax only.
-- Keep local imports using `.js` extension in TypeScript source (NodeNext style).
-- Prefer `node:`-prefixed built-in imports (`node:fs`, `node:path`, etc.).
-- Separate value imports from type imports when useful:
-- `import type { Foo } from "./types.js";`
-- Preserve `strict` typing; avoid weakening compiler guarantees.
-- Avoid `any`; if unavoidable, keep scope narrow and explain with code context.
-
-## Formatting and Structure Conventions
-
+- Use ESM import/export only.
+- Keep local imports in TypeScript using `.js` extensions.
+- Prefer `node:`-prefixed built-in imports.
+- Preserve strict typing; avoid `any` unless scope is narrow and justified.
 - Match existing formatting style (2 spaces, semicolons, double quotes).
-- Keep functions focused and single-purpose.
-- Prefer early returns for guard clauses.
-- Keep long logic split into small helpers where readability improves.
-- Preserve existing object key naming style (snake_case only in serialized report payloads where already used).
-
-## Naming Conventions
-
-- `camelCase`: variables, functions, non-class methods.
-- `PascalCase`: interfaces, types, classes.
-- `UPPER_SNAKE_CASE`: top-level constants (`API_BASE`, `REQUEST_INTERVAL_MS`).
-- Boolean names should read clearly (`isRoot`, `incremental`, `hasTty`).
-- Keep file names lowercase with hyphens where already established (`link-rewrite.ts`).
-
-## Error Handling Conventions
-
-- Throw `Error` with specific, contextual messages.
-- Include relevant identifiers in error text (page title, section, HTTP status, etc.).
-- In `catch`, treat errors as `unknown`; narrow with `instanceof Error` before reading `.message`.
-- Only swallow errors intentionally in safe fallback paths (e.g., best-effort file checks).
-- Preserve partial progress behavior where current code records warnings instead of hard-failing entire runs.
-
-## Async / IO Conventions
-
-- Use `fs.promises` APIs consistently.
-- Await asynchronous operations explicitly; avoid floating promises.
-- Keep path handling cross-platform via `path.join` and `path.resolve`.
-- Convert to POSIX path format only at boundaries where URLs/docs links require it.
-- Preserve the existing request-rate limiting behavior in `api.ts` unless asked to change it.
+- Keep functions focused and use early returns for guard clauses.
+- Naming: `camelCase` variables/functions, `PascalCase` types/classes, `UPPER_SNAKE_CASE` top-level constants.
+- In `catch`, treat errors as `unknown` and narrow with `instanceof Error` before reading `.message`.
+- Use `fs.promises`, avoid floating promises, and use `path.join` / `path.resolve` for cross-platform paths.
 
 ## Scraper-Specific Practices
 
 - Preserve deterministic output structure in `docs/`, `data/raw/`, and `reports/`.
-- Do not change frontmatter/report field names casually; downstream tooling may depend on them.
+- Do not change frontmatter/report field names casually.
 - Maintain internal link rewriting behavior for generated docs.
 - Keep extracted table formats stable (`columns`, `rows`, `row_links`).
-- Keep incremental mode semantics intact (`source_oldid` checks for skip decisions).
+- Keep incremental mode semantics intact (`source_oldid` skip decisions).
+- Preserve request-rate limiting behavior in `src/scraper/api.ts` unless asked to change it.
 
 ## Editing Guidelines for Agents
 
 - Prefer minimal diffs and avoid broad refactors.
-- Do not edit generated output files unless task explicitly targets generated artifacts.
+- Do not edit generated output files unless the task explicitly targets generated artifacts.
 - If source changes require regenerated output, run scraper/docs commands and include regenerated files together.
 - Avoid unrelated formatting-only churn.
+
+## Land the Plane
+
+Work is not complete until all required closure steps are done:
+
+- Task CI is run and passing for the scope of change.
+- Code review is completed (at minimum: full self-review of the final diff).
+- A commit is created containing only the intended changes.
+- Handoff notes include verification commands and any known risk/follow-up.
+
+No CI + no review + no commit means the task is still in progress.
 
 ## Commit/PR Hygiene (When Asked)
 
@@ -147,11 +104,3 @@ Use full scrape only when needed (it performs network requests and rewrites gene
 - Explain why behavior changed, not just what changed.
 - Mention verification commands run (`pnpm build`, scrape mode used, docs build).
 - Call out any network-dependent steps and non-deterministic effects.
-
-## Quick Pre-merge Checklist
-
-- Code compiles with `pnpm build`.
-- Changed behavior validated with a targeted scrape run.
-- Docs build succeeds when docs config/content changed.
-- No accidental secrets or environment-specific paths committed.
-- No new dependencies/tooling added without explicit need.
