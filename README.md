@@ -75,7 +75,9 @@ At a high level, this repository combines four capabilities:
 3. **Personal guide** (`guide`): persists a local player profile (username + skill levels) in `.walkscape/guide-context.json`. Character exports are parsed with flexible JSON traversal and XP values are auto-converted to estimated levels. Questions are routed to either a deterministic progression-planning workflow (when a skill + target level is detected) or the wiki Q&A agent, both personalized with the stored profile.
 4. **Quality evaluations** (`eval:fishing`): runs a fixed question through the full pipeline, then checks route segments against expected ranges and scores the AI answer with keyword-coverage metrics. Results are deterministic and comparable across prompt, model, or tooling changes.
 
-Supported scrape collections:
+## Supported scrape collections
+
+Currently data is only fetched for the following collections. Wiki has lots more (routes, items, ...) that we can also fetch when needed.
 
 - `skills`
 - `core-mechanics`
@@ -199,7 +201,8 @@ Representative docs outputs:
 
 ## Repository map
 
-- `src/main.ts`: CLI entrypoint, flags, progress rendering.
+- `src/main.ts`: scrape CLI bootstrap and top-level error handling.
+- `src/cli/`: scrape command CLI module (args/flags, progress/output helpers).
 - `src/scraper/index.ts`: scraper orchestration API (`runScrape`) and summary printing.
 - `src/scraper/api.ts`: MediaWiki API access and request pacing.
 - `src/scraper/collections.ts`: section/page discovery and collection assembly.
@@ -214,6 +217,12 @@ Representative docs outputs:
 - `src/mastra/tools/*.ts`: local data + planning/search tools used by the workflow.
 - `src/mastra/wiki-workspace.ts`: local wiki indexing and retrieval.
 - `src/mastra/evals/fishing-30-55.eval.ts`: fixed fishing progression evaluation.
+
+Module docs for faster discovery:
+
+- `src/cli/README.md`
+- `src/scraper/README.md`
+- `src/mastra/README.md`
 
 ## Build, test, and quality checks
 
