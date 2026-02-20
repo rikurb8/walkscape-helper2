@@ -34,8 +34,12 @@ class ScrapeCommandCli extends Command {
     }),
     incremental: Flags.boolean({
       char: "i",
+      default: true,
+      description: "Skip rewriting unchanged pages by comparing source_oldid (default)"
+    }),
+    full: Flags.boolean({
       default: false,
-      description: "Skip rewriting unchanged pages by comparing source_oldid"
+      description: "Disable incremental mode and force full rewrite"
     }),
     collections: Flags.string({
       char: "c",
@@ -83,7 +87,7 @@ class ScrapeCommandCli extends Command {
     try {
       const result = await runScrape({
         collections,
-        incremental: flags.incremental,
+        incremental: flags.full ? false : flags.incremental,
         onProgress
       });
 
@@ -121,7 +125,7 @@ function renderHelp(): string {
     "Scrape WalkScape wiki pages into local docs/raw outputs",
     "",
     "Usage:",
-    "  tsx src/main.ts [collection-a,collection-b] [--collections <name>]... [--incremental] [--print-docs]",
+    "  tsx src/main.ts [collection-a,collection-b] [--collections <name>]... [--incremental] [--full] [--print-docs]",
     "",
     `Collections: ${supportedCollections}`,
     "If no collections are provided, all collections are scraped.",
@@ -129,7 +133,8 @@ function renderHelp(): string {
     "Flags:",
     "  -h, --help         Show help",
     "  -c, --collections  Collections to scrape (repeat flag or comma-separated list)",
-    "  -i, --incremental  Skip rewriting unchanged pages by comparing source_oldid",
+    "  -i, --incremental  Skip rewriting unchanged pages by comparing source_oldid (default)",
+    "      --full         Disable incremental mode and force full rewrite",
     "  -p, --print-docs   Print saved docs after scrape",
     ""
   ].join("\n");

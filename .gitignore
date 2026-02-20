@@ -10,3 +10,4 @@ docs/.vitepress/dist/
 
 .mastra/
 mastra.db
+.walkscape/

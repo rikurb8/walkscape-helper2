@@ -19,12 +19,20 @@ const SKILL_NAMES = [
 const parseQuestionStep = createStep({
   id: "parse-question",
   inputSchema: z.object({
-    question: z.string().min(1)
+    question: z.string().min(1),
+    context: z
+      .object({
+        username: z.string().min(1).optional(),
+        skillLevels: z.record(z.number().int().min(1)).optional()
+      })
+      .optional()
   }),
   outputSchema: z.object({
     skill: z.string(),
     currentLevel: z.number().int().min(1),
-    targetLevel: z.number().int().min(2)
+    targetLevel: z.number().int().min(2),
+    username: z.string().optional(),
+    usedProfileLevel: z.boolean()
   }),
   execute: async ({ inputData }) => {
     const question = inputData.question.trim();
@@ -36,16 +44,36 @@ const parseQuestionStep = createStep({
     }
 
     const levels = extractLevelRange(questionLower);
-    if (!levels) {
+    if (levels) {
+      return {
+        skill,
+        currentLevel: levels.currentLevel,
+        targetLevel: levels.targetLevel,
+        username: inputData.context?.username,
+        usedProfileLevel: false
+      };
+    }
+
+    const targetLevel = extractTargetLevel(questionLower);
+    if (!targetLevel) {
       throw new Error(
-        `Could not parse level range from question: '${question}'. Expected formats like '30 to 55' or '30-55'.`
+        `Could not parse level target from question: '${question}'. Expected formats like '30 to 55', '30-55', or 'to 55'.`
+      );
+    }
+
+    const profileLevel = inputData.context?.skillLevels?.[skill];
+    if (!profileLevel) {
+      throw new Error(
+        `Question '${question}' requires your current ${skill} level. Provide it in the question (for example '30 to ${targetLevel}') or import your character export with guide.`
       );
     }
 
     return {
       skill,
-      currentLevel: levels.currentLevel,
-      targetLevel: levels.targetLevel
+      currentLevel: profileLevel,
+      targetLevel,
+      username: inputData.context?.username,
+      usedProfileLevel: true
     };
   }
 });
@@ -55,12 +83,16 @@ const planRouteStep = createStep({
   inputSchema: z.object({
     skill: z.string(),
     currentLevel: z.number(),
-    targetLevel: z.number()
+    targetLevel: z.number(),
+    username: z.string().optional(),
+    usedProfileLevel: z.boolean()
   }),
   outputSchema: z.object({
     skill: z.string(),
     fromLevel: z.number(),
     toLevel: z.number(),
+    username: z.string().optional(),
+    usedProfileLevel: z.boolean(),
     segments: z.array(
       z.object({
         fromLevel: z.number(),
@@ -81,11 +113,17 @@ const planRouteStep = createStep({
     )
   }),
   execute: async ({ inputData }) => {
-    return buildSkillRoutePlan({
+    const route = await buildSkillRoutePlan({
       skill: inputData.skill,
       currentLevel: inputData.currentLevel,
       targetLevel: inputData.targetLevel
     });
+
+    return {
+      ...route,
+      username: inputData.username,
+      usedProfileLevel: inputData.usedProfileLevel
+    };
   }
 });
 
@@ -95,6 +133,8 @@ const formatAnswerStep = createStep({
     skill: z.string(),
     fromLevel: z.number(),
     toLevel: z.number(),
+    username: z.string().optional(),
+    usedProfileLevel: z.boolean(),
     segments: z.array(
       z.object({
         fromLevel: z.number(),
@@ -142,6 +182,10 @@ const formatAnswerStep = createStep({
   }),
   execute: async ({ inputData }) => {
     const titleSkill = `${inputData.skill.charAt(0).toUpperCase()}${inputData.skill.slice(1)}`;
+    const introPrefix = inputData.username ? `${inputData.username}, ` : "";
+    const contextLine = inputData.usedProfileLevel
+      ? `Using your saved profile level (${titleSkill} ${inputData.fromLevel}) as the starting point.`
+      : "";
     const routeLines = inputData.segments.map((segment) => {
       const xp = segment.totalMaxXpPerStep ?? segment.totalBaseXpPerStep;
       const xpText = typeof xp === "number" ? xp.toFixed(3) : "n/a";
@@ -153,7 +197,8 @@ const formatAnswerStep = createStep({
     });
 
     const answer = [
-      `${titleSkill} ${inputData.fromLevel}-${inputData.toLevel} route (local wiki data):`,
+      `${introPrefix}${titleSkill} ${inputData.fromLevel}-${inputData.toLevel} route (local wiki data):`,
+      contextLine,
       ...routeLines,
       consumableLines.length ? "" : "",
       consumableLines.length ? "Helpful consumables:" : "",
@@ -179,7 +224,13 @@ export const answerSkillQuestionWorkflow = createWorkflow({
   id: "answer-skill-question",
   description: "Answers progression questions using local scraped WalkScape wiki data only",
   inputSchema: z.object({
-    question: z.string().min(1)
+    question: z.string().min(1),
+    context: z
+      .object({
+        username: z.string().min(1).optional(),
+        skillLevels: z.record(z.number().int().min(1)).optional()
+      })
+      .optional()
   }),
   outputSchema: z.object({
     answer: z.string(),
@@ -226,4 +277,18 @@ function extractLevelRange(question: string): { currentLevel: number; targetLeve
   }
 
   return { currentLevel, targetLevel };
+}
+
+function extractTargetLevel(question: string): number | null {
+  const targetMatch = question.match(/(?:to|target(?:\s+level)?|lvl\.?|level)\s*(\d+)/i);
+  if (!targetMatch) {
+    return null;
+  }
+
+  const targetLevel = Number.parseInt(targetMatch[1], 10);
+  if (Number.isNaN(targetLevel)) {
+    return null;
+  }
+
+  return targetLevel;
 }

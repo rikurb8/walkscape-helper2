@@ -1,21 +1,57 @@
 # WalkScape Helper
 
-`walkscape-helper` turns the WalkScape wiki into a local, queryable knowledge base for progression planning.
+`walkscape-helper` is a CLI driven helper for Walkscape. It turns the WalkScape wiki into a local, queryable knowledge base for progression planning.
 
-It is designed for a local-first workflow:
+The project is centered around four concepts:
 
-- scrape and normalize wiki content into docs + structured data;
-- search and inspect that data locally;
-- ask progression questions against local content;
-- evaluate answer quality with repeatable checks.
+- `scrape`: build and refresh your local wiki snapshot (incremental by default);
+- `wiki`: ask questions using only local wiki content;
+- `guide`: ask context-aware questions using your own character profile + local wiki data;
+- `evals`: run repeatable quality checks so you can track response quality as prompts/tools evolve over time.
+
+## Try it now
+
+```bash
+# 1) Install dependencies
+pnpm install
+
+# 2) Build your local wiki snapshot
+#    - incremental mode is enabled by default
+pnpm scrape
+
+# 3) Ask a wiki-only question (no player context)
+pnpm wiki "where can i train fishing around level 50?"
+
+# 4) Set up your personal guide context
+pnpm guide set --username Riku1
+
+# 5) Import the included sample character export
+#    - this file stores skills as XP values
+#    - guide converts those XP values to estimated current levels
+pnpm guide import --character-export-file ./example-character-export.json
+
+# 6) Inspect what guide saved locally
+pnpm guide show
+
+# 7) Ask a context-aware progression question
+#    - guide can infer your current level from imported profile
+pnpm guide ask "how do i get fishing to 70?"
+
+# 8) Optional: compare with raw search matches
+pnpm wiki:search "magnet fishing location"
+
+# 9) Run evals to track quality over time
+pnpm eval:fishing
+```
 
 ## What this project does
 
-At a high level, this repository combines three capabilities:
+At a high level, this repository combines four capabilities:
 
 1. **Wiki ingestion pipeline** (`scrape`): fetches selected wiki sections, cleans and transforms HTML, extracts tabular data, rewrites links, and writes deterministic outputs.
-2. **Local knowledge access** (`wiki:search`, docs site): lets you browse and keyword-search what was scraped.
-3. **Route-planning assistant workflow** (`ask`, `eval:fishing`): uses local scraped data in a deterministic planning workflow to answer skill progression questions.
+2. **Local knowledge access** (`wiki`, `wiki:search`, docs site): lets you ask and keyword-search against what was scraped.
+3. **Personal guide** (`guide`): stores your character context (username + levels from export) and answers progression questions with profile-aware defaults.
+4. **Quality evaluations** (`eval:fishing`): runs stable progression evals so results can be compared over time after model/prompt/tooling changes.
 
 Supported scrape collections:
 
@@ -29,12 +65,15 @@ Supported scrape collections:
 ```bash
 pnpm install
 pnpm scrape
-pnpm ask "how to get from fishing 35 to 50?"
+pnpm wiki "where can i train fishing around level 50?"
+pnpm guide ask "how do i get fishing to 55?"
 ```
 
 Optional next commands:
 
 ```bash
+pnpm guide set --username your_name
+pnpm guide import --character-export-file ./example-character-export.json
 pnpm wiki:search "magnet fishing location"
 pnpm docs:dev
 pnpm eval:fishing
@@ -42,9 +81,9 @@ pnpm eval:fishing
 
 ## Typical workflow
 
-1. **Build local snapshot**: run `pnpm scrape` (or `pnpm scrape --incremental`).
-2. **Inspect data**: use `pnpm wiki:search "..."` and/or browse docs with `pnpm docs:dev`.
-3. **Ask planning questions**: run `pnpm ask "..."` for level-by-level routes.
+1. **Scrape**: run `pnpm scrape` to build/update local data (`incremental` is on by default).
+2. **Wiki**: run `pnpm wiki "..."` for question-style lookup or `pnpm wiki:search "..."` for raw matches.
+3. **Guide**: set/import context with `pnpm guide ...`, then ask profile-aware progression questions.
 4. **Validate quality**: run tests/evals and build checks.
 
 ## CLI usage
@@ -60,6 +99,7 @@ Useful variants:
 ```bash
 pnpm scrape --help
 pnpm scrape --incremental
+pnpm scrape --full
 pnpm scrape --collections skills --collections recipes
 pnpm scrape skills,activities
 pnpm scrape --print-docs
@@ -68,16 +108,51 @@ pnpm scrape --print-docs
 Behavior notes:
 
 - if no collections are passed, all supported collections are scraped;
-- incremental mode skips unchanged pages using `source_oldid`;
+- incremental mode skips unchanged pages using `source_oldid` (enabled by default);
+- use `--full` when you want to force a complete rewrite;
 - progress is streamed in collect/write phases with warnings surfaced during the run.
 
-### Ask progression questions
+### Wiki questions
 
 ```bash
-pnpm ask "how to get from fishing 35 to 50?"
+pnpm wiki "best fishing activity around level 40"
 ```
 
-### Search local wiki index
+### Guide (personal context-aware assistant)
+
+Save username:
+
+```bash
+pnpm guide set --username your_name
+```
+
+Import character export:
+
+```bash
+pnpm guide import --character-export-file ./example-character-export.json
+# or
+pnpm guide import --character-export-json '{"username":"your_name","skills":{"fishing":{"level":35}}}'
+```
+
+Notes:
+
+- the importer accepts either direct skill levels or skill XP values;
+- when XP values are provided, guide estimates current levels before using them for route planning.
+
+Ask with context:
+
+```bash
+pnpm guide ask "how do i get fishing to 55?"
+```
+
+Inspect/reset context:
+
+```bash
+pnpm guide show
+pnpm guide reset
+```
+
+### Search local wiki index (raw match mode)
 
 ```bash
 pnpm wiki:search "best fishing activity around level 40"
@@ -110,6 +185,9 @@ Representative docs outputs:
 - `src/scraper/link-rewrite.ts`: internal link rewriting for generated docs.
 - `src/scraper/writers.ts`: markdown/raw/report/docs-config writers.
 - `src/mastra/index.ts`: local Q&A integration entrypoint.
+- `src/mastra/wiki.ts`: wiki Q&A CLI command.
+- `src/mastra/guide.ts`: guide context CLI command.
+- `src/mastra/guide-context.ts`: guide context persistence + character export parsing.
 - `src/mastra/workflows/answer-skill-question-workflow.ts`: deterministic route-planning workflow.
 - `src/mastra/tools/*.ts`: local data + planning/search tools used by the workflow.
 - `src/mastra/wiki-workspace.ts`: local wiki indexing and retrieval.

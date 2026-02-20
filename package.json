@@ -18,6 +18,8 @@
     "docs:preview": "vitepress preview docs",
     "mastra:dev": "mastra dev --dir src/mastra",
     "ask": "tsx src/mastra/ask.ts",
+    "wiki": "tsx src/mastra/wiki.ts",
+    "guide": "tsx src/mastra/guide.ts",
     "wiki:search": "tsx src/mastra/search.ts",
     "scrape": "tsx src/main.ts",
     "eval:fishing": "tsx src/mastra/evals/fishing-30-55.eval.ts"

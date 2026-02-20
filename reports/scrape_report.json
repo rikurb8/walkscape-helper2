@@ -6,7 +6,7 @@
     "activities",
     "recipes"
   ],
-  "incremental": false,
+  "incremental": true,
   "sections": [
     {
       "section": "Skills",
@@ -388,8 +388,8 @@
   "tables_found_total": 2762,
   "request_count": 321,
   "write_stats": {
-    "docs_written": 335,
-    "docs_skipped": 0,
+    "docs_written": 0,
+    "docs_skipped": 335,
     "docs_removed": 0,
     "raw_written": 335,
     "raw_skipped": 0,
