@@ -7,6 +7,11 @@
   "packageManager": "pnpm@10.5.2",
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint . --max-warnings=0",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
@@ -21,10 +26,15 @@
     "turndown": "^7.2.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.22.0",
     "@types/marked-terminal": "^6.1.1",
     "@types/node": "^22.13.8",
     "@types/turndown": "^5.0.5",
+    "eslint": "^9.22.0",
+    "globals": "^15.15.0",
+    "prettier": "^3.5.3",
     "tsx": "^4.20.5",
+    "typescript-eslint": "^8.26.1",
     "typescript": "^5.8.2",
     "vitepress": "^1.6.4"
   }

@@ -103,8 +103,12 @@ class ScrapeCommandCli extends Command {
 function formatProgress(event: ScrapeProgressEvent): string {
   const phase = event.phase === "collect" ? "Collect" : "Write";
   const progress =
-    typeof event.current === "number" && typeof event.total === "number" ? ` ${event.current}/${event.total}` : "";
-  const scopeParts = [event.sectionTitle, event.pageTitle].filter((value): value is string => Boolean(value));
+    typeof event.current === "number" && typeof event.total === "number"
+      ? ` ${event.current}/${event.total}`
+      : "";
+  const scopeParts = [event.sectionTitle, event.pageTitle].filter((value): value is string =>
+    Boolean(value)
+  );
   const scope = scopeParts.length ? ` (${scopeParts.join(" > ")})` : "";
   const prefix = event.stage === "warning" ? "Warning: " : "";
 
@@ -196,7 +200,10 @@ function stripFrontmatter(markdown: string): string {
   return markdown.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, "");
 }
 
-function parseCollections(argValue?: string, flagValues?: string[]): ScrapeCollection[] | undefined {
+function parseCollections(
+  argValue?: string,
+  flagValues?: string[]
+): ScrapeCollection[] | undefined {
   const rawValues = [argValue ?? "", ...(flagValues ?? [])]
     .join(",")
     .split(",")
@@ -227,6 +234,6 @@ function parseCollections(argValue?: string, flagValues?: string[]): ScrapeColle
 }
 
 void ScrapeCommandCli.run(process.argv.slice(2)).catch((error) => {
-  console.error(error instanceof Error ? error.stack ?? error.message : String(error));
+  console.error(error instanceof Error ? (error.stack ?? error.message) : String(error));
   process.exitCode = 1;
 });

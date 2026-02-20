@@ -2,7 +2,12 @@ import path from "node:path";
 
 import { fetchParsedPage } from "./api.js";
 import { extractDocument, type ExtractedDocument, type ExtractedTable } from "./extract.js";
-import type { CollectionResult, FetchCache, ScrapeCollection, ScrapeProgressHandler } from "./types.js";
+import type {
+  CollectionResult,
+  FetchCache,
+  ScrapeCollection,
+  ScrapeProgressHandler
+} from "./types.js";
 import { normalizeTitle, slugifyTitle, uniqueSlug } from "./utils.js";
 
 interface BuildCollectionInput {
@@ -33,7 +38,13 @@ export async function collectSections(
   }
   if (selected.has("core-mechanics")) {
     collections.push(
-      await buildSinglePageCollection("core-mechanics", "Core Mechanics", "Core Mechanics", fetchCache, onProgress)
+      await buildSinglePageCollection(
+        "core-mechanics",
+        "Core Mechanics",
+        "Core Mechanics",
+        fetchCache,
+        onProgress
+      )
     );
   }
   if (selected.has("activities")) {
@@ -46,7 +57,10 @@ export async function collectSections(
   return collections;
 }
 
-async function buildSkillsCollection(fetchCache: FetchCache, onProgress?: ScrapeProgressHandler): Promise<CollectionResult> {
+async function buildSkillsCollection(
+  fetchCache: FetchCache,
+  onProgress?: ScrapeProgressHandler
+): Promise<CollectionResult> {
   const { doc: rootDoc } = await fetchPageDocument("Skills", fetchCache);
   const childTitles = deriveSkillTitles(rootDoc.tables);
 
@@ -60,7 +74,10 @@ async function buildSkillsCollection(fetchCache: FetchCache, onProgress?: Scrape
   });
 }
 
-async function buildActivitiesCollection(fetchCache: FetchCache, onProgress?: ScrapeProgressHandler): Promise<CollectionResult> {
+async function buildActivitiesCollection(
+  fetchCache: FetchCache,
+  onProgress?: ScrapeProgressHandler
+): Promise<CollectionResult> {
   const { parsed: rootPage, doc: rootDoc } = await fetchPageDocument("Activities", fetchCache);
   const childTitles = deriveActivityTitles(rootDoc.tables);
 
@@ -74,7 +91,10 @@ async function buildActivitiesCollection(fetchCache: FetchCache, onProgress?: Sc
   });
 }
 
-async function buildRecipesCollection(fetchCache: FetchCache, onProgress?: ScrapeProgressHandler): Promise<CollectionResult> {
+async function buildRecipesCollection(
+  fetchCache: FetchCache,
+  onProgress?: ScrapeProgressHandler
+): Promise<CollectionResult> {
   const sectionSlug = "recipes";
   const sectionTitle = "Recipes";
   const rootTitle = "Recipes";
@@ -123,7 +143,10 @@ async function buildRecipesCollection(fetchCache: FetchCache, onProgress?: Scrap
 
   for (const target of recipeTargets) {
     try {
-      const { parsed: childPage, doc: childDoc } = await fetchPageDocument(target.sourcePageTitle, fetchCache);
+      const { parsed: childPage, doc: childDoc } = await fetchPageDocument(
+        target.sourcePageTitle,
+        fetchCache
+      );
       const baseSlug = path.join(slugifyTitle(target.skillTitle), slugifyTitle(target.recipeTitle));
       const slug = uniqueSlug(baseSlug, usedSlugs);
 
@@ -216,7 +239,10 @@ async function buildCollection(input: BuildCollectionInput): Promise<CollectionR
     total: totalPages
   });
 
-  const { parsed: rootPage, doc: rootDoc } = await fetchPageDocument(input.rootTitle, input.fetchCache);
+  const { parsed: rootPage, doc: rootDoc } = await fetchPageDocument(
+    input.rootTitle,
+    input.fetchCache
+  );
   completedPages += 1;
   input.onProgress?.({
     phase: "collect",
@@ -252,7 +278,10 @@ async function buildCollection(input: BuildCollectionInput): Promise<CollectionR
 
     seenTitles.add(titleKey);
     try {
-      const { parsed: childPage, doc: childDoc } = await fetchPageDocument(childTitle, input.fetchCache);
+      const { parsed: childPage, doc: childDoc } = await fetchPageDocument(
+        childTitle,
+        input.fetchCache
+      );
       const slug = uniqueSlug(slugifyTitle(childPage.title), usedSlugs);
 
       pageRecords.push({
@@ -277,7 +306,9 @@ async function buildCollection(input: BuildCollectionInput): Promise<CollectionR
       });
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
-      warnings.push(`Failed to fetch '${childTitle}' in section '${input.sectionTitle}': ${message}`);
+      warnings.push(
+        `Failed to fetch '${childTitle}' in section '${input.sectionTitle}': ${message}`
+      );
       completedPages += 1;
       input.onProgress?.({
         phase: "collect",
@@ -351,7 +382,9 @@ function deriveSkillTitles(tables: ExtractedTable[]): string[] {
     throw new Error("No rows found in Skills overview table");
   }
 
-  let candidateColumns = skillTable.columns.filter((column) => column.toLowerCase().startsWith("skill"));
+  let candidateColumns = skillTable.columns.filter((column) =>
+    column.toLowerCase().startsWith("skill")
+  );
   if (!candidateColumns.length) {
     candidateColumns = skillTable.columns;
   }
@@ -374,7 +407,10 @@ function deriveActivityTitles(tables: ExtractedTable[]): string[] {
   throw new Error("Could not find Activity Name column in Activities tables");
 }
 
-function deriveRecipeTargets(tables: ExtractedTable[]): { targets: RecipeTarget[]; warnings: string[] } {
+function deriveRecipeTargets(tables: ExtractedTable[]): {
+  targets: RecipeTarget[];
+  warnings: string[];
+} {
   const targets: RecipeTarget[] = [];
   const warnings: string[] = [];
   const seen = new Set<string>();
@@ -397,7 +433,9 @@ function deriveRecipeTargets(tables: ExtractedTable[]): { targets: RecipeTarget[
       const sourceHref = rowLinks[recipeColumn]?.[0] ?? "";
       const sourcePageTitle = parseWikiTitleFromHref(sourceHref);
       if (!sourcePageTitle) {
-        warnings.push(`Could not derive recipe page for '${recipeTitle}' in section '${skillTitle}'`);
+        warnings.push(
+          `Could not derive recipe page for '${recipeTitle}' in section '${skillTitle}'`
+        );
         continue;
       }
 

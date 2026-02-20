@@ -1,0 +1,36 @@
+version: "3"
+
+tasks:
+  format:check:
+    desc: Check formatting with Prettier
+    cmds:
+      - pnpm format:check
+
+  lint:
+    desc: Lint project sources
+    cmds:
+      - pnpm lint
+
+  typecheck:
+    desc: Run TypeScript type checking
+    cmds:
+      - pnpm typecheck
+
+  build:
+    desc: Build TypeScript output
+    cmds:
+      - pnpm build
+
+  docs:build:
+    desc: Build VitePress docs
+    cmds:
+      - pnpm docs:build
+
+  ci:
+    desc: Run all quality gates
+    cmds:
+      - task format:check
+      - task lint
+      - task typecheck
+      - task build
+      - task docs:build

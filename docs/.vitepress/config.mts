@@ -32,8 +32,17 @@ interface SectionMenu {
 }
 
 const sections = collectSectionsFromDocs();
-const nav: NavItem[] = [{ text: "Home", link: "/" }, ...sections.map((section) => ({ text: section.sectionTitle, link: `/wiki/${section.sectionSlug}/` }))];
-const sidebar: SidebarSection[] = sections.map((section) => ({ text: section.sectionTitle, items: section.items }));
+const nav: NavItem[] = [
+  { text: "Home", link: "/" },
+  ...sections.map((section) => ({
+    text: section.sectionTitle,
+    link: `/wiki/${section.sectionSlug}/`
+  }))
+];
+const sidebar: SidebarSection[] = sections.map((section) => ({
+  text: section.sectionTitle,
+  items: section.items
+}));
 
 export default defineConfig({
   title: "WalkScape Helper",
@@ -164,7 +173,10 @@ function readFrontmatterTitle(filePath: string): string | undefined {
     return undefined;
   }
 
-  if ((rawValue.startsWith("\"") && rawValue.endsWith("\"")) || (rawValue.startsWith("'") && rawValue.endsWith("'"))) {
+  if (
+    (rawValue.startsWith('"') && rawValue.endsWith('"')) ||
+    (rawValue.startsWith("'") && rawValue.endsWith("'"))
+  ) {
     return rawValue.slice(1, -1);
   }
 

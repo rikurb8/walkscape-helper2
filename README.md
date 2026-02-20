@@ -54,6 +54,16 @@ To preview the built site locally:
 pnpm docs:preview
 ```
 
+## Quality gates
+
+If you use `go-task`, run all checks with:
+
+```bash
+task ci
+```
+
+This runs formatting checks, linting, type checking, TypeScript build, and docs build.
+
 ## Optional: specific collections only
 
 ```bash

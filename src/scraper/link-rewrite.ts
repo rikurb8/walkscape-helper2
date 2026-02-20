@@ -2,9 +2,14 @@ import path from "node:path";
 
 import { normalizeTitle } from "./utils.js";
 
-const WIKI_LINK_PATTERN = /\[([^\]]+)\]\((https:\/\/wiki\.walkscape\.app\/wiki\/[^\s)]+)(?:\s+"[^"]*")?\)/g;
+const WIKI_LINK_PATTERN =
+  /\[([^\]]+)\]\((https:\/\/wiki\.walkscape\.app\/wiki\/[^\s)]+)(?:\s+"[^"]*")?\)/g;
 
-export function rewriteInternalLinks(markdown: string, currentPath: string, titleToPath: Map<string, string>): string {
+export function rewriteInternalLinks(
+  markdown: string,
+  currentPath: string,
+  titleToPath: Map<string, string>
+): string {
   return markdown.replace(WIKI_LINK_PATTERN, (match, label: string, url: string) => {
     const title = titleFromWikiUrl(url);
     if (!title) {

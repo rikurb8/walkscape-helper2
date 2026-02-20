@@ -6,7 +6,12 @@ export function normalizeTitle(title: string): string {
 }
 
 export function slugifyTitle(title: string): string {
-  return title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "page";
+  return (
+    title
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "") || "page"
+  );
 }
 
 export function uniqueSlug(base: string, used: Set<string>): string {

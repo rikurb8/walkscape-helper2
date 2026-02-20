@@ -149,7 +149,10 @@ function extractTables($: CheerioAPI, root: any): ExtractedTable[] {
   return tables;
 }
 
-function parseWikitable($: CheerioAPI, table: any): {
+function parseWikitable(
+  $: CheerioAPI,
+  table: any
+): {
   columns: string[];
   rows: Record<string, string>[];
   rowLinks: Record<string, string[]>[];
@@ -176,7 +179,11 @@ function parseWikitable($: CheerioAPI, table: any): {
         if (entry.remaining <= 1) {
           spanMap.delete(col);
         } else {
-          spanMap.set(col, { text: entry.text, links: entry.links, remaining: entry.remaining - 1 });
+          spanMap.set(col, {
+            text: entry.text,
+            links: entry.links,
+            remaining: entry.remaining - 1
+          });
         }
         col += 1;
       }
@@ -342,12 +349,17 @@ function simplifyHeaders(headers: string[]): string[] {
 function renderMarkdownTable(columns: string[], rows: Record<string, string>[]): string {
   const header = `| ${columns.map((column) => escapeMdCell(column)).join(" | ")} |`;
   const separator = `| ${columns.map(() => "---").join(" | ")} |`;
-  const body = rows.map((row) => `| ${columns.map((column) => escapeMdCell(row[column] ?? "")).join(" | ")} |`);
+  const body = rows.map(
+    (row) => `| ${columns.map((column) => escapeMdCell(row[column] ?? "")).join(" | ")} |`
+  );
   return [header, separator, ...body].join("\n");
 }
 
 function cleanCellText(text: string): string {
-  return text.replace(/\s+/g, " ").trim().replace(/\s+([,.;:!?])/g, "$1");
+  return text
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/\s+([,.;:!?])/g, "$1");
 }
 
 function escapeMdCell(text: string): string {

@@ -4,7 +4,13 @@ import { fileURLToPath } from "node:url";
 
 import { renderMarkdownTables, renderStructuredData } from "./extract.js";
 import { rewriteInternalLinks } from "./link-rewrite.js";
-import type { CollectionResult, PageRecord, ScrapeCollection, ScrapeProgressHandler, WriteStats } from "./types.js";
+import type {
+  CollectionResult,
+  PageRecord,
+  ScrapeCollection,
+  ScrapeProgressHandler,
+  WriteStats
+} from "./types.js";
 import { asciiJsonStringify, normalizeTitle, safeReadDir, toPosix } from "./utils.js";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -42,7 +48,13 @@ export async function writeCollectionsOutput(
   });
 
   await writeDocsIndex(collections);
-  return writeReport(collections, input.selectedCollections, input.incremental, input.requestCount, writeStats);
+  return writeReport(
+    collections,
+    input.selectedCollections,
+    input.incremental,
+    input.requestCount,
+    writeStats
+  );
 }
 
 async function prepareOutputDirectories(collections: CollectionResult[]): Promise<void> {
@@ -100,7 +112,11 @@ async function writeCollectionOutputs(
     if (upToDateDoc) {
       stats.docsSkipped += 1;
     } else {
-      const body = rewriteInternalLinks(page.extracted.bodyMarkdown, page.outputRelpath, titleToPath);
+      const body = rewriteInternalLinks(
+        page.extracted.bodyMarkdown,
+        page.outputRelpath,
+        titleToPath
+      );
       const markdownTables = renderMarkdownTables(page.extracted.tables);
 
       const markdown = renderPageMarkdown({
@@ -117,7 +133,13 @@ async function writeCollectionOutputs(
       stats.docsWritten += 1;
     }
 
-    const rawFile = path.join(PROJECT_ROOT, "data", "raw", page.sectionSlug, `${page.slug}_parse.json`);
+    const rawFile = path.join(
+      PROJECT_ROOT,
+      "data",
+      "raw",
+      page.sectionSlug,
+      `${page.slug}_parse.json`
+    );
     await fs.mkdir(path.dirname(rawFile), { recursive: true });
     expectedRawPaths.add(path.resolve(rawFile));
 
@@ -129,7 +151,13 @@ async function writeCollectionOutputs(
       stats.rawWritten += 1;
     }
 
-    const structuredFile = path.join(PROJECT_ROOT, "data", "raw", page.sectionSlug, `${page.slug}_structured.json`);
+    const structuredFile = path.join(
+      PROJECT_ROOT,
+      "data",
+      "raw",
+      page.sectionSlug,
+      `${page.slug}_structured.json`
+    );
     await fs.mkdir(path.dirname(structuredFile), { recursive: true });
     expectedRawPaths.add(path.resolve(structuredFile));
 
@@ -244,8 +272,13 @@ async function writeReport(
   const warnings = report.warnings as string[];
 
   for (const collection of collections) {
-    const sectionTables = collection.pageRecords.reduce((sum, page) => sum + page.extracted.tables.length, 0);
-    const sectionOutputFiles = collection.pageRecords.map((page) => `docs/${toPosix(page.outputRelpath)}`);
+    const sectionTables = collection.pageRecords.reduce(
+      (sum, page) => sum + page.extracted.tables.length,
+      0
+    );
+    const sectionOutputFiles = collection.pageRecords.map(
+      (page) => `docs/${toPosix(page.outputRelpath)}`
+    );
     sections.push({
       section: collection.sectionTitle,
       section_slug: collection.sectionSlug,
@@ -256,7 +289,8 @@ async function writeReport(
       warnings: collection.warnings
     });
 
-    report.pages_generated_total = (report.pages_generated_total as number) + collection.pageRecords.length;
+    report.pages_generated_total =
+      (report.pages_generated_total as number) + collection.pageRecords.length;
     report.tables_found_total = (report.tables_found_total as number) + sectionTables;
     warnings.push(...collection.warnings);
   }
@@ -292,7 +326,10 @@ function renderPageMarkdown(input: RenderPageMarkdownInput): string {
   return `${sections.join("\n\n").trimEnd()}\n`;
 }
 
-async function isMarkdownUpToDate(markdownFile: string, sourceOldid: number | null): Promise<boolean> {
+async function isMarkdownUpToDate(
+  markdownFile: string,
+  sourceOldid: number | null
+): Promise<boolean> {
   try {
     await fs.access(markdownFile);
   } catch {
