@@ -182,14 +182,17 @@ async function handleSet(args: string[]): Promise<GuideSetResult> {
 async function handleImport(args: string[]): Promise<GuideImportResult> {
   const exportFile = readFlagValue(args, "--character-export-file");
   const exportJson = readFlagValue(args, "--character-export-json");
+  const pipedInput = !exportFile && !exportJson ? await readStdinIfPiped() : undefined;
 
-  if (!exportFile && !exportJson) {
+  if (!exportFile && !exportJson && !pipedInput) {
     throw new Error(
-      "Usage: pnpm guide import [--json] --character-export-file <path> OR --character-export-json '<json>'"
+      "Usage: pnpm guide import [--json] --character-export-file <path> OR --character-export-json '<json>' OR pipe JSON into stdin"
     );
   }
 
-  const rawJson = exportFile ? await fs.readFile(exportFile, "utf-8") : (exportJson ?? "");
+  const rawJson = exportFile
+    ? await fs.readFile(exportFile, "utf-8")
+    : (exportJson ?? pipedInput ?? "");
   const imported = parseCharacterExport(rawJson);
   const existing = await loadGuideContext();
 
@@ -330,6 +333,20 @@ function readFlagValue(args: string[], flagName: string): string | undefined {
   return value;
 }
 
+async function readStdinIfPiped(): Promise<string | undefined> {
+  if (process.stdin.isTTY) {
+    return undefined;
+  }
+
+  const chunks: string[] = [];
+  for await (const chunk of process.stdin) {
+    chunks.push(typeof chunk === "string" ? chunk : String(chunk));
+  }
+
+  const input = chunks.join("").trim();
+  return input.length > 0 ? input : undefined;
+}
+
 function isProgressionQuestion(question: string): boolean {
   const lower = question.toLowerCase();
   const hasSkill = SKILL_NAMES.some((skill) => lower.includes(skill));
@@ -348,6 +365,7 @@ function renderHelp(): string {
     "  pnpm guide [--json] set --username <name>",
     "  pnpm guide [--json] import --character-export-file <path>",
     "  pnpm guide [--json] import --character-export-json '<json>'",
+    "  pbpaste | pnpm guide [--json] import",
     "  pnpm guide [--json] show",
     "  pnpm guide [--json] reset",
     '  pnpm guide [--json] ask "how do i get fishing to 55?"',

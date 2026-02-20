@@ -35,6 +35,10 @@ pnpm guide set --username Riku1
 #    - guide converts those XP values to estimated current levels
 pnpm guide import --character-export-file ./example-character-export.json
 
+# 5b) Import JSON from clipboard via stdin (macOS)
+#     - useful when an export is copied to your clipboard
+pbpaste | pnpm guide import
+
 # 6) Inspect what guide saved locally
 pnpm guide show
 
@@ -144,6 +148,8 @@ Import character export:
 pnpm guide import --character-export-file ./example-character-export.json
 # or
 pnpm guide import --character-export-json '{"username":"your_name","skills":{"fishing":{"level":35}}}'
+# or pipe JSON into stdin (macOS clipboard example)
+pbpaste | pnpm guide import
 # machine-readable mode
 pnpm guide import --json --character-export-file ./example-character-export.json
 ```
