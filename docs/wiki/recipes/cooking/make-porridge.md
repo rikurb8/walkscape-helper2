@@ -10,7 +10,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Make porridge
 
 > Perfectly fine breakfast! If there's really nothing else to find, that is...
@@ -53,49 +52,49 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Porridge | Porridge_2 |
-| --- | --- |
-| Type: | Consumable |
-| Value: | 7 |
-| Fine Value: | 38 |
-| Keyword: | Food |
-| Search Keyword: | Foraging |
-| Duration: | 1000 steps |
-| Properties: | Properties: |
+| Porridge        | Porridge_2  |
+| --------------- | ----------- |
+| Type:           | Consumable  |
+| Value:          | 7           |
+| Fine Value:     | 38          |
+| Keyword:        | Food        |
+| Search Keyword: | Foraging    |
+| Duration:       | 1000 steps  |
+| Properties:     | Properties: |
 
 ### Table 2 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                               |
+| ---------------------------------------- |
 | +2% Double rewards While doing Foraging. |
 | +4% Double rewards While doing Foraging. |
 
 ### Table 3 (Make porridge)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Make porridge | Cooking lvl. 15 | Needs Basic Kitchen service or better. | 1x Wheat | 1x Porridge |
+| Recipe Name   | Level           | Service Requirement                    | Materials Used | Recipe Outputs |
+| ------------- | --------------- | -------------------------------------- | -------------- | -------------- |
+| Make porridge | Cooking lvl. 15 | Needs Basic Kitchen service or better. | 1x Wheat       | 1x Porridge    |
 
 ### Table 4 (Make porridge)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Make porridge | 50 | 93 | 0.538 | 59 steps | 160% | 0.847 | 143 steps |
+| Recipe Name   | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Make porridge | 50      | 93         | 0.538        | 59 steps      | 160%                | 0.847       | 143 steps            |
 
 ### Table 5 (Make porridge)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Cooking chest | Container | 1 | 0.400% | ~1 in 250 | 23,250 steps | 14,750 steps |
+| Item Name     | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| ------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Cooking chest | Container | 1        | 0.400% | ~1 in 250 | 23,250 steps | 14,750 steps |
 
 ### Table 6 (Faction Reward)
 
-| Faction Name | Quantity | Requirement |
-| --- | --- | --- |
-| Jarvonia | 2 | 5 Jarvonia Faction Reputation |
+| Faction Name | Quantity | Requirement                   |
+| ------------ | -------- | ----------------------------- |
+| Jarvonia     | 2        | 5 Jarvonia Faction Reputation |
 
 ### Table 7 (Related Items)
 
-| Food | Food_2 |
-| --- | --- |
+| Food       | Food_2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Consumable | Bagel, Beef stew Bread, Cooked anglerfish Cooked carp, Cooked jellyfish Cooked largemouth bass, Cooked lobster Cooked perch, Cooked pike Cooked salmon, Cooked shark Cooked shrimp, Cooked squid Cooked stingray, Cooked swordfish Cooked trout, Creme brulee Dried fruit, Fried fish sandwich Fried noodles, Fruit cake Jarvonian pastry, Jelly sandwich Kelp rolls, Mud pie Mushroom curry, Nut mix Pancake, Pickles Porridge, Roasted bell pepper Salmon pie, Schnitzel Sweet carrot pie, Tasty breakfast Trout soup, Underwater salad Veggie soup |

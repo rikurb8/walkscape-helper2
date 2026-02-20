@@ -24,7 +24,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Craft a steel hatchet
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -35,7 +34,7 @@ The **Steel hatchet** [item](https://wiki.walkscape.app/wiki/Special:MyLanguage/
 
 # Requirement
 
--   At least Woodcutting lvl. 30.
+- At least Woodcutting lvl. 30.
 
 # Attributes
 
@@ -79,135 +78,135 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Steel hatchet (Normal) | Steel hatchet (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 13 |
-| Keywords: | Hatchet Woodcutting tool |
-| Search Keyword: | Woodcutting |
-| Properties: | Properties: |
+| Steel hatchet (Normal) | Steel hatchet (Normal)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Tools                     |
+| Value:                 | 13                        |
+| Keywords:              | Hatchet Woodcutting tool  |
+| Search Keyword:        | Woodcutting               |
+| Properties:            | Properties:               |
 
 ### Table 2 (Introduction)
 
-| Steel hatchet (Good) | Steel hatchet (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 13 |
-| Keywords: | Hatchet Woodcutting tool |
-| Search Keyword: | Woodcutting |
-| Properties: | Properties: |
+| Steel hatchet (Good) | Steel hatchet (Good)\_2  |
+| -------------------- | ------------------------ |
+| Quality:             |                          |
+| Type:                | Crafted                  |
+| Slot:                | Tools                    |
+| Value:               | 13                       |
+| Keywords:            | Hatchet Woodcutting tool |
+| Search Keyword:      | Woodcutting              |
+| Properties:          | Properties:              |
 
 ### Table 3 (Introduction)
 
-| Steel hatchet (Great) | Steel hatchet (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 13 |
-| Keywords: | Hatchet Woodcutting tool |
-| Search Keyword: | Woodcutting |
-| Properties: | Properties: |
+| Steel hatchet (Great) | Steel hatchet (Great)\_2 |
+| --------------------- | ------------------------ |
+| Quality:              |                          |
+| Type:                 | Crafted                  |
+| Slot:                 | Tools                    |
+| Value:                | 13                       |
+| Keywords:             | Hatchet Woodcutting tool |
+| Search Keyword:       | Woodcutting              |
+| Properties:           | Properties:              |
 
 ### Table 4 (Introduction)
 
-| Steel hatchet (Excellent) | Steel hatchet (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 13 |
-| Keywords: | Hatchet Woodcutting tool |
-| Search Keyword: | Woodcutting |
-| Properties: | Properties: |
+| Steel hatchet (Excellent) | Steel hatchet (Excellent)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Tools                        |
+| Value:                    | 13                           |
+| Keywords:                 | Hatchet Woodcutting tool     |
+| Search Keyword:           | Woodcutting                  |
+| Properties:               | Properties:                  |
 
 ### Table 5 (Introduction)
 
-| Steel hatchet (Perfect) | Steel hatchet (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 13 |
-| Keywords: | Hatchet Woodcutting tool |
-| Search Keyword: | Woodcutting |
-| Properties: | Properties: |
+| Steel hatchet (Perfect) | Steel hatchet (Perfect)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Tools                      |
+| Value:                  | 13                         |
+| Keywords:               | Hatchet Woodcutting tool   |
+| Search Keyword:         | Woodcutting                |
+| Properties:             | Properties:                |
 
 ### Table 6 (Introduction)
 
-| Steel hatchet (Eternal) | Steel hatchet (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 13 |
-| Keywords: | Hatchet Woodcutting tool |
-| Search Keyword: | Woodcutting |
-| Properties: | Properties: |
+| Steel hatchet (Eternal) | Steel hatchet (Eternal)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Tools                      |
+| Value:                  | 13                         |
+| Keywords:               | Hatchet Woodcutting tool   |
+| Search Keyword:         | Woodcutting                |
+| Properties:             | Properties:                |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
-| +9% Work efficiency While doing Woodcutting. |
-| +11% Work efficiency While doing Woodcutting. +13% Chest finding While doing Woodcutting. +1% Double action While doing Woodcutting. +15% Fine material finding While doing Woodcutting. +2% Double rewards While doing Woodcutting. +15% Find bird nests While doing Woodcutting. |
-| +14% Work efficiency While doing Woodcutting. +21% Chest finding While doing Woodcutting. +2% Double action While doing Woodcutting. +24% Fine material finding While doing Woodcutting. +4% Double rewards While doing Woodcutting. +24% Find bird nests While doing Woodcutting. |
-| +18% Work efficiency While doing Woodcutting. +24% Chest finding While doing Woodcutting. +3% Double action While doing Woodcutting. +27% Fine material finding While doing Woodcutting. +6% Double rewards While doing Woodcutting. +27% Find bird nests While doing Woodcutting. |
-| +22% Work efficiency While doing Woodcutting. +25% Chest finding While doing Woodcutting. +5% Double action While doing Woodcutting. +29% Fine material finding While doing Woodcutting. +8% Double rewards While doing Woodcutting. +29% Find bird nests While doing Woodcutting. |
+| Attributes                                                                                                                                                                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| +9% Work efficiency While doing Woodcutting.                                                                                                                                                                                                                                         |
+| +11% Work efficiency While doing Woodcutting. +13% Chest finding While doing Woodcutting. +1% Double action While doing Woodcutting. +15% Fine material finding While doing Woodcutting. +2% Double rewards While doing Woodcutting. +15% Find bird nests While doing Woodcutting.   |
+| +14% Work efficiency While doing Woodcutting. +21% Chest finding While doing Woodcutting. +2% Double action While doing Woodcutting. +24% Fine material finding While doing Woodcutting. +4% Double rewards While doing Woodcutting. +24% Find bird nests While doing Woodcutting.   |
+| +18% Work efficiency While doing Woodcutting. +24% Chest finding While doing Woodcutting. +3% Double action While doing Woodcutting. +27% Fine material finding While doing Woodcutting. +6% Double rewards While doing Woodcutting. +27% Find bird nests While doing Woodcutting.   |
+| +22% Work efficiency While doing Woodcutting. +25% Chest finding While doing Woodcutting. +5% Double action While doing Woodcutting. +29% Fine material finding While doing Woodcutting. +8% Double rewards While doing Woodcutting. +29% Find bird nests While doing Woodcutting.   |
 | +27% Work efficiency While doing Woodcutting. +26% Chest finding While doing Woodcutting. +12% Double action While doing Woodcutting. +31% Fine material finding While doing Woodcutting. +10% Double rewards While doing Woodcutting. +31% Find bird nests While doing Woodcutting. |
 
 ### Table 8 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Everhaven combined job board | Everhaven | 15 | +3 Trellin Faction Reputation 1x Crafting chest |
-| Everhaven combined job board | Everhaven | 7 | +3 Trellin Faction Reputation 1x Crafting chest |
-| Granfiddich job board | Granfiddich | 16 | +3 Trellin Faction Reputation 1x Crafting chest |
-| Granfiddich job board | Granfiddich | 8 | +3 Trellin Faction Reputation 1x Crafting chest |
+| Job Board Name               | Location    | Quantity | Rewards                                         |
+| ---------------------------- | ----------- | -------- | ----------------------------------------------- |
+| Everhaven combined job board | Everhaven   | 15       | +3 Trellin Faction Reputation 1x Crafting chest |
+| Everhaven combined job board | Everhaven   | 7        | +3 Trellin Faction Reputation 1x Crafting chest |
+| Granfiddich job board        | Granfiddich | 16       | +3 Trellin Faction Reputation 1x Crafting chest |
+| Granfiddich job board        | Granfiddich | 8        | +3 Trellin Faction Reputation 1x Crafting chest |
 
 ### Table 9 (Activity Drops)
 
-| Activity Name | Skills | Quantity | Chance | Odds | Base Rate | W.E.A.R.‡ |
-| --- | --- | --- | --- | --- | --- | --- |
-| Magnet fishing | Fishing lvl. 40 Foraging lvl. 30 | 1 | 1.246% | ~1 in 80 | 15,169 steps | 6,661 steps |
+| Activity Name  | Skills                           | Quantity | Chance | Odds     | Base Rate    | W.E.A.R.‡   |
+| -------------- | -------------------------------- | -------- | ------ | -------- | ------------ | ----------- |
+| Magnet fishing | Fishing lvl. 40 Foraging lvl. 30 | 1        | 1.246% | ~1 in 80 | 15,169 steps | 6,661 steps |
 
 ### Table 10 (Shop Purchases)
 
-| Shop Name | Location | Region | Stock | Price |
-| --- | --- | --- | --- | --- |
-| Woodcutter's Cabin | Nomad Woods | Jarvonia | 2 | 162 |
+| Shop Name          | Location    | Region   | Stock | Price |
+| ------------------ | ----------- | -------- | ----- | ----- |
+| Woodcutter's Cabin | Nomad Woods | Jarvonia | 2     | 162   |
 
 ### Table 11 (Craft a steel hatchet)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name           | Level            | Service Requirement                     | Materials Used              | Recipe Outputs   |
+| --------------------- | ---------------- | --------------------------------------- | --------------------------- | ---------------- |
 | Craft a steel hatchet | Crafting lvl. 30 | Needs Basic Workshop service or better. | 2x Steel bar 1x Maple plank | 1x Steel hatchet |
 
 ### Table 12 (Craft a steel hatchet)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Craft a steel hatchet | 111 | 155 | 0.716 | 87 steps | 180% | 1.276 | 574 steps |
+| Recipe Name           | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| --------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Craft a steel hatchet | 111     | 155        | 0.716        | 87 steps      | 180%                | 1.276       | 574 steps            |
 
 ### Table 13 (Craft a steel hatchet)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Crafting chest | Container | 1 | 0.400% | ~1 in 250 | 38,750 steps | 21,750 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Crafting chest | Container | 1        | 0.400% | ~1 in 250 | 38,750 steps | 21,750 steps |
 
 ### Table 14 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                                                              |
+| -------------------------------------------------------------------------- |
 | 2x Coal and 4x Iron ore or 80x Metal scrap 2x Maple logs or 40x Wood scrap |
 
 ### Table 15 (Related Items)
 
-| Woodcutting tool | Woodcutting tool_2 | Hatchet |
-| --- | --- | --- |
-| Crafted | 1 - Basic hatchet 2 - Copper hatchet 10 - Bronze hatchet 20 - Iron hatchet 30 - Steel hatchet 40 - Tarsilium hatchet 45 - Hydrilium hatchet 50 - Farganite hatchet 55 - Spectral hatchet 60 - Adamant hatchet 70 - Violite hatchet | 1 - Basic hatchet 2 - Copper hatchet 10 - Bronze hatchet 20 - Iron hatchet 30 - Steel hatchet 40 - Tarsilium hatchet 45 - Hydrilium hatchet 50 - Farganite hatchet 55 - Spectral hatchet 60 - Adamant hatchet 70 - Violite hatchet |
-| Loot | - Rusty hatchet - Adventuring hatchet - Ice axe - Axe of destruction - Trellin beaver | - Rusty hatchet - Adventuring hatchet - Ice axe - Axe of destruction - Trellin beaver |
+| Woodcutting tool | Woodcutting tool_2                                                                                                                                                                                                                 | Hatchet                                                                                                                                                                                                                            |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Crafted          | 1 - Basic hatchet 2 - Copper hatchet 10 - Bronze hatchet 20 - Iron hatchet 30 - Steel hatchet 40 - Tarsilium hatchet 45 - Hydrilium hatchet 50 - Farganite hatchet 55 - Spectral hatchet 60 - Adamant hatchet 70 - Violite hatchet | 1 - Basic hatchet 2 - Copper hatchet 10 - Bronze hatchet 20 - Iron hatchet 30 - Steel hatchet 40 - Tarsilium hatchet 45 - Hydrilium hatchet 50 - Farganite hatchet 55 - Spectral hatchet 60 - Adamant hatchet 70 - Violite hatchet |
+| Loot             | - Rusty hatchet - Adventuring hatchet - Ice axe - Axe of destruction - Trellin beaver                                                                                                                                              | - Rusty hatchet - Adventuring hatchet - Ice axe - Axe of destruction - Trellin beaver                                                                                                                                              |

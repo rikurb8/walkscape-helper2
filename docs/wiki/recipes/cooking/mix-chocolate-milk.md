@@ -11,7 +11,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Mix chocolate milk
 
 > The halflings were the first to discover the magic of chocolate in milk.
@@ -52,49 +51,49 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Chocolate milk | Chocolate milk_2 |
-| --- | --- |
-| Type: | Consumable |
-| Value: | 7 |
-| Fine Value: | 38 |
-| Keyword: | Beverage |
-| Search Keyword: | Carpentry |
-| Duration: | 1000 steps |
-| Properties: | Properties: |
+| Chocolate milk  | Chocolate milk_2 |
+| --------------- | ---------------- |
+| Type:           | Consumable       |
+| Value:          | 7                |
+| Fine Value:     | 38               |
+| Keyword:        | Beverage         |
+| Search Keyword: | Carpentry        |
+| Duration:       | 1000 steps       |
+| Properties:     | Properties:      |
 
 ### Table 2 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                                                                                 |
+| ------------------------------------------------------------------------------------------ |
 | +1% Double rewards While doing Carpentry. +3% No materials consumed While doing Carpentry. |
 | +4% Double rewards While doing Carpentry. +4% No materials consumed While doing Carpentry. |
 
 ### Table 3 (Mix chocolate milk)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name        | Level           | Service Requirement                    | Materials Used       | Recipe Outputs    |
+| ------------------ | --------------- | -------------------------------------- | -------------------- | ----------------- |
 | Mix chocolate milk | Cooking lvl. 22 | Needs Basic Kitchen service or better. | 1x Chocolate 1x Milk | 1x Chocolate milk |
 
 ### Table 4 (Mix chocolate milk)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Mix chocolate milk | 46 | 75 | 0.613 | 45 steps | 170% | 1.022 | 571 steps |
+| Recipe Name        | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------ | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Mix chocolate milk | 46      | 75         | 0.613        | 45 steps      | 170%                | 1.022       | 571 steps            |
 
 ### Table 5 (Mix chocolate milk)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Cooking chest | Container | 1 | 0.400% | ~1 in 250 | 18,750 steps | 11,250 steps |
+| Item Name     | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| ------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Cooking chest | Container | 1        | 0.400% | ~1 in 250 | 18,750 steps | 11,250 steps |
 
 ### Table 6 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials            |
+| ------------------------ |
 | 1x Chocolate 1x Milkweed |
 
 ### Table 7 (Related Items)
 
-| Beverage | Beverage_2 |
-| --- | --- |
+| Beverage   | Beverage_2                                                                                                 |
+| ---------- | ---------------------------------------------------------------------------------------------------------- |
 | Consumable | Beer, Chocolate milk Fireball wine, Fortified wine Moonshine, Nettle tea Saltrum, Spicy pumpkin juice Wine |

@@ -17,7 +17,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Make an iron sword
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -66,74 +65,74 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Iron sword (Normal) | Iron sword (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 4 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Iron sword (Normal) | Iron sword (Normal)\_2 |
+| ------------------- | ---------------------- |
+| Quality:            |                        |
+| Type:               | Crafted                |
+| Slot:               | Primary                |
+| Value:              | 4                      |
+| Keyword:            | Weapon                 |
+| Properties:         | Properties:            |
 
 ### Table 2 (Introduction)
 
-| Iron sword (Good) | Iron sword (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 4 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Iron sword (Good) | Iron sword (Good)\_2 |
+| ----------------- | -------------------- |
+| Quality:          |                      |
+| Type:             | Crafted              |
+| Slot:             | Primary              |
+| Value:            | 4                    |
+| Keyword:          | Weapon               |
+| Properties:       | Properties:          |
 
 ### Table 3 (Introduction)
 
-| Iron sword (Great) | Iron sword (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 4 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Iron sword (Great) | Iron sword (Great)\_2 |
+| ------------------ | --------------------- |
+| Quality:           |                       |
+| Type:              | Crafted               |
+| Slot:              | Primary               |
+| Value:             | 4                     |
+| Keyword:           | Weapon                |
+| Properties:        | Properties:           |
 
 ### Table 4 (Introduction)
 
-| Iron sword (Excellent) | Iron sword (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 4 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Iron sword (Excellent) | Iron sword (Excellent)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Primary                   |
+| Value:                 | 4                         |
+| Keyword:               | Weapon                    |
+| Properties:            | Properties:               |
 
 ### Table 5 (Introduction)
 
-| Iron sword (Perfect) | Iron sword (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 4 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Iron sword (Perfect) | Iron sword (Perfect)\_2 |
+| -------------------- | ----------------------- |
+| Quality:             |                         |
+| Type:                | Crafted                 |
+| Slot:                | Primary                 |
+| Value:               | 4                       |
+| Keyword:             | Weapon                  |
+| Properties:          | Properties:             |
 
 ### Table 6 (Introduction)
 
-| Iron sword (Eternal) | Iron sword (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 4 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Iron sword (Eternal) | Iron sword (Eternal)\_2 |
+| -------------------- | ----------------------- |
+| Quality:             |                         |
+| Type:                | Crafted                 |
+| Slot:                | Primary                 |
+| Value:               | 4                       |
+| Keyword:             | Weapon                  |
+| Properties:          | Properties:             |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                   |
+| ---------------------------- |
 | This item has no attributes. |
 | This item has no attributes. |
 | This item has no attributes. |
@@ -143,38 +142,38 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 8 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Kallaheim job board | Kallaheim | 4 | +2 Jarvonia Faction Reputation |
-| Kallaheim job board | Kallaheim | 2 | +2 Jarvonia Faction Reputation 1x Chest of Jarvonia |
+| Job Board Name      | Location  | Quantity | Rewards                                             |
+| ------------------- | --------- | -------- | --------------------------------------------------- |
+| Kallaheim job board | Kallaheim | 4        | +2 Jarvonia Faction Reputation                      |
+| Kallaheim job board | Kallaheim | 2        | +2 Jarvonia Faction Reputation 1x Chest of Jarvonia |
 
 ### Table 9 (Make an iron sword)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Make an iron sword | Smithing lvl. 26 | Needs Basic Forge service or better. | 2x Iron bar | 1x Iron sword |
+| Recipe Name        | Level            | Service Requirement                  | Materials Used | Recipe Outputs |
+| ------------------ | ---------------- | ------------------------------------ | -------------- | -------------- |
+| Make an iron sword | Smithing lvl. 26 | Needs Basic Forge service or better. | 2x Iron bar    | 1x Iron sword  |
 
 ### Table 10 (Make an iron sword)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Make an iron sword | 97 | 190 | 0.511 | 112 steps | 170% | 0.866 | 354 steps |
+| Recipe Name        | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------ | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Make an iron sword | 97      | 190        | 0.511        | 112 steps     | 170%                | 0.866       | 354 steps            |
 
 ### Table 11 (Make an iron sword)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Smithing chest | Container | 1 | 0.400% | ~1 in 250 | 47,500 steps | 28,000 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Smithing chest | Container | 1        | 0.400% | ~1 in 250 | 47,500 steps | 28,000 steps |
 
 ### Table 12 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                  |
+| ------------------------------ |
 | 4x Iron ore or 40x Metal scrap |
 
 ### Table 13 (Related Items)
 
-| Weapon | Weapon_2 |
-| --- | --- |
+| Weapon  | Weapon_2                                                                                                                       |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | Crafted | 1 - Wooden sword 6 - Copper sword 16 - Bronze sword 26 - Iron sword 36 - Steel sword 46 - Tarsilium sword 56 - Farganite sword |
-| Loot | - Swashbuckler sword |
+| Loot    | - Swashbuckler sword                                                                                                           |

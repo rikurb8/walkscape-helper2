@@ -23,7 +23,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Make a basic sickle
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -34,7 +33,7 @@ The **Basic sickle** [item](https://wiki.walkscape.app/wiki/Special:MyLanguage/I
 
 # Requirement
 
--   At least Foraging lvl. 1.
+- At least Foraging lvl. 1.
 
 # Attributes
 
@@ -70,114 +69,114 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Basic sickle (Normal) | Basic sickle (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 1 |
-| Keywords: | Foraging tool Sickle |
-| Search Keyword: | Foraging |
-| Properties: | Properties: |
+| Basic sickle (Normal) | Basic sickle (Normal)\_2 |
+| --------------------- | ------------------------ |
+| Quality:              |                          |
+| Type:                 | Crafted                  |
+| Slot:                 | Tools                    |
+| Value:                | 1                        |
+| Keywords:             | Foraging tool Sickle     |
+| Search Keyword:       | Foraging                 |
+| Properties:           | Properties:              |
 
 ### Table 2 (Introduction)
 
-| Basic sickle (Good) | Basic sickle (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 1 |
-| Keywords: | Foraging tool Sickle |
-| Search Keyword: | Foraging |
-| Properties: | Properties: |
+| Basic sickle (Good) | Basic sickle (Good)\_2 |
+| ------------------- | ---------------------- |
+| Quality:            |                        |
+| Type:               | Crafted                |
+| Slot:               | Tools                  |
+| Value:              | 1                      |
+| Keywords:           | Foraging tool Sickle   |
+| Search Keyword:     | Foraging               |
+| Properties:         | Properties:            |
 
 ### Table 3 (Introduction)
 
-| Basic sickle (Great) | Basic sickle (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 1 |
-| Keywords: | Foraging tool Sickle |
-| Search Keyword: | Foraging |
-| Properties: | Properties: |
+| Basic sickle (Great) | Basic sickle (Great)\_2 |
+| -------------------- | ----------------------- |
+| Quality:             |                         |
+| Type:                | Crafted                 |
+| Slot:                | Tools                   |
+| Value:               | 1                       |
+| Keywords:            | Foraging tool Sickle    |
+| Search Keyword:      | Foraging                |
+| Properties:          | Properties:             |
 
 ### Table 4 (Introduction)
 
-| Basic sickle (Excellent) | Basic sickle (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 1 |
-| Keywords: | Foraging tool Sickle |
-| Search Keyword: | Foraging |
-| Properties: | Properties: |
+| Basic sickle (Excellent) | Basic sickle (Excellent)\_2 |
+| ------------------------ | --------------------------- |
+| Quality:                 |                             |
+| Type:                    | Crafted                     |
+| Slot:                    | Tools                       |
+| Value:                   | 1                           |
+| Keywords:                | Foraging tool Sickle        |
+| Search Keyword:          | Foraging                    |
+| Properties:              | Properties:                 |
 
 ### Table 5 (Introduction)
 
-| Basic sickle (Perfect) | Basic sickle (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 1 |
-| Keywords: | Foraging tool Sickle |
-| Search Keyword: | Foraging |
-| Properties: | Properties: |
+| Basic sickle (Perfect) | Basic sickle (Perfect)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Tools                     |
+| Value:                 | 1                         |
+| Keywords:              | Foraging tool Sickle      |
+| Search Keyword:        | Foraging                  |
+| Properties:            | Properties:               |
 
 ### Table 6 (Introduction)
 
-| Basic sickle (Eternal) | Basic sickle (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 1 |
-| Keywords: | Foraging tool Sickle |
-| Search Keyword: | Foraging |
-| Properties: | Properties: |
+| Basic sickle (Eternal) | Basic sickle (Eternal)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Tools                     |
+| Value:                 | 1                         |
+| Keywords:              | Foraging tool Sickle      |
+| Search Keyword:        | Foraging                  |
+| Properties:            | Properties:               |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
-| +1% Work efficiency While doing Foraging. |
-| +1% Work efficiency While doing Foraging. +3% Chest finding While doing Foraging. +10% Fine material finding While doing Foraging. +1% Double rewards While doing Foraging. |
-| +1% Work efficiency While doing Foraging. +5% Chest finding While doing Foraging. +16% Fine material finding While doing Foraging. +2% Double rewards While doing Foraging. |
-| +1% Work efficiency While doing Foraging. +6% Chest finding While doing Foraging. +18% Fine material finding While doing Foraging. +3% Double rewards While doing Foraging. |
+| Attributes                                                                                                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| +1% Work efficiency While doing Foraging.                                                                                                                                                                           |
+| +1% Work efficiency While doing Foraging. +3% Chest finding While doing Foraging. +10% Fine material finding While doing Foraging. +1% Double rewards While doing Foraging.                                         |
+| +1% Work efficiency While doing Foraging. +5% Chest finding While doing Foraging. +16% Fine material finding While doing Foraging. +2% Double rewards While doing Foraging.                                         |
+| +1% Work efficiency While doing Foraging. +6% Chest finding While doing Foraging. +18% Fine material finding While doing Foraging. +3% Double rewards While doing Foraging.                                         |
 | +1% Work efficiency While doing Foraging. +6% Chest finding While doing Foraging. +1% Double action While doing Foraging. +18% Fine material finding While doing Foraging. +4% Double rewards While doing Foraging. |
 | +1% Work efficiency While doing Foraging. +6% Chest finding While doing Foraging. +2% Double action While doing Foraging. +19% Fine material finding While doing Foraging. +5% Double rewards While doing Foraging. |
 
 ### Table 8 (Make a basic sickle)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Make a basic sickle | Crafting lvl. 1 | None | 1x Stone 1x Wooden stick 1x Twine | 1x Basic sickle |
+| Recipe Name         | Level           | Service Requirement | Materials Used                    | Recipe Outputs  |
+| ------------------- | --------------- | ------------------- | --------------------------------- | --------------- |
+| Make a basic sickle | Crafting lvl. 1 | None                | 1x Stone 1x Wooden stick 1x Twine | 1x Basic sickle |
 
 ### Table 9 (Make a basic sickle)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Make a basic sickle | 44 | 110 | 0.400 | 74 steps | 150% | 0.595 | 345 steps |
+| Recipe Name         | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Make a basic sickle | 44      | 110        | 0.400        | 74 steps      | 150%                | 0.595       | 345 steps            |
 
 ### Table 10 (Make a basic sickle)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Crafting chest | Container | 1 | 0.400% | ~1 in 250 | 27,500 steps | 18,500 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Crafting chest | Container | 1        | 0.400% | ~1 in 250 | 27,500 steps | 18,500 steps |
 
 ### Table 11 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                    |
+| -------------------------------- |
 | 1x Wooden stick 2x Flax 1x Stone |
 
 ### Table 12 (Related Items)
 
-| Foraging tool | Foraging tool_2 | Sickle |
-| --- | --- | --- |
-| Crafted | 1 - Basic sickle 2 - Copper sickle 20 - Iron sickle 30 - Steel sickle 45 - Hydrilium sickle 55 - Spectral sickle 70 - Violite sickle | 1 - Basic sickle 2 - Copper sickle 20 - Iron sickle 30 - Steel sickle 45 - Hydrilium sickle 55 - Spectral sickle 70 - Violite sickle |
-| Loot | - Rusty sickle - Dull machete, Adventuring sickle - Sharp machete - Blue ice sickle | - Rusty sickle - Adventuring sickle - Blue ice sickle |
+| Foraging tool | Foraging tool_2                                                                                                                      | Sickle                                                                                                                               |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Crafted       | 1 - Basic sickle 2 - Copper sickle 20 - Iron sickle 30 - Steel sickle 45 - Hydrilium sickle 55 - Spectral sickle 70 - Violite sickle | 1 - Basic sickle 2 - Copper sickle 20 - Iron sickle 30 - Steel sickle 45 - Hydrilium sickle 55 - Spectral sickle 70 - Violite sickle |
+| Loot          | - Rusty sickle - Dull machete, Adventuring sickle - Sharp machete - Blue ice sickle                                                  | - Rusty sickle - Adventuring sickle - Blue ice sickle                                                                                |

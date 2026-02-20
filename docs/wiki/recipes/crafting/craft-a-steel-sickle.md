@@ -23,7 +23,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Craft a steel sickle
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -34,7 +33,7 @@ The **Steel sickle** [item](https://wiki.walkscape.app/wiki/Special:MyLanguage/I
 
 # Requirement
 
--   At least Foraging lvl. 30.
+- At least Foraging lvl. 30.
 
 # Attributes
 
@@ -66,120 +65,120 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 # Trivia
 
--   The description of this item being crafted is a reference to the communist symbol of a crossed [hammer and sickle](https://en.wikipedia.org/wiki/Hammer_and_sickle) with a red star above them.
+- The description of this item being crafted is a reference to the communist symbol of a crossed [hammer and sickle](https://en.wikipedia.org/wiki/Hammer_and_sickle) with a red star above them.
 
 ## Extracted Tables
 
 ### Table 1 (Introduction)
 
-| Steel sickle (Normal) | Steel sickle (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 13 |
-| Keywords: | Foraging tool Sickle |
-| Search Keyword: | Foraging |
-| Properties: | Properties: |
+| Steel sickle (Normal) | Steel sickle (Normal)\_2 |
+| --------------------- | ------------------------ |
+| Quality:              |                          |
+| Type:                 | Crafted                  |
+| Slot:                 | Tools                    |
+| Value:                | 13                       |
+| Keywords:             | Foraging tool Sickle     |
+| Search Keyword:       | Foraging                 |
+| Properties:           | Properties:              |
 
 ### Table 2 (Introduction)
 
-| Steel sickle (Good) | Steel sickle (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 13 |
-| Keywords: | Foraging tool Sickle |
-| Search Keyword: | Foraging |
-| Properties: | Properties: |
+| Steel sickle (Good) | Steel sickle (Good)\_2 |
+| ------------------- | ---------------------- |
+| Quality:            |                        |
+| Type:               | Crafted                |
+| Slot:               | Tools                  |
+| Value:              | 13                     |
+| Keywords:           | Foraging tool Sickle   |
+| Search Keyword:     | Foraging               |
+| Properties:         | Properties:            |
 
 ### Table 3 (Introduction)
 
-| Steel sickle (Great) | Steel sickle (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 13 |
-| Keywords: | Foraging tool Sickle |
-| Search Keyword: | Foraging |
-| Properties: | Properties: |
+| Steel sickle (Great) | Steel sickle (Great)\_2 |
+| -------------------- | ----------------------- |
+| Quality:             |                         |
+| Type:                | Crafted                 |
+| Slot:                | Tools                   |
+| Value:               | 13                      |
+| Keywords:            | Foraging tool Sickle    |
+| Search Keyword:      | Foraging                |
+| Properties:          | Properties:             |
 
 ### Table 4 (Introduction)
 
-| Steel sickle (Excellent) | Steel sickle (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 13 |
-| Keywords: | Foraging tool Sickle |
-| Search Keyword: | Foraging |
-| Properties: | Properties: |
+| Steel sickle (Excellent) | Steel sickle (Excellent)\_2 |
+| ------------------------ | --------------------------- |
+| Quality:                 |                             |
+| Type:                    | Crafted                     |
+| Slot:                    | Tools                       |
+| Value:                   | 13                          |
+| Keywords:                | Foraging tool Sickle        |
+| Search Keyword:          | Foraging                    |
+| Properties:              | Properties:                 |
 
 ### Table 5 (Introduction)
 
-| Steel sickle (Perfect) | Steel sickle (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 13 |
-| Keywords: | Foraging tool Sickle |
-| Search Keyword: | Foraging |
-| Properties: | Properties: |
+| Steel sickle (Perfect) | Steel sickle (Perfect)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Tools                     |
+| Value:                 | 13                        |
+| Keywords:              | Foraging tool Sickle      |
+| Search Keyword:        | Foraging                  |
+| Properties:            | Properties:               |
 
 ### Table 6 (Introduction)
 
-| Steel sickle (Eternal) | Steel sickle (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 13 |
-| Keywords: | Foraging tool Sickle |
-| Search Keyword: | Foraging |
-| Properties: | Properties: |
+| Steel sickle (Eternal) | Steel sickle (Eternal)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Tools                     |
+| Value:                 | 13                        |
+| Keywords:              | Foraging tool Sickle      |
+| Search Keyword:        | Foraging                  |
+| Properties:            | Properties:               |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
-| +9% Work efficiency While doing Foraging. |
-| +11% Work efficiency While doing Foraging. +13% Chest finding While doing Foraging. +1% Double action While doing Foraging. +30% Fine material finding While doing Foraging. +2% Double rewards While doing Foraging. |
-| +14% Work efficiency While doing Foraging. +21% Chest finding While doing Foraging. +2% Double action While doing Foraging. +48% Fine material finding While doing Foraging. +4% Double rewards While doing Foraging. |
-| +18% Work efficiency While doing Foraging. +24% Chest finding While doing Foraging. +3% Double action While doing Foraging. +54% Fine material finding While doing Foraging. +6% Double rewards While doing Foraging. |
-| +22% Work efficiency While doing Foraging. +25% Chest finding While doing Foraging. +5% Double action While doing Foraging. +58% Fine material finding While doing Foraging. +8% Double rewards While doing Foraging. |
+| Attributes                                                                                                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| +9% Work efficiency While doing Foraging.                                                                                                                                                                               |
+| +11% Work efficiency While doing Foraging. +13% Chest finding While doing Foraging. +1% Double action While doing Foraging. +30% Fine material finding While doing Foraging. +2% Double rewards While doing Foraging.   |
+| +14% Work efficiency While doing Foraging. +21% Chest finding While doing Foraging. +2% Double action While doing Foraging. +48% Fine material finding While doing Foraging. +4% Double rewards While doing Foraging.   |
+| +18% Work efficiency While doing Foraging. +24% Chest finding While doing Foraging. +3% Double action While doing Foraging. +54% Fine material finding While doing Foraging. +6% Double rewards While doing Foraging.   |
+| +22% Work efficiency While doing Foraging. +25% Chest finding While doing Foraging. +5% Double action While doing Foraging. +58% Fine material finding While doing Foraging. +8% Double rewards While doing Foraging.   |
 | +27% Work efficiency While doing Foraging. +26% Chest finding While doing Foraging. +12% Double action While doing Foraging. +62% Fine material finding While doing Foraging. +10% Double rewards While doing Foraging. |
 
 ### Table 8 (Craft a steel sickle)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name          | Level            | Service Requirement                     | Materials Used                       | Recipe Outputs  |
+| -------------------- | ---------------- | --------------------------------------- | ------------------------------------ | --------------- |
 | Craft a steel sickle | Crafting lvl. 30 | Needs Basic Workshop service or better. | 1x Steel bar 1x Maple plank 1x Twine | 1x Steel sickle |
 
 ### Table 9 (Craft a steel sickle)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Craft a steel sickle | 111 | 155 | 0.716 | 87 steps | 180% | 1.276 | 613 steps |
+| Recipe Name          | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| -------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Craft a steel sickle | 111     | 155        | 0.716        | 87 steps      | 180%                | 1.276       | 613 steps            |
 
 ### Table 10 (Craft a steel sickle)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Crafting chest | Container | 1 | 0.400% | ~1 in 250 | 38,750 steps | 21,750 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Crafting chest | Container | 1        | 0.400% | ~1 in 250 | 38,750 steps | 21,750 steps |
 
 ### Table 11 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                                                                      |
+| ---------------------------------------------------------------------------------- |
 | 2x Maple logs or 40x Wood scrap 1x Coal and 2x Iron ore or 40x Metal scrap 2x Flax |
 
 ### Table 12 (Related Items)
 
-| Foraging tool | Foraging tool_2 | Sickle |
-| --- | --- | --- |
-| Crafted | 1 - Basic sickle 2 - Copper sickle 20 - Iron sickle 30 - Steel sickle 45 - Hydrilium sickle 55 - Spectral sickle 70 - Violite sickle | 1 - Basic sickle 2 - Copper sickle 20 - Iron sickle 30 - Steel sickle 45 - Hydrilium sickle 55 - Spectral sickle 70 - Violite sickle |
-| Loot | - Rusty sickle - Dull machete, Adventuring sickle - Sharp machete - Blue ice sickle | - Rusty sickle - Adventuring sickle - Blue ice sickle |
+| Foraging tool | Foraging tool_2                                                                                                                      | Sickle                                                                                                                               |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Crafted       | 1 - Basic sickle 2 - Copper sickle 20 - Iron sickle 30 - Steel sickle 45 - Hydrilium sickle 55 - Spectral sickle 70 - Violite sickle | 1 - Basic sickle 2 - Copper sickle 20 - Iron sickle 30 - Steel sickle 45 - Hydrilium sickle 55 - Spectral sickle 70 - Violite sickle |
+| Loot          | - Rusty sickle - Dull machete, Adventuring sickle - Sharp machete - Blue ice sickle                                                  | - Rusty sickle - Adventuring sickle - Blue ice sickle                                                                                |

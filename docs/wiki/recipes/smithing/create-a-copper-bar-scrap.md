@@ -10,7 +10,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Create a copper bar (Scrap)
 
 > The copper bar gleams with a reddish-orange luster, reflecting its metallic strength and versatility in various applications.
@@ -65,75 +64,75 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Copper bar | Copper bar_2 |
-| --- | --- |
-| Type: | Material |
-| Value: | 1 |
-| Fine Value: | 11 |
-| Keyword: | Bar |
-| Properties: | Properties: |
+| Copper bar  | Copper bar_2 |
+| ----------- | ------------ |
+| Type:       | Material     |
+| Value:      | 1            |
+| Fine Value: | 11           |
+| Keyword:    | Bar          |
+| Properties: | Properties:  |
 
 ### Table 2 (Recipe Ingredient)
 
-| Item Name | Service Requirement | Skills | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Craft a copper hatchet | Needs Basic Workshop service or better. | Crafting lvl. 2 | 2x Copper bar 1x Birch plank | 1x Copper hatchet |
-| Craft a copper pickaxe | Needs Basic Workshop service or better. | Crafting lvl. 2 | 2x Copper bar 1x Birch plank | 1x Copper pickaxe |
-| Craft a copper sickle | Needs Basic Workshop service or better. | Crafting lvl. 2 | 1x Copper bar 1x Birch plank 1x Twine | 1x Copper sickle |
-| Make a copper shield | Needs Basic Forge service or better. | Smithing lvl. 3 | 2x Copper bar | 1x Copper shield |
-| Make a copper sword | Needs Basic Forge service or better. | Smithing lvl. 6 | 2x Copper bar | 1x Copper sword |
+| Item Name              | Service Requirement                     | Skills          | Materials Used                        | Recipe Outputs    |
+| ---------------------- | --------------------------------------- | --------------- | ------------------------------------- | ----------------- |
+| Craft a copper hatchet | Needs Basic Workshop service or better. | Crafting lvl. 2 | 2x Copper bar 1x Birch plank          | 1x Copper hatchet |
+| Craft a copper pickaxe | Needs Basic Workshop service or better. | Crafting lvl. 2 | 2x Copper bar 1x Birch plank          | 1x Copper pickaxe |
+| Craft a copper sickle  | Needs Basic Workshop service or better. | Crafting lvl. 2 | 1x Copper bar 1x Birch plank 1x Twine | 1x Copper sickle  |
+| Make a copper shield   | Needs Basic Forge service or better.    | Smithing lvl. 3 | 2x Copper bar                         | 1x Copper shield  |
+| Make a copper sword    | Needs Basic Forge service or better.    | Smithing lvl. 6 | 2x Copper bar                         | 1x Copper sword   |
 
 ### Table 3 (Job Boards)
 
-| Job Board Name | Location | Quantity | Reward |
-| --- | --- | --- | --- |
-| Kallaheim job board | Kallaheim | 29 | +1 Jarvonia Faction Reputation |
+| Job Board Name      | Location  | Quantity | Reward                         |
+| ------------------- | --------- | -------- | ------------------------------ |
+| Kallaheim job board | Kallaheim | 29       | +1 Jarvonia Faction Reputation |
 
 ### Table 4 (Shop Purchases)
 
-| Shop Name | Location | Region | Stock | Price |
-| --- | --- | --- | --- | --- |
-| Kallaheim's Frosty Finds | Kallaheim | Jarvonia | 20 | 15 |
+| Shop Name                | Location  | Region   | Stock | Price |
+| ------------------------ | --------- | -------- | ----- | ----- |
+| Kallaheim's Frosty Finds | Kallaheim | Jarvonia | 20    | 15    |
 
 ### Table 5 (Smelt a copper bar)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Smelt a copper bar | Smithing lvl. 1 | Needs Basic Forge service or better. | 2x Copper ore | 1x Copper bar |
+| Recipe Name        | Level           | Service Requirement                  | Materials Used | Recipe Outputs |
+| ------------------ | --------------- | ------------------------------------ | -------------- | -------------- |
+| Smelt a copper bar | Smithing lvl. 1 | Needs Basic Forge service or better. | 2x Copper ore  | 1x Copper bar  |
 
 ### Table 6 (Smelt a copper bar)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Smelt a copper bar | 12 | 50 | 0.240 | 34 steps | 150% | 0.353 | 102 steps |
+| Recipe Name        | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------ | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Smelt a copper bar | 12      | 50         | 0.240        | 34 steps      | 150%                | 0.353       | 102 steps            |
 
 ### Table 7 (Smelt a copper bar)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. | Note |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Smithing chest | Container | 1 | 0.400% | ~1 in 250 | 12,500 steps | 8,500 steps |  |
-| Silver nugget | Material | 1 or more | 13.510% | ~1 in 7 | 357 steps | 243 steps | Does 2 rolls |
+| Item Name      | Item Type | Quantity  | Chance  | Odds      | Base Rate    | W.E.A.R.    | Note         |
+| -------------- | --------- | --------- | ------- | --------- | ------------ | ----------- | ------------ |
+| Smithing chest | Container | 1         | 0.400%  | ~1 in 250 | 12,500 steps | 8,500 steps |              |
+| Silver nugget  | Material  | 1 or more | 13.510% | ~1 in 7   | 357 steps    | 243 steps   | Does 2 rolls |
 
 ### Table 8 (Create a copper bar (Scrap))
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Create a copper bar (Scrap) | Smithing lvl. 1 | Needs Basic Forge service or better. | 5x Metal scrap | 1x Copper bar |
+| Recipe Name                 | Level           | Service Requirement                  | Materials Used | Recipe Outputs |
+| --------------------------- | --------------- | ------------------------------------ | -------------- | -------------- |
+| Create a copper bar (Scrap) | Smithing lvl. 1 | Needs Basic Forge service or better. | 5x Metal scrap | 1x Copper bar  |
 
 ### Table 9 (Create a copper bar (Scrap))
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Create a copper bar (Scrap) | 12 | 55 | 0.218 | 37 steps | 150% | 0.324 | 182 steps |
+| Recipe Name                 | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| --------------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Create a copper bar (Scrap) | 12      | 55         | 0.218        | 37 steps      | 150%                | 0.324       | 182 steps            |
 
 ### Table 10 (Create a copper bar (Scrap))
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Smithing chest | Container | 1 | 0.400% | ~1 in 250 | 13,750 steps | 9,250 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.    |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ----------- |
+| Smithing chest | Container | 1        | 0.400% | ~1 in 250 | 13,750 steps | 9,250 steps |
 
 ### Table 11 (Related Items)
 
-| Bar | Bar_2 |
-| --- | --- |
+| Bar      | Bar_2                                                                                                                               |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | Material | Adamant bar, Bronze bar Copper bar, Farganite bar Gold bar, Hydrilium bar Iron bar, Silver bar Steel bar, Tarsilium bar Violite bar |

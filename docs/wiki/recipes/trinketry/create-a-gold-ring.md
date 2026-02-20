@@ -18,7 +18,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Create a gold ring
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -65,80 +64,80 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Gold ring (Normal) | Gold ring (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 7 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Gold ring (Normal) | Gold ring (Normal)\_2 |
+| ------------------ | --------------------- |
+| Quality:           |                       |
+| Type:              | Crafted               |
+| Slot:              | Ring                  |
+| Value:             | 7                     |
+| Keyword:           | Ring                  |
+| Search Keyword:    | Global                |
+| Properties:        | Properties:           |
 
 ### Table 2 (Introduction)
 
-| Gold ring (Good) | Gold ring (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 7 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Gold ring (Good) | Gold ring (Good)\_2 |
+| ---------------- | ------------------- |
+| Quality:         |                     |
+| Type:            | Crafted             |
+| Slot:            | Ring                |
+| Value:           | 7                   |
+| Keyword:         | Ring                |
+| Search Keyword:  | Global              |
+| Properties:      | Properties:         |
 
 ### Table 3 (Introduction)
 
-| Gold ring (Great) | Gold ring (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 7 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Gold ring (Great) | Gold ring (Great)\_2 |
+| ----------------- | -------------------- |
+| Quality:          |                      |
+| Type:             | Crafted              |
+| Slot:             | Ring                 |
+| Value:            | 7                    |
+| Keyword:          | Ring                 |
+| Search Keyword:   | Global               |
+| Properties:       | Properties:          |
 
 ### Table 4 (Introduction)
 
-| Gold ring (Excellent) | Gold ring (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 7 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Gold ring (Excellent) | Gold ring (Excellent)\_2 |
+| --------------------- | ------------------------ |
+| Quality:              |                          |
+| Type:                 | Crafted                  |
+| Slot:                 | Ring                     |
+| Value:                | 7                        |
+| Keyword:              | Ring                     |
+| Search Keyword:       | Global                   |
+| Properties:           | Properties:              |
 
 ### Table 5 (Introduction)
 
-| Gold ring (Perfect) | Gold ring (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 7 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Gold ring (Perfect) | Gold ring (Perfect)\_2 |
+| ------------------- | ---------------------- |
+| Quality:            |                        |
+| Type:               | Crafted                |
+| Slot:               | Ring                   |
+| Value:              | 7                      |
+| Keyword:            | Ring                   |
+| Search Keyword:     | Global                 |
+| Properties:         | Properties:            |
 
 ### Table 6 (Introduction)
 
-| Gold ring (Eternal) | Gold ring (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 7 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Gold ring (Eternal) | Gold ring (Eternal)\_2 |
+| ------------------- | ---------------------- |
+| Quality:            |                        |
+| Type:               | Crafted                |
+| Slot:               | Ring                   |
+| Value:              | 7                      |
+| Keyword:            | Ring                   |
+| Search Keyword:     | Global                 |
+| Properties:         | Properties:            |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes               |
+| ------------------------ |
 | Global +1% Chest finding |
 | Global +2% Chest finding |
 | Global +3% Chest finding |
@@ -148,31 +147,31 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 8 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Blackspell Port job board | Blackspell Port | 3 | +1 Erdwise Faction Reputation 1x Trinketry chest |
-| Blackspell Port job board | Blackspell Port | 1 | +1 Erdwise Faction Reputation 1x Chest of Erdwise |
+| Job Board Name            | Location        | Quantity | Rewards                                           |
+| ------------------------- | --------------- | -------- | ------------------------------------------------- |
+| Blackspell Port job board | Blackspell Port | 3        | +1 Erdwise Faction Reputation 1x Trinketry chest  |
+| Blackspell Port job board | Blackspell Port | 1        | +1 Erdwise Faction Reputation 1x Chest of Erdwise |
 
 ### Table 9 (Create a gold ring)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Create a gold ring | Trinketry lvl. 15 | Needs Basic Trinketry Bench service or better. | 2x Gold bar | 1x Gold ring |
+| Recipe Name        | Level             | Service Requirement                            | Materials Used | Recipe Outputs |
+| ------------------ | ----------------- | ---------------------------------------------- | -------------- | -------------- |
+| Create a gold ring | Trinketry lvl. 15 | Needs Basic Trinketry Bench service or better. | 2x Gold bar    | 1x Gold ring   |
 
 ### Table 10 (Create a gold ring)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Create a gold ring | 180 | 350 | 0.514 | 206 steps | 170% | 0.874 | 544 steps |
+| Recipe Name        | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------ | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Create a gold ring | 180     | 350        | 0.514        | 206 steps     | 170%                | 0.874       | 544 steps            |
 
 ### Table 11 (Create a gold ring)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Trinketry chest | Container | 1 | 0.400% | ~1 in 250 | 87,500 steps | 51,500 steps |
+| Item Name       | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| --------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Trinketry chest | Container | 1        | 0.400% | ~1 in 250 | 87,500 steps | 51,500 steps |
 
 ### Table 12 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                  |
+| ------------------------------ |
 | 4x Gold ore or 14x Gold nugget |

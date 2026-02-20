@@ -17,7 +17,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Make a copper shield
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -64,74 +63,74 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Copper shield (Normal) | Copper shield (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 2 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Copper shield (Normal) | Copper shield (Normal)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Secondary                 |
+| Value:                 | 2                         |
+| Keyword:               | Shield                    |
+| Properties:            | Properties:               |
 
 ### Table 2 (Introduction)
 
-| Copper shield (Good) | Copper shield (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 2 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Copper shield (Good) | Copper shield (Good)\_2 |
+| -------------------- | ----------------------- |
+| Quality:             |                         |
+| Type:                | Crafted                 |
+| Slot:                | Secondary               |
+| Value:               | 2                       |
+| Keyword:             | Shield                  |
+| Properties:          | Properties:             |
 
 ### Table 3 (Introduction)
 
-| Copper shield (Great) | Copper shield (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 2 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Copper shield (Great) | Copper shield (Great)\_2 |
+| --------------------- | ------------------------ |
+| Quality:              |                          |
+| Type:                 | Crafted                  |
+| Slot:                 | Secondary                |
+| Value:                | 2                        |
+| Keyword:              | Shield                   |
+| Properties:           | Properties:              |
 
 ### Table 4 (Introduction)
 
-| Copper shield (Excellent) | Copper shield (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 2 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Copper shield (Excellent) | Copper shield (Excellent)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Secondary                    |
+| Value:                    | 2                            |
+| Keyword:                  | Shield                       |
+| Properties:               | Properties:                  |
 
 ### Table 5 (Introduction)
 
-| Copper shield (Perfect) | Copper shield (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 2 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Copper shield (Perfect) | Copper shield (Perfect)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Secondary                  |
+| Value:                  | 2                          |
+| Keyword:                | Shield                     |
+| Properties:             | Properties:                |
 
 ### Table 6 (Introduction)
 
-| Copper shield (Eternal) | Copper shield (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 2 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Copper shield (Eternal) | Copper shield (Eternal)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Secondary                  |
+| Value:                  | 2                          |
+| Keyword:                | Shield                     |
+| Properties:             | Properties:                |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                   |
+| ---------------------------- |
 | This item has no attributes. |
 | This item has no attributes. |
 | This item has no attributes. |
@@ -141,30 +140,30 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 8 (Make a copper shield)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Make a copper shield | Smithing lvl. 3 | Needs Basic Forge service or better. | 2x Copper bar | 1x Copper shield |
+| Recipe Name          | Level           | Service Requirement                  | Materials Used | Recipe Outputs   |
+| -------------------- | --------------- | ------------------------------------ | -------------- | ---------------- |
+| Make a copper shield | Smithing lvl. 3 | Needs Basic Forge service or better. | 2x Copper bar  | 1x Copper shield |
 
 ### Table 9 (Make a copper shield)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Make a copper shield | 50 | 140 | 0.357 | 94 steps | 150% | 0.532 | 298 steps |
+| Recipe Name          | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| -------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Make a copper shield | 50      | 140        | 0.357        | 94 steps      | 150%                | 0.532       | 298 steps            |
 
 ### Table 10 (Make a copper shield)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Smithing chest | Container | 1 | 0.400% | ~1 in 250 | 35,000 steps | 23,500 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Smithing chest | Container | 1        | 0.400% | ~1 in 250 | 35,000 steps | 23,500 steps |
 
 ### Table 11 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                    |
+| -------------------------------- |
 | 4x Copper ore or 10x Metal scrap |
 
 ### Table 12 (Related Items)
 
-| Shield | Shield_2 |
-| --- | --- |
+| Shield  | Shield_2                                                                                                                                              |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Crafted | 1 - Wooden shield 3 - Copper shield 13 - Bronze shield 23 - Iron shield 33 - Steel shield 43 - Tarsilium shield 53 - Farganite shield 59 - Gem shield |

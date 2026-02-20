@@ -20,7 +20,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Create an amulet of root
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -31,7 +30,7 @@ The **Amulet of circular root** [item](https://wiki.walkscape.app/wiki/Special:M
 
 # Requirement
 
--   At least Woodcutting lvl. 35.
+- At least Woodcutting lvl. 35.
 
 # Attributes
 
@@ -67,114 +66,114 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Amulet of circular root (Normal) | Amulet of circular root (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Global Woodcutting |
-| Properties: | Properties: |
+| Amulet of circular root (Normal) | Amulet of circular root (Normal)\_2 |
+| -------------------------------- | ----------------------------------- |
+| Quality:                         |                                     |
+| Type:                            | Crafted                             |
+| Slot:                            | Neck                                |
+| Value:                           | 150                                 |
+| Keyword:                         | Amulet                              |
+| Search Keywords:                 | Global Woodcutting                  |
+| Properties:                      | Properties:                         |
 
 ### Table 2 (Introduction)
 
-| Amulet of circular root (Good) | Amulet of circular root (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Global Woodcutting |
-| Properties: | Properties: |
+| Amulet of circular root (Good) | Amulet of circular root (Good)\_2 |
+| ------------------------------ | --------------------------------- |
+| Quality:                       |                                   |
+| Type:                          | Crafted                           |
+| Slot:                          | Neck                              |
+| Value:                         | 150                               |
+| Keyword:                       | Amulet                            |
+| Search Keywords:               | Global Woodcutting                |
+| Properties:                    | Properties:                       |
 
 ### Table 3 (Introduction)
 
-| Amulet of circular root (Great) | Amulet of circular root (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Global Woodcutting |
-| Properties: | Properties: |
+| Amulet of circular root (Great) | Amulet of circular root (Great)\_2 |
+| ------------------------------- | ---------------------------------- |
+| Quality:                        |                                    |
+| Type:                           | Crafted                            |
+| Slot:                           | Neck                               |
+| Value:                          | 150                                |
+| Keyword:                        | Amulet                             |
+| Search Keywords:                | Global Woodcutting                 |
+| Properties:                     | Properties:                        |
 
 ### Table 4 (Introduction)
 
-| Amulet of circular root (Excellent) | Amulet of circular root (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Global Woodcutting |
-| Properties: | Properties: |
+| Amulet of circular root (Excellent) | Amulet of circular root (Excellent)\_2 |
+| ----------------------------------- | -------------------------------------- |
+| Quality:                            |                                        |
+| Type:                               | Crafted                                |
+| Slot:                               | Neck                                   |
+| Value:                              | 150                                    |
+| Keyword:                            | Amulet                                 |
+| Search Keywords:                    | Global Woodcutting                     |
+| Properties:                         | Properties:                            |
 
 ### Table 5 (Introduction)
 
-| Amulet of circular root (Perfect) | Amulet of circular root (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Global Woodcutting |
-| Properties: | Properties: |
+| Amulet of circular root (Perfect) | Amulet of circular root (Perfect)\_2 |
+| --------------------------------- | ------------------------------------ |
+| Quality:                          |                                      |
+| Type:                             | Crafted                              |
+| Slot:                             | Neck                                 |
+| Value:                            | 150                                  |
+| Keyword:                          | Amulet                               |
+| Search Keywords:                  | Global Woodcutting                   |
+| Properties:                       | Properties:                          |
 
 ### Table 6 (Introduction)
 
-| Amulet of circular root (Eternal) | Amulet of circular root (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Global Woodcutting |
-| Properties: | Properties: |
+| Amulet of circular root (Eternal) | Amulet of circular root (Eternal)\_2 |
+| --------------------------------- | ------------------------------------ |
+| Quality:                          |                                      |
+| Type:                             | Crafted                              |
+| Slot:                             | Neck                                 |
+| Value:                            | 150                                  |
+| Keyword:                          | Amulet                               |
+| Search Keywords:                  | Global Woodcutting                   |
+| Properties:                       | Properties:                          |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                                                                                                                    |
+| ----------------------------------------------------------------------------------------------------------------------------- |
 | Global +20% Fine material finding +3.5% Double rewards While doing Woodcutting. +10% Find bird nests While doing Woodcutting. |
-| Global +20% Fine material finding +4% Double rewards While doing Woodcutting. +15% Find bird nests While doing Woodcutting. |
+| Global +20% Fine material finding +4% Double rewards While doing Woodcutting. +15% Find bird nests While doing Woodcutting.   |
 | Global +20% Fine material finding +4.5% Double rewards While doing Woodcutting. +20% Find bird nests While doing Woodcutting. |
-| Global +20% Fine material finding +5% Double rewards While doing Woodcutting. +25% Find bird nests While doing Woodcutting. |
+| Global +20% Fine material finding +5% Double rewards While doing Woodcutting. +25% Find bird nests While doing Woodcutting.   |
 | Global +20% Fine material finding +5.5% Double rewards While doing Woodcutting. +30% Find bird nests While doing Woodcutting. |
-| Global +20% Fine material finding +6% Double rewards While doing Woodcutting. +35% Find bird nests While doing Woodcutting. |
+| Global +20% Fine material finding +6% Double rewards While doing Woodcutting. +35% Find bird nests While doing Woodcutting.   |
 
 ### Table 8 (Create an amulet of root)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name              | Level             | Service Requirement                            | Materials Used                                     | Recipe Outputs             |
+| ------------------------ | ----------------- | ---------------------------------------------- | -------------------------------------------------- | -------------------------- |
 | Create an amulet of root | Trinketry lvl. 41 | Needs Basic Trinketry Bench service or better. | 1x Circular root trinket 1x Gold bar 1x Silver bar | 1x Amulet of circular root |
 
 ### Table 9 (Create an amulet of root)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Create an amulet of root | 6904 | 5000 | 1.381 | 2500 steps | 200% | 2.762 | 135,332 steps |
+| Recipe Name              | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------------ | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Create an amulet of root | 6904    | 5000       | 1.381        | 2500 steps    | 200%                | 2.762       | 135,332 steps        |
 
 ### Table 10 (Create an amulet of root)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Trinketry chest | Container | 1 | 0.400% | ~1 in 250 | 1,250,000 steps | 625,000 steps |
+| Item Name       | Item Type | Quantity | Chance | Odds      | Base Rate       | W.E.A.R.      |
+| --------------- | --------- | -------- | ------ | --------- | --------------- | ------------- |
+| Trinketry chest | Container | 1        | 0.400% | ~1 in 250 | 1,250,000 steps | 625,000 steps |
 
 ### Table 11 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                                                                            |
+| ---------------------------------------------------------------------------------------- |
 | 1x Circular root trinket 2x Gold ore or 7x Gold nugget 7x Silver nugget or 2x Silver ore |
 
 ### Table 12 (Related Items)
 
-| Amulet | Amulet_2 |
-| --- | --- |
+| Amulet  | Amulet_2                                                                                                                                                                                                                                                                                                            |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Crafted | 27 - Amulet of finding 31 - Amulet of eel 33 - Amulet of heron 35 - Amulet of bat 37 - Amulet of cooling ice 41 - Amulet of circular root 42 - Amulet of pink pearl 43 - Amulet of measuring spoon 45 - Amulet of shrimp 49 - Amulet of beaver 51 - Amulet of lucky rabbit's foot 55 - Amulet of the animal kingdom |
-| Loot | - Simple amulet - Rock-star amulet - Absorbing amulet, Adventuring amulet |
+| Loot    | - Simple amulet - Rock-star amulet - Absorbing amulet, Adventuring amulet                                                                                                                                                                                                                                           |

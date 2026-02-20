@@ -11,7 +11,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Fry a lobster
 
 > Cooked lobster, with its succulent and flavorful meat, brings a touch of nostalgia with its tough shell and strong claws. A classic seafood delicacy.
@@ -54,50 +53,50 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Cooked lobster | Cooked lobster_2 |
-| --- | --- |
-| Type: | Consumable |
-| Value: | 6 |
-| Fine Value: | 34 |
-| Keywords: | Cooked fish Food |
-| Search Keyword: | Crafting |
-| Duration: | 500 steps |
-| Properties: | Properties: |
+| Cooked lobster  | Cooked lobster_2 |
+| --------------- | ---------------- |
+| Type:           | Consumable       |
+| Value:          | 6                |
+| Fine Value:     | 34               |
+| Keywords:       | Cooked fish Food |
+| Search Keyword: | Crafting         |
+| Duration:       | 500 steps        |
+| Properties:     | Properties:      |
 
 ### Table 2 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                               |
+| ---------------------------------------- |
 | +3% Double rewards While doing Crafting. |
 | +5% Double rewards While doing Crafting. |
 
 ### Table 3 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Blackspell Port job board | Blackspell Port | 33 | +2 Erdwise Faction Reputation 1x Cooking chest |
-| Blackspell Port job board | Blackspell Port | 4 | +2 Erdwise Faction Reputation 1x Chest of Erdwise |
+| Job Board Name            | Location        | Quantity | Rewards                                           |
+| ------------------------- | --------------- | -------- | ------------------------------------------------- |
+| Blackspell Port job board | Blackspell Port | 33       | +2 Erdwise Faction Reputation 1x Cooking chest    |
+| Blackspell Port job board | Blackspell Port | 4        | +2 Erdwise Faction Reputation 1x Chest of Erdwise |
 
 ### Table 4 (Fry a lobster)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name   | Level           | Service Requirement                    | Materials Used | Recipe Outputs    |
+| ------------- | --------------- | -------------------------------------- | -------------- | ----------------- |
 | Fry a lobster | Cooking lvl. 35 | Needs Basic Kitchen service or better. | 1x Raw lobster | 1x Cooked lobster |
 
 ### Table 5 (Fry a lobster)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Fry a lobster | 83 | 105 | 0.790 | 56 steps | 190% | 1.482 | 215 steps |
+| Recipe Name   | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Fry a lobster | 83      | 105        | 0.790        | 56 steps      | 190%                | 1.482       | 215 steps            |
 
 ### Table 6 (Fry a lobster)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Cooking chest | Container | 1 | 0.400% | ~1 in 250 | 26,250 steps | 14,000 steps |
+| Item Name     | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| ------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Cooking chest | Container | 1        | 0.400% | ~1 in 250 | 26,250 steps | 14,000 steps |
 
 ### Table 7 (Related Items)
 
-| Food | Food_2 | Cooked fish |
-| --- | --- | --- |
+| Food       | Food_2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Cooked fish                                                                                                                                                                                                              |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Consumable | Bagel, Beef stew Bread, Cooked anglerfish Cooked carp, Cooked jellyfish Cooked largemouth bass, Cooked lobster Cooked perch, Cooked pike Cooked salmon, Cooked shark Cooked shrimp, Cooked squid Cooked stingray, Cooked swordfish Cooked trout, Creme brulee Dried fruit, Fried fish sandwich Fried noodles, Fruit cake Jarvonian pastry, Jelly sandwich Kelp rolls, Mud pie Mushroom curry, Nut mix Pancake, Pickles Porridge, Roasted bell pepper Salmon pie, Schnitzel Sweet carrot pie, Tasty breakfast Trout soup, Underwater salad Veggie soup | Cooked anglerfish, Cooked carp Cooked jellyfish, Cooked largemouth bass Cooked lobster, Cooked perch Cooked pike, Cooked salmon Cooked shark, Cooked shrimp Cooked squid, Cooked stingray Cooked swordfish, Cooked trout |

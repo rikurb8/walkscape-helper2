@@ -17,7 +17,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Make an iron shield
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -64,74 +63,74 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Iron shield (Normal) | Iron shield (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 4 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Iron shield (Normal) | Iron shield (Normal)\_2 |
+| -------------------- | ----------------------- |
+| Quality:             |                         |
+| Type:                | Crafted                 |
+| Slot:                | Secondary               |
+| Value:               | 4                       |
+| Keyword:             | Shield                  |
+| Properties:          | Properties:             |
 
 ### Table 2 (Introduction)
 
-| Iron shield (Good) | Iron shield (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 4 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Iron shield (Good) | Iron shield (Good)\_2 |
+| ------------------ | --------------------- |
+| Quality:           |                       |
+| Type:              | Crafted               |
+| Slot:              | Secondary             |
+| Value:             | 4                     |
+| Keyword:           | Shield                |
+| Properties:        | Properties:           |
 
 ### Table 3 (Introduction)
 
-| Iron shield (Great) | Iron shield (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 4 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Iron shield (Great) | Iron shield (Great)\_2 |
+| ------------------- | ---------------------- |
+| Quality:            |                        |
+| Type:               | Crafted                |
+| Slot:               | Secondary              |
+| Value:              | 4                      |
+| Keyword:            | Shield                 |
+| Properties:         | Properties:            |
 
 ### Table 4 (Introduction)
 
-| Iron shield (Excellent) | Iron shield (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 4 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Iron shield (Excellent) | Iron shield (Excellent)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Secondary                  |
+| Value:                  | 4                          |
+| Keyword:                | Shield                     |
+| Properties:             | Properties:                |
 
 ### Table 5 (Introduction)
 
-| Iron shield (Perfect) | Iron shield (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 4 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Iron shield (Perfect) | Iron shield (Perfect)\_2 |
+| --------------------- | ------------------------ |
+| Quality:              |                          |
+| Type:                 | Crafted                  |
+| Slot:                 | Secondary                |
+| Value:                | 4                        |
+| Keyword:              | Shield                   |
+| Properties:           | Properties:              |
 
 ### Table 6 (Introduction)
 
-| Iron shield (Eternal) | Iron shield (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 4 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Iron shield (Eternal) | Iron shield (Eternal)\_2 |
+| --------------------- | ------------------------ |
+| Quality:              |                          |
+| Type:                 | Crafted                  |
+| Slot:                 | Secondary                |
+| Value:                | 4                        |
+| Keyword:              | Shield                   |
+| Properties:           | Properties:              |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                   |
+| ---------------------------- |
 | This item has no attributes. |
 | This item has no attributes. |
 | This item has no attributes. |
@@ -141,30 +140,30 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 8 (Make an iron shield)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Make an iron shield | Smithing lvl. 23 | Needs Basic Forge service or better. | 2x Iron bar | 1x Iron shield |
+| Recipe Name         | Level            | Service Requirement                  | Materials Used | Recipe Outputs |
+| ------------------- | ---------------- | ------------------------------------ | -------------- | -------------- |
+| Make an iron shield | Smithing lvl. 23 | Needs Basic Forge service or better. | 2x Iron bar    | 1x Iron shield |
 
 ### Table 9 (Make an iron shield)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Make an iron shield | 93 | 190 | 0.489 | 112 steps | 170% | 0.830 | 354 steps |
+| Recipe Name         | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Make an iron shield | 93      | 190        | 0.489        | 112 steps     | 170%                | 0.830       | 354 steps            |
 
 ### Table 10 (Make an iron shield)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Smithing chest | Container | 1 | 0.400% | ~1 in 250 | 47,500 steps | 28,000 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Smithing chest | Container | 1        | 0.400% | ~1 in 250 | 47,500 steps | 28,000 steps |
 
 ### Table 11 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                  |
+| ------------------------------ |
 | 4x Iron ore or 40x Metal scrap |
 
 ### Table 12 (Related Items)
 
-| Shield | Shield_2 |
-| --- | --- |
+| Shield  | Shield_2                                                                                                                                              |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Crafted | 1 - Wooden shield 3 - Copper shield 13 - Bronze shield 23 - Iron shield 33 - Steel shield 43 - Tarsilium shield 53 - Farganite shield 59 - Gem shield |

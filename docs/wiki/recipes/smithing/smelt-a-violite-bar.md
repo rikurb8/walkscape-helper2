@@ -9,7 +9,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Smelt a violite bar
 
 > A violet metal bar. It somehow feels like you could squish it, but it is reluctant to give up its shape.
@@ -51,41 +50,41 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 ### Table 1 (Introduction)
 
 | Violite bar | Violite bar_2 |
-| --- | --- |
-| Type: | Material |
-| Value: | 14 |
-| Fine Value: | 76 |
-| Keyword: | Bar |
-| Properties: | Properties: |
+| ----------- | ------------- |
+| Type:       | Material      |
+| Value:      | 14            |
+| Fine Value: | 76            |
+| Keyword:    | Bar           |
+| Properties: | Properties:   |
 
 ### Table 2 (Recipe Ingredient)
 
-| Item Name | Service Requirement | Skills | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Craft a violite hatchet | Needs Advanced Workshop service or better. | Crafting lvl. 70 | 2x Violite bar 1x Mahogany plank | 1x Violite hatchet |
-| Craft a violite pickaxe | Needs Advanced Workshop service or better. | Crafting lvl. 70 | 2x Violite bar 1x Mahogany plank | 1x Violite pickaxe |
-| Craft a violite sickle | Needs Advanced Workshop service or better. | Crafting lvl. 70 | 1x Violite bar 1x Mahogany plank 1x Ironweed twine | 1x Violite sickle |
+| Item Name               | Service Requirement                        | Skills           | Materials Used                                     | Recipe Outputs     |
+| ----------------------- | ------------------------------------------ | ---------------- | -------------------------------------------------- | ------------------ |
+| Craft a violite hatchet | Needs Advanced Workshop service or better. | Crafting lvl. 70 | 2x Violite bar 1x Mahogany plank                   | 1x Violite hatchet |
+| Craft a violite pickaxe | Needs Advanced Workshop service or better. | Crafting lvl. 70 | 2x Violite bar 1x Mahogany plank                   | 1x Violite pickaxe |
+| Craft a violite sickle  | Needs Advanced Workshop service or better. | Crafting lvl. 70 | 1x Violite bar 1x Mahogany plank 1x Ironweed twine | 1x Violite sickle  |
 
 ### Table 3 (Smelt a violite bar)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name         | Level            | Service Requirement                     | Materials Used                 | Recipe Outputs |
+| ------------------- | ---------------- | --------------------------------------- | ------------------------------ | -------------- |
 | Smelt a violite bar | Smithing lvl. 70 | Needs Advanced Forge service or better. | 1x Violite ore 2x Crystal coal | 1x Violite bar |
 
 ### Table 4 (Smelt a violite bar)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Smelt a violite bar | 68 | 180 | 0.378 | 75 steps | 240% | 0.907 | 264 steps |
+| Recipe Name         | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Smelt a violite bar | 68      | 180        | 0.378        | 75 steps      | 240%                | 0.907       | 264 steps            |
 
 ### Table 5 (Smelt a violite bar)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Smithing chest | Container | 1 | 0.400% | ~1 in 250 | 45,000 steps | 18,750 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Smithing chest | Container | 1        | 0.400% | ~1 in 250 | 45,000 steps | 18,750 steps |
 
 ### Table 6 (Related Items)
 
-| Bar | Bar_2 |
-| --- | --- |
+| Bar      | Bar_2                                                                                                                               |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | Material | Adamant bar, Bronze bar Copper bar, Farganite bar Gold bar, Hydrilium bar Iron bar, Silver bar Steel bar, Tarsilium bar Violite bar |

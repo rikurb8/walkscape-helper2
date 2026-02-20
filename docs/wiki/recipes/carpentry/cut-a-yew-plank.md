@@ -9,7 +9,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Cut a yew plank
 
 > A plank that boasts its ease of being worked into various scenarios while remaining strong.
@@ -50,41 +49,41 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Yew plank | Yew plank_2 |
-| --- | --- |
-| Type: | Material |
-| Value: | 8 |
-| Fine Value: | 40 |
-| Keyword: | Plank |
+| Yew plank   | Yew plank_2 |
+| ----------- | ----------- |
+| Type:       | Material    |
+| Value:      | 8           |
+| Fine Value: | 40          |
+| Keyword:    | Plank       |
 | Properties: | Properties: |
 
 ### Table 2 (Recipe Ingredient)
 
-| Item Name | Service Requirement | Skills | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Item Name                | Service Requirement                        | Skills           | Materials Used              | Recipe Outputs     |
+| ------------------------ | ------------------------------------------ | ---------------- | --------------------------- | ------------------ |
 | Craft an adamant hatchet | Needs Advanced Workshop service or better. | Crafting lvl. 60 | 2x Adamant bar 1x Yew plank | 1x Adamant hatchet |
 | Craft an adamant pickaxe | Needs Advanced Workshop service or better. | Crafting lvl. 60 | 2x Adamant bar 1x Yew plank | 1x Adamant pickaxe |
 
 ### Table 3 (Cut a yew plank)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Cut a yew plank | Carpentry lvl. 60 | Needs Advanced Sawmill service or better. | 2x Yew logs | 1x Yew plank |
+| Recipe Name     | Level             | Service Requirement                       | Materials Used | Recipe Outputs |
+| --------------- | ----------------- | ----------------------------------------- | -------------- | -------------- |
+| Cut a yew plank | Carpentry lvl. 60 | Needs Advanced Sawmill service or better. | 2x Yew logs    | 1x Yew plank   |
 
 ### Table 4 (Cut a yew plank)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Cut a yew plank | 126 | 182 | 0.692 | 87 steps | 210% | 1.448 | 187 steps |
+| Recipe Name     | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| --------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Cut a yew plank | 126     | 182        | 0.692        | 87 steps      | 210%                | 1.448       | 187 steps            |
 
 ### Table 5 (Cut a yew plank)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Carpentry chest | Container | 1 | 0.400% | ~1 in 250 | 45,500 steps | 21,750 steps |
+| Item Name       | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| --------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Carpentry chest | Container | 1        | 0.400% | ~1 in 250 | 45,500 steps | 21,750 steps |
 
 ### Table 6 (Related Items)
 
-| Plank | Plank_2 |
-| --- | --- |
+| Plank    | Plank_2                                                                                                                                                  |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Material | Bamboo plank, Birch plank Coral plank, Mahogany plank Mangrove plank, Maple plank Oak plank, Pine plank Spruce plank, Teak plank Willow plank, Yew plank |

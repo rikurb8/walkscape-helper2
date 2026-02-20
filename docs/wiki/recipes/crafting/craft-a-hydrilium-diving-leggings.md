@@ -23,7 +23,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Craft a hydrilium diving leggings
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -34,7 +33,7 @@ The **Hydrilium diving leggings** [item](https://wiki.walkscape.app/wiki/Special
 
 # Requirement
 
--   Have completed the [Underwater swimming](../../activities/underwater-swimming.md) activity **\[25\]** times.
+- Have completed the [Underwater swimming](../../activities/underwater-swimming.md) activity **\[25\]** times.
 
 # Attributes
 
@@ -72,81 +71,81 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Hydrilium diving leggings (Normal) | Hydrilium diving leggings (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Legs |
-| Value: | 25 |
-| Keywords: | Advanced diving gear Diving gear Expert diving gear Underwater |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Hydrilium diving leggings (Normal) | Hydrilium diving leggings (Normal)\_2                          |
+| ---------------------------------- | -------------------------------------------------------------- |
+| Quality:                           |                                                                |
+| Type:                              | Crafted                                                        |
+| Slot:                              | Legs                                                           |
+| Value:                             | 25                                                             |
+| Keywords:                          | Advanced diving gear Diving gear Expert diving gear Underwater |
+| Search Keyword:                    | Global                                                         |
+| Properties:                        | Properties:                                                    |
 
 ### Table 2 (Introduction)
 
-| Hydrilium diving leggings (Good) | Hydrilium diving leggings (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Legs |
-| Value: | 25 |
-| Keywords: | Advanced diving gear Diving gear Expert diving gear Underwater |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Hydrilium diving leggings (Good) | Hydrilium diving leggings (Good)\_2                            |
+| -------------------------------- | -------------------------------------------------------------- |
+| Quality:                         |                                                                |
+| Type:                            | Crafted                                                        |
+| Slot:                            | Legs                                                           |
+| Value:                           | 25                                                             |
+| Keywords:                        | Advanced diving gear Diving gear Expert diving gear Underwater |
+| Search Keyword:                  | Global                                                         |
+| Properties:                      | Properties:                                                    |
 
 ### Table 3 (Introduction)
 
-| Hydrilium diving leggings (Great) | Hydrilium diving leggings (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Legs |
-| Value: | 25 |
-| Keywords: | Advanced diving gear Diving gear Expert diving gear Underwater |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Hydrilium diving leggings (Great) | Hydrilium diving leggings (Great)\_2                           |
+| --------------------------------- | -------------------------------------------------------------- |
+| Quality:                          |                                                                |
+| Type:                             | Crafted                                                        |
+| Slot:                             | Legs                                                           |
+| Value:                            | 25                                                             |
+| Keywords:                         | Advanced diving gear Diving gear Expert diving gear Underwater |
+| Search Keyword:                   | Global                                                         |
+| Properties:                       | Properties:                                                    |
 
 ### Table 4 (Introduction)
 
-| Hydrilium diving leggings (Excellent) | Hydrilium diving leggings (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Legs |
-| Value: | 25 |
-| Keywords: | Advanced diving gear Diving gear Expert diving gear Underwater |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Hydrilium diving leggings (Excellent) | Hydrilium diving leggings (Excellent)\_2                       |
+| ------------------------------------- | -------------------------------------------------------------- |
+| Quality:                              |                                                                |
+| Type:                                 | Crafted                                                        |
+| Slot:                                 | Legs                                                           |
+| Value:                                | 25                                                             |
+| Keywords:                             | Advanced diving gear Diving gear Expert diving gear Underwater |
+| Search Keyword:                       | Global                                                         |
+| Properties:                           | Properties:                                                    |
 
 ### Table 5 (Introduction)
 
-| Hydrilium diving leggings (Perfect) | Hydrilium diving leggings (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Legs |
-| Value: | 25 |
-| Keywords: | Advanced diving gear Diving gear Expert diving gear Underwater |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Hydrilium diving leggings (Perfect) | Hydrilium diving leggings (Perfect)\_2                         |
+| ----------------------------------- | -------------------------------------------------------------- |
+| Quality:                            |                                                                |
+| Type:                               | Crafted                                                        |
+| Slot:                               | Legs                                                           |
+| Value:                              | 25                                                             |
+| Keywords:                           | Advanced diving gear Diving gear Expert diving gear Underwater |
+| Search Keyword:                     | Global                                                         |
+| Properties:                         | Properties:                                                    |
 
 ### Table 6 (Introduction)
 
-| Hydrilium diving leggings (Eternal) | Hydrilium diving leggings (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Legs |
-| Value: | 25 |
-| Keywords: | Advanced diving gear Diving gear Expert diving gear Underwater |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Hydrilium diving leggings (Eternal) | Hydrilium diving leggings (Eternal)\_2                         |
+| ----------------------------------- | -------------------------------------------------------------- |
+| Quality:                            |                                                                |
+| Type:                               | Crafted                                                        |
+| Slot:                               | Legs                                                           |
+| Value:                              | 25                                                             |
+| Keywords:                           | Advanced diving gear Diving gear Expert diving gear Underwater |
+| Search Keyword:                     | Global                                                         |
+| Properties:                         | Properties:                                                    |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
-| Global -2% Work efficiency While in Underwater location. Global +1% No materials consumed |
+| Attributes                                                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Global -2% Work efficiency While in Underwater location. Global +1% No materials consumed                                                         |
 | Global +0% Work efficiency While in Underwater location. Global +1% Double rewards While in Underwater location. Global +1% No materials consumed |
 | Global +2% Work efficiency While in Underwater location. Global +2% Double rewards While in Underwater location. Global +2% No materials consumed |
 | Global +4% Work efficiency While in Underwater location. Global +3% Double rewards While in Underwater location. Global +2% No materials consumed |
@@ -155,38 +154,38 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 8 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Vastalume job board | Vastalume | 2 | +2 Syrenthia Faction Reputation |
-| Vastalume job board | Vastalume | 1 | +3 Syrenthia Faction Reputation 1x Chest of Syrenthia |
+| Job Board Name      | Location  | Quantity | Rewards                                               |
+| ------------------- | --------- | -------- | ----------------------------------------------------- |
+| Vastalume job board | Vastalume | 2        | +2 Syrenthia Faction Reputation                       |
+| Vastalume job board | Vastalume | 1        | +3 Syrenthia Faction Reputation 1x Chest of Syrenthia |
 
 ### Table 9 (Craft a hydrilium diving leggings)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Craft a hydrilium diving leggings | Crafting lvl. 45 | Needs Basic Workshop service or better. | 2x Hydrilium | 1x Hydrilium diving leggings |
+| Recipe Name                       | Level            | Service Requirement                     | Materials Used | Recipe Outputs               |
+| --------------------------------- | ---------------- | --------------------------------------- | -------------- | ---------------------------- |
+| Craft a hydrilium diving leggings | Crafting lvl. 45 | Needs Basic Workshop service or better. | 2x Hydrilium   | 1x Hydrilium diving leggings |
 
 ### Table 10 (Craft a hydrilium diving leggings)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Craft a hydrilium diving leggings | 160 | 200 | 0.800 | 106 steps | 190% | 1.509 | 788 steps |
+| Recipe Name                       | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| --------------------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Craft a hydrilium diving leggings | 160     | 200        | 0.800        | 106 steps     | 190%                | 1.509       | 788 steps            |
 
 ### Table 11 (Craft a hydrilium diving leggings)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Crafting chest | Container | 1 | 0.400% | ~1 in 250 | 50,000 steps | 26,500 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Crafting chest | Container | 1        | 0.400% | ~1 in 250 | 50,000 steps | 26,500 steps |
 
 ### Table 12 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials            |
+| ------------------------ |
 | 4x Kelp 4x Volcanic rock |
 
 ### Table 13 (Related Items)
 
-| Expert diving gear | Expert diving gear_2 | Advanced diving gear | Diving gear |
-| --- | --- | --- | --- |
-| Crafted | 45 - Hydrilium diving helm 45 - Hydrilium diving leggings 45 - Hydrilium diving torso | 25 - Kelp diving mask 25 - Kelp diving pants 25 - Kelp diving shirt 45 - Hydrilium diving helm 45 - Hydrilium diving leggings 45 - Hydrilium diving torso | 25 - Kelp diving mask 25 - Kelp diving pants 25 - Kelp diving shirt 45 - Hydrilium diving helm 45 - Hydrilium diving leggings 45 - Hydrilium diving torso |
-| Loot | - Oxygen tank - Merfolk dance corslet - Tentacle crown, Merfolk dance circlet | - Merfolk dress, Oxygen tank - Merfolk dance skirt - Merfolk dance corslet - Tentacle crown, Merfolk dance circlet | - Rusty diving helmet, Rusty diving torso - Rusty diving leggings, Merfolk shell coverings - Merfolk dress, Oxygen tank - Merfolk dance skirt - Merfolk dance corslet - Tentacle crown, Merfolk dance circlet |
+| Expert diving gear | Expert diving gear_2                                                                  | Advanced diving gear                                                                                                                                      | Diving gear                                                                                                                                                                                                   |
+| ------------------ | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Crafted            | 45 - Hydrilium diving helm 45 - Hydrilium diving leggings 45 - Hydrilium diving torso | 25 - Kelp diving mask 25 - Kelp diving pants 25 - Kelp diving shirt 45 - Hydrilium diving helm 45 - Hydrilium diving leggings 45 - Hydrilium diving torso | 25 - Kelp diving mask 25 - Kelp diving pants 25 - Kelp diving shirt 45 - Hydrilium diving helm 45 - Hydrilium diving leggings 45 - Hydrilium diving torso                                                     |
+| Loot               | - Oxygen tank - Merfolk dance corslet - Tentacle crown, Merfolk dance circlet         | - Merfolk dress, Oxygen tank - Merfolk dance skirt - Merfolk dance corslet - Tentacle crown, Merfolk dance circlet                                        | - Rusty diving helmet, Rusty diving torso - Rusty diving leggings, Merfolk shell coverings - Merfolk dress, Oxygen tank - Merfolk dance skirt - Merfolk dance corslet - Tentacle crown, Merfolk dance circlet |

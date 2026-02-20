@@ -23,7 +23,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Craft an oak fishing rod
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -34,7 +33,7 @@ The **Oak fishing rod** [item](https://wiki.walkscape.app/wiki/Special:MyLanguag
 
 # Requirement
 
--   At least Fishing lvl. 30.
+- At least Fishing lvl. 30.
 
 # Attributes
 
@@ -74,120 +73,120 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Oak fishing rod (Normal) | Oak fishing rod (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 6 |
-| Keywords: | Fishing rod Fishing tool |
-| Search Keyword: | Fishing |
-| Properties: | Properties: |
+| Oak fishing rod (Normal) | Oak fishing rod (Normal)\_2 |
+| ------------------------ | --------------------------- |
+| Quality:                 |                             |
+| Type:                    | Crafted                     |
+| Slot:                    | Tools                       |
+| Value:                   | 6                           |
+| Keywords:                | Fishing rod Fishing tool    |
+| Search Keyword:          | Fishing                     |
+| Properties:              | Properties:                 |
 
 ### Table 2 (Introduction)
 
-| Oak fishing rod (Good) | Oak fishing rod (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 6 |
-| Keywords: | Fishing rod Fishing tool |
-| Search Keyword: | Fishing |
-| Properties: | Properties: |
+| Oak fishing rod (Good) | Oak fishing rod (Good)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Tools                     |
+| Value:                 | 6                         |
+| Keywords:              | Fishing rod Fishing tool  |
+| Search Keyword:        | Fishing                   |
+| Properties:            | Properties:               |
 
 ### Table 3 (Introduction)
 
-| Oak fishing rod (Great) | Oak fishing rod (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 6 |
-| Keywords: | Fishing rod Fishing tool |
-| Search Keyword: | Fishing |
-| Properties: | Properties: |
+| Oak fishing rod (Great) | Oak fishing rod (Great)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Tools                      |
+| Value:                  | 6                          |
+| Keywords:               | Fishing rod Fishing tool   |
+| Search Keyword:         | Fishing                    |
+| Properties:             | Properties:                |
 
 ### Table 4 (Introduction)
 
-| Oak fishing rod (Excellent) | Oak fishing rod (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 6 |
-| Keywords: | Fishing rod Fishing tool |
-| Search Keyword: | Fishing |
-| Properties: | Properties: |
+| Oak fishing rod (Excellent) | Oak fishing rod (Excellent)\_2 |
+| --------------------------- | ------------------------------ |
+| Quality:                    |                                |
+| Type:                       | Crafted                        |
+| Slot:                       | Tools                          |
+| Value:                      | 6                              |
+| Keywords:                   | Fishing rod Fishing tool       |
+| Search Keyword:             | Fishing                        |
+| Properties:                 | Properties:                    |
 
 ### Table 5 (Introduction)
 
-| Oak fishing rod (Perfect) | Oak fishing rod (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 6 |
-| Keywords: | Fishing rod Fishing tool |
-| Search Keyword: | Fishing |
-| Properties: | Properties: |
+| Oak fishing rod (Perfect) | Oak fishing rod (Perfect)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Tools                        |
+| Value:                    | 6                            |
+| Keywords:                 | Fishing rod Fishing tool     |
+| Search Keyword:           | Fishing                      |
+| Properties:               | Properties:                  |
 
 ### Table 6 (Introduction)
 
-| Oak fishing rod (Eternal) | Oak fishing rod (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 6 |
-| Keywords: | Fishing rod Fishing tool |
-| Search Keyword: | Fishing |
-| Properties: | Properties: |
+| Oak fishing rod (Eternal) | Oak fishing rod (Eternal)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Tools                        |
+| Value:                    | 6                            |
+| Keywords:                 | Fishing rod Fishing tool     |
+| Search Keyword:           | Fishing                      |
+| Properties:               | Properties:                  |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
-| +9% Work efficiency While doing Fishing. |
-| +11% Work efficiency While doing Fishing. +13% Chest finding While doing Fishing. +30% Fine material finding While doing Fishing. +2% Double rewards While doing Fishing. |
-| +14% Work efficiency While doing Fishing. +21% Chest finding While doing Fishing. +1% Double action While doing Fishing. +48% Fine material finding While doing Fishing. +4% Double rewards While doing Fishing. |
-| +18% Work efficiency While doing Fishing. +24% Chest finding While doing Fishing. +2% Double action While doing Fishing. +54% Fine material finding While doing Fishing. +6% Double rewards While doing Fishing. |
-| +22% Work efficiency While doing Fishing. +25% Chest finding While doing Fishing. +4% Double action While doing Fishing. +58% Fine material finding While doing Fishing. +8% Double rewards While doing Fishing. |
+| Attributes                                                                                                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| +9% Work efficiency While doing Fishing.                                                                                                                                                                           |
+| +11% Work efficiency While doing Fishing. +13% Chest finding While doing Fishing. +30% Fine material finding While doing Fishing. +2% Double rewards While doing Fishing.                                          |
+| +14% Work efficiency While doing Fishing. +21% Chest finding While doing Fishing. +1% Double action While doing Fishing. +48% Fine material finding While doing Fishing. +4% Double rewards While doing Fishing.   |
+| +18% Work efficiency While doing Fishing. +24% Chest finding While doing Fishing. +2% Double action While doing Fishing. +54% Fine material finding While doing Fishing. +6% Double rewards While doing Fishing.   |
+| +22% Work efficiency While doing Fishing. +25% Chest finding While doing Fishing. +4% Double action While doing Fishing. +58% Fine material finding While doing Fishing. +8% Double rewards While doing Fishing.   |
 | +27% Work efficiency While doing Fishing. +26% Chest finding While doing Fishing. +10% Double action While doing Fishing. +62% Fine material finding While doing Fishing. +10% Double rewards While doing Fishing. |
 
 ### Table 8 (Activity Drops)
 
-| Activity Name | Skills | Quantity | Chance | Odds | Base Rate | W.E.A.R.‡ |
-| --- | --- | --- | --- | --- | --- | --- |
-| Erdwise dumpster diving | Foraging lvl. 35 Agility lvl. 20 | 1 | 1.725% | ~1 in 58 | 14,493 steps | 7,246 steps |
+| Activity Name           | Skills                           | Quantity | Chance | Odds     | Base Rate    | W.E.A.R.‡   |
+| ----------------------- | -------------------------------- | -------- | ------ | -------- | ------------ | ----------- |
+| Erdwise dumpster diving | Foraging lvl. 35 Agility lvl. 20 | 1        | 1.725% | ~1 in 58 | 14,493 steps | 7,246 steps |
 
 ### Table 9 (Craft an oak fishing rod)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name              | Level            | Service Requirement                     | Materials Used               | Recipe Outputs     |
+| ------------------------ | ---------------- | --------------------------------------- | ---------------------------- | ------------------ |
 | Craft an oak fishing rod | Crafting lvl. 30 | Needs Basic Workshop service or better. | 3x Oak plank 1x Fishing line | 1x Oak fishing rod |
 
 ### Table 10 (Craft an oak fishing rod)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Craft an oak fishing rod | 83 | 125 | 0.664 | 74 steps | 170% | 1.122 | 994 steps |
+| Recipe Name              | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------------ | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Craft an oak fishing rod | 83      | 125        | 0.664        | 74 steps      | 170%                | 1.122       | 994 steps            |
 
 ### Table 11 (Craft an oak fishing rod)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Crafting chest | Container | 1 | 0.400% | ~1 in 250 | 31,250 steps | 18,500 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Crafting chest | Container | 1        | 0.400% | ~1 in 250 | 31,250 steps | 18,500 steps |
 
 ### Table 12 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                                 |
+| --------------------------------------------- |
 | 1x Fishing line 6x Oak logs or 90x Wood scrap |
 
 ### Table 13 (Related Items)
 
-| Fishing rod | Fishing rod_2 |
-| --- | --- |
-| Crafted | 4 - Wooden fishing pole 10 - Pine fishing rod 30 - Oak fishing rod 40 - Willow fishing rod 55 - Spectral fishing rod |
-| Loot | - Rusty fishing rod - Adventuring fishing pole - Ice netrod |
+| Fishing rod | Fishing rod_2                                                                                                        |
+| ----------- | -------------------------------------------------------------------------------------------------------------------- |
+| Crafted     | 4 - Wooden fishing pole 10 - Pine fishing rod 30 - Oak fishing rod 40 - Willow fishing rod 55 - Spectral fishing rod |
+| Loot        | - Rusty fishing rod - Adventuring fishing pole - Ice netrod                                                          |

@@ -18,7 +18,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Create a silver ring
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -65,80 +64,80 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Silver ring (Normal) | Silver ring (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 4 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Silver ring (Normal) | Silver ring (Normal)\_2 |
+| -------------------- | ----------------------- |
+| Quality:             |                         |
+| Type:                | Crafted                 |
+| Slot:                | Ring                    |
+| Value:               | 4                       |
+| Keyword:             | Ring                    |
+| Search Keyword:      | Global                  |
+| Properties:          | Properties:             |
 
 ### Table 2 (Introduction)
 
-| Silver ring (Good) | Silver ring (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 4 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Silver ring (Good) | Silver ring (Good)\_2 |
+| ------------------ | --------------------- |
+| Quality:           |                       |
+| Type:              | Crafted               |
+| Slot:              | Ring                  |
+| Value:             | 4                     |
+| Keyword:           | Ring                  |
+| Search Keyword:    | Global                |
+| Properties:        | Properties:           |
 
 ### Table 3 (Introduction)
 
-| Silver ring (Great) | Silver ring (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 4 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Silver ring (Great) | Silver ring (Great)\_2 |
+| ------------------- | ---------------------- |
+| Quality:            |                        |
+| Type:               | Crafted                |
+| Slot:               | Ring                   |
+| Value:              | 4                      |
+| Keyword:            | Ring                   |
+| Search Keyword:     | Global                 |
+| Properties:         | Properties:            |
 
 ### Table 4 (Introduction)
 
-| Silver ring (Excellent) | Silver ring (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 4 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Silver ring (Excellent) | Silver ring (Excellent)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Ring                       |
+| Value:                  | 4                          |
+| Keyword:                | Ring                       |
+| Search Keyword:         | Global                     |
+| Properties:             | Properties:                |
 
 ### Table 5 (Introduction)
 
-| Silver ring (Perfect) | Silver ring (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 4 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Silver ring (Perfect) | Silver ring (Perfect)\_2 |
+| --------------------- | ------------------------ |
+| Quality:              |                          |
+| Type:                 | Crafted                  |
+| Slot:                 | Ring                     |
+| Value:                | 4                        |
+| Keyword:              | Ring                     |
+| Search Keyword:       | Global                   |
+| Properties:           | Properties:              |
 
 ### Table 6 (Introduction)
 
-| Silver ring (Eternal) | Silver ring (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 4 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Silver ring (Eternal) | Silver ring (Eternal)\_2 |
+| --------------------- | ------------------------ |
+| Quality:              |                          |
+| Type:                 | Crafted                  |
+| Slot:                 | Ring                     |
+| Value:                | 4                        |
+| Keyword:              | Ring                     |
+| Search Keyword:       | Global                   |
+| Properties:           | Properties:              |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                       |
+| -------------------------------- |
 | Global +1% Fine material finding |
 | Global +2% Fine material finding |
 | Global +3% Fine material finding |
@@ -148,33 +147,33 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 8 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Blackspell Port job board | Blackspell Port | 3 | +1 Erdwise Faction Reputation 1x Trinketry chest |
-| Blackspell Port job board | Blackspell Port | 1 | +1 Erdwise Faction Reputation 1x Chest of Erdwise |
-| Everhaven combined job board | Everhaven | 3 | +1 Erdwise Faction Reputation 1x Trinketry chest |
-| Everhaven combined job board | Everhaven | 1 | +1 Erdwise Faction Reputation 1x Chest of Erdwise |
+| Job Board Name               | Location        | Quantity | Rewards                                           |
+| ---------------------------- | --------------- | -------- | ------------------------------------------------- |
+| Blackspell Port job board    | Blackspell Port | 3        | +1 Erdwise Faction Reputation 1x Trinketry chest  |
+| Blackspell Port job board    | Blackspell Port | 1        | +1 Erdwise Faction Reputation 1x Chest of Erdwise |
+| Everhaven combined job board | Everhaven       | 3        | +1 Erdwise Faction Reputation 1x Trinketry chest  |
+| Everhaven combined job board | Everhaven       | 1        | +1 Erdwise Faction Reputation 1x Chest of Erdwise |
 
 ### Table 9 (Create a silver ring)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Create a silver ring | Trinketry lvl. 5 | Needs Basic Trinketry Bench service or better. | 2x Silver bar | 1x Silver ring |
+| Recipe Name          | Level            | Service Requirement                            | Materials Used | Recipe Outputs |
+| -------------------- | ---------------- | ---------------------------------------------- | -------------- | -------------- |
+| Create a silver ring | Trinketry lvl. 5 | Needs Basic Trinketry Bench service or better. | 2x Silver bar  | 1x Silver ring |
 
 ### Table 10 (Create a silver ring)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Create a silver ring | 120 | 250 | 0.480 | 167 steps | 150% | 0.719 | 433 steps |
+| Recipe Name          | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| -------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Create a silver ring | 120     | 250        | 0.480        | 167 steps     | 150%                | 0.719       | 433 steps            |
 
 ### Table 11 (Create a silver ring)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Trinketry chest | Container | 1 | 0.400% | ~1 in 250 | 62,500 steps | 41,750 steps |
+| Item Name       | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| --------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Trinketry chest | Container | 1        | 0.400% | ~1 in 250 | 62,500 steps | 41,750 steps |
 
 ### Table 12 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                      |
+| ---------------------------------- |
 | 14x Silver nugget or 4x Silver ore |

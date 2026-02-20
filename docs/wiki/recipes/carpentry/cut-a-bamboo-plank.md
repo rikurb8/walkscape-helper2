@@ -9,7 +9,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Cut a bamboo plank
 
 > It took some work, but the flexible plank was molded into a structural element.
@@ -51,39 +50,39 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 ### Table 1 (Introduction)
 
 | Bamboo plank | Bamboo plank_2 |
-| --- | --- |
-| Type: | Material |
-| Value: | 4 |
-| Fine Value: | 26 |
-| Keyword: | Plank |
-| Properties: | Properties: |
+| ------------ | -------------- |
+| Type:        | Material       |
+| Value:       | 4              |
+| Fine Value:  | 26             |
+| Keyword:     | Plank          |
+| Properties:  | Properties:    |
 
 ### Table 2 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Halfling Campgrounds job board | Halfling Campgrounds | 45 | +1 Halfling Rebels Faction Reputation 1x Carpentry chest |
+| Job Board Name                 | Location             | Quantity | Rewards                                                  |
+| ------------------------------ | -------------------- | -------- | -------------------------------------------------------- |
+| Halfling Campgrounds job board | Halfling Campgrounds | 45       | +1 Halfling Rebels Faction Reputation 1x Carpentry chest |
 
 ### Table 3 (Cut a bamboo plank)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name        | Level             | Service Requirement                    | Materials Used | Recipe Outputs  |
+| ------------------ | ----------------- | -------------------------------------- | -------------- | --------------- |
 | Cut a bamboo plank | Carpentry lvl. 45 | Needs Basic Sawmill service or better. | 2x Bamboo logs | 1x Bamboo plank |
 
 ### Table 4 (Cut a bamboo plank)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Cut a bamboo plank | 95 | 140 | 0.679 | 74 steps | 190% | 1.284 | 148 steps |
+| Recipe Name        | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------ | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Cut a bamboo plank | 95      | 140        | 0.679        | 74 steps      | 190%                | 1.284       | 148 steps            |
 
 ### Table 5 (Cut a bamboo plank)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Carpentry chest | Container | 1 | 0.400% | ~1 in 250 | 35,000 steps | 18,500 steps |
+| Item Name       | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| --------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Carpentry chest | Container | 1        | 0.400% | ~1 in 250 | 35,000 steps | 18,500 steps |
 
 ### Table 6 (Related Items)
 
-| Plank | Plank_2 |
-| --- | --- |
+| Plank    | Plank_2                                                                                                                                                  |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Material | Bamboo plank, Birch plank Coral plank, Mahogany plank Mangrove plank, Maple plank Oak plank, Pine plank Spruce plank, Teak plank Willow plank, Yew plank |

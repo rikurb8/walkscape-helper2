@@ -21,7 +21,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Craft a jellyfishing net
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -32,8 +31,8 @@ The **Jellyfishing net** [item](https://wiki.walkscape.app/wiki/Special:MyLangua
 
 # Requirements
 
--   At least Fishing lvl. 28.
--   At least Foraging lvl. 28.
+- At least Fishing lvl. 28.
+- At least Foraging lvl. 28.
 
 # Attributes
 
@@ -69,80 +68,80 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Jellyfishing net (Normal) | Jellyfishing net (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 10 |
-| Keyword: | Bug catching net |
-| Search Keywords: | Fishing Foraging |
-| Properties: | Properties: |
+| Jellyfishing net (Normal) | Jellyfishing net (Normal)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Tools                        |
+| Value:                    | 10                           |
+| Keyword:                  | Bug catching net             |
+| Search Keywords:          | Fishing Foraging             |
+| Properties:               | Properties:                  |
 
 ### Table 2 (Introduction)
 
-| Jellyfishing net (Good) | Jellyfishing net (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 10 |
-| Keyword: | Bug catching net |
-| Search Keywords: | Fishing Foraging |
-| Properties: | Properties: |
+| Jellyfishing net (Good) | Jellyfishing net (Good)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Tools                      |
+| Value:                  | 10                         |
+| Keyword:                | Bug catching net           |
+| Search Keywords:        | Fishing Foraging           |
+| Properties:             | Properties:                |
 
 ### Table 3 (Introduction)
 
-| Jellyfishing net (Great) | Jellyfishing net (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 10 |
-| Keyword: | Bug catching net |
-| Search Keywords: | Fishing Foraging |
-| Properties: | Properties: |
+| Jellyfishing net (Great) | Jellyfishing net (Great)\_2 |
+| ------------------------ | --------------------------- |
+| Quality:                 |                             |
+| Type:                    | Crafted                     |
+| Slot:                    | Tools                       |
+| Value:                   | 10                          |
+| Keyword:                 | Bug catching net            |
+| Search Keywords:         | Fishing Foraging            |
+| Properties:              | Properties:                 |
 
 ### Table 4 (Introduction)
 
-| Jellyfishing net (Excellent) | Jellyfishing net (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 10 |
-| Keyword: | Bug catching net |
-| Search Keywords: | Fishing Foraging |
-| Properties: | Properties: |
+| Jellyfishing net (Excellent) | Jellyfishing net (Excellent)\_2 |
+| ---------------------------- | ------------------------------- |
+| Quality:                     |                                 |
+| Type:                        | Crafted                         |
+| Slot:                        | Tools                           |
+| Value:                       | 10                              |
+| Keyword:                     | Bug catching net                |
+| Search Keywords:             | Fishing Foraging                |
+| Properties:                  | Properties:                     |
 
 ### Table 5 (Introduction)
 
-| Jellyfishing net (Perfect) | Jellyfishing net (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 10 |
-| Keyword: | Bug catching net |
-| Search Keywords: | Fishing Foraging |
-| Properties: | Properties: |
+| Jellyfishing net (Perfect) | Jellyfishing net (Perfect)\_2 |
+| -------------------------- | ----------------------------- |
+| Quality:                   |                               |
+| Type:                      | Crafted                       |
+| Slot:                      | Tools                         |
+| Value:                     | 10                            |
+| Keyword:                   | Bug catching net              |
+| Search Keywords:           | Fishing Foraging              |
+| Properties:                | Properties:                   |
 
 ### Table 6 (Introduction)
 
-| Jellyfishing net (Eternal) | Jellyfishing net (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 10 |
-| Keyword: | Bug catching net |
-| Search Keywords: | Fishing Foraging |
-| Properties: | Properties: |
+| Jellyfishing net (Eternal) | Jellyfishing net (Eternal)\_2 |
+| -------------------------- | ----------------------------- |
+| Quality:                   |                               |
+| Type:                      | Crafted                       |
+| Slot:                      | Tools                         |
+| Value:                     | 10                            |
+| Keyword:                   | Bug catching net              |
+| Search Keywords:           | Fishing Foraging              |
+| Properties:                | Properties:                   |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                                                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | +4% Work efficiency While doing Fishing. +4% Work efficiency While doing Foraging. +1% Double rewards While doing Fishing. +1% Double rewards While doing Foraging. |
 | +5% Work efficiency While doing Fishing. +5% Work efficiency While doing Foraging. +2% Double rewards While doing Fishing. +2% Double rewards While doing Foraging. |
 | +6% Work efficiency While doing Fishing. +6% Work efficiency While doing Foraging. +3% Double rewards While doing Fishing. +3% Double rewards While doing Foraging. |
@@ -152,31 +151,31 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 8 (Craft a jellyfishing net)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name              | Level            | Service Requirement                     | Materials Used                 | Recipe Outputs      |
+| ------------------------ | ---------------- | --------------------------------------- | ------------------------------ | ------------------- |
 | Craft a jellyfishing net | Crafting lvl. 37 | Needs Basic Workshop service or better. | 2x Kelp twine 1x Sturdy branch | 1x Jellyfishing net |
 
 ### Table 9 (Craft a jellyfishing net)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Craft a jellyfishing net | 150 | 173 | 0.867 | 92 steps | 190% | 1.630 | 1,515 steps |
+| Recipe Name              | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------------ | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Craft a jellyfishing net | 150     | 173        | 0.867        | 92 steps      | 190%                | 1.630       | 1,515 steps          |
 
 ### Table 10 (Craft a jellyfishing net)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Crafting chest | Container | 1 | 0.400% | ~1 in 250 | 43,250 steps | 23,000 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Crafting chest | Container | 1        | 0.400% | ~1 in 250 | 43,250 steps | 23,000 steps |
 
 ### Table 11 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials            |
+| ------------------------ |
 | 4x Kelp 1x Sturdy branch |
 
 ### Table 12 (Related Items)
 
-| Bug catching net | Bug catching net_2 |
-| --- | --- |
-| Crafted | 37 - Jellyfishing net |
-| Loot | - Simple bug catching net - Dragonfly catching net |
+| Bug catching net | Bug catching net_2                                 |
+| ---------------- | -------------------------------------------------- |
+| Crafted          | 37 - Jellyfishing net                              |
+| Loot             | - Simple bug catching net - Dragonfly catching net |

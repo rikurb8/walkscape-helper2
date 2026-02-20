@@ -17,7 +17,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Make a farganite sword
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -66,74 +65,74 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Farganite sword (Normal) | Farganite sword (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 25 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Farganite sword (Normal) | Farganite sword (Normal)\_2 |
+| ------------------------ | --------------------------- |
+| Quality:                 |                             |
+| Type:                    | Crafted                     |
+| Slot:                    | Primary                     |
+| Value:                   | 25                          |
+| Keyword:                 | Weapon                      |
+| Properties:              | Properties:                 |
 
 ### Table 2 (Introduction)
 
-| Farganite sword (Good) | Farganite sword (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 25 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Farganite sword (Good) | Farganite sword (Good)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Primary                   |
+| Value:                 | 25                        |
+| Keyword:               | Weapon                    |
+| Properties:            | Properties:               |
 
 ### Table 3 (Introduction)
 
-| Farganite sword (Great) | Farganite sword (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 25 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Farganite sword (Great) | Farganite sword (Great)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Primary                    |
+| Value:                  | 25                         |
+| Keyword:                | Weapon                     |
+| Properties:             | Properties:                |
 
 ### Table 4 (Introduction)
 
-| Farganite sword (Excellent) | Farganite sword (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 25 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Farganite sword (Excellent) | Farganite sword (Excellent)\_2 |
+| --------------------------- | ------------------------------ |
+| Quality:                    |                                |
+| Type:                       | Crafted                        |
+| Slot:                       | Primary                        |
+| Value:                      | 25                             |
+| Keyword:                    | Weapon                         |
+| Properties:                 | Properties:                    |
 
 ### Table 5 (Introduction)
 
-| Farganite sword (Perfect) | Farganite sword (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 25 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Farganite sword (Perfect) | Farganite sword (Perfect)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Primary                      |
+| Value:                    | 25                           |
+| Keyword:                  | Weapon                       |
+| Properties:               | Properties:                  |
 
 ### Table 6 (Introduction)
 
-| Farganite sword (Eternal) | Farganite sword (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 25 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Farganite sword (Eternal) | Farganite sword (Eternal)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Primary                      |
+| Value:                    | 25                           |
+| Keyword:                  | Weapon                       |
+| Properties:               | Properties:                  |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                   |
+| ---------------------------- |
 | This item has no attributes. |
 | This item has no attributes. |
 | This item has no attributes. |
@@ -143,38 +142,38 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 8 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Azurazera job board | Azurazera | 4 | +3 Jarvonia Faction Reputation |
-| Azurazera job board | Azurazera | 4 | +3 Jarvonia Faction Reputation 1x Chest of Jarvonia |
+| Job Board Name      | Location  | Quantity | Rewards                                             |
+| ------------------- | --------- | -------- | --------------------------------------------------- |
+| Azurazera job board | Azurazera | 4        | +3 Jarvonia Faction Reputation                      |
+| Azurazera job board | Azurazera | 4        | +3 Jarvonia Faction Reputation 1x Chest of Jarvonia |
 
 ### Table 9 (Make a farganite sword)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name            | Level            | Service Requirement                     | Materials Used   | Recipe Outputs     |
+| ---------------------- | ---------------- | --------------------------------------- | ---------------- | ------------------ |
 | Make a farganite sword | Smithing lvl. 56 | Needs Advanced Forge service or better. | 2x Farganite bar | 1x Farganite sword |
 
 ### Table 10 (Make a farganite sword)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Make a farganite sword | 370 | 300 | 1.233 | 150 steps | 200% | 2.467 | 646 steps |
+| Recipe Name            | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ---------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Make a farganite sword | 370     | 300        | 1.233        | 150 steps     | 200%                | 2.467       | 646 steps            |
 
 ### Table 11 (Make a farganite sword)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Smithing chest | Container | 1 | 0.400% | ~1 in 250 | 75,000 steps | 37,500 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Smithing chest | Container | 1        | 0.400% | ~1 in 250 | 75,000 steps | 37,500 steps |
 
 ### Table 12 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials            |
+| ------------------------ |
 | 6x Coal 2x Farganite ore |
 
 ### Table 13 (Related Items)
 
-| Weapon | Weapon_2 |
-| --- | --- |
+| Weapon  | Weapon_2                                                                                                                       |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | Crafted | 1 - Wooden sword 6 - Copper sword 16 - Bronze sword 26 - Iron sword 36 - Steel sword 46 - Tarsilium sword 56 - Farganite sword |
-| Loot | - Swashbuckler sword |
+| Loot    | - Swashbuckler sword                                                                                                           |

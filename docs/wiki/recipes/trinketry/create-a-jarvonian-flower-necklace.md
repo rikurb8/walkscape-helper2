@@ -18,7 +18,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Create a Jarvonian flower necklace
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -65,103 +64,103 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Jarvonian flower necklace (Normal) | Jarvonian flower necklace (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 2 |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Jarvonian flower necklace (Normal) | Jarvonian flower necklace (Normal)\_2 |
+| ---------------------------------- | ------------------------------------- |
+| Quality:                           |                                       |
+| Type:                              | Crafted                               |
+| Slot:                              | Neck                                  |
+| Value:                             | 2                                     |
+| Search Keyword:                    | Global                                |
+| Properties:                        | Properties:                           |
 
 ### Table 2 (Introduction)
 
-| Jarvonian flower necklace (Good) | Jarvonian flower necklace (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 2 |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Jarvonian flower necklace (Good) | Jarvonian flower necklace (Good)\_2 |
+| -------------------------------- | ----------------------------------- |
+| Quality:                         |                                     |
+| Type:                            | Crafted                             |
+| Slot:                            | Neck                                |
+| Value:                           | 2                                   |
+| Search Keyword:                  | Global                              |
+| Properties:                      | Properties:                         |
 
 ### Table 3 (Introduction)
 
-| Jarvonian flower necklace (Great) | Jarvonian flower necklace (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 2 |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Jarvonian flower necklace (Great) | Jarvonian flower necklace (Great)\_2 |
+| --------------------------------- | ------------------------------------ |
+| Quality:                          |                                      |
+| Type:                             | Crafted                              |
+| Slot:                             | Neck                                 |
+| Value:                            | 2                                    |
+| Search Keyword:                   | Global                               |
+| Properties:                       | Properties:                          |
 
 ### Table 4 (Introduction)
 
-| Jarvonian flower necklace (Excellent) | Jarvonian flower necklace (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 2 |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Jarvonian flower necklace (Excellent) | Jarvonian flower necklace (Excellent)\_2 |
+| ------------------------------------- | ---------------------------------------- |
+| Quality:                              |                                          |
+| Type:                                 | Crafted                                  |
+| Slot:                                 | Neck                                     |
+| Value:                                | 2                                        |
+| Search Keyword:                       | Global                                   |
+| Properties:                           | Properties:                              |
 
 ### Table 5 (Introduction)
 
-| Jarvonian flower necklace (Perfect) | Jarvonian flower necklace (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 2 |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Jarvonian flower necklace (Perfect) | Jarvonian flower necklace (Perfect)\_2 |
+| ----------------------------------- | -------------------------------------- |
+| Quality:                            |                                        |
+| Type:                               | Crafted                                |
+| Slot:                               | Neck                                   |
+| Value:                              | 2                                      |
+| Search Keyword:                     | Global                                 |
+| Properties:                         | Properties:                            |
 
 ### Table 6 (Introduction)
 
-| Jarvonian flower necklace (Eternal) | Jarvonian flower necklace (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 2 |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Jarvonian flower necklace (Eternal) | Jarvonian flower necklace (Eternal)\_2 |
+| ----------------------------------- | -------------------------------------- |
+| Quality:                            |                                        |
+| Type:                               | Crafted                                |
+| Slot:                               | Neck                                   |
+| Value:                              | 2                                      |
+| Search Keyword:                     | Global                                 |
+| Properties:                         | Properties:                            |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
-| Global +1% Chest finding Global +1% Fine material finding |
+| Attributes                                                    |
+| ------------------------------------------------------------- |
+| Global +1% Chest finding Global +1% Fine material finding     |
 | Global +1.5% Chest finding Global +1.5% Fine material finding |
-| Global +2% Chest finding Global +2% Fine material finding |
+| Global +2% Chest finding Global +2% Fine material finding     |
 | Global +2.5% Chest finding Global +2.5% Fine material finding |
-| Global +3% Chest finding Global +3% Fine material finding |
+| Global +3% Chest finding Global +3% Fine material finding     |
 | Global +3.5% Chest finding Global +3.5% Fine material finding |
 
 ### Table 8 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Kallaheim job board | Kallaheim | 4 | +1 Jarvonia Faction Reputation |
-| Kallaheim job board | Kallaheim | 2 | +1 Jarvonia Faction Reputation 1x Trinketry chest |
-| Kallaheim job board | Kallaheim | 1 | +1 Jarvonia Faction Reputation 1x Chest of Jarvonia |
+| Job Board Name      | Location  | Quantity | Rewards                                             |
+| ------------------- | --------- | -------- | --------------------------------------------------- |
+| Kallaheim job board | Kallaheim | 4        | +1 Jarvonia Faction Reputation                      |
+| Kallaheim job board | Kallaheim | 2        | +1 Jarvonia Faction Reputation 1x Trinketry chest   |
+| Kallaheim job board | Kallaheim | 1        | +1 Jarvonia Faction Reputation 1x Chest of Jarvonia |
 
 ### Table 9 (Create a Jarvonian flower necklace)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Create a Jarvonian flower necklace | Trinketry lvl. 1 | None | 3x Moondaisy 3x Snowdrop | 1x Jarvonian flower necklace |
+| Recipe Name                        | Level            | Service Requirement | Materials Used           | Recipe Outputs               |
+| ---------------------------------- | ---------------- | ------------------- | ------------------------ | ---------------------------- |
+| Create a Jarvonian flower necklace | Trinketry lvl. 1 | None                | 3x Moondaisy 3x Snowdrop | 1x Jarvonian flower necklace |
 
 ### Table 10 (Create a Jarvonian flower necklace)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Create a Jarvonian flower necklace | 20 | 100 | 0.200 | 67 steps | 150% | 0.299 | 1,003 steps |
+| Recipe Name                        | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ---------------------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Create a Jarvonian flower necklace | 20      | 100        | 0.200        | 67 steps      | 150%                | 0.299       | 1,003 steps          |
 
 ### Table 11 (Create a Jarvonian flower necklace)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Trinketry chest | Container | 1 | 0.400% | ~1 in 250 | 25,000 steps | 16,750 steps |
+| Item Name       | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| --------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Trinketry chest | Container | 1        | 0.400% | ~1 in 250 | 25,000 steps | 16,750 steps |

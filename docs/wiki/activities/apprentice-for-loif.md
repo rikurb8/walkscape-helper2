@@ -8,7 +8,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Apprentice for Loif
 
 > Old man Loif Ulfrand needs many things, including hot drinks, tools sharpened, and his hair cut. But you occasionally get some experience tinkering with his tools when he falls asleep.
@@ -19,7 +18,7 @@ The **Apprentice for Loif** [activity](index.md) is a [Crafting](../skills/craft
 
 This activity can be done at the following location:
 
--   [Frusenholm](https://wiki.walkscape.app/wiki/Special:MyLanguage/Frusenholm "Special:MyLanguage/Frusenholm") in [Jarvonia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Jarvonia "Special:MyLanguage/Jarvonia")
+- [Frusenholm](https://wiki.walkscape.app/wiki/Special:MyLanguage/Frusenholm "Special:MyLanguage/Frusenholm") in [Jarvonia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Jarvonia "Special:MyLanguage/Jarvonia")
 
 # Visibility
 
@@ -29,7 +28,7 @@ This activity is always visible.
 
 Skill Level Requirements:
 
--   At least Crafting lvl. 1.
+- At least Crafting lvl. 1.
 
 # Experience Information
 
@@ -56,24 +55,24 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 ### Table 1 (Introduction)
 
 | Apprentice for Loif | Apprentice for Loif_2 |
-| --- | --- |
-| Main Skill: | Crafting |
-| Max Efficiency: | 200% |
+| ------------------- | --------------------- |
+| Main Skill:         | Crafting              |
+| Max Efficiency:     | 200%                  |
 
 ### Table 2 (Experience Information)
 
-| Skill | Base XP | Base Steps | Base XP/Step | Total Base XP/Step | Minimum Steps | Max XP/Step | Total Max XP/Step |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Crafting | 30 | 300 | 0.100 | 0.100 | 150 | 0.200 | 0.200 |
+| Skill    | Base XP | Base Steps | Base XP/Step | Total Base XP/Step | Minimum Steps | Max XP/Step | Total Max XP/Step |
+| -------- | ------- | ---------- | ------------ | ------------------ | ------------- | ----------- | ----------------- |
+| Crafting | 30      | 300        | 0.100        | 0.100              | 150           | 0.200       | 0.200             |
 
 ### Table 3 (Main Drops)
 
-| Item Name | Quantity | Chance | Odds | Base Rate | W.E.A.R. | Value Single (Stack) |
-| --- | --- | --- | --- | --- | --- | --- |
-| Coins | 1-10 | 100.000% | ~1 in 1 | 55 steps | 27 steps | 1 (1-10) |
+| Item Name | Quantity | Chance   | Odds    | Base Rate | W.E.A.R. | Value Single (Stack) |
+| --------- | -------- | -------- | ------- | --------- | -------- | -------------------- |
+| Coins     | 1-10     | 100.000% | ~1 in 1 | 55 steps  | 27 steps | 1 (1-10)             |
 
 ### Table 4 (Secondary Drops)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Crafting chest | Container | 1 | 0.400% | ~1 in 250 | 75,000 steps | 37,500 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Crafting chest | Container | 1        | 0.400% | ~1 in 250 | 75,000 steps | 37,500 steps |

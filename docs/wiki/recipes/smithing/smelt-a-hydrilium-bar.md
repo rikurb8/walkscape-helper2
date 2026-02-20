@@ -9,7 +9,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Smelt a hydrilium bar
 
 > The hydrilium bar has pale green colour.
@@ -55,59 +54,59 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 ### Table 1 (Introduction)
 
 | Hydrilium bar | Hydrilium bar_2 |
-| --- | --- |
-| Type: | Material |
-| Value: | 10 |
-| Fine Value: | 51 |
-| Keyword: | Bar |
-| Properties: | Properties: |
+| ------------- | --------------- |
+| Type:         | Material        |
+| Value:        | 10              |
+| Fine Value:   | 51              |
+| Keyword:      | Bar             |
+| Properties:   | Properties:     |
 
 ### Table 2 (Recipe Ingredient)
 
-| Item Name | Service Requirement | Skills | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Craft a coral fishing spear | Needs Basic Workshop service or better. | Crafting lvl. 45 | 1x Hydrilium bar 2x Coral plank | 1x Coral fishing spear |
-| Craft a hydrilium hatchet | Needs Basic Workshop service or better. | Crafting lvl. 45 | 2x Hydrilium bar 1x Coral plank | 1x Hydrilium hatchet |
-| Craft a hydrilium pickaxe | Needs Basic Workshop service or better. | Crafting lvl. 45 | 2x Hydrilium bar 1x Coral plank | 1x Hydrilium pickaxe |
-| Craft a hydrilium sickle | Needs Basic Workshop service or better. | Crafting lvl. 45 | 1x Hydrilium bar 1x Coral plank 1x Kelp twine | 1x Hydrilium sickle |
-| Craft a hydrilium wrench | Needs Basic Workshop service or better. | Crafting lvl. 46 | 1x Simple wrench 2x Hydrilium bar | 1x Hydrilium wrench |
-| Craft a hydrilium log splitter | Needs Advanced Workshop service or better. | Crafting lvl. 52 | 2x Hydrilium bar 1x Log splitter | 1x Hydrilium log splitter |
-| Craft a hydrilium magnet | Needs Advanced Workshop service or better. | Crafting lvl. 54 | 2x Hydrilium bar 1x Miner's magnet | 1x Hydrilium magnet |
+| Item Name                      | Service Requirement                        | Skills           | Materials Used                                | Recipe Outputs            |
+| ------------------------------ | ------------------------------------------ | ---------------- | --------------------------------------------- | ------------------------- |
+| Craft a coral fishing spear    | Needs Basic Workshop service or better.    | Crafting lvl. 45 | 1x Hydrilium bar 2x Coral plank               | 1x Coral fishing spear    |
+| Craft a hydrilium hatchet      | Needs Basic Workshop service or better.    | Crafting lvl. 45 | 2x Hydrilium bar 1x Coral plank               | 1x Hydrilium hatchet      |
+| Craft a hydrilium pickaxe      | Needs Basic Workshop service or better.    | Crafting lvl. 45 | 2x Hydrilium bar 1x Coral plank               | 1x Hydrilium pickaxe      |
+| Craft a hydrilium sickle       | Needs Basic Workshop service or better.    | Crafting lvl. 45 | 1x Hydrilium bar 1x Coral plank 1x Kelp twine | 1x Hydrilium sickle       |
+| Craft a hydrilium wrench       | Needs Basic Workshop service or better.    | Crafting lvl. 46 | 1x Simple wrench 2x Hydrilium bar             | 1x Hydrilium wrench       |
+| Craft a hydrilium log splitter | Needs Advanced Workshop service or better. | Crafting lvl. 52 | 2x Hydrilium bar 1x Log splitter              | 1x Hydrilium log splitter |
+| Craft a hydrilium magnet       | Needs Advanced Workshop service or better. | Crafting lvl. 54 | 2x Hydrilium bar 1x Miner's magnet            | 1x Hydrilium magnet       |
 
 ### Table 3 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Vastalume job board | Vastalume | 44 | +3 Syrenthia Faction Reputation 1x Cooking chest 1x Smithing chest |
-| Vastalume job board | Vastalume | 2 | +4 Syrenthia Faction Reputation 1x Cooking chest 1x Smithing chest |
+| Job Board Name      | Location  | Quantity | Rewards                                                            |
+| ------------------- | --------- | -------- | ------------------------------------------------------------------ |
+| Vastalume job board | Vastalume | 44       | +3 Syrenthia Faction Reputation 1x Cooking chest 1x Smithing chest |
+| Vastalume job board | Vastalume | 2        | +4 Syrenthia Faction Reputation 1x Cooking chest 1x Smithing chest |
 
 ### Table 4 (Smelt a hydrilium bar)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name           | Level            | Service Requirement                  | Materials Used       | Recipe Outputs   |
+| --------------------- | ---------------- | ------------------------------------ | -------------------- | ---------------- |
 | Smelt a hydrilium bar | Smithing lvl. 45 | Needs Basic Forge service or better. | 1x Kelp 1x Hydrilium | 1x Hydrilium bar |
 
 ### Table 5 (Smelt a hydrilium bar)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Smelt a hydrilium bar | 55 | 110 | 0.500 | 58 steps | 190% | 0.948 | 457 steps |
+| Recipe Name           | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| --------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Smelt a hydrilium bar | 55      | 110        | 0.500        | 58 steps      | 190%                | 0.948       | 457 steps            |
 
 ### Table 6 (Smelt a hydrilium bar)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. | Note |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Smithing chest | Container | 1 | 0.400% | ~1 in 250 | 27,500 steps | 14,500 steps |  |
-| Silver nugget | Material | 1 or more | 13.510% | ~1 in 7 | 786 steps | 414 steps | Does 2 rolls |
+| Item Name      | Item Type | Quantity  | Chance  | Odds      | Base Rate    | W.E.A.R.     | Note         |
+| -------------- | --------- | --------- | ------- | --------- | ------------ | ------------ | ------------ |
+| Smithing chest | Container | 1         | 0.400%  | ~1 in 250 | 27,500 steps | 14,500 steps |              |
+| Silver nugget  | Material  | 1 or more | 13.510% | ~1 in 7   | 786 steps    | 414 steps    | Does 2 rolls |
 
 ### Table 7 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials            |
+| ------------------------ |
 | 3x Kelp 2x Volcanic rock |
 
 ### Table 8 (Related Items)
 
-| Bar | Bar_2 |
-| --- | --- |
+| Bar      | Bar_2                                                                                                                               |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | Material | Adamant bar, Bronze bar Copper bar, Farganite bar Gold bar, Hydrilium bar Iron bar, Silver bar Steel bar, Tarsilium bar Violite bar |

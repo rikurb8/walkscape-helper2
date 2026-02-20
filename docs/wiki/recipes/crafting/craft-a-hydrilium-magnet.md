@@ -24,7 +24,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Craft a hydrilium magnet
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -35,7 +34,7 @@ The **Hydrilium magnet** [item](https://wiki.walkscape.app/wiki/Special:MyLangua
 
 # Requirement
 
--   At least Mining lvl. 45.
+- At least Mining lvl. 45.
 
 # Attributes
 
@@ -61,7 +60,7 @@ No guides exists yet. [You can help make one.](https://wiki.walkscape.app/index.
 
 # Gear Sets
 
--   [Blue’s No Candlehat Set](https://wiki.walkscape.app/wiki/Gear:Hydrilium_magnet/Blue%E2%80%99s_No_Candlehat_Set "Gear:Hydrilium magnet/Blue’s No Candlehat Set")
+- [Blue’s No Candlehat Set](https://wiki.walkscape.app/wiki/Gear:Hydrilium_magnet/Blue%E2%80%99s_No_Candlehat_Set "Gear:Hydrilium magnet/Blue’s No Candlehat Set")
 
 [Edit Gear Sets](https://wiki.walkscape.app/wiki/Gear:Hydrilium_magnet "Gear:Hydrilium magnet")
 
@@ -73,114 +72,114 @@ No guides exists yet. [You can help make one.](https://wiki.walkscape.app/index.
 
 ### Table 1 (Introduction)
 
-| Hydrilium magnet (Normal) | Hydrilium magnet (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 40 |
-| Keyword: | Magnetic |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Hydrilium magnet (Normal) | Hydrilium magnet (Normal)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Tools                        |
+| Value:                    | 40                           |
+| Keyword:                  | Magnetic                     |
+| Search Keyword:           | Mining                       |
+| Properties:               | Properties:                  |
 
 ### Table 2 (Introduction)
 
-| Hydrilium magnet (Good) | Hydrilium magnet (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 40 |
-| Keyword: | Magnetic |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Hydrilium magnet (Good) | Hydrilium magnet (Good)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Tools                      |
+| Value:                  | 40                         |
+| Keyword:                | Magnetic                   |
+| Search Keyword:         | Mining                     |
+| Properties:             | Properties:                |
 
 ### Table 3 (Introduction)
 
-| Hydrilium magnet (Great) | Hydrilium magnet (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 40 |
-| Keyword: | Magnetic |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Hydrilium magnet (Great) | Hydrilium magnet (Great)\_2 |
+| ------------------------ | --------------------------- |
+| Quality:                 |                             |
+| Type:                    | Crafted                     |
+| Slot:                    | Tools                       |
+| Value:                   | 40                          |
+| Keyword:                 | Magnetic                    |
+| Search Keyword:          | Mining                      |
+| Properties:              | Properties:                 |
 
 ### Table 4 (Introduction)
 
-| Hydrilium magnet (Excellent) | Hydrilium magnet (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 40 |
-| Keyword: | Magnetic |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Hydrilium magnet (Excellent) | Hydrilium magnet (Excellent)\_2 |
+| ---------------------------- | ------------------------------- |
+| Quality:                     |                                 |
+| Type:                        | Crafted                         |
+| Slot:                        | Tools                           |
+| Value:                       | 40                              |
+| Keyword:                     | Magnetic                        |
+| Search Keyword:              | Mining                          |
+| Properties:                  | Properties:                     |
 
 ### Table 5 (Introduction)
 
-| Hydrilium magnet (Perfect) | Hydrilium magnet (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 40 |
-| Keyword: | Magnetic |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Hydrilium magnet (Perfect) | Hydrilium magnet (Perfect)\_2 |
+| -------------------------- | ----------------------------- |
+| Quality:                   |                               |
+| Type:                      | Crafted                       |
+| Slot:                      | Tools                         |
+| Value:                     | 40                            |
+| Keyword:                   | Magnetic                      |
+| Search Keyword:            | Mining                        |
+| Properties:                | Properties:                   |
 
 ### Table 6 (Introduction)
 
-| Hydrilium magnet (Eternal) | Hydrilium magnet (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 40 |
-| Keyword: | Magnetic |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Hydrilium magnet (Eternal) | Hydrilium magnet (Eternal)\_2 |
+| -------------------------- | ----------------------------- |
+| Quality:                   |                               |
+| Type:                      | Crafted                       |
+| Slot:                      | Tools                         |
+| Value:                     | 40                            |
+| Keyword:                   | Magnetic                      |
+| Search Keyword:            | Mining                        |
+| Properties:                | Properties:                   |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
-| +8% Work efficiency While doing Mining. +24% Fine material finding While doing Mining. +1% Double rewards While doing Mining. |
-| +9% Work efficiency While doing Mining. +28% Fine material finding While doing Mining. +2% Double rewards While doing Mining. |
-| +10% Work efficiency While doing Mining. +2% Chest finding While doing Mining. +32% Fine material finding While doing Mining. +3% Double rewards While doing Mining. |
-| +11% Work efficiency While doing Mining. +4% Chest finding While doing Mining. +36% Fine material finding While doing Mining. +4% Double rewards While doing Mining. +1% Bonus experience While doing Mining. |
-| +12% Work efficiency While doing Mining. +6% Chest finding While doing Mining. +1% Double action While doing Mining. +40% Fine material finding While doing Mining. +5% Double rewards While doing Mining. +2% Bonus experience While doing Mining. |
+| Attributes                                                                                                                                                                                                                                                                                |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| +8% Work efficiency While doing Mining. +24% Fine material finding While doing Mining. +1% Double rewards While doing Mining.                                                                                                                                                             |
+| +9% Work efficiency While doing Mining. +28% Fine material finding While doing Mining. +2% Double rewards While doing Mining.                                                                                                                                                             |
+| +10% Work efficiency While doing Mining. +2% Chest finding While doing Mining. +32% Fine material finding While doing Mining. +3% Double rewards While doing Mining.                                                                                                                      |
+| +11% Work efficiency While doing Mining. +4% Chest finding While doing Mining. +36% Fine material finding While doing Mining. +4% Double rewards While doing Mining. +1% Bonus experience While doing Mining.                                                                             |
+| +12% Work efficiency While doing Mining. +6% Chest finding While doing Mining. +1% Double action While doing Mining. +40% Fine material finding While doing Mining. +5% Double rewards While doing Mining. +2% Bonus experience While doing Mining.                                       |
 | +13% Work efficiency While doing Mining. +8% Chest finding While doing Mining. +2% Double action While doing Mining. +44% Fine material finding While doing Mining. +6% Double rewards While doing Mining. +3% Bonus experience While doing Mining. -1 Steps required While doing Mining. |
 
 ### Table 8 (Craft a hydrilium magnet)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name              | Level            | Service Requirement                        | Materials Used                     | Recipe Outputs      |
+| ------------------------ | ---------------- | ------------------------------------------ | ---------------------------------- | ------------------- |
 | Craft a hydrilium magnet | Crafting lvl. 54 | Needs Advanced Workshop service or better. | 2x Hydrilium bar 1x Miner's magnet | 1x Hydrilium magnet |
 
 ### Table 9 (Craft a hydrilium magnet)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Craft a hydrilium magnet | 560 | 500 | 1.120 | 239 steps | 210% | 2.343 | 191,065 steps |
+| Recipe Name              | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------------ | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Craft a hydrilium magnet | 560     | 500        | 1.120        | 239 steps     | 210%                | 2.343       | 191,065 steps        |
 
 ### Table 10 (Craft a hydrilium magnet)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Crafting chest | Container | 1 | 0.400% | ~1 in 250 | 125,000 steps | 59,750 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate     | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------- | ------------ |
+| Crafting chest | Container | 1        | 0.400% | ~1 in 250 | 125,000 steps | 59,750 steps |
 
 ### Table 11 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                              |
+| ------------------------------------------ |
 | 6x Kelp 1x Miner's magnet 4x Volcanic rock |
 
 ### Table 12 (Related Items)
 
-| Magnetic | Magnetic_2 |
-| --- | --- |
-| Crafted | 54 - Hydrilium magnet |
-| Loot | - Simple magnet - Miner's magnet - Meltdown mask |
+| Magnetic | Magnetic_2                                       |
+| -------- | ------------------------------------------------ |
+| Crafted  | 54 - Hydrilium magnet                            |
+| Loot     | - Simple magnet - Miner's magnet - Meltdown mask |

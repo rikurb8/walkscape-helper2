@@ -10,7 +10,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Shape a jade
 
 > Its bright green colour makes it a perfect gemstone for jewellery, which is rumoured to ward off evil spirits when worn.
@@ -57,56 +56,56 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Jade | Jade_2 |
-| --- | --- |
-| Type: | Material |
-| Value: | 76 |
-| Fine Value: | 353 |
-| Keywords: | Cut gem Gem |
+| Jade        | Jade_2      |
+| ----------- | ----------- |
+| Type:       | Material    |
+| Value:      | 76          |
+| Fine Value: | 353         |
+| Keywords:   | Cut gem Gem |
 | Properties: | Properties: |
 
 ### Table 2 (Recipe Ingredient)
 
-| Item Name | Service Requirement | Skills | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Create a silver jade ring | Needs Basic Trinketry Bench service or better. | Trinketry lvl. 35 | 1x Jade 1x Silver bar | 1x Silver jade ring |
-| Craft a jade tipped steel pan | Needs Basic Workshop service or better. | Crafting lvl. 38 | 1x Simple pan 1x Steel bar 1x Jade | 1x Jade tipped steel pan |
-| Create a gold jade ring | Needs Basic Trinketry Bench service or better. | Trinketry lvl. 45 | 1x Jade 1x Gold bar | 1x Gold jade ring |
-| Make a gem shield | Needs Advanced Forge service or better. | Smithing lvl. 59 | 2x Farganite bar 1x Gold bar 1x Sun stone 1x Ruby 1x Jade 1x Topaz 1x Wrentmarine | 1x Gem shield |
+| Item Name                     | Service Requirement                            | Skills            | Materials Used                                                                    | Recipe Outputs           |
+| ----------------------------- | ---------------------------------------------- | ----------------- | --------------------------------------------------------------------------------- | ------------------------ |
+| Create a silver jade ring     | Needs Basic Trinketry Bench service or better. | Trinketry lvl. 35 | 1x Jade 1x Silver bar                                                             | 1x Silver jade ring      |
+| Craft a jade tipped steel pan | Needs Basic Workshop service or better.        | Crafting lvl. 38  | 1x Simple pan 1x Steel bar 1x Jade                                                | 1x Jade tipped steel pan |
+| Create a gold jade ring       | Needs Basic Trinketry Bench service or better. | Trinketry lvl. 45 | 1x Jade 1x Gold bar                                                               | 1x Gold jade ring        |
+| Make a gem shield             | Needs Advanced Forge service or better.        | Smithing lvl. 59  | 2x Farganite bar 1x Gold bar 1x Sun stone 1x Ruby 1x Jade 1x Topaz 1x Wrentmarine | 1x Gem shield            |
 
 ### Table 3 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Blackspell Port job board | Blackspell Port | 1 | +1 Erdwise Faction Reputation 1x Chest of Erdwise |
-| Everhaven combined job board | Everhaven | 1 | +1 Erdwise Faction Reputation 1x Chest of Erdwise |
+| Job Board Name               | Location        | Quantity | Rewards                                           |
+| ---------------------------- | --------------- | -------- | ------------------------------------------------- |
+| Blackspell Port job board    | Blackspell Port | 1        | +1 Erdwise Faction Reputation 1x Chest of Erdwise |
+| Everhaven combined job board | Everhaven       | 1        | +1 Erdwise Faction Reputation 1x Chest of Erdwise |
 
 ### Table 4 (Shop Purchases)
 
-| Shop Name | Location | Region | Stock | Price |
-| --- | --- | --- | --- | --- |
-| Southern Gem | Myriadian Arc | Wrentmark | 3 | 2,000 |
+| Shop Name    | Location      | Region    | Stock | Price |
+| ------------ | ------------- | --------- | ----- | ----- |
+| Southern Gem | Myriadian Arc | Wrentmark | 3     | 2,000 |
 
 ### Table 5 (Shape a jade)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Shape a jade | Trinketry lvl. 26 | Needs Basic Trinketry Bench service or better. | 1x Rough jade | 1x Jade |
+| Recipe Name  | Level             | Service Requirement                            | Materials Used | Recipe Outputs |
+| ------------ | ----------------- | ---------------------------------------------- | -------------- | -------------- |
+| Shape a jade | Trinketry lvl. 26 | Needs Basic Trinketry Bench service or better. | 1x Rough jade  | 1x Jade        |
 
 ### Table 6 (Shape a jade)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Shape a jade | 126 | 250 | 0.504 | 132 steps | 190% | 0.955 | 11,298 steps |
+| Recipe Name  | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------ | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Shape a jade | 126     | 250        | 0.504        | 132 steps     | 190%                | 0.955       | 11,298 steps         |
 
 ### Table 7 (Shape a jade)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Trinketry chest | Container | 1 | 0.400% | ~1 in 250 | 62,500 steps | 33,000 steps |
+| Item Name       | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| --------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Trinketry chest | Container | 1        | 0.400% | ~1 in 250 | 62,500 steps | 33,000 steps |
 
 ### Table 8 (Related Items)
 
-| Gem | Gem_2 | Cut gem |
-| --- | --- | --- |
+| Gem      | Gem_2                                                                                                                                                                                          | Cut gem                                                             |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | Material | Ethernite, Jade Opal, Pearls Rough ethernite, Rough jade Rough opal, Rough ruby Rough star pearl, Rough sun stone Rough topaz, Rough wrentmarine Ruby, Star pearl Sun stone, Topaz Wrentmarine | Ethernite, Jade Opal, Ruby Star pearl, Sun stone Topaz, Wrentmarine |

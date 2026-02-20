@@ -24,7 +24,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Craft an iron pickaxe
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -35,7 +34,7 @@ The **Iron pickaxe** [item](https://wiki.walkscape.app/wiki/Special:MyLanguage/I
 
 # Requirement
 
--   At least Mining lvl. 20.
+- At least Mining lvl. 20.
 
 # Attributes
 
@@ -77,127 +76,127 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Iron pickaxe (Normal) | Iron pickaxe (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 5 |
-| Keywords: | Mining tool Pickaxe |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Iron pickaxe (Normal) | Iron pickaxe (Normal)\_2 |
+| --------------------- | ------------------------ |
+| Quality:              |                          |
+| Type:                 | Crafted                  |
+| Slot:                 | Tools                    |
+| Value:                | 5                        |
+| Keywords:             | Mining tool Pickaxe      |
+| Search Keyword:       | Mining                   |
+| Properties:           | Properties:              |
 
 ### Table 2 (Introduction)
 
-| Iron pickaxe (Good) | Iron pickaxe (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 5 |
-| Keywords: | Mining tool Pickaxe |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Iron pickaxe (Good) | Iron pickaxe (Good)\_2 |
+| ------------------- | ---------------------- |
+| Quality:            |                        |
+| Type:               | Crafted                |
+| Slot:               | Tools                  |
+| Value:              | 5                      |
+| Keywords:           | Mining tool Pickaxe    |
+| Search Keyword:     | Mining                 |
+| Properties:         | Properties:            |
 
 ### Table 3 (Introduction)
 
-| Iron pickaxe (Great) | Iron pickaxe (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 5 |
-| Keywords: | Mining tool Pickaxe |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Iron pickaxe (Great) | Iron pickaxe (Great)\_2 |
+| -------------------- | ----------------------- |
+| Quality:             |                         |
+| Type:                | Crafted                 |
+| Slot:                | Tools                   |
+| Value:               | 5                       |
+| Keywords:            | Mining tool Pickaxe     |
+| Search Keyword:      | Mining                  |
+| Properties:          | Properties:             |
 
 ### Table 4 (Introduction)
 
-| Iron pickaxe (Excellent) | Iron pickaxe (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 5 |
-| Keywords: | Mining tool Pickaxe |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Iron pickaxe (Excellent) | Iron pickaxe (Excellent)\_2 |
+| ------------------------ | --------------------------- |
+| Quality:                 |                             |
+| Type:                    | Crafted                     |
+| Slot:                    | Tools                       |
+| Value:                   | 5                           |
+| Keywords:                | Mining tool Pickaxe         |
+| Search Keyword:          | Mining                      |
+| Properties:              | Properties:                 |
 
 ### Table 5 (Introduction)
 
-| Iron pickaxe (Perfect) | Iron pickaxe (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 5 |
-| Keywords: | Mining tool Pickaxe |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Iron pickaxe (Perfect) | Iron pickaxe (Perfect)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Tools                     |
+| Value:                 | 5                         |
+| Keywords:              | Mining tool Pickaxe       |
+| Search Keyword:        | Mining                    |
+| Properties:            | Properties:               |
 
 ### Table 6 (Introduction)
 
-| Iron pickaxe (Eternal) | Iron pickaxe (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 5 |
-| Keywords: | Mining tool Pickaxe |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Iron pickaxe (Eternal) | Iron pickaxe (Eternal)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Tools                     |
+| Value:                 | 5                         |
+| Keywords:              | Mining tool Pickaxe       |
+| Search Keyword:        | Mining                    |
+| Properties:            | Properties:               |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
-| +7% Work efficiency While doing Mining. |
-| +8% Work efficiency While doing Mining. +10% Chest finding While doing Mining. +13% Fine material finding While doing Mining. +2% Double rewards While doing Mining. +13% Find gems While doing Mining. |
-| +10% Work efficiency While doing Mining. +16% Chest finding While doing Mining. +21% Fine material finding While doing Mining. +4% Double rewards While doing Mining. +21% Find gems While doing Mining. |
-| +13% Work efficiency While doing Mining. +18% Chest finding While doing Mining. +1% Double action While doing Mining. +24% Fine material finding While doing Mining. +6% Double rewards While doing Mining. +24% Find gems While doing Mining. |
-| +16% Work efficiency While doing Mining. +19% Chest finding While doing Mining. +3% Double action While doing Mining. +25% Fine material finding While doing Mining. +8% Double rewards While doing Mining. +25% Find gems While doing Mining. |
+| Attributes                                                                                                                                                                                                                                      |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| +7% Work efficiency While doing Mining.                                                                                                                                                                                                         |
+| +8% Work efficiency While doing Mining. +10% Chest finding While doing Mining. +13% Fine material finding While doing Mining. +2% Double rewards While doing Mining. +13% Find gems While doing Mining.                                         |
+| +10% Work efficiency While doing Mining. +16% Chest finding While doing Mining. +21% Fine material finding While doing Mining. +4% Double rewards While doing Mining. +21% Find gems While doing Mining.                                        |
+| +13% Work efficiency While doing Mining. +18% Chest finding While doing Mining. +1% Double action While doing Mining. +24% Fine material finding While doing Mining. +6% Double rewards While doing Mining. +24% Find gems While doing Mining.  |
+| +16% Work efficiency While doing Mining. +19% Chest finding While doing Mining. +3% Double action While doing Mining. +25% Fine material finding While doing Mining. +8% Double rewards While doing Mining. +25% Find gems While doing Mining.  |
 | +20% Work efficiency While doing Mining. +20% Chest finding While doing Mining. +8% Double action While doing Mining. +26% Fine material finding While doing Mining. +10% Double rewards While doing Mining. +26% Find gems While doing Mining. |
 
 ### Table 8 (Job Boards)
 
-| Job Board Name | Location | Quantity | Reward |
-| --- | --- | --- | --- |
-| Kallaheim job board | Kallaheim | 4 | +1 Jarvonia Faction Reputation |
+| Job Board Name      | Location  | Quantity | Reward                         |
+| ------------------- | --------- | -------- | ------------------------------ |
+| Kallaheim job board | Kallaheim | 4        | +1 Jarvonia Faction Reputation |
 
 ### Table 9 (Activity Drops)
 
-| Activity Name | Skills | Quantity | Chance | Odds | Base Rate | W.E.A.R.‡ |
-| --- | --- | --- | --- | --- | --- | --- |
-| Magnet fishing | Fishing lvl. 40 Foraging lvl. 30 | 1 | 3.363% | ~1 in 30 | 5,620 steps | 2,468 steps |
-| Ridge scrambling | Agility lvl. 35 | 1 | 2.289% | ~1 in 44 | 5,199 steps | 2,927 steps |
+| Activity Name    | Skills                           | Quantity | Chance | Odds     | Base Rate   | W.E.A.R.‡   |
+| ---------------- | -------------------------------- | -------- | ------ | -------- | ----------- | ----------- |
+| Magnet fishing   | Fishing lvl. 40 Foraging lvl. 30 | 1        | 3.363% | ~1 in 30 | 5,620 steps | 2,468 steps |
+| Ridge scrambling | Agility lvl. 35                  | 1        | 2.289% | ~1 in 44 | 5,199 steps | 2,927 steps |
 
 ### Table 10 (Craft an iron pickaxe)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name           | Level            | Service Requirement                     | Materials Used              | Recipe Outputs  |
+| --------------------- | ---------------- | --------------------------------------- | --------------------------- | --------------- |
 | Craft an iron pickaxe | Crafting lvl. 20 | Needs Basic Workshop service or better. | 2x Iron bar 1x Spruce plank | 1x Iron pickaxe |
 
 ### Table 11 (Craft an iron pickaxe)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Craft an iron pickaxe | 89 | 145 | 0.614 | 86 steps | 170% | 1.035 | 459 steps |
+| Recipe Name           | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| --------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Craft an iron pickaxe | 89      | 145        | 0.614        | 86 steps      | 170%                | 1.035       | 459 steps            |
 
 ### Table 12 (Craft an iron pickaxe)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Crafting chest | Container | 1 | 0.400% | ~1 in 250 | 36,250 steps | 21,500 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Crafting chest | Container | 1        | 0.400% | ~1 in 250 | 36,250 steps | 21,500 steps |
 
 ### Table 13 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                                                   |
+| --------------------------------------------------------------- |
 | 4x Iron ore or 40x Metal scrap 2x Spruce logs or 20x Wood scrap |
 
 ### Table 14 (Related Items)
 
-| Mining tool | Mining tool_2 | Pickaxe |
-| --- | --- | --- |
-| Crafted | 1 - Basic pickaxe 2 - Copper pickaxe 10 - Bronze pickaxe 20 - Iron pickaxe 30 - Steel pickaxe 40 - Tarsilium pickaxe 45 - Hydrilium pickaxe 50 - Farganite pickaxe 55 - Spectral pickaxe 60 - Adamant pickaxe 70 - Violite pickaxe | 1 - Basic pickaxe 2 - Copper pickaxe 10 - Bronze pickaxe 20 - Iron pickaxe 30 - Steel pickaxe 40 - Tarsilium pickaxe 45 - Hydrilium pickaxe 50 - Farganite pickaxe 55 - Spectral pickaxe 60 - Adamant pickaxe 70 - Violite pickaxe |
-| Loot | - Rusty pickaxe - Adventuring pickaxe | - Rusty pickaxe - Adventuring pickaxe |
+| Mining tool | Mining tool_2                                                                                                                                                                                                                      | Pickaxe                                                                                                                                                                                                                            |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Crafted     | 1 - Basic pickaxe 2 - Copper pickaxe 10 - Bronze pickaxe 20 - Iron pickaxe 30 - Steel pickaxe 40 - Tarsilium pickaxe 45 - Hydrilium pickaxe 50 - Farganite pickaxe 55 - Spectral pickaxe 60 - Adamant pickaxe 70 - Violite pickaxe | 1 - Basic pickaxe 2 - Copper pickaxe 10 - Bronze pickaxe 20 - Iron pickaxe 30 - Steel pickaxe 40 - Tarsilium pickaxe 45 - Hydrilium pickaxe 50 - Farganite pickaxe 55 - Spectral pickaxe 60 - Adamant pickaxe 70 - Violite pickaxe |
+| Loot        | - Rusty pickaxe - Adventuring pickaxe                                                                                                                                                                                              | - Rusty pickaxe - Adventuring pickaxe                                                                                                                                                                                              |

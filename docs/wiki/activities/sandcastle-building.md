@@ -8,7 +8,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Sandcastle building
 
 > Building sandcastles on the beach is all about easygoing creativity. Your sandy creations may not last long, but it's a simple pleasure in the moment.
@@ -19,7 +18,7 @@ The **Sandcastle building** [activity](index.md) is a [Carpentry](../skills/carp
 
 This activity can be done at the following location:
 
--   [Beach of Woes](https://wiki.walkscape.app/wiki/Special:MyLanguage/Beach_of_Woes "Special:MyLanguage/Beach of Woes") in [Jarvonia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Jarvonia "Special:MyLanguage/Jarvonia")
+- [Beach of Woes](https://wiki.walkscape.app/wiki/Special:MyLanguage/Beach_of_Woes "Special:MyLanguage/Beach of Woes") in [Jarvonia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Jarvonia "Special:MyLanguage/Jarvonia")
 
 # Visibility
 
@@ -29,7 +28,7 @@ This activity is always visible.
 
 Skill Level Requirements:
 
--   At least Carpentry lvl. 1.
+- At least Carpentry lvl. 1.
 
 # Experience Information
 
@@ -56,26 +55,26 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 ### Table 1 (Introduction)
 
 | Sandcastle building | Sandcastle building_2 |
-| --- | --- |
-| Main Skill: | Carpentry |
-| Max Efficiency: | 150% |
+| ------------------- | --------------------- |
+| Main Skill:         | Carpentry             |
+| Max Efficiency:     | 150%                  |
 
 ### Table 2 (Experience Information)
 
-| Skill | Base XP | Base Steps | Base XP/Step | Total Base XP/Step | Minimum Steps | Max XP/Step | Total Max XP/Step |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Carpentry | 70 | 225 | 0.311 | 0.311 | 150 | 0.467 | 0.467 |
+| Skill     | Base XP | Base Steps | Base XP/Step | Total Base XP/Step | Minimum Steps | Max XP/Step | Total Max XP/Step |
+| --------- | ------- | ---------- | ------------ | ------------------ | ------------- | ----------- | ----------------- |
+| Carpentry | 70      | 225        | 0.311        | 0.311              | 150           | 0.467       | 0.467             |
 
 ### Table 3 (Main Drops)
 
-| Item Name | Quantity | Chance | Odds | Base Rate | W.E.A.R. | Value Single (Stack) |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nothing | N/A | 100.000% | ~1 in 1 | N/A | N/A | N/A |
+| Item Name | Quantity | Chance   | Odds    | Base Rate | W.E.A.R. | Value Single (Stack) |
+| --------- | -------- | -------- | ------- | --------- | -------- | -------------------- |
+| Nothing   | N/A      | 100.000% | ~1 in 1 | N/A       | N/A      | N/A                  |
 
 ### Table 4 (Secondary Drops)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Rusty chest | Container | 1 | 0.500% | ~1 in 200 | 45,000 steps | 30,000 steps |
-| Carpentry chest | Container | 1 | 0.400% | ~1 in 250 | 56,250 steps | 37,500 steps |
-| Lost Timmy's sand shovel | Collectible | 1 | 2.000% | ~1 in 50 | 11,250 steps | 7,500 steps |
+| Item Name                | Item Type   | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| ------------------------ | ----------- | -------- | ------ | --------- | ------------ | ------------ |
+| Rusty chest              | Container   | 1        | 0.500% | ~1 in 200 | 45,000 steps | 30,000 steps |
+| Carpentry chest          | Container   | 1        | 0.400% | ~1 in 250 | 56,250 steps | 37,500 steps |
+| Lost Timmy's sand shovel | Collectible | 1        | 2.000% | ~1 in 50  | 11,250 steps | 7,500 steps  |

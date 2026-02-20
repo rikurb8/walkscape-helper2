@@ -21,7 +21,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Create an amulet of eel
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -32,7 +31,7 @@ The **Amulet of eel** [item](https://wiki.walkscape.app/wiki/Special:MyLanguage/
 
 # Requirement
 
--   At least Agility lvl. 35.
+- At least Agility lvl. 35.
 
 # Attributes
 
@@ -68,81 +67,81 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Amulet of eel (Normal) | Amulet of eel (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Agility Global |
-| Properties: | Properties: |
+| Amulet of eel (Normal) | Amulet of eel (Normal)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Neck                      |
+| Value:                 | 150                       |
+| Keyword:               | Amulet                    |
+| Search Keywords:       | Agility Global            |
+| Properties:            | Properties:               |
 
 ### Table 2 (Introduction)
 
-| Amulet of eel (Good) | Amulet of eel (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Agility Global |
-| Properties: | Properties: |
+| Amulet of eel (Good) | Amulet of eel (Good)\_2 |
+| -------------------- | ----------------------- |
+| Quality:             |                         |
+| Type:                | Crafted                 |
+| Slot:                | Neck                    |
+| Value:               | 150                     |
+| Keyword:             | Amulet                  |
+| Search Keywords:     | Agility Global          |
+| Properties:          | Properties:             |
 
 ### Table 3 (Introduction)
 
-| Amulet of eel (Great) | Amulet of eel (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Agility Global |
-| Properties: | Properties: |
+| Amulet of eel (Great) | Amulet of eel (Great)\_2 |
+| --------------------- | ------------------------ |
+| Quality:              |                          |
+| Type:                 | Crafted                  |
+| Slot:                 | Neck                     |
+| Value:                | 150                      |
+| Keyword:              | Amulet                   |
+| Search Keywords:      | Agility Global           |
+| Properties:           | Properties:              |
 
 ### Table 4 (Introduction)
 
-| Amulet of eel (Excellent) | Amulet of eel (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Agility Global |
-| Properties: | Properties: |
+| Amulet of eel (Excellent) | Amulet of eel (Excellent)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Neck                         |
+| Value:                    | 150                          |
+| Keyword:                  | Amulet                       |
+| Search Keywords:          | Agility Global               |
+| Properties:               | Properties:                  |
 
 ### Table 5 (Introduction)
 
-| Amulet of eel (Perfect) | Amulet of eel (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Agility Global |
-| Properties: | Properties: |
+| Amulet of eel (Perfect) | Amulet of eel (Perfect)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Neck                       |
+| Value:                  | 150                        |
+| Keyword:                | Amulet                     |
+| Search Keywords:        | Agility Global             |
+| Properties:             | Properties:                |
 
 ### Table 6 (Introduction)
 
-| Amulet of eel (Eternal) | Amulet of eel (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Agility Global |
-| Properties: | Properties: |
+| Amulet of eel (Eternal) | Amulet of eel (Eternal)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Neck                       |
+| Value:                  | 150                        |
+| Keyword:                | Amulet                     |
+| Search Keywords:        | Agility Global             |
+| Properties:             | Properties:                |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
-| Global +12% Chest finding +10% Fine material finding While doing Agility. +1% Double rewards While doing Agility. |
+| Attributes                                                                                                                                               |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Global +12% Chest finding +10% Fine material finding While doing Agility. +1% Double rewards While doing Agility.                                        |
 | Global +12% Chest finding +15% Fine material finding While doing Agility. +2% Double rewards While doing Agility. -1 Steps required While doing Agility. |
 | Global +12% Chest finding +20% Fine material finding While doing Agility. +3% Double rewards While doing Agility. -1 Steps required While doing Agility. |
 | Global +12% Chest finding +25% Fine material finding While doing Agility. +4% Double rewards While doing Agility. -2 Steps required While doing Agility. |
@@ -151,31 +150,31 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 8 (Create an amulet of eel)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name             | Level             | Service Requirement                            | Materials Used                           | Recipe Outputs   |
+| ----------------------- | ----------------- | ---------------------------------------------- | ---------------------------------------- | ---------------- |
 | Create an amulet of eel | Trinketry lvl. 31 | Needs Basic Trinketry Bench service or better. | 1x Eel trinket 1x Gold bar 1x Silver bar | 1x Amulet of eel |
 
 ### Table 9 (Create an amulet of eel)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Create an amulet of eel | 2804 | 2500 | 1.122 | 1250 steps | 200% | 2.243 | 24,853 steps |
+| Recipe Name             | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ----------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Create an amulet of eel | 2804    | 2500       | 1.122        | 1250 steps    | 200%                | 2.243       | 24,853 steps         |
 
 ### Table 10 (Create an amulet of eel)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Trinketry chest | Container | 1 | 0.400% | ~1 in 250 | 625,000 steps | 312,500 steps |
+| Item Name       | Item Type | Quantity | Chance | Odds      | Base Rate     | W.E.A.R.      |
+| --------------- | --------- | -------- | ------ | --------- | ------------- | ------------- |
+| Trinketry chest | Container | 1        | 0.400% | ~1 in 250 | 625,000 steps | 312,500 steps |
 
 ### Table 11 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                                                                  |
+| ------------------------------------------------------------------------------ |
 | 2x Gold ore or 7x Gold nugget 1x Eel trinket 7x Silver nugget or 2x Silver ore |
 
 ### Table 12 (Related Items)
 
-| Amulet | Amulet_2 |
-| --- | --- |
+| Amulet  | Amulet_2                                                                                                                                                                                                                                                                                                            |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Crafted | 27 - Amulet of finding 31 - Amulet of eel 33 - Amulet of heron 35 - Amulet of bat 37 - Amulet of cooling ice 41 - Amulet of circular root 42 - Amulet of pink pearl 43 - Amulet of measuring spoon 45 - Amulet of shrimp 49 - Amulet of beaver 51 - Amulet of lucky rabbit's foot 55 - Amulet of the animal kingdom |
-| Loot | - Simple amulet - Rock-star amulet - Absorbing amulet, Adventuring amulet |
+| Loot    | - Simple amulet - Rock-star amulet - Absorbing amulet, Adventuring amulet                                                                                                                                                                                                                                           |

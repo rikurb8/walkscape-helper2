@@ -10,7 +10,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Shape a sun stone
 
 > It doesn't come from the sun, but with the glow of its shiny, fiery colours, you'd think it did.
@@ -55,49 +54,49 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Sun stone | Sun stone_2 |
-| --- | --- |
-| Type: | Material |
-| Value: | 92 |
-| Fine Value: | 427 |
-| Keywords: | Cut gem Gem |
+| Sun stone   | Sun stone_2 |
+| ----------- | ----------- |
+| Type:       | Material    |
+| Value:      | 92          |
+| Fine Value: | 427         |
+| Keywords:   | Cut gem Gem |
 | Properties: | Properties: |
 
 ### Table 2 (Recipe Ingredient)
 
-| Item Name | Service Requirement | Skills | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Create a silver sun stone ring | Needs Basic Trinketry Bench service or better. | Trinketry lvl. 43 | 1x Sun stone 1x Silver bar | 1x Silver sun stone ring |
-| Create a gold sun stone ring | Needs Advanced Trinketry Bench service or better. | Trinketry lvl. 53 | 1x Sun stone 1x Gold bar | 1x Gold sun stone ring |
-| Make a gem shield | Needs Advanced Forge service or better. | Smithing lvl. 59 | 2x Farganite bar 1x Gold bar 1x Sun stone 1x Ruby 1x Jade 1x Topaz 1x Wrentmarine | 1x Gem shield |
+| Item Name                      | Service Requirement                               | Skills            | Materials Used                                                                    | Recipe Outputs           |
+| ------------------------------ | ------------------------------------------------- | ----------------- | --------------------------------------------------------------------------------- | ------------------------ |
+| Create a silver sun stone ring | Needs Basic Trinketry Bench service or better.    | Trinketry lvl. 43 | 1x Sun stone 1x Silver bar                                                        | 1x Silver sun stone ring |
+| Create a gold sun stone ring   | Needs Advanced Trinketry Bench service or better. | Trinketry lvl. 53 | 1x Sun stone 1x Gold bar                                                          | 1x Gold sun stone ring   |
+| Make a gem shield              | Needs Advanced Forge service or better.           | Smithing lvl. 59  | 2x Farganite bar 1x Gold bar 1x Sun stone 1x Ruby 1x Jade 1x Topaz 1x Wrentmarine | 1x Gem shield            |
 
 ### Table 3 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Blackspell Port job board | Blackspell Port | 1 | +2 Erdwise Faction Reputation 1x Chest of Erdwise |
-| Everhaven combined job board | Everhaven | 1 | +2 Erdwise Faction Reputation 1x Chest of Erdwise |
+| Job Board Name               | Location        | Quantity | Rewards                                           |
+| ---------------------------- | --------------- | -------- | ------------------------------------------------- |
+| Blackspell Port job board    | Blackspell Port | 1        | +2 Erdwise Faction Reputation 1x Chest of Erdwise |
+| Everhaven combined job board | Everhaven       | 1        | +2 Erdwise Faction Reputation 1x Chest of Erdwise |
 
 ### Table 4 (Shape a sun stone)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Shape a sun stone | Trinketry lvl. 34 | Needs Basic Trinketry Bench service or better. | 1x Rough sun stone | 1x Sun stone |
+| Recipe Name       | Level             | Service Requirement                            | Materials Used     | Recipe Outputs |
+| ----------------- | ----------------- | ---------------------------------------------- | ------------------ | -------------- |
+| Shape a sun stone | Trinketry lvl. 34 | Needs Basic Trinketry Bench service or better. | 1x Rough sun stone | 1x Sun stone   |
 
 ### Table 5 (Shape a sun stone)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Shape a sun stone | 179 | 300 | 0.597 | 143 steps | 210% | 1.252 | 27,066 steps |
+| Recipe Name       | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ----------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Shape a sun stone | 179     | 300        | 0.597        | 143 steps     | 210%                | 1.252       | 27,066 steps         |
 
 ### Table 6 (Shape a sun stone)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Trinketry chest | Container | 1 | 0.400% | ~1 in 250 | 75,000 steps | 35,750 steps |
+| Item Name       | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| --------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Trinketry chest | Container | 1        | 0.400% | ~1 in 250 | 75,000 steps | 35,750 steps |
 
 ### Table 7 (Related Items)
 
-| Gem | Gem_2 | Cut gem |
-| --- | --- | --- |
+| Gem      | Gem_2                                                                                                                                                                                          | Cut gem                                                             |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | Material | Ethernite, Jade Opal, Pearls Rough ethernite, Rough jade Rough opal, Rough ruby Rough star pearl, Rough sun stone Rough topaz, Rough wrentmarine Ruby, Star pearl Sun stone, Topaz Wrentmarine | Ethernite, Jade Opal, Ruby Star pearl, Sun stone Topaz, Wrentmarine |

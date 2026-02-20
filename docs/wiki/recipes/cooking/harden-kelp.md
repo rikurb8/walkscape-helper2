@@ -9,7 +9,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Harden kelp
 
 > Through various techniques the regular kelp can be hardened to make it a sought after material for crafting.
@@ -55,49 +54,49 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 ### Table 1 (Introduction)
 
 | Hardened kelp | Hardened kelp_2 |
-| --- | --- |
-| Type: | Material |
-| Value: | 7 |
-| Fine Value: | 38 |
-| Keyword: | Processed |
-| Properties: | Properties: |
+| ------------- | --------------- |
+| Type:         | Material        |
+| Value:        | 7               |
+| Fine Value:   | 38              |
+| Keyword:      | Processed       |
+| Properties:   | Properties:     |
 
 ### Table 2 (Recipe Ingredient)
 
-| Item Name | Service Requirement | Skills | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Craft a kelp diving mask | Needs Basic Workshop service or better. | Crafting lvl. 25 | 2x Hardened kelp | 1x Kelp diving mask |
-| Craft a kelp diving pants | Needs Basic Workshop service or better. | Crafting lvl. 25 | 2x Hardened kelp | 1x Kelp diving pants |
-| Craft a kelp diving shirt | Needs Basic Workshop service or better. | Crafting lvl. 25 | 2x Hardened kelp | 1x Kelp diving shirt |
-| Craft kelp twine | Needs Basic Workshop service or better. | Crafting lvl. 37 | 1x Hardened kelp | 1x Kelp twine |
-| Craft hydrilium | Needs Basic Workshop service or better. | Crafting lvl. 45 | 1x Hardened kelp 2x Volcanic rock | 1x Hydrilium |
+| Item Name                 | Service Requirement                     | Skills           | Materials Used                    | Recipe Outputs       |
+| ------------------------- | --------------------------------------- | ---------------- | --------------------------------- | -------------------- |
+| Craft a kelp diving mask  | Needs Basic Workshop service or better. | Crafting lvl. 25 | 2x Hardened kelp                  | 1x Kelp diving mask  |
+| Craft a kelp diving pants | Needs Basic Workshop service or better. | Crafting lvl. 25 | 2x Hardened kelp                  | 1x Kelp diving pants |
+| Craft a kelp diving shirt | Needs Basic Workshop service or better. | Crafting lvl. 25 | 2x Hardened kelp                  | 1x Kelp diving shirt |
+| Craft kelp twine          | Needs Basic Workshop service or better. | Crafting lvl. 37 | 1x Hardened kelp                  | 1x Kelp twine        |
+| Craft hydrilium           | Needs Basic Workshop service or better. | Crafting lvl. 45 | 1x Hardened kelp 2x Volcanic rock | 1x Hydrilium         |
 
 ### Table 3 (Job Boards)
 
-| Job Board Name | Location | Quantity | Reward |
-| --- | --- | --- | --- |
-| Vastalume job board | Vastalume | 29 | +1 Syrenthia Faction Reputation |
+| Job Board Name      | Location  | Quantity | Reward                          |
+| ------------------- | --------- | -------- | ------------------------------- |
+| Vastalume job board | Vastalume | 29       | +1 Syrenthia Faction Reputation |
 
 ### Table 4 (Harden kelp)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Harden kelp | Cooking lvl. 35 | Needs Basic Kitchen service or better. | 2x Kelp | 1x Hardened kelp |
+| Recipe Name | Level           | Service Requirement                    | Materials Used | Recipe Outputs   |
+| ----------- | --------------- | -------------------------------------- | -------------- | ---------------- |
+| Harden kelp | Cooking lvl. 35 | Needs Basic Kitchen service or better. | 2x Kelp        | 1x Hardened kelp |
 
 ### Table 5 (Harden kelp)
 
 | Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Harden kelp | 57 | 70 | 0.814 | 42 steps | 170% | 1.357 | 158 steps |
+| ----------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Harden kelp | 57      | 70         | 0.814        | 42 steps      | 170%                | 1.357       | 158 steps            |
 
 ### Table 6 (Harden kelp)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Cooking chest | Container | 1 | 0.400% | ~1 in 250 | 17,500 steps | 10,500 steps |
+| Item Name     | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| ------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Cooking chest | Container | 1        | 0.400% | ~1 in 250 | 17,500 steps | 10,500 steps |
 
 ### Table 7 (Related Items)
 
-| Processed | Processed_2 |
-| --- | --- |
-| Material | Ectoplasm, Fishing line Hardened kelp, Hydrilium Ironweed twine, Kelp twine Twine |
+| Processed | Processed_2                                                                       |
+| --------- | --------------------------------------------------------------------------------- |
+| Material  | Ectoplasm, Fishing line Hardened kelp, Hydrilium Ironweed twine, Kelp twine Twine |

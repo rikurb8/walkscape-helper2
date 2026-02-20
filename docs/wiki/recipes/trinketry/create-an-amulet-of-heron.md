@@ -21,7 +21,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Create an amulet of heron
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -32,7 +31,7 @@ The **Amulet of heron** [item](https://wiki.walkscape.app/wiki/Special:MyLanguag
 
 # Requirement
 
--   At least Fishing lvl. 35.
+- At least Fishing lvl. 35.
 
 # Attributes
 
@@ -68,81 +67,81 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Amulet of heron (Normal) | Amulet of heron (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Fishing Global |
-| Properties: | Properties: |
+| Amulet of heron (Normal) | Amulet of heron (Normal)\_2 |
+| ------------------------ | --------------------------- |
+| Quality:                 |                             |
+| Type:                    | Crafted                     |
+| Slot:                    | Neck                        |
+| Value:                   | 150                         |
+| Keyword:                 | Amulet                      |
+| Search Keywords:         | Fishing Global              |
+| Properties:              | Properties:                 |
 
 ### Table 2 (Introduction)
 
-| Amulet of heron (Good) | Amulet of heron (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Fishing Global |
-| Properties: | Properties: |
+| Amulet of heron (Good) | Amulet of heron (Good)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Neck                      |
+| Value:                 | 150                       |
+| Keyword:               | Amulet                    |
+| Search Keywords:       | Fishing Global            |
+| Properties:            | Properties:               |
 
 ### Table 3 (Introduction)
 
-| Amulet of heron (Great) | Amulet of heron (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Fishing Global |
-| Properties: | Properties: |
+| Amulet of heron (Great) | Amulet of heron (Great)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Neck                       |
+| Value:                  | 150                        |
+| Keyword:                | Amulet                     |
+| Search Keywords:        | Fishing Global             |
+| Properties:             | Properties:                |
 
 ### Table 4 (Introduction)
 
-| Amulet of heron (Excellent) | Amulet of heron (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Fishing Global |
-| Properties: | Properties: |
+| Amulet of heron (Excellent) | Amulet of heron (Excellent)\_2 |
+| --------------------------- | ------------------------------ |
+| Quality:                    |                                |
+| Type:                       | Crafted                        |
+| Slot:                       | Neck                           |
+| Value:                      | 150                            |
+| Keyword:                    | Amulet                         |
+| Search Keywords:            | Fishing Global                 |
+| Properties:                 | Properties:                    |
 
 ### Table 5 (Introduction)
 
-| Amulet of heron (Perfect) | Amulet of heron (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Fishing Global |
-| Properties: | Properties: |
+| Amulet of heron (Perfect) | Amulet of heron (Perfect)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Neck                         |
+| Value:                    | 150                          |
+| Keyword:                  | Amulet                       |
+| Search Keywords:          | Fishing Global               |
+| Properties:               | Properties:                  |
 
 ### Table 6 (Introduction)
 
-| Amulet of heron (Eternal) | Amulet of heron (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Neck |
-| Value: | 150 |
-| Keyword: | Amulet |
-| Search Keywords: | Fishing Global |
-| Properties: | Properties: |
+| Amulet of heron (Eternal) | Amulet of heron (Eternal)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Neck                         |
+| Value:                    | 150                          |
+| Keyword:                  | Amulet                       |
+| Search Keywords:          | Fishing Global               |
+| Properties:               | Properties:                  |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
-| +15% Fine material finding While doing Fishing. +3.5% Double rewards While doing Fishing. Global +20% Chance to find 1 to 10 gold pieces |
+| Attributes                                                                                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| +15% Fine material finding While doing Fishing. +3.5% Double rewards While doing Fishing. Global +20% Chance to find 1 to 10 gold pieces                                           |
 | +20% Fine material finding While doing Fishing. +4.5% Double rewards While doing Fishing. +2% Bonus experience While doing Fishing. Global +20% Chance to find 1 to 10 gold pieces |
 | +25% Fine material finding While doing Fishing. +5.5% Double rewards While doing Fishing. +3% Bonus experience While doing Fishing. Global +20% Chance to find 1 to 10 gold pieces |
 | +30% Fine material finding While doing Fishing. +6.5% Double rewards While doing Fishing. +4% Bonus experience While doing Fishing. Global +20% Chance to find 1 to 10 gold pieces |
@@ -151,31 +150,31 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 8 (Create an amulet of heron)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name               | Level             | Service Requirement                            | Materials Used                             | Recipe Outputs     |
+| ------------------------- | ----------------- | ---------------------------------------------- | ------------------------------------------ | ------------------ |
 | Create an amulet of heron | Trinketry lvl. 33 | Needs Basic Trinketry Bench service or better. | 1x Heron trinket 1x Gold bar 1x Silver bar | 1x Amulet of heron |
 
 ### Table 9 (Create an amulet of heron)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Create an amulet of heron | 2924 | 2500 | 1.170 | 1250 steps | 200% | 2.339 | 34,885 steps |
+| Recipe Name               | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Create an amulet of heron | 2924    | 2500       | 1.170        | 1250 steps    | 200%                | 2.339       | 34,885 steps         |
 
 ### Table 10 (Create an amulet of heron)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Trinketry chest | Container | 1 | 0.400% | ~1 in 250 | 625,000 steps | 312,500 steps |
+| Item Name       | Item Type | Quantity | Chance | Odds      | Base Rate     | W.E.A.R.      |
+| --------------- | --------- | -------- | ------ | --------- | ------------- | ------------- |
+| Trinketry chest | Container | 1        | 0.400% | ~1 in 250 | 625,000 steps | 312,500 steps |
 
 ### Table 11 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                                                                    |
+| -------------------------------------------------------------------------------- |
 | 2x Gold ore or 7x Gold nugget 1x Heron trinket 7x Silver nugget or 2x Silver ore |
 
 ### Table 12 (Related Items)
 
-| Amulet | Amulet_2 |
-| --- | --- |
+| Amulet  | Amulet_2                                                                                                                                                                                                                                                                                                            |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Crafted | 27 - Amulet of finding 31 - Amulet of eel 33 - Amulet of heron 35 - Amulet of bat 37 - Amulet of cooling ice 41 - Amulet of circular root 42 - Amulet of pink pearl 43 - Amulet of measuring spoon 45 - Amulet of shrimp 49 - Amulet of beaver 51 - Amulet of lucky rabbit's foot 55 - Amulet of the animal kingdom |
-| Loot | - Simple amulet - Rock-star amulet - Absorbing amulet, Adventuring amulet |
+| Loot    | - Simple amulet - Rock-star amulet - Absorbing amulet, Adventuring amulet                                                                                                                                                                                                                                           |

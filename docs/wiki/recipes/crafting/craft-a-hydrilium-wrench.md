@@ -22,7 +22,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Craft a hydrilium wrench
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -33,7 +32,7 @@ The **Hydrilium wrench** [item](https://wiki.walkscape.app/wiki/Special:MyLangua
 
 # Requirement
 
--   At least Crafting lvl. 46.
+- At least Crafting lvl. 46.
 
 # Attributes
 
@@ -69,114 +68,114 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Hydrilium wrench (Normal) | Hydrilium wrench (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 15 |
-| Keywords: | Crafting tool Wrench |
-| Search Keyword: | Crafting |
-| Properties: | Properties: |
+| Hydrilium wrench (Normal) | Hydrilium wrench (Normal)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Tools                        |
+| Value:                    | 15                           |
+| Keywords:                 | Crafting tool Wrench         |
+| Search Keyword:           | Crafting                     |
+| Properties:               | Properties:                  |
 
 ### Table 2 (Introduction)
 
-| Hydrilium wrench (Good) | Hydrilium wrench (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 15 |
-| Keywords: | Crafting tool Wrench |
-| Search Keyword: | Crafting |
-| Properties: | Properties: |
+| Hydrilium wrench (Good) | Hydrilium wrench (Good)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Tools                      |
+| Value:                  | 15                         |
+| Keywords:               | Crafting tool Wrench       |
+| Search Keyword:         | Crafting                   |
+| Properties:             | Properties:                |
 
 ### Table 3 (Introduction)
 
-| Hydrilium wrench (Great) | Hydrilium wrench (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 15 |
-| Keywords: | Crafting tool Wrench |
-| Search Keyword: | Crafting |
-| Properties: | Properties: |
+| Hydrilium wrench (Great) | Hydrilium wrench (Great)\_2 |
+| ------------------------ | --------------------------- |
+| Quality:                 |                             |
+| Type:                    | Crafted                     |
+| Slot:                    | Tools                       |
+| Value:                   | 15                          |
+| Keywords:                | Crafting tool Wrench        |
+| Search Keyword:          | Crafting                    |
+| Properties:              | Properties:                 |
 
 ### Table 4 (Introduction)
 
-| Hydrilium wrench (Excellent) | Hydrilium wrench (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 15 |
-| Keywords: | Crafting tool Wrench |
-| Search Keyword: | Crafting |
-| Properties: | Properties: |
+| Hydrilium wrench (Excellent) | Hydrilium wrench (Excellent)\_2 |
+| ---------------------------- | ------------------------------- |
+| Quality:                     |                                 |
+| Type:                        | Crafted                         |
+| Slot:                        | Tools                           |
+| Value:                       | 15                              |
+| Keywords:                    | Crafting tool Wrench            |
+| Search Keyword:              | Crafting                        |
+| Properties:                  | Properties:                     |
 
 ### Table 5 (Introduction)
 
-| Hydrilium wrench (Perfect) | Hydrilium wrench (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 15 |
-| Keywords: | Crafting tool Wrench |
-| Search Keyword: | Crafting |
-| Properties: | Properties: |
+| Hydrilium wrench (Perfect) | Hydrilium wrench (Perfect)\_2 |
+| -------------------------- | ----------------------------- |
+| Quality:                   |                               |
+| Type:                      | Crafted                       |
+| Slot:                      | Tools                         |
+| Value:                     | 15                            |
+| Keywords:                  | Crafting tool Wrench          |
+| Search Keyword:            | Crafting                      |
+| Properties:                | Properties:                   |
 
 ### Table 6 (Introduction)
 
-| Hydrilium wrench (Eternal) | Hydrilium wrench (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 15 |
-| Keywords: | Crafting tool Wrench |
-| Search Keyword: | Crafting |
-| Properties: | Properties: |
+| Hydrilium wrench (Eternal) | Hydrilium wrench (Eternal)\_2 |
+| -------------------------- | ----------------------------- |
+| Quality:                   |                               |
+| Type:                      | Crafted                       |
+| Slot:                      | Tools                         |
+| Value:                     | 15                            |
+| Keywords:                  | Crafting tool Wrench          |
+| Search Keyword:            | Crafting                      |
+| Properties:                | Properties:                   |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
-| +4% Work efficiency While doing Crafting. +3% Double rewards While doing Crafting. +9 Quality outcome While doing Crafting. |
-| +6% Work efficiency While doing Crafting. +3.5% Double rewards While doing Crafting. +1% No materials consumed While doing Crafting. +12 Quality outcome While doing Crafting. |
-| +8% Work efficiency While doing Crafting. +4% Double rewards While doing Crafting. +1.25% No materials consumed While doing Crafting. +15 Quality outcome While doing Crafting. |
-| +10% Work efficiency While doing Crafting. +4.25% Double rewards While doing Crafting. +1.5% No materials consumed While doing Crafting. +18 Quality outcome While doing Crafting. |
+| Attributes                                                                                                                                                                          |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| +4% Work efficiency While doing Crafting. +3% Double rewards While doing Crafting. +9 Quality outcome While doing Crafting.                                                         |
+| +6% Work efficiency While doing Crafting. +3.5% Double rewards While doing Crafting. +1% No materials consumed While doing Crafting. +12 Quality outcome While doing Crafting.      |
+| +8% Work efficiency While doing Crafting. +4% Double rewards While doing Crafting. +1.25% No materials consumed While doing Crafting. +15 Quality outcome While doing Crafting.     |
+| +10% Work efficiency While doing Crafting. +4.25% Double rewards While doing Crafting. +1.5% No materials consumed While doing Crafting. +18 Quality outcome While doing Crafting.  |
 | +12% Work efficiency While doing Crafting. +4.75% Double rewards While doing Crafting. +1.75% No materials consumed While doing Crafting. +21 Quality outcome While doing Crafting. |
-| +14% Work efficiency While doing Crafting. +5.75% Double rewards While doing Crafting. +2% No materials consumed While doing Crafting. +25 Quality outcome While doing Crafting. |
+| +14% Work efficiency While doing Crafting. +5.75% Double rewards While doing Crafting. +2% No materials consumed While doing Crafting. +25 Quality outcome While doing Crafting.    |
 
 ### Table 8 (Craft a hydrilium wrench)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name              | Level            | Service Requirement                     | Materials Used                    | Recipe Outputs      |
+| ------------------------ | ---------------- | --------------------------------------- | --------------------------------- | ------------------- |
 | Craft a hydrilium wrench | Crafting lvl. 46 | Needs Basic Workshop service or better. | 1x Simple wrench 2x Hydrilium bar | 1x Hydrilium wrench |
 
 ### Table 9 (Craft a hydrilium wrench)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Craft a hydrilium wrench | 147 | 164 | 0.896 | 87 steps | 190% | 1.690 | 1,001 steps |
+| Recipe Name              | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------------ | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Craft a hydrilium wrench | 147     | 164        | 0.896        | 87 steps      | 190%                | 1.690       | 1,001 steps          |
 
 ### Table 10 (Craft a hydrilium wrench)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Crafting chest | Container | 1 | 0.400% | ~1 in 250 | 41,000 steps | 21,750 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Crafting chest | Container | 1        | 0.400% | ~1 in 250 | 41,000 steps | 21,750 steps |
 
 ### Table 11 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                             |
+| ----------------------------------------- |
 | 6x Kelp 1x Simple wrench 4x Volcanic rock |
 
 ### Table 12 (Related Items)
 
-| Crafting tool | Crafting tool_2 | Wrench |
-| --- | --- | --- |
-| Crafted | 11 - Bronze wrench 46 - Hydrilium wrench 58 - Spectral wrench | 11 - Bronze wrench 46 - Hydrilium wrench 58 - Spectral wrench |
-| Loot | - Simple wrench - Screwdriver - Adjustable wrench, Wire saw - Adventuring wrench | - Simple wrench - Adjustable wrench, Adventuring wrench |
+| Crafting tool | Crafting tool_2                                                                  | Wrench                                                        |
+| ------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| Crafted       | 11 - Bronze wrench 46 - Hydrilium wrench 58 - Spectral wrench                    | 11 - Bronze wrench 46 - Hydrilium wrench 58 - Spectral wrench |
+| Loot          | - Simple wrench - Screwdriver - Adjustable wrench, Wire saw - Adventuring wrench | - Simple wrench - Adjustable wrench, Adventuring wrench       |

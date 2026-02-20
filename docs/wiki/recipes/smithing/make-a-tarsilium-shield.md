@@ -17,7 +17,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Make a tarsilium shield
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -66,74 +65,74 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Tarsilium shield (Normal) | Tarsilium shield (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 7 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Tarsilium shield (Normal) | Tarsilium shield (Normal)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Secondary                    |
+| Value:                    | 7                            |
+| Keyword:                  | Shield                       |
+| Properties:               | Properties:                  |
 
 ### Table 2 (Introduction)
 
-| Tarsilium shield (Good) | Tarsilium shield (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 7 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Tarsilium shield (Good) | Tarsilium shield (Good)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Secondary                  |
+| Value:                  | 7                          |
+| Keyword:                | Shield                     |
+| Properties:             | Properties:                |
 
 ### Table 3 (Introduction)
 
-| Tarsilium shield (Great) | Tarsilium shield (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 7 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Tarsilium shield (Great) | Tarsilium shield (Great)\_2 |
+| ------------------------ | --------------------------- |
+| Quality:                 |                             |
+| Type:                    | Crafted                     |
+| Slot:                    | Secondary                   |
+| Value:                   | 7                           |
+| Keyword:                 | Shield                      |
+| Properties:              | Properties:                 |
 
 ### Table 4 (Introduction)
 
-| Tarsilium shield (Excellent) | Tarsilium shield (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 7 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Tarsilium shield (Excellent) | Tarsilium shield (Excellent)\_2 |
+| ---------------------------- | ------------------------------- |
+| Quality:                     |                                 |
+| Type:                        | Crafted                         |
+| Slot:                        | Secondary                       |
+| Value:                       | 7                               |
+| Keyword:                     | Shield                          |
+| Properties:                  | Properties:                     |
 
 ### Table 5 (Introduction)
 
-| Tarsilium shield (Perfect) | Tarsilium shield (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 7 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Tarsilium shield (Perfect) | Tarsilium shield (Perfect)\_2 |
+| -------------------------- | ----------------------------- |
+| Quality:                   |                               |
+| Type:                      | Crafted                       |
+| Slot:                      | Secondary                     |
+| Value:                     | 7                             |
+| Keyword:                   | Shield                        |
+| Properties:                | Properties:                   |
 
 ### Table 6 (Introduction)
 
-| Tarsilium shield (Eternal) | Tarsilium shield (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 7 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Tarsilium shield (Eternal) | Tarsilium shield (Eternal)\_2 |
+| -------------------------- | ----------------------------- |
+| Quality:                   |                               |
+| Type:                      | Crafted                       |
+| Slot:                      | Secondary                     |
+| Value:                     | 7                             |
+| Keyword:                   | Shield                        |
+| Properties:                | Properties:                   |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                   |
+| ---------------------------- |
 | This item has no attributes. |
 | This item has no attributes. |
 | This item has no attributes. |
@@ -143,37 +142,37 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 8 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Azurazera job board | Azurazera | 4 | +2 Jarvonia Faction Reputation |
-| Azurazera job board | Azurazera | 2 | +2 Jarvonia Faction Reputation 1x Chest of Jarvonia |
+| Job Board Name      | Location  | Quantity | Rewards                                             |
+| ------------------- | --------- | -------- | --------------------------------------------------- |
+| Azurazera job board | Azurazera | 4        | +2 Jarvonia Faction Reputation                      |
+| Azurazera job board | Azurazera | 2        | +2 Jarvonia Faction Reputation 1x Chest of Jarvonia |
 
 ### Table 9 (Make a tarsilium shield)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name             | Level            | Service Requirement                  | Materials Used   | Recipe Outputs      |
+| ----------------------- | ---------------- | ------------------------------------ | ---------------- | ------------------- |
 | Make a tarsilium shield | Smithing lvl. 43 | Needs Basic Forge service or better. | 2x Tarsilium bar | 1x Tarsilium shield |
 
 ### Table 10 (Make a tarsilium shield)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Make a tarsilium shield | 160 | 240 | 0.667 | 127 steps | 190% | 1.260 | 505 steps |
+| Recipe Name             | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ----------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Make a tarsilium shield | 160     | 240        | 0.667        | 127 steps     | 190%                | 1.260       | 505 steps            |
 
 ### Table 11 (Make a tarsilium shield)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Smithing chest | Container | 1 | 0.400% | ~1 in 250 | 60,000 steps | 31,750 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Smithing chest | Container | 1        | 0.400% | ~1 in 250 | 60,000 steps | 31,750 steps |
 
 ### Table 12 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                                    |
+| ------------------------------------------------ |
 | 4x Coal and 2x Tarsilium ore or 160x Metal scrap |
 
 ### Table 13 (Related Items)
 
-| Shield | Shield_2 |
-| --- | --- |
+| Shield  | Shield_2                                                                                                                                              |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Crafted | 1 - Wooden shield 3 - Copper shield 13 - Bronze shield 23 - Iron shield 33 - Steel shield 43 - Tarsilium shield 53 - Farganite shield 59 - Gem shield |

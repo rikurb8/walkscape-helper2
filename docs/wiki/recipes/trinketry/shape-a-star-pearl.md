@@ -10,7 +10,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Shape a star pearl
 
 > Featured in the famous painting "Girl with a Star Pearl Earring" by a Wallisian painter.
@@ -55,48 +54,48 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Star pearl | Star pearl_2 |
-| --- | --- |
-| Type: | Material |
-| Value: | 52 |
-| Fine Value: | 241 |
-| Keywords: | Cut gem Gem |
-| Properties: | Properties: |
+| Star pearl  | Star pearl_2 |
+| ----------- | ------------ |
+| Type:       | Material     |
+| Value:      | 52           |
+| Fine Value: | 241          |
+| Keywords:   | Cut gem Gem  |
+| Properties: | Properties:  |
 
 ### Table 2 (Recipe Ingredient)
 
-| Item Name | Service Requirement | Skills | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Item Name                       | Service Requirement                            | Skills            | Materials Used              | Recipe Outputs            |
+| ------------------------------- | ---------------------------------------------- | ----------------- | --------------------------- | ------------------------- |
 | Create a silver star pearl ring | Needs Basic Trinketry Bench service or better. | Trinketry lvl. 17 | 1x Star pearl 1x Silver bar | 1x Silver star pearl ring |
-| Create a gold star pearl ring | Needs Basic Trinketry Bench service or better. | Trinketry lvl. 27 | 1x Star pearl 1x Gold bar | 1x Gold star pearl ring |
+| Create a gold star pearl ring   | Needs Basic Trinketry Bench service or better. | Trinketry lvl. 27 | 1x Star pearl 1x Gold bar   | 1x Gold star pearl ring   |
 
 ### Table 3 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Blackspell Port job board | Blackspell Port | 4 | +2 Erdwise Faction Reputation |
-| Everhaven combined job board | Everhaven | 6 | +2 Erdwise Faction Reputation |
+| Job Board Name               | Location        | Quantity | Rewards                       |
+| ---------------------------- | --------------- | -------- | ----------------------------- |
+| Blackspell Port job board    | Blackspell Port | 4        | +2 Erdwise Faction Reputation |
+| Everhaven combined job board | Everhaven       | 6        | +2 Erdwise Faction Reputation |
 
 ### Table 4 (Shape a star pearl)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Shape a star pearl | Trinketry lvl. 8 | Needs Basic Trinketry Bench service or better. | 1x Rough star pearl | 1x Star pearl |
+| Recipe Name        | Level            | Service Requirement                            | Materials Used      | Recipe Outputs |
+| ------------------ | ---------------- | ---------------------------------------------- | ------------------- | -------------- |
+| Shape a star pearl | Trinketry lvl. 8 | Needs Basic Trinketry Bench service or better. | 1x Rough star pearl | 1x Star pearl  |
 
 ### Table 5 (Shape a star pearl)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Shape a star pearl | 61 | 175 | 0.349 | 110 steps | 160% | 0.555 | 1,599 steps |
+| Recipe Name        | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------ | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Shape a star pearl | 61      | 175        | 0.349        | 110 steps     | 160%                | 0.555       | 1,599 steps          |
 
 ### Table 6 (Shape a star pearl)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Trinketry chest | Container | 1 | 0.400% | ~1 in 250 | 43,750 steps | 27,500 steps |
+| Item Name       | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| --------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Trinketry chest | Container | 1        | 0.400% | ~1 in 250 | 43,750 steps | 27,500 steps |
 
 ### Table 7 (Related Items)
 
-| Gem | Gem_2 | Cut gem |
-| --- | --- | --- |
+| Gem      | Gem_2                                                                                                                                                                                          | Cut gem                                                             |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | Material | Ethernite, Jade Opal, Pearls Rough ethernite, Rough jade Rough opal, Rough ruby Rough star pearl, Rough sun stone Rough topaz, Rough wrentmarine Ruby, Star pearl Sun stone, Topaz Wrentmarine | Ethernite, Jade Opal, Ruby Star pearl, Sun stone Topaz, Wrentmarine |

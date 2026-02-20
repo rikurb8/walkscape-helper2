@@ -8,7 +8,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Mine coal
 
 > Each strike of your trusty pickaxe uncovers the veins of coal, essential in providing fuel for the realm's blacksmiths to forge weapons and armor that defend the kingdom.
@@ -19,8 +18,8 @@ The **Mine coal** [activity](index.md) is a [Mining](../skills/mining.md) activi
 
 This activity can be done at the following locations:
 
--   [Frostbite Mountain](https://wiki.walkscape.app/wiki/Special:MyLanguage/Frostbite_Mountain "Special:MyLanguage/Frostbite Mountain") in [Jarvonia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Jarvonia "Special:MyLanguage/Jarvonia")
--   [Sanguine Hills](https://wiki.walkscape.app/wiki/Special:MyLanguage/Sanguine_Hills "Special:MyLanguage/Sanguine Hills") in [Jarvonia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Jarvonia "Special:MyLanguage/Jarvonia")
+- [Frostbite Mountain](https://wiki.walkscape.app/wiki/Special:MyLanguage/Frostbite_Mountain "Special:MyLanguage/Frostbite Mountain") in [Jarvonia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Jarvonia "Special:MyLanguage/Jarvonia")
+- [Sanguine Hills](https://wiki.walkscape.app/wiki/Special:MyLanguage/Sanguine_Hills "Special:MyLanguage/Sanguine Hills") in [Jarvonia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Jarvonia "Special:MyLanguage/Jarvonia")
 
 # Visibility
 
@@ -30,11 +29,11 @@ This activity is always visible.
 
 Skill Level Requirements:
 
--   At least Mining lvl. 30.
+- At least Mining lvl. 30.
 
 Keyword Requirements:
 
--   Have [Pickaxe](https://wiki.walkscape.app/wiki/Special:MyLanguage/Pickaxe_Keyword "Special:MyLanguage/Pickaxe Keyword") equipped.
+- Have [Pickaxe](https://wiki.walkscape.app/wiki/Special:MyLanguage/Pickaxe_Keyword "Special:MyLanguage/Pickaxe Keyword") equipped.
 
 # Experience Information
 
@@ -62,33 +61,33 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Mine coal | Mine coal_2 |
-| --- | --- |
-| Main Skill: | Mining |
-| Max Efficiency: | 180% |
+| Mine coal       | Mine coal_2 |
+| --------------- | ----------- |
+| Main Skill:     | Mining      |
+| Max Efficiency: | 180%        |
 
 ### Table 2 (Experience Information)
 
-| Skill | Base XP | Base Steps | Base XP/Step | Total Base XP/Step | Minimum Steps | Max XP/Step | Total Max XP/Step |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Mining | 48 | 80 | 0.600 | 0.600 | 45 | 1.067 | 1.067 |
+| Skill  | Base XP | Base Steps | Base XP/Step | Total Base XP/Step | Minimum Steps | Max XP/Step | Total Max XP/Step |
+| ------ | ------- | ---------- | ------------ | ------------------ | ------------- | ----------- | ----------------- |
+| Mining | 48      | 80         | 0.600        | 0.600              | 45            | 1.067       | 1.067             |
 
 ### Table 3 (Main Drops)
 
-| Item Name | Quantity | Chance | Odds | Base Rate | W.E.A.R. | Value Single (Stack) |
-| --- | --- | --- | --- | --- | --- | --- |
-| Coal | 1 | 100.000% | ~1 in 1 | 80 steps | 45 steps | 2 (2) |
+| Item Name | Quantity | Chance   | Odds    | Base Rate | W.E.A.R. | Value Single (Stack) |
+| --------- | -------- | -------- | ------- | --------- | -------- | -------------------- |
+| Coal      | 1        | 100.000% | ~1 in 1 | 80 steps  | 45 steps | 2 (2)                |
 
 ### Table 4 (Gem Drops)
 
-| Item Name | Quantity | Chance | Odds | Base Rate | W.E.A.R. | Value Single (Stack) |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nothing | N/A | 99.000% | ~1 in 1 | N/A | N/A | N/A |
-| Rough opal | 1 | 0.769% | ~1 in 130 | 10,403 steps | 5,852 steps | 25 (25) |
-| Rough star pearl | 1 | 0.231% | ~1 in 433 | 34,632 steps | 19,481 steps | 32 (32) |
+| Item Name        | Quantity | Chance  | Odds      | Base Rate    | W.E.A.R.     | Value Single (Stack) |
+| ---------------- | -------- | ------- | --------- | ------------ | ------------ | -------------------- |
+| Nothing          | N/A      | 99.000% | ~1 in 1   | N/A          | N/A          | N/A                  |
+| Rough opal       | 1        | 0.769%  | ~1 in 130 | 10,403 steps | 5,852 steps  | 25 (25)              |
+| Rough star pearl | 1        | 0.231%  | ~1 in 433 | 34,632 steps | 19,481 steps | 32 (32)              |
 
 ### Table 5 (Secondary Drops)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mining chest | Container | 1 | 0.400% | ~1 in 250 | 20,000 steps | 11,250 steps |
+| Item Name    | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| ------------ | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Mining chest | Container | 1        | 0.400% | ~1 in 250 | 20,000 steps | 11,250 steps |

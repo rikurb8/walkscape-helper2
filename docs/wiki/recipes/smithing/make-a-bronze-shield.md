@@ -17,7 +17,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Make a bronze shield
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -66,74 +65,74 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Bronze shield (Normal) | Bronze shield (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 3 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Bronze shield (Normal) | Bronze shield (Normal)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Secondary                 |
+| Value:                 | 3                         |
+| Keyword:               | Shield                    |
+| Properties:            | Properties:               |
 
 ### Table 2 (Introduction)
 
-| Bronze shield (Good) | Bronze shield (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 3 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Bronze shield (Good) | Bronze shield (Good)\_2 |
+| -------------------- | ----------------------- |
+| Quality:             |                         |
+| Type:                | Crafted                 |
+| Slot:                | Secondary               |
+| Value:               | 3                       |
+| Keyword:             | Shield                  |
+| Properties:          | Properties:             |
 
 ### Table 3 (Introduction)
 
-| Bronze shield (Great) | Bronze shield (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 3 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Bronze shield (Great) | Bronze shield (Great)\_2 |
+| --------------------- | ------------------------ |
+| Quality:              |                          |
+| Type:                 | Crafted                  |
+| Slot:                 | Secondary                |
+| Value:                | 3                        |
+| Keyword:              | Shield                   |
+| Properties:           | Properties:              |
 
 ### Table 4 (Introduction)
 
-| Bronze shield (Excellent) | Bronze shield (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 3 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Bronze shield (Excellent) | Bronze shield (Excellent)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Secondary                    |
+| Value:                    | 3                            |
+| Keyword:                  | Shield                       |
+| Properties:               | Properties:                  |
 
 ### Table 5 (Introduction)
 
-| Bronze shield (Perfect) | Bronze shield (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 3 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Bronze shield (Perfect) | Bronze shield (Perfect)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Secondary                  |
+| Value:                  | 3                          |
+| Keyword:                | Shield                     |
+| Properties:             | Properties:                |
 
 ### Table 6 (Introduction)
 
-| Bronze shield (Eternal) | Bronze shield (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Secondary |
-| Value: | 3 |
-| Keyword: | Shield |
-| Properties: | Properties: |
+| Bronze shield (Eternal) | Bronze shield (Eternal)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Secondary                  |
+| Value:                  | 3                          |
+| Keyword:                | Shield                     |
+| Properties:             | Properties:                |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                   |
+| ---------------------------- |
 | This item has no attributes. |
 | This item has no attributes. |
 | This item has no attributes. |
@@ -143,37 +142,37 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 8 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Kallaheim job board | Kallaheim | 4 | +2 Jarvonia Faction Reputation |
-| Kallaheim job board | Kallaheim | 2 | +2 Jarvonia Faction Reputation 1x Smithing chest |
+| Job Board Name      | Location  | Quantity | Rewards                                          |
+| ------------------- | --------- | -------- | ------------------------------------------------ |
+| Kallaheim job board | Kallaheim | 4        | +2 Jarvonia Faction Reputation                   |
+| Kallaheim job board | Kallaheim | 2        | +2 Jarvonia Faction Reputation 1x Smithing chest |
 
 ### Table 9 (Make a bronze shield)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Make a bronze shield | Smithing lvl. 13 | Needs Basic Forge service or better. | 2x Bronze bar | 1x Bronze shield |
+| Recipe Name          | Level            | Service Requirement                  | Materials Used | Recipe Outputs   |
+| -------------------- | ---------------- | ------------------------------------ | -------------- | ---------------- |
+| Make a bronze shield | Smithing lvl. 13 | Needs Basic Forge service or better. | 2x Bronze bar  | 1x Bronze shield |
 
 ### Table 10 (Make a bronze shield)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Make a bronze shield | 64 | 160 | 0.400 | 100 steps | 160% | 0.640 | 326 steps |
+| Recipe Name          | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| -------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Make a bronze shield | 64      | 160        | 0.400        | 100 steps     | 160%                | 0.640       | 326 steps            |
 
 ### Table 11 (Make a bronze shield)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Smithing chest | Container | 1 | 0.400% | ~1 in 250 | 40,000 steps | 25,000 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Smithing chest | Container | 1        | 0.400% | ~1 in 250 | 40,000 steps | 25,000 steps |
 
 ### Table 12 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                                   |
+| ----------------------------------------------- |
 | 2x Copper ore and 2x Tin ore or 20x Metal scrap |
 
 ### Table 13 (Related Items)
 
-| Shield | Shield_2 |
-| --- | --- |
+| Shield  | Shield_2                                                                                                                                              |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Crafted | 1 - Wooden shield 3 - Copper shield 13 - Bronze shield 23 - Iron shield 33 - Steel shield 43 - Tarsilium shield 53 - Farganite shield 59 - Gem shield |

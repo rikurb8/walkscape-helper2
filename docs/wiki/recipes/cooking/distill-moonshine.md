@@ -12,7 +12,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Distill moonshine
 
 > A jar of strong alcohol that has a bit of a ghostly glow to it. The smell alone is otherworldly and threatens to inebriate you.
@@ -53,49 +52,49 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Moonshine | Moonshine_2 |
-| --- | --- |
-| Type: | Consumable |
-| Value: | 8 |
-| Fine Value: | 40 |
-| Keywords: | Alcohol Beverage |
-| Search Keyword: | Global |
-| Duration: | 1000 steps |
-| Properties: | Properties: |
+| Moonshine       | Moonshine_2      |
+| --------------- | ---------------- |
+| Type:           | Consumable       |
+| Value:          | 8                |
+| Fine Value:     | 40               |
+| Keywords:       | Alcohol Beverage |
+| Search Keyword: | Global           |
+| Duration:       | 1000 steps       |
+| Properties:     | Properties:      |
 
 ### Table 2 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                                            |
+| ----------------------------------------------------- |
 | Global +4% Double rewards Global -8% Bonus experience |
 | Global +6% Double rewards Global -8% Bonus experience |
 
 ### Table 3 (Distill moonshine)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Distill moonshine | Cooking lvl. 57 | Needs Advanced Cursed Kitchen service or better. | 10x Beer 5x Ectoplasm | 5x Moonshine |
+| Recipe Name       | Level           | Service Requirement                              | Materials Used        | Recipe Outputs |
+| ----------------- | --------------- | ------------------------------------------------ | --------------------- | -------------- |
+| Distill moonshine | Cooking lvl. 57 | Needs Advanced Cursed Kitchen service or better. | 10x Beer 5x Ectoplasm | 5x Moonshine   |
 
 ### Table 4 (Distill moonshine)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Distill moonshine | 888 | 690 | 1.287 | 329 steps | 210% | 2.699 | 2,473 steps |
+| Recipe Name       | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ----------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Distill moonshine | 888     | 690        | 1.287        | 329 steps     | 210%                | 2.699       | 2,473 steps          |
 
 ### Table 5 (Distill moonshine)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Cooking chest | Container | 1 | 0.400% | ~1 in 250 | 172,500 steps | 82,250 steps |
+| Item Name     | Item Type | Quantity | Chance | Odds      | Base Rate     | W.E.A.R.     |
+| ------------- | --------- | -------- | ------ | --------- | ------------- | ------------ |
+| Cooking chest | Container | 1        | 0.400% | ~1 in 250 | 172,500 steps | 82,250 steps |
 
 ### Table 6 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials          |
+| ---------------------- |
 | 5x Ectoplasm 20x Wheat |
 
 ### Table 7 (Related Items)
 
-| Beverage | Beverage_2 | Alcohol |
-| --- | --- | --- |
+| Beverage   | Beverage_2                                                                                                 | Alcohol                                                     |
+| ---------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | Consumable | Beer, Chocolate milk Fireball wine, Fortified wine Moonshine, Nettle tea Saltrum, Spicy pumpkin juice Wine | Beer, Fireball wine Fortified wine, Moonshine Saltrum, Wine |

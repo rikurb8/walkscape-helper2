@@ -8,7 +8,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Underwater swimming
 
 > Swimming through the various paths and caves of the vast underwater city of Vastalume proves challenging. You must evade the bustling sea creatures, both sentient and non-sentient.
@@ -19,7 +18,7 @@ The **Underwater swimming** [activity](index.md) is a [Agility](../skills/agilit
 
 This activity can be done at the following location:
 
--   [Elara's Lagoon](https://wiki.walkscape.app/wiki/Special:MyLanguage/Elara%27s_Lagoon "Special:MyLanguage/Elara's Lagoon") in [Syrenthia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Syrenthia "Special:MyLanguage/Syrenthia")
+- [Elara's Lagoon](https://wiki.walkscape.app/wiki/Special:MyLanguage/Elara%27s_Lagoon "Special:MyLanguage/Elara's Lagoon") in [Syrenthia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Syrenthia "Special:MyLanguage/Syrenthia")
 
 # Visibility
 
@@ -29,11 +28,11 @@ This activity is always visible.
 
 Skill Level Requirements:
 
--   At least Agility lvl. 50.
+- At least Agility lvl. 50.
 
 Keyword Requirements:
 
--   Requires **\[3\]** unique [Advanced diving gear](https://wiki.walkscape.app/wiki/Special:MyLanguage/Advanced_diving_gear_Keyword "Special:MyLanguage/Advanced diving gear Keyword") equipped.
+- Requires **\[3\]** unique [Advanced diving gear](https://wiki.walkscape.app/wiki/Special:MyLanguage/Advanced_diving_gear_Keyword "Special:MyLanguage/Advanced diving gear Keyword") equipped.
 
 # Experience Information
 
@@ -51,7 +50,7 @@ No guides exists yet. [You can help make one.](https://wiki.walkscape.app/index.
 
 # Gear Sets
 
--   [Max XP](https://wiki.walkscape.app/wiki/Gear:Underwater_swimming/Max_XP "Gear:Underwater swimming/Max XP")
+- [Max XP](https://wiki.walkscape.app/wiki/Gear:Underwater_swimming/Max_XP "Gear:Underwater swimming/Max XP")
 
 [Edit Gear Sets](https://wiki.walkscape.app/wiki/Gear:Underwater_swimming "Gear:Underwater swimming")
 
@@ -62,30 +61,30 @@ No guides exists yet. [You can help make one.](https://wiki.walkscape.app/index.
 ### Table 1 (Introduction)
 
 | Underwater swimming | Underwater swimming_2 |
-| --- | --- |
-| Main Skill: | Agility |
-| Max Efficiency: | 210% |
+| ------------------- | --------------------- |
+| Main Skill:         | Agility               |
+| Max Efficiency:     | 210%                  |
 
 ### Table 2 (Experience Information)
 
-| Skill | Base XP | Base Steps | Base XP/Step | Total Base XP/Step | Minimum Steps | Max XP/Step | Total Max XP/Step |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Agility | 155 | 150 | 1.033 | 1.033 | 72 | 2.153 | 2.153 |
+| Skill   | Base XP | Base Steps | Base XP/Step | Total Base XP/Step | Minimum Steps | Max XP/Step | Total Max XP/Step |
+| ------- | ------- | ---------- | ------------ | ------------------ | ------------- | ----------- | ----------------- |
+| Agility | 155     | 150        | 1.033        | 1.033              | 72            | 2.153       | 2.153             |
 
 ### Table 3 (Main Drops)
 
-| Item Name | Quantity | Chance | Odds | Base Rate | W.E.A.R. | Value Single (Stack) |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nothing | N/A | 50.000% | ~1 in 2 | N/A | N/A | N/A |
-| Raw stingray | 1 | 24.691% | ~1 in 4 | 608 steps | 292 steps | 7 (7) |
-| Raw swordfish | 1 | 24.691% | ~1 in 4 | 608 steps | 292 steps | 7 (7) |
-| Eel trinket | 1 | 0.309% | ~1 in 324 | 48,544 steps | 23,301 steps | 60 (60) |
-| Flippers | 1 | 0.309% | ~1 in 324 | 48,544 steps | 23,301 steps | 15 (15) |
+| Item Name     | Quantity | Chance  | Odds      | Base Rate    | W.E.A.R.     | Value Single (Stack) |
+| ------------- | -------- | ------- | --------- | ------------ | ------------ | -------------------- |
+| Nothing       | N/A      | 50.000% | ~1 in 2   | N/A          | N/A          | N/A                  |
+| Raw stingray  | 1        | 24.691% | ~1 in 4   | 608 steps    | 292 steps    | 7 (7)                |
+| Raw swordfish | 1        | 24.691% | ~1 in 4   | 608 steps    | 292 steps    | 7 (7)                |
+| Eel trinket   | 1        | 0.309%  | ~1 in 324 | 48,544 steps | 23,301 steps | 60 (60)              |
+| Flippers      | 1        | 0.309%  | ~1 in 324 | 48,544 steps | 23,301 steps | 15 (15)              |
 
 ### Table 4 (Secondary Drops)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Agility chest | Container | 1 | 0.400% | ~1 in 250 | 37,500 steps | 18,000 steps |
-| Coral chest | Container | 1 | 0.400% | ~1 in 250 | 37,500 steps | 18,000 steps |
-| Sea shell | Material | 1 | 10.000% | ~1 in 10 | 1,500 steps | 720 steps |
+| Item Name     | Item Type | Quantity | Chance  | Odds      | Base Rate    | W.E.A.R.     |
+| ------------- | --------- | -------- | ------- | --------- | ------------ | ------------ |
+| Agility chest | Container | 1        | 0.400%  | ~1 in 250 | 37,500 steps | 18,000 steps |
+| Coral chest   | Container | 1        | 0.400%  | ~1 in 250 | 37,500 steps | 18,000 steps |
+| Sea shell     | Material  | 1        | 10.000% | ~1 in 10  | 1,500 steps  | 720 steps    |

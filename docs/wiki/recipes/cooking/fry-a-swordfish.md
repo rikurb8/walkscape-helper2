@@ -11,7 +11,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Fry a swordfish
 
 > Cooked swordfish has slightly sweet flavor. It's often grilled or seared for a flavorful crust, and is best enjoyed when cooked to medium-rare.
@@ -55,48 +54,48 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 ### Table 1 (Introduction)
 
 | Cooked swordfish | Cooked swordfish_2 |
-| --- | --- |
-| Type: | Consumable |
-| Value: | 10 |
-| Fine Value: | 51 |
-| Keywords: | Cooked fish Food |
-| Search Keyword: | Woodcutting |
-| Duration: | 500 steps |
-| Properties: | Properties: |
+| ---------------- | ------------------ |
+| Type:            | Consumable         |
+| Value:           | 10                 |
+| Fine Value:      | 51                 |
+| Keywords:        | Cooked fish Food   |
+| Search Keyword:  | Woodcutting        |
+| Duration:        | 500 steps          |
+| Properties:      | Properties:        |
 
 ### Table 2 (Attributes)
 
-| Attributes |
-| --- |
-| +50% Fine material finding While doing Woodcutting. |
+| Attributes                                           |
+| ---------------------------------------------------- |
+| +50% Fine material finding While doing Woodcutting.  |
 | +100% Fine material finding While doing Woodcutting. |
 
 ### Table 3 (Fry a swordfish)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name     | Level           | Service Requirement                    | Materials Used   | Recipe Outputs      |
+| --------------- | --------------- | -------------------------------------- | ---------------- | ------------------- |
 | Fry a swordfish | Cooking lvl. 40 | Needs Basic Kitchen service or better. | 1x Raw swordfish | 1x Cooked swordfish |
 
 ### Table 4 (Fry a swordfish)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Fry a swordfish | 94 | 110 | 0.855 | 58 steps | 190% | 1.621 | 293 steps |
+| Recipe Name     | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| --------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Fry a swordfish | 94      | 110        | 0.855        | 58 steps      | 190%                | 1.621       | 293 steps            |
 
 ### Table 5 (Fry a swordfish)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Cooking chest | Container | 1 | 0.400% | ~1 in 250 | 27,500 steps | 14,500 steps |
+| Item Name     | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| ------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Cooking chest | Container | 1        | 0.400% | ~1 in 250 | 27,500 steps | 14,500 steps |
 
 ### Table 6 (Faction Reward)
 
-| Faction Name | Quantity | Requirement |
-| --- | --- | --- |
-| Trellin | 10 | 30 Trellin Faction Reputation |
+| Faction Name | Quantity | Requirement                   |
+| ------------ | -------- | ----------------------------- |
+| Trellin      | 10       | 30 Trellin Faction Reputation |
 
 ### Table 7 (Related Items)
 
-| Food | Food_2 | Cooked fish |
-| --- | --- | --- |
+| Food       | Food_2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Cooked fish                                                                                                                                                                                                              |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Consumable | Bagel, Beef stew Bread, Cooked anglerfish Cooked carp, Cooked jellyfish Cooked largemouth bass, Cooked lobster Cooked perch, Cooked pike Cooked salmon, Cooked shark Cooked shrimp, Cooked squid Cooked stingray, Cooked swordfish Cooked trout, Creme brulee Dried fruit, Fried fish sandwich Fried noodles, Fruit cake Jarvonian pastry, Jelly sandwich Kelp rolls, Mud pie Mushroom curry, Nut mix Pancake, Pickles Porridge, Roasted bell pepper Salmon pie, Schnitzel Sweet carrot pie, Tasty breakfast Trout soup, Underwater salad Veggie soup | Cooked anglerfish, Cooked carp Cooked jellyfish, Cooked largemouth bass Cooked lobster, Cooked perch Cooked pike, Cooked salmon Cooked shark, Cooked shrimp Cooked squid, Cooked stingray Cooked swordfish, Cooked trout |

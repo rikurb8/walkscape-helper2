@@ -13,7 +13,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Brew saltrum
 
 > Strong distilled alcoholic beverage that makes even the fish drunk.
@@ -70,80 +69,80 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Saltrum | Saltrum_2 |
-| --- | --- |
-| Type: | Consumable |
-| Value: | 7 |
-| Fine Value: | 38 |
-| Keywords: | Alcohol Beverage |
-| Search Keyword: | Smithing |
-| Duration: | 1000 steps |
-| Properties: | Properties: |
+| Saltrum         | Saltrum_2        |
+| --------------- | ---------------- |
+| Type:           | Consumable       |
+| Value:          | 7                |
+| Fine Value:     | 38               |
+| Keywords:       | Alcohol Beverage |
+| Search Keyword: | Smithing         |
+| Duration:       | 1000 steps       |
+| Properties:     | Properties:      |
 
 ### Table 2 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                                                                                                                          |
+| ----------------------------------------------------------------------------------------------------------------------------------- |
 | +2% Double rewards While doing Smithing. -2% Bonus experience While doing Smithing. +2% No materials consumed While doing Smithing. |
 | +4% Double rewards While doing Smithing. -2% Bonus experience While doing Smithing. +4% No materials consumed While doing Smithing. |
 
 ### Table 3 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Vastalume job board | Vastalume | 23 | +2 Syrenthia Faction Reputation 1x Cooking chest |
+| Job Board Name      | Location  | Quantity | Rewards                                          |
+| ------------------- | --------- | -------- | ------------------------------------------------ |
+| Vastalume job board | Vastalume | 23       | +2 Syrenthia Faction Reputation 1x Cooking chest |
 
 ### Table 4 (Achievement)
 
-| Achievement Name | Difficulty | Requirements | Reward |
-| --- | --- | --- | --- |
-| Undersea Chef | Normal | Prepare Underwater salad [5] times. Prepare Kelp rolls [5] times. Prepare Saltrum [5] times. | 3x achievement points |
+| Achievement Name | Difficulty | Requirements                                                                                 | Reward                |
+| ---------------- | ---------- | -------------------------------------------------------------------------------------------- | --------------------- |
+| Undersea Chef    | Normal     | Prepare Underwater salad [5] times. Prepare Kelp rolls [5] times. Prepare Saltrum [5] times. | 3x achievement points |
 
 ### Table 5 (Chest Drops)
 
-| Chest Name | Quantity | Chance (Per Roll) | Chance (Per Chest)† | Odds |
-| --- | --- | --- | --- | --- |
-| Chest of Syrenthia | 1 | 4.622% | 17.245% | ~1 in 6 |
+| Chest Name         | Quantity | Chance (Per Roll) | Chance (Per Chest)† | Odds    |
+| ------------------ | -------- | ----------------- | ------------------- | ------- |
+| Chest of Syrenthia | 1        | 4.622%            | 17.245%             | ~1 in 6 |
 
 ### Table 6 (Shop Purchases)
 
-| Shop Name | Location | Region | Stock | Price |
-| --- | --- | --- | --- | --- |
-| Pearl of the Sea | Vastalume | Syrenthia | 1 | 50 |
-| Sunken Anchor | Vastalume | Syrenthia | 1 | 50 |
+| Shop Name        | Location  | Region    | Stock | Price |
+| ---------------- | --------- | --------- | ----- | ----- |
+| Pearl of the Sea | Vastalume | Syrenthia | 1     | 50    |
+| Sunken Anchor    | Vastalume | Syrenthia | 1     | 50    |
 
 ### Table 7 (Brew saltrum)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Brew saltrum | Cooking lvl. 45 | Needs Basic Kitchen service or better. | 1x Salty hops 1x Salt crystal | 1x Saltrum |
+| Recipe Name  | Level           | Service Requirement                    | Materials Used                | Recipe Outputs |
+| ------------ | --------------- | -------------------------------------- | ----------------------------- | -------------- |
+| Brew saltrum | Cooking lvl. 45 | Needs Basic Kitchen service or better. | 1x Salty hops 1x Salt crystal | 1x Saltrum     |
 
 ### Table 8 (Brew saltrum)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Brew saltrum | 120 | 125 | 0.960 | 66 steps | 190% | 1.818 | 898 steps |
+| Recipe Name  | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------ | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Brew saltrum | 120     | 125        | 0.960        | 66 steps      | 190%                | 1.818       | 898 steps            |
 
 ### Table 9 (Brew saltrum)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Cooking chest | Container | 1 | 0.400% | ~1 in 250 | 31,250 steps | 16,500 steps |
+| Item Name     | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| ------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Cooking chest | Container | 1        | 0.400% | ~1 in 250 | 31,250 steps | 16,500 steps |
 
 ### Table 10 (Achievement Completion Reward)
 
-| Achievement Name | Quantity | Requirement |
-| --- | --- | --- |
-| Prohibition Inhibition | 15 | Prepare drinks of Alcohol [500] |
+| Achievement Name       | Quantity | Requirement                     |
+| ---------------------- | -------- | ------------------------------- |
+| Prohibition Inhibition | 15       | Prepare drinks of Alcohol [500] |
 
 ### Table 11 (Faction Reward)
 
-| Faction Name | Quantity | Requirement |
-| --- | --- | --- |
-| Syrenthia | 5 | 10 Syrenthia Faction Reputation |
+| Faction Name | Quantity | Requirement                     |
+| ------------ | -------- | ------------------------------- |
+| Syrenthia    | 5        | 10 Syrenthia Faction Reputation |
 
 ### Table 12 (Related Items)
 
-| Beverage | Beverage_2 | Alcohol |
-| --- | --- | --- |
+| Beverage   | Beverage_2                                                                                                 | Alcohol                                                     |
+| ---------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | Consumable | Beer, Chocolate milk Fireball wine, Fortified wine Moonshine, Nettle tea Saltrum, Spicy pumpkin juice Wine | Beer, Fireball wine Fortified wine, Moonshine Saltrum, Wine |

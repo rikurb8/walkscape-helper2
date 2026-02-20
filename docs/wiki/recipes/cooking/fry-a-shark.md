@@ -12,7 +12,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Fry a shark
 
 > Cooked shark offers a firm texture and a robust, somewhat intense flavor. It's a versatile fish that can be prepared in various ways, from grilling to stewing.
@@ -61,61 +60,61 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Cooked shark | Cooked shark_2 |
-| --- | --- |
-| Type: | Consumable |
-| Value: | 15 |
-| Fine Value: | 74 |
-| Keywords: | Cooked fish Food |
-| Search Keyword: | Woodcutting |
-| Duration: | 500 steps |
-| Properties: | Properties: |
+| Cooked shark    | Cooked shark_2   |
+| --------------- | ---------------- |
+| Type:           | Consumable       |
+| Value:          | 15               |
+| Fine Value:     | 74               |
+| Keywords:       | Cooked fish Food |
+| Search Keyword: | Woodcutting      |
+| Duration:       | 500 steps        |
+| Properties:     | Properties:      |
 
 ### Table 2 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                                                                             |
+| -------------------------------------------------------------------------------------- |
 | +2% Double rewards While doing Woodcutting. -1 Steps required While doing Woodcutting. |
 | +4% Double rewards While doing Woodcutting. -2 Steps required While doing Woodcutting. |
 
 ### Table 3 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Vastalume job board | Vastalume | 35 | +1 Syrenthia Faction Reputation 1x Cooking chest |
+| Job Board Name      | Location  | Quantity | Rewards                                          |
+| ------------------- | --------- | -------- | ------------------------------------------------ |
+| Vastalume job board | Vastalume | 35       | +1 Syrenthia Faction Reputation 1x Cooking chest |
 
 ### Table 4 (Achievement)
 
-| Achievement Name | Difficulty | Requirements | Rewards |
-| --- | --- | --- | --- |
-| You're Gonna Need A Bigger Kitchen | Hard | Gain a Raw shark from an activity. [1] Gain a Cooked shark from a Cooking recipe [1] | 5x achievement points 5x Cooking memosphere Tiny shark |
+| Achievement Name                   | Difficulty | Requirements                                                                         | Rewards                                                |
+| ---------------------------------- | ---------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------ |
+| You're Gonna Need A Bigger Kitchen | Hard       | Gain a Raw shark from an activity. [1] Gain a Cooked shark from a Cooking recipe [1] | 5x achievement points 5x Cooking memosphere Tiny shark |
 
 ### Table 5 (Fry a shark)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Fry a shark | Cooking lvl. 50 | Needs Advanced Kitchen service or better. | 1x Raw shark | 1x Cooked shark |
+| Recipe Name | Level           | Service Requirement                       | Materials Used | Recipe Outputs  |
+| ----------- | --------------- | ----------------------------------------- | -------------- | --------------- |
+| Fry a shark | Cooking lvl. 50 | Needs Advanced Kitchen service or better. | 1x Raw shark   | 1x Cooked shark |
 
 ### Table 6 (Fry a shark)
 
 | Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Fry a shark | 143 | 130 | 1.100 | 65 steps | 200% | 2.200 | 492 steps |
+| ----------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Fry a shark | 143     | 130        | 1.100        | 65 steps      | 200%                | 2.200       | 492 steps            |
 
 ### Table 7 (Fry a shark)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Cooking chest | Container | 1 | 0.400% | ~1 in 250 | 32,500 steps | 16,250 steps |
+| Item Name     | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| ------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Cooking chest | Container | 1        | 0.400% | ~1 in 250 | 32,500 steps | 16,250 steps |
 
 ### Table 8 (Faction Reward)
 
-| Faction Name | Quantity | Requirement |
-| --- | --- | --- |
-| Trellin | 10 | 45 Trellin Faction Reputation |
+| Faction Name | Quantity | Requirement                   |
+| ------------ | -------- | ----------------------------- |
+| Trellin      | 10       | 45 Trellin Faction Reputation |
 
 ### Table 9 (Related Items)
 
-| Food | Food_2 | Cooked fish |
-| --- | --- | --- |
+| Food       | Food_2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Cooked fish                                                                                                                                                                                                              |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Consumable | Bagel, Beef stew Bread, Cooked anglerfish Cooked carp, Cooked jellyfish Cooked largemouth bass, Cooked lobster Cooked perch, Cooked pike Cooked salmon, Cooked shark Cooked shrimp, Cooked squid Cooked stingray, Cooked swordfish Cooked trout, Creme brulee Dried fruit, Fried fish sandwich Fried noodles, Fruit cake Jarvonian pastry, Jelly sandwich Kelp rolls, Mud pie Mushroom curry, Nut mix Pancake, Pickles Porridge, Roasted bell pepper Salmon pie, Schnitzel Sweet carrot pie, Tasty breakfast Trout soup, Underwater salad Veggie soup | Cooked anglerfish, Cooked carp Cooked jellyfish, Cooked largemouth bass Cooked lobster, Cooked perch Cooked pike, Cooked salmon Cooked shark, Cooked shrimp Cooked squid, Cooked stingray Cooked swordfish, Cooked trout |

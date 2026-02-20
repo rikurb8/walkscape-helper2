@@ -8,7 +8,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Flame stoking
 
 > When Helga rings the bell, you stoke the flames. A simple life.
@@ -19,7 +18,7 @@ The **Flame stoking** [activity](index.md) is a [Smithing](../skills/smithing.md
 
 This activity can be done at the following location:
 
--   [Kallaheim](https://wiki.walkscape.app/wiki/Special:MyLanguage/Kallaheim "Special:MyLanguage/Kallaheim") in [Jarvonia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Jarvonia "Special:MyLanguage/Jarvonia")
+- [Kallaheim](https://wiki.walkscape.app/wiki/Special:MyLanguage/Kallaheim "Special:MyLanguage/Kallaheim") in [Jarvonia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Jarvonia "Special:MyLanguage/Jarvonia")
 
 # Visibility
 
@@ -29,7 +28,7 @@ This activity is always visible.
 
 Skill Level Requirements:
 
--   At least Smithing lvl. 1.
+- At least Smithing lvl. 1.
 
 # Experience Information
 
@@ -55,25 +54,25 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Flame stoking | Flame stoking_2 |
-| --- | --- |
-| Main Skill: | Smithing |
-| Max Efficiency: | 200% |
+| Flame stoking   | Flame stoking_2 |
+| --------------- | --------------- |
+| Main Skill:     | Smithing        |
+| Max Efficiency: | 200%            |
 
 ### Table 2 (Experience Information)
 
-| Skill | Base XP | Base Steps | Base XP/Step | Total Base XP/Step | Minimum Steps | Max XP/Step | Total Max XP/Step |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Smithing | 30 | 300 | 0.100 | 0.100 | 150 | 0.200 | 0.200 |
+| Skill    | Base XP | Base Steps | Base XP/Step | Total Base XP/Step | Minimum Steps | Max XP/Step | Total Max XP/Step |
+| -------- | ------- | ---------- | ------------ | ------------------ | ------------- | ----------- | ----------------- |
+| Smithing | 30      | 300        | 0.100        | 0.100              | 150           | 0.200       | 0.200             |
 
 ### Table 3 (Main Drops)
 
-| Item Name | Quantity | Chance | Odds | Base Rate | W.E.A.R. | Value Single (Stack) |
-| --- | --- | --- | --- | --- | --- | --- |
-| Coins | 1-10 | 100.000% | ~1 in 1 | 55 steps | 27 steps | 1 (1-10) |
+| Item Name | Quantity | Chance   | Odds    | Base Rate | W.E.A.R. | Value Single (Stack) |
+| --------- | -------- | -------- | ------- | --------- | -------- | -------------------- |
+| Coins     | 1-10     | 100.000% | ~1 in 1 | 55 steps  | 27 steps | 1 (1-10)             |
 
 ### Table 4 (Secondary Drops)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Smithing chest | Container | 1 | 0.400% | ~1 in 250 | 75,000 steps | 37,500 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Smithing chest | Container | 1        | 0.400% | ~1 in 250 | 75,000 steps | 37,500 steps |

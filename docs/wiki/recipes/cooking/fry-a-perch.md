@@ -11,7 +11,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Fry a perch
 
 > Pan-fried or grilled, cooked perch offers a delightful flakiness and a mild, slightly sweet taste. Perfect for a light meal.
@@ -54,49 +53,49 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Cooked perch | Cooked perch_2 |
-| --- | --- |
-| Type: | Consumable |
-| Value: | 1 |
-| Fine Value: | 11 |
-| Keywords: | Cooked fish Food |
-| Search Keyword: | Crafting |
-| Duration: | 500 steps |
-| Properties: | Properties: |
+| Cooked perch    | Cooked perch_2   |
+| --------------- | ---------------- |
+| Type:           | Consumable       |
+| Value:          | 1                |
+| Fine Value:     | 11               |
+| Keywords:       | Cooked fish Food |
+| Search Keyword: | Crafting         |
+| Duration:       | 500 steps        |
+| Properties:     | Properties:      |
 
 ### Table 2 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                                |
+| ----------------------------------------- |
 | +2% Work efficiency While doing Crafting. |
 | +4% Work efficiency While doing Crafting. |
 
 ### Table 3 (Shop Purchases)
 
-| Shop Name | Location | Region | Stock | Price |
-| --- | --- | --- | --- | --- |
-| Kallaheim's Frosty Finds | Kallaheim | Jarvonia | 20 | 13 |
+| Shop Name                | Location  | Region   | Stock | Price |
+| ------------------------ | --------- | -------- | ----- | ----- |
+| Kallaheim's Frosty Finds | Kallaheim | Jarvonia | 20    | 13    |
 
 ### Table 4 (Fry a perch)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Fry a perch | Cooking lvl. 1 | Needs Basic Kitchen service or better. | 1x Raw perch | 1x Cooked perch |
+| Recipe Name | Level          | Service Requirement                    | Materials Used | Recipe Outputs  |
+| ----------- | -------------- | -------------------------------------- | -------------- | --------------- |
+| Fry a perch | Cooking lvl. 1 | Needs Basic Kitchen service or better. | 1x Raw perch   | 1x Cooked perch |
 
 ### Table 5 (Fry a perch)
 
 | Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Fry a perch | 28 | 70 | 0.400 | 47 steps | 150% | 0.596 | 353 steps |
+| ----------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Fry a perch | 28      | 70         | 0.400        | 47 steps      | 150%                | 0.596       | 353 steps            |
 
 ### Table 6 (Fry a perch)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Cooking chest | Container | 1 | 0.400% | ~1 in 250 | 17,500 steps | 11,750 steps |
+| Item Name     | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| ------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Cooking chest | Container | 1        | 0.400% | ~1 in 250 | 17,500 steps | 11,750 steps |
 
 ### Table 7 (Related Items)
 
-| Food | Food_2 | Cooked fish |
-| --- | --- | --- |
+| Food       | Food_2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Cooked fish                                                                                                                                                                                                              |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Consumable | Bagel, Beef stew Bread, Cooked anglerfish Cooked carp, Cooked jellyfish Cooked largemouth bass, Cooked lobster Cooked perch, Cooked pike Cooked salmon, Cooked shark Cooked shrimp, Cooked squid Cooked stingray, Cooked swordfish Cooked trout, Creme brulee Dried fruit, Fried fish sandwich Fried noodles, Fruit cake Jarvonian pastry, Jelly sandwich Kelp rolls, Mud pie Mushroom curry, Nut mix Pancake, Pickles Porridge, Roasted bell pepper Salmon pie, Schnitzel Sweet carrot pie, Tasty breakfast Trout soup, Underwater salad Veggie soup | Cooked anglerfish, Cooked carp Cooked jellyfish, Cooked largemouth bass Cooked lobster, Cooked perch Cooked pike, Cooked salmon Cooked shark, Cooked shrimp Cooked squid, Cooked stingray Cooked swordfish, Cooked trout |

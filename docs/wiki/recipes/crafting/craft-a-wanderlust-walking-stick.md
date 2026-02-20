@@ -19,7 +19,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Craft a wanderlust walking stick
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -30,7 +29,7 @@ The **Wanderlust walking stick** [item](https://wiki.walkscape.app/wiki/Special:
 
 # Requirement
 
--   At least Agility lvl. 12.
+- At least Agility lvl. 12.
 
 # Attributes
 
@@ -64,80 +63,80 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Wanderlust walking stick (Normal) | Wanderlust walking stick (Normal)_2 |
-| --- | --- |
-| Designed by Cult Leader TheKake | Designed by Cult Leader TheKake |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 20 |
-| Search Keyword: | Agility |
-| Properties: | Properties: |
+| Wanderlust walking stick (Normal) | Wanderlust walking stick (Normal)\_2 |
+| --------------------------------- | ------------------------------------ |
+| Designed by Cult Leader TheKake   | Designed by Cult Leader TheKake      |
+| Quality:                          |                                      |
+| Type:                             | Crafted                              |
+| Slot:                             | Tools                                |
+| Value:                            | 20                                   |
+| Search Keyword:                   | Agility                              |
+| Properties:                       | Properties:                          |
 
 ### Table 2 (Introduction)
 
-| Wanderlust walking stick (Good) | Wanderlust walking stick (Good)_2 |
-| --- | --- |
-| Designed by Cult Leader TheKake | Designed by Cult Leader TheKake |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 20 |
-| Search Keyword: | Agility |
-| Properties: | Properties: |
+| Wanderlust walking stick (Good) | Wanderlust walking stick (Good)\_2 |
+| ------------------------------- | ---------------------------------- |
+| Designed by Cult Leader TheKake | Designed by Cult Leader TheKake    |
+| Quality:                        |                                    |
+| Type:                           | Crafted                            |
+| Slot:                           | Tools                              |
+| Value:                          | 20                                 |
+| Search Keyword:                 | Agility                            |
+| Properties:                     | Properties:                        |
 
 ### Table 3 (Introduction)
 
-| Wanderlust walking stick (Great) | Wanderlust walking stick (Great)_2 |
-| --- | --- |
-| Designed by Cult Leader TheKake | Designed by Cult Leader TheKake |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 20 |
-| Search Keyword: | Agility |
-| Properties: | Properties: |
+| Wanderlust walking stick (Great) | Wanderlust walking stick (Great)\_2 |
+| -------------------------------- | ----------------------------------- |
+| Designed by Cult Leader TheKake  | Designed by Cult Leader TheKake     |
+| Quality:                         |                                     |
+| Type:                            | Crafted                             |
+| Slot:                            | Tools                               |
+| Value:                           | 20                                  |
+| Search Keyword:                  | Agility                             |
+| Properties:                      | Properties:                         |
 
 ### Table 4 (Introduction)
 
-| Wanderlust walking stick (Excellent) | Wanderlust walking stick (Excellent)_2 |
-| --- | --- |
-| Designed by Cult Leader TheKake | Designed by Cult Leader TheKake |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 20 |
-| Search Keyword: | Agility |
-| Properties: | Properties: |
+| Wanderlust walking stick (Excellent) | Wanderlust walking stick (Excellent)\_2 |
+| ------------------------------------ | --------------------------------------- |
+| Designed by Cult Leader TheKake      | Designed by Cult Leader TheKake         |
+| Quality:                             |                                         |
+| Type:                                | Crafted                                 |
+| Slot:                                | Tools                                   |
+| Value:                               | 20                                      |
+| Search Keyword:                      | Agility                                 |
+| Properties:                          | Properties:                             |
 
 ### Table 5 (Introduction)
 
-| Wanderlust walking stick (Perfect) | Wanderlust walking stick (Perfect)_2 |
-| --- | --- |
-| Designed by Cult Leader TheKake | Designed by Cult Leader TheKake |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 20 |
-| Search Keyword: | Agility |
-| Properties: | Properties: |
+| Wanderlust walking stick (Perfect) | Wanderlust walking stick (Perfect)\_2 |
+| ---------------------------------- | ------------------------------------- |
+| Designed by Cult Leader TheKake    | Designed by Cult Leader TheKake       |
+| Quality:                           |                                       |
+| Type:                              | Crafted                               |
+| Slot:                              | Tools                                 |
+| Value:                             | 20                                    |
+| Search Keyword:                    | Agility                               |
+| Properties:                        | Properties:                           |
 
 ### Table 6 (Introduction)
 
-| Wanderlust walking stick (Eternal) | Wanderlust walking stick (Eternal)_2 |
-| --- | --- |
-| Designed by Cult Leader TheKake | Designed by Cult Leader TheKake |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 20 |
-| Search Keyword: | Agility |
-| Properties: | Properties: |
+| Wanderlust walking stick (Eternal) | Wanderlust walking stick (Eternal)\_2 |
+| ---------------------------------- | ------------------------------------- |
+| Designed by Cult Leader TheKake    | Designed by Cult Leader TheKake       |
+| Quality:                           |                                       |
+| Type:                              | Crafted                               |
+| Slot:                              | Tools                                 |
+| Value:                             | 20                                    |
+| Search Keyword:                    | Agility                               |
+| Properties:                        | Properties:                           |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                                                                      |
+| ------------------------------------------------------------------------------- |
 | +5% Work efficiency While doing Agility. -1 Steps required While doing Agility. |
 | +5% Work efficiency While doing Agility. -2 Steps required While doing Agility. |
 | +5% Work efficiency While doing Agility. -3 Steps required While doing Agility. |
@@ -147,24 +146,24 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 8 (Craft a wanderlust walking stick)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name                      | Level            | Service Requirement                     | Materials Used                 | Recipe Outputs              |
+| -------------------------------- | ---------------- | --------------------------------------- | ------------------------------ | --------------------------- |
 | Craft a wanderlust walking stick | Crafting lvl. 12 | Needs Basic Workshop service or better. | 2x Silver bar 1x Walking stick | 1x Wanderlust walking stick |
 
 ### Table 9 (Craft a wanderlust walking stick)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Craft a wanderlust walking stick | 150 | 200 | 0.750 | 125 steps | 160% | 1.200 | 23,654 steps |
+| Recipe Name                      | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| -------------------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Craft a wanderlust walking stick | 150     | 200        | 0.750        | 125 steps     | 160%                | 1.200       | 23,654 steps         |
 
 ### Table 10 (Craft a wanderlust walking stick)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Crafting chest | Container | 1 | 0.400% | ~1 in 250 | 50,000 steps | 31,250 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Crafting chest | Container | 1        | 0.400% | ~1 in 250 | 50,000 steps | 31,250 steps |
 
 ### Table 11 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                                       |
+| --------------------------------------------------- |
 | 1x Walking stick 14x Silver nugget or 4x Silver ore |

@@ -8,7 +8,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Surface swimming
 
 > You've been told that swimming is a way to maintain good health, so after a few lessons, you feel confident to try it for yourself.
@@ -19,8 +18,8 @@ The **Surface swimming** [activity](index.md) is a [Agility](../skills/agility.m
 
 This activity can be done at the following locations:
 
--   [Farsand Coast](https://wiki.walkscape.app/wiki/Special:MyLanguage/Farsand_Coast "Special:MyLanguage/Farsand Coast") in [Grand Duchy of Trellin-Erdwise](https://wiki.walkscape.app/wiki/Special:MyLanguage/Grand_Duchy_of_Trellin-Erdwise "Special:MyLanguage/Grand Duchy of Trellin-Erdwise")
--   [Granfiddich Shores](https://wiki.walkscape.app/wiki/Special:MyLanguage/Granfiddich_Shores "Special:MyLanguage/Granfiddich Shores") in [Grand Duchy of Trellin-Erdwise](https://wiki.walkscape.app/wiki/Special:MyLanguage/Grand_Duchy_of_Trellin-Erdwise "Special:MyLanguage/Grand Duchy of Trellin-Erdwise")
+- [Farsand Coast](https://wiki.walkscape.app/wiki/Special:MyLanguage/Farsand_Coast "Special:MyLanguage/Farsand Coast") in [Grand Duchy of Trellin-Erdwise](https://wiki.walkscape.app/wiki/Special:MyLanguage/Grand_Duchy_of_Trellin-Erdwise "Special:MyLanguage/Grand Duchy of Trellin-Erdwise")
+- [Granfiddich Shores](https://wiki.walkscape.app/wiki/Special:MyLanguage/Granfiddich_Shores "Special:MyLanguage/Granfiddich Shores") in [Grand Duchy of Trellin-Erdwise](https://wiki.walkscape.app/wiki/Special:MyLanguage/Grand_Duchy_of_Trellin-Erdwise "Special:MyLanguage/Grand Duchy of Trellin-Erdwise")
 
 # Visibility
 
@@ -30,7 +29,7 @@ This activity is always visible.
 
 Skill Level Requirements:
 
--   At least Agility lvl. 20.
+- At least Agility lvl. 20.
 
 # Experience Information
 
@@ -57,30 +56,30 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 ### Table 1 (Introduction)
 
 | Surface swimming | Surface swimming_2 |
-| --- | --- |
-| Main Skill: | Agility |
-| Max Efficiency: | 180% |
+| ---------------- | ------------------ |
+| Main Skill:      | Agility            |
+| Max Efficiency:  | 180%               |
 
 ### Table 2 (Experience Information)
 
-| Skill | Base XP | Base Steps | Base XP/Step | Total Base XP/Step | Minimum Steps | Max XP/Step | Total Max XP/Step |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Agility | 32 | 56 | 0.571 | 0.571 | 32 | 1.000 | 1.000 |
+| Skill   | Base XP | Base Steps | Base XP/Step | Total Base XP/Step | Minimum Steps | Max XP/Step | Total Max XP/Step |
+| ------- | ------- | ---------- | ------------ | ------------------ | ------------- | ----------- | ----------------- |
+| Agility | 32      | 56         | 0.571        | 0.571              | 32            | 1.000       | 1.000             |
 
 ### Table 3 (Main Drops)
 
-| Item Name | Quantity | Chance | Odds | Base Rate | W.E.A.R. | Value Single (Stack) |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nothing | N/A | 82.000% | ~1 in 1 | N/A | N/A | N/A |
-| Raw shrimp | 1-4 | 10.056% | ~1 in 10 | 223 steps | 127 steps | 0 (0-0) |
-| Raw carp | 1-3 | 5.028% | ~1 in 20 | 557 steps | 318 steps | 0 (0-0) |
-| Raw trout | 1-2 | 2.514% | ~1 in 40 | 1,485 steps | 849 steps | 1 (1-2) |
-| Simple life vest | 1 | 0.302% | ~1 in 331 | 18,543 steps | 10,596 steps | 5 (5) |
-| Eel trinket | 1 | 0.101% | ~1 in 990 | 55,446 steps | 31,683 steps | 60 (60) |
+| Item Name        | Quantity | Chance  | Odds      | Base Rate    | W.E.A.R.     | Value Single (Stack) |
+| ---------------- | -------- | ------- | --------- | ------------ | ------------ | -------------------- |
+| Nothing          | N/A      | 82.000% | ~1 in 1   | N/A          | N/A          | N/A                  |
+| Raw shrimp       | 1-4      | 10.056% | ~1 in 10  | 223 steps    | 127 steps    | 0 (0-0)              |
+| Raw carp         | 1-3      | 5.028%  | ~1 in 20  | 557 steps    | 318 steps    | 0 (0-0)              |
+| Raw trout        | 1-2      | 2.514%  | ~1 in 40  | 1,485 steps  | 849 steps    | 1 (1-2)              |
+| Simple life vest | 1        | 0.302%  | ~1 in 331 | 18,543 steps | 10,596 steps | 5 (5)                |
+| Eel trinket      | 1        | 0.101%  | ~1 in 990 | 55,446 steps | 31,683 steps | 60 (60)              |
 
 ### Table 4 (Secondary Drops)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Agility chest | Container | 1 | 0.400% | ~1 in 250 | 14,000 steps | 8,000 steps |
-| Sunken chest | Container | 1 | 0.400% | ~1 in 250 | 14,000 steps | 8,000 steps |
+| Item Name     | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.    |
+| ------------- | --------- | -------- | ------ | --------- | ------------ | ----------- |
+| Agility chest | Container | 1        | 0.400% | ~1 in 250 | 14,000 steps | 8,000 steps |
+| Sunken chest  | Container | 1        | 0.400% | ~1 in 250 | 14,000 steps | 8,000 steps |

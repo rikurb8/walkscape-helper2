@@ -9,7 +9,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Craft kelp twine
 
 > Long pieces of kelp strung into twine.
@@ -50,47 +49,47 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Kelp twine | Kelp twine_2 |
-| --- | --- |
-| Type: | Material |
-| Value: | 4 |
-| Fine Value: | 24 |
-| Keyword: | Processed |
-| Properties: | Properties: |
+| Kelp twine  | Kelp twine_2 |
+| ----------- | ------------ |
+| Type:       | Material     |
+| Value:      | 4            |
+| Fine Value: | 24           |
+| Keyword:    | Processed    |
+| Properties: | Properties:  |
 
 ### Table 2 (Recipe Ingredient)
 
-| Item Name | Service Requirement | Skills | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Craft a jellyfishing net | Needs Basic Workshop service or better. | Crafting lvl. 37 | 2x Kelp twine 1x Sturdy branch | 1x Jellyfishing net |
+| Item Name                | Service Requirement                     | Skills           | Materials Used                                | Recipe Outputs      |
+| ------------------------ | --------------------------------------- | ---------------- | --------------------------------------------- | ------------------- |
+| Craft a jellyfishing net | Needs Basic Workshop service or better. | Crafting lvl. 37 | 2x Kelp twine 1x Sturdy branch                | 1x Jellyfishing net |
 | Craft a hydrilium sickle | Needs Basic Workshop service or better. | Crafting lvl. 45 | 1x Hydrilium bar 1x Coral plank 1x Kelp twine | 1x Hydrilium sickle |
 
 ### Table 3 (Craft kelp twine)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Craft kelp twine | Crafting lvl. 37 | Needs Basic Workshop service or better. | 1x Hardened kelp | 1x Kelp twine |
+| Recipe Name      | Level            | Service Requirement                     | Materials Used   | Recipe Outputs |
+| ---------------- | ---------------- | --------------------------------------- | ---------------- | -------------- |
+| Craft kelp twine | Crafting lvl. 37 | Needs Basic Workshop service or better. | 1x Hardened kelp | 1x Kelp twine  |
 
 ### Table 4 (Craft kelp twine)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Craft kelp twine | 59 | 70 | 0.843 | 37 steps | 190% | 1.595 | 195 steps |
+| Recipe Name      | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ---------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Craft kelp twine | 59      | 70         | 0.843        | 37 steps      | 190%                | 1.595       | 195 steps            |
 
 ### Table 5 (Craft kelp twine)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Crafting chest | Container | 1 | 0.400% | ~1 in 250 | 17,500 steps | 9,250 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.    |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ----------- |
+| Crafting chest | Container | 1        | 0.400% | ~1 in 250 | 17,500 steps | 9,250 steps |
 
 ### Table 6 (Crafting Flow)
 
 | Raw Materials |
-| --- |
-| 2x Kelp |
+| ------------- |
+| 2x Kelp       |
 
 ### Table 7 (Related Items)
 
-| Processed | Processed_2 |
-| --- | --- |
-| Material | Ectoplasm, Fishing line Hardened kelp, Hydrilium Ironweed twine, Kelp twine Twine |
+| Processed | Processed_2                                                                       |
+| --------- | --------------------------------------------------------------------------------- |
+| Material  | Ectoplasm, Fishing line Hardened kelp, Hydrilium Ironweed twine, Kelp twine Twine |

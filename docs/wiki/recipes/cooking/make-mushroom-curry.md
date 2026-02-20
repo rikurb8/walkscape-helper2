@@ -10,7 +10,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Make mushroom curry
 
 > An aromatic blend of spices and mushrooms. Perfect for a hearty meal.
@@ -57,55 +56,55 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Mushroom curry | Mushroom curry_2 |
-| --- | --- |
-| Type: | Consumable |
-| Value: | 10 |
-| Fine Value: | 51 |
-| Keyword: | Food |
-| Search Keyword: | Foraging |
-| Duration: | 1000 steps |
-| Properties: | Properties: |
+| Mushroom curry  | Mushroom curry_2 |
+| --------------- | ---------------- |
+| Type:           | Consumable       |
+| Value:          | 10               |
+| Fine Value:     | 51               |
+| Keyword:        | Food             |
+| Search Keyword: | Foraging         |
+| Duration:       | 1000 steps       |
+| Properties:     | Properties:      |
 
 ### Table 2 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                                        |
+| ------------------------------------------------- |
 | +100% Fine material finding While doing Foraging. |
 | +200% Fine material finding While doing Foraging. |
 
 ### Table 3 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Everhaven combined job board | Everhaven | 5 | +2 Trellin Faction Reputation 1x Cooking chest |
+| Job Board Name               | Location  | Quantity | Rewards                                        |
+| ---------------------------- | --------- | -------- | ---------------------------------------------- |
+| Everhaven combined job board | Everhaven | 5        | +2 Trellin Faction Reputation 1x Cooking chest |
 
 ### Table 4 (Chest Drops)
 
-| Chest Name | Quantity | Chance (Per Roll) | Chance (Per Chest)† | Odds |
-| --- | --- | --- | --- | --- |
-| Adventuring guild chest | 1 | 3.900% | 14.711% | ~1 in 7 |
+| Chest Name              | Quantity | Chance (Per Roll) | Chance (Per Chest)† | Odds    |
+| ----------------------- | -------- | ----------------- | ------------------- | ------- |
+| Adventuring guild chest | 1        | 3.900%            | 14.711%             | ~1 in 7 |
 
 ### Table 5 (Make mushroom curry)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name         | Level           | Service Requirement                    | Materials Used        | Recipe Outputs    |
+| ------------------- | --------------- | -------------------------------------- | --------------------- | ----------------- |
 | Make mushroom curry | Cooking lvl. 32 | Needs Basic Kitchen service or better. | 2x Mushroom 1x Tomato | 1x Mushroom curry |
 
 ### Table 6 (Make mushroom curry)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Make mushroom curry | 132 | 174 | 0.759 | 97 steps | 180% | 1.361 | 1,205 steps |
+| Recipe Name         | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Make mushroom curry | 132     | 174        | 0.759        | 97 steps      | 180%                | 1.361       | 1,205 steps          |
 
 ### Table 7 (Make mushroom curry)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Cooking chest | Container | 1 | 0.400% | ~1 in 250 | 43,500 steps | 24,250 steps |
+| Item Name     | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| ------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Cooking chest | Container | 1        | 0.400% | ~1 in 250 | 43,500 steps | 24,250 steps |
 
 ### Table 8 (Related Items)
 
-| Food | Food_2 |
-| --- | --- |
+| Food       | Food_2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Consumable | Bagel, Beef stew Bread, Cooked anglerfish Cooked carp, Cooked jellyfish Cooked largemouth bass, Cooked lobster Cooked perch, Cooked pike Cooked salmon, Cooked shark Cooked shrimp, Cooked squid Cooked stingray, Cooked swordfish Cooked trout, Creme brulee Dried fruit, Fried fish sandwich Fried noodles, Fruit cake Jarvonian pastry, Jelly sandwich Kelp rolls, Mud pie Mushroom curry, Nut mix Pancake, Pickles Porridge, Roasted bell pepper Salmon pie, Schnitzel Sweet carrot pie, Tasty breakfast Trout soup, Underwater salad Veggie soup |

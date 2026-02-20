@@ -24,7 +24,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Craft an adamant pickaxe
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -35,7 +34,7 @@ The **Adamant pickaxe** [item](https://wiki.walkscape.app/wiki/Special:MyLanguag
 
 # Requirement
 
--   At least Mining lvl. 60.
+- At least Mining lvl. 60.
 
 # Attributes
 
@@ -71,114 +70,114 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Adamant pickaxe (Normal) | Adamant pickaxe (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Mining tool Pickaxe |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Adamant pickaxe (Normal) | Adamant pickaxe (Normal)\_2 |
+| ------------------------ | --------------------------- |
+| Quality:                 |                             |
+| Type:                    | Crafted                     |
+| Slot:                    | Tools                       |
+| Value:                   | 22                          |
+| Keywords:                | Mining tool Pickaxe         |
+| Search Keyword:          | Mining                      |
+| Properties:              | Properties:                 |
 
 ### Table 2 (Introduction)
 
-| Adamant pickaxe (Good) | Adamant pickaxe (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Mining tool Pickaxe |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Adamant pickaxe (Good) | Adamant pickaxe (Good)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Tools                     |
+| Value:                 | 22                        |
+| Keywords:              | Mining tool Pickaxe       |
+| Search Keyword:        | Mining                    |
+| Properties:            | Properties:               |
 
 ### Table 3 (Introduction)
 
-| Adamant pickaxe (Great) | Adamant pickaxe (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Mining tool Pickaxe |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Adamant pickaxe (Great) | Adamant pickaxe (Great)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Tools                      |
+| Value:                  | 22                         |
+| Keywords:               | Mining tool Pickaxe        |
+| Search Keyword:         | Mining                     |
+| Properties:             | Properties:                |
 
 ### Table 4 (Introduction)
 
-| Adamant pickaxe (Excellent) | Adamant pickaxe (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Mining tool Pickaxe |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Adamant pickaxe (Excellent) | Adamant pickaxe (Excellent)\_2 |
+| --------------------------- | ------------------------------ |
+| Quality:                    |                                |
+| Type:                       | Crafted                        |
+| Slot:                       | Tools                          |
+| Value:                      | 22                             |
+| Keywords:                   | Mining tool Pickaxe            |
+| Search Keyword:             | Mining                         |
+| Properties:                 | Properties:                    |
 
 ### Table 5 (Introduction)
 
-| Adamant pickaxe (Perfect) | Adamant pickaxe (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Mining tool Pickaxe |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Adamant pickaxe (Perfect) | Adamant pickaxe (Perfect)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Tools                        |
+| Value:                    | 22                           |
+| Keywords:                 | Mining tool Pickaxe          |
+| Search Keyword:           | Mining                       |
+| Properties:               | Properties:                  |
 
 ### Table 6 (Introduction)
 
-| Adamant pickaxe (Eternal) | Adamant pickaxe (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Mining tool Pickaxe |
-| Search Keyword: | Mining |
-| Properties: | Properties: |
+| Adamant pickaxe (Eternal) | Adamant pickaxe (Eternal)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Tools                        |
+| Value:                    | 22                           |
+| Keywords:                 | Mining tool Pickaxe          |
+| Search Keyword:           | Mining                       |
+| Properties:               | Properties:                  |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
-| +18% Work efficiency While doing Mining. |
-| +23% Work efficiency While doing Mining. +22% Chest finding While doing Mining. +1% Double action While doing Mining. +25% Fine material finding While doing Mining. +3% Double rewards While doing Mining. +25% Find gems While doing Mining. |
-| +30% Work efficiency While doing Mining. +35% Chest finding While doing Mining. +2% Double action While doing Mining. +38% Fine material finding While doing Mining. +6% Double rewards While doing Mining. +38% Find gems While doing Mining. |
-| +39% Work efficiency While doing Mining. +39% Chest finding While doing Mining. +5% Double action While doing Mining. +42% Fine material finding While doing Mining. +10% Double rewards While doing Mining. +44% Find gems While doing Mining. |
-| +48% Work efficiency While doing Mining. +42% Chest finding While doing Mining. +9% Double action While doing Mining. +44% Fine material finding While doing Mining. +13% Double rewards While doing Mining. +46% Find gems While doing Mining. |
+| Attributes                                                                                                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| +18% Work efficiency While doing Mining.                                                                                                                                                                                                         |
+| +23% Work efficiency While doing Mining. +22% Chest finding While doing Mining. +1% Double action While doing Mining. +25% Fine material finding While doing Mining. +3% Double rewards While doing Mining. +25% Find gems While doing Mining.   |
+| +30% Work efficiency While doing Mining. +35% Chest finding While doing Mining. +2% Double action While doing Mining. +38% Fine material finding While doing Mining. +6% Double rewards While doing Mining. +38% Find gems While doing Mining.   |
+| +39% Work efficiency While doing Mining. +39% Chest finding While doing Mining. +5% Double action While doing Mining. +42% Fine material finding While doing Mining. +10% Double rewards While doing Mining. +44% Find gems While doing Mining.  |
+| +48% Work efficiency While doing Mining. +42% Chest finding While doing Mining. +9% Double action While doing Mining. +44% Fine material finding While doing Mining. +13% Double rewards While doing Mining. +46% Find gems While doing Mining.  |
 | +59% Work efficiency While doing Mining. +44% Chest finding While doing Mining. +20% Double action While doing Mining. +46% Fine material finding While doing Mining. +16% Double rewards While doing Mining. +48% Find gems While doing Mining. |
 
 ### Table 8 (Craft an adamant pickaxe)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name              | Level            | Service Requirement                        | Materials Used              | Recipe Outputs     |
+| ------------------------ | ---------------- | ------------------------------------------ | --------------------------- | ------------------ |
 | Craft an adamant pickaxe | Crafting lvl. 60 | Needs Advanced Workshop service or better. | 2x Adamant bar 1x Yew plank | 1x Adamant pickaxe |
 
 ### Table 9 (Craft an adamant pickaxe)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Craft an adamant pickaxe | 181 | 273 | 0.663 | 119 steps | 230% | 1.521 | 690 steps |
+| Recipe Name              | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------------ | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Craft an adamant pickaxe | 181     | 273        | 0.663        | 119 steps     | 230%                | 1.521       | 690 steps            |
 
 ### Table 10 (Craft an adamant pickaxe)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Crafting chest | Container | 1 | 0.400% | ~1 in 250 | 68,250 steps | 29,750 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Crafting chest | Container | 1        | 0.400% | ~1 in 250 | 68,250 steps | 29,750 steps |
 
 ### Table 11 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                              |
+| ------------------------------------------ |
 | 2x Crystal coal 2x Yew logs 2x Adamant ore |
 
 ### Table 12 (Related Items)
 
-| Mining tool | Mining tool_2 | Pickaxe |
-| --- | --- | --- |
-| Crafted | 1 - Basic pickaxe 2 - Copper pickaxe 10 - Bronze pickaxe 20 - Iron pickaxe 30 - Steel pickaxe 40 - Tarsilium pickaxe 45 - Hydrilium pickaxe 50 - Farganite pickaxe 55 - Spectral pickaxe 60 - Adamant pickaxe 70 - Violite pickaxe | 1 - Basic pickaxe 2 - Copper pickaxe 10 - Bronze pickaxe 20 - Iron pickaxe 30 - Steel pickaxe 40 - Tarsilium pickaxe 45 - Hydrilium pickaxe 50 - Farganite pickaxe 55 - Spectral pickaxe 60 - Adamant pickaxe 70 - Violite pickaxe |
-| Loot | - Rusty pickaxe - Adventuring pickaxe | - Rusty pickaxe - Adventuring pickaxe |
+| Mining tool | Mining tool_2                                                                                                                                                                                                                      | Pickaxe                                                                                                                                                                                                                            |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Crafted     | 1 - Basic pickaxe 2 - Copper pickaxe 10 - Bronze pickaxe 20 - Iron pickaxe 30 - Steel pickaxe 40 - Tarsilium pickaxe 45 - Hydrilium pickaxe 50 - Farganite pickaxe 55 - Spectral pickaxe 60 - Adamant pickaxe 70 - Violite pickaxe | 1 - Basic pickaxe 2 - Copper pickaxe 10 - Bronze pickaxe 20 - Iron pickaxe 30 - Steel pickaxe 40 - Tarsilium pickaxe 45 - Hydrilium pickaxe 50 - Farganite pickaxe 55 - Spectral pickaxe 60 - Adamant pickaxe 70 - Violite pickaxe |
+| Loot        | - Rusty pickaxe - Adventuring pickaxe                                                                                                                                                                                              | - Rusty pickaxe - Adventuring pickaxe                                                                                                                                                                                              |

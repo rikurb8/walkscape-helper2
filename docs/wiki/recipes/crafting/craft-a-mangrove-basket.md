@@ -20,7 +20,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Craft a mangrove basket
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -31,8 +30,8 @@ The **Mangrove basket** [item](https://wiki.walkscape.app/wiki/Special:MyLanguag
 
 # Requirements
 
--   At least Woodcutting lvl. 54.
--   At least Foraging lvl. 54.
+- At least Woodcutting lvl. 54.
+- At least Foraging lvl. 54.
 
 # Attributes
 
@@ -68,114 +67,114 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Mangrove basket (Normal) | Mangrove basket (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 8 |
-| Keyword: | Basket |
-| Search Keywords: | Foraging Global Woodcutting |
-| Properties: | Properties: |
+| Mangrove basket (Normal) | Mangrove basket (Normal)\_2 |
+| ------------------------ | --------------------------- |
+| Quality:                 |                             |
+| Type:                    | Crafted                     |
+| Slot:                    | Tools                       |
+| Value:                   | 8                           |
+| Keyword:                 | Basket                      |
+| Search Keywords:         | Foraging Global Woodcutting |
+| Properties:              | Properties:                 |
 
 ### Table 2 (Introduction)
 
-| Mangrove basket (Good) | Mangrove basket (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 8 |
-| Keyword: | Basket |
-| Search Keywords: | Foraging Global Woodcutting |
-| Properties: | Properties: |
+| Mangrove basket (Good) | Mangrove basket (Good)\_2   |
+| ---------------------- | --------------------------- |
+| Quality:               |                             |
+| Type:                  | Crafted                     |
+| Slot:                  | Tools                       |
+| Value:                 | 8                           |
+| Keyword:               | Basket                      |
+| Search Keywords:       | Foraging Global Woodcutting |
+| Properties:            | Properties:                 |
 
 ### Table 3 (Introduction)
 
-| Mangrove basket (Great) | Mangrove basket (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 8 |
-| Keyword: | Basket |
-| Search Keywords: | Foraging Global Woodcutting |
-| Properties: | Properties: |
+| Mangrove basket (Great) | Mangrove basket (Great)\_2  |
+| ----------------------- | --------------------------- |
+| Quality:                |                             |
+| Type:                   | Crafted                     |
+| Slot:                   | Tools                       |
+| Value:                  | 8                           |
+| Keyword:                | Basket                      |
+| Search Keywords:        | Foraging Global Woodcutting |
+| Properties:             | Properties:                 |
 
 ### Table 4 (Introduction)
 
-| Mangrove basket (Excellent) | Mangrove basket (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 8 |
-| Keyword: | Basket |
-| Search Keywords: | Foraging Global Woodcutting |
-| Properties: | Properties: |
+| Mangrove basket (Excellent) | Mangrove basket (Excellent)\_2 |
+| --------------------------- | ------------------------------ |
+| Quality:                    |                                |
+| Type:                       | Crafted                        |
+| Slot:                       | Tools                          |
+| Value:                      | 8                              |
+| Keyword:                    | Basket                         |
+| Search Keywords:            | Foraging Global Woodcutting    |
+| Properties:                 | Properties:                    |
 
 ### Table 5 (Introduction)
 
-| Mangrove basket (Perfect) | Mangrove basket (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 8 |
-| Keyword: | Basket |
-| Search Keywords: | Foraging Global Woodcutting |
-| Properties: | Properties: |
+| Mangrove basket (Perfect) | Mangrove basket (Perfect)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Tools                        |
+| Value:                    | 8                            |
+| Keyword:                  | Basket                       |
+| Search Keywords:          | Foraging Global Woodcutting  |
+| Properties:               | Properties:                  |
 
 ### Table 6 (Introduction)
 
-| Mangrove basket (Eternal) | Mangrove basket (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 8 |
-| Keyword: | Basket |
-| Search Keywords: | Foraging Global Woodcutting |
-| Properties: | Properties: |
+| Mangrove basket (Eternal) | Mangrove basket (Eternal)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Tools                        |
+| Value:                    | 8                            |
+| Keyword:                  | Basket                       |
+| Search Keywords:          | Foraging Global Woodcutting  |
+| Properties:               | Properties:                  |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
-| +10% Fine material finding While doing Woodcutting. +6% Double rewards While doing Foraging. Global +3 Inventory space |
-| +11% Fine material finding While doing Woodcutting. +7% Double rewards While doing Foraging. Global +4 Inventory space |
-| +12% Fine material finding While doing Woodcutting. +8% Double rewards While doing Foraging. Global +5 Inventory space |
-| +13% Fine material finding While doing Woodcutting. +9% Double rewards While doing Foraging. Global +6 Inventory space |
+| Attributes                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------------- |
+| +10% Fine material finding While doing Woodcutting. +6% Double rewards While doing Foraging. Global +3 Inventory space  |
+| +11% Fine material finding While doing Woodcutting. +7% Double rewards While doing Foraging. Global +4 Inventory space  |
+| +12% Fine material finding While doing Woodcutting. +8% Double rewards While doing Foraging. Global +5 Inventory space  |
+| +13% Fine material finding While doing Woodcutting. +9% Double rewards While doing Foraging. Global +6 Inventory space  |
 | +14% Fine material finding While doing Woodcutting. +10% Double rewards While doing Foraging. Global +7 Inventory space |
 | +15% Fine material finding While doing Woodcutting. +11% Double rewards While doing Foraging. Global +8 Inventory space |
 
 ### Table 8 (Craft a mangrove basket)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name             | Level            | Service Requirement                        | Materials Used                                | Recipe Outputs     |
+| ----------------------- | ---------------- | ------------------------------------------ | --------------------------------------------- | ------------------ |
 | Craft a mangrove basket | Crafting lvl. 55 | Needs Advanced Workshop service or better. | 2x Mangrove plank 1x Big basket 1x Log basket | 1x Mangrove basket |
 
 ### Table 9 (Craft a mangrove basket)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Craft a mangrove basket | 500 | 500 | 1.000 | 239 steps | 210% | 2.092 | 488,861 steps |
+| Recipe Name             | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ----------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Craft a mangrove basket | 500     | 500        | 1.000        | 239 steps     | 210%                | 2.092       | 488,861 steps        |
 
 ### Table 10 (Craft a mangrove basket)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Crafting chest | Container | 1 | 0.400% | ~1 in 250 | 125,000 steps | 59,750 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate     | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------- | ------------ |
+| Crafting chest | Container | 1        | 0.400% | ~1 in 250 | 125,000 steps | 59,750 steps |
 
 ### Table 11 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                                |
+| -------------------------------------------- |
 | 1x Big basket 4x Mangrove logs 1x Log basket |
 
 ### Table 12 (Related Items)
 
-| Basket | Basket_2 |
-| --- | --- |
-| Crafted | 55 - Mangrove basket |
-| Loot | - Log basket - Big basket |
+| Basket  | Basket_2                  |
+| ------- | ------------------------- |
+| Crafted | 55 - Mangrove basket      |
+| Loot    | - Log basket - Big basket |

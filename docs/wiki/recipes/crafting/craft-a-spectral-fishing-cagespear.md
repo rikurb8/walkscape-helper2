@@ -26,7 +26,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Craft a spectral fishing cagespear
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -37,7 +36,7 @@ The **Spectral fishing cagespear** [item](https://wiki.walkscape.app/wiki/Specia
 
 # Requirement
 
--   At least Fishing lvl. 55.
+- At least Fishing lvl. 55.
 
 # Attributes
 
@@ -73,108 +72,108 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Spectral fishing cagespear (Normal) | Spectral fishing cagespear (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Fishing cage Fishing spear Fishing tool Spectral |
-| Search Keyword: | Fishing |
-| Properties: | Properties: |
+| Spectral fishing cagespear (Normal) | Spectral fishing cagespear (Normal)\_2           |
+| ----------------------------------- | ------------------------------------------------ |
+| Quality:                            |                                                  |
+| Type:                               | Crafted                                          |
+| Slot:                               | Tools                                            |
+| Value:                              | 22                                               |
+| Keywords:                           | Fishing cage Fishing spear Fishing tool Spectral |
+| Search Keyword:                     | Fishing                                          |
+| Properties:                         | Properties:                                      |
 
 ### Table 2 (Introduction)
 
-| Spectral fishing cagespear (Good) | Spectral fishing cagespear (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Fishing cage Fishing spear Fishing tool Spectral |
-| Search Keyword: | Fishing |
-| Properties: | Properties: |
+| Spectral fishing cagespear (Good) | Spectral fishing cagespear (Good)\_2             |
+| --------------------------------- | ------------------------------------------------ |
+| Quality:                          |                                                  |
+| Type:                             | Crafted                                          |
+| Slot:                             | Tools                                            |
+| Value:                            | 22                                               |
+| Keywords:                         | Fishing cage Fishing spear Fishing tool Spectral |
+| Search Keyword:                   | Fishing                                          |
+| Properties:                       | Properties:                                      |
 
 ### Table 3 (Introduction)
 
-| Spectral fishing cagespear (Great) | Spectral fishing cagespear (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Fishing cage Fishing spear Fishing tool Spectral |
-| Search Keyword: | Fishing |
-| Properties: | Properties: |
+| Spectral fishing cagespear (Great) | Spectral fishing cagespear (Great)\_2            |
+| ---------------------------------- | ------------------------------------------------ |
+| Quality:                           |                                                  |
+| Type:                              | Crafted                                          |
+| Slot:                              | Tools                                            |
+| Value:                             | 22                                               |
+| Keywords:                          | Fishing cage Fishing spear Fishing tool Spectral |
+| Search Keyword:                    | Fishing                                          |
+| Properties:                        | Properties:                                      |
 
 ### Table 4 (Introduction)
 
-| Spectral fishing cagespear (Excellent) | Spectral fishing cagespear (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Fishing cage Fishing spear Fishing tool Spectral |
-| Search Keyword: | Fishing |
-| Properties: | Properties: |
+| Spectral fishing cagespear (Excellent) | Spectral fishing cagespear (Excellent)\_2        |
+| -------------------------------------- | ------------------------------------------------ |
+| Quality:                               |                                                  |
+| Type:                                  | Crafted                                          |
+| Slot:                                  | Tools                                            |
+| Value:                                 | 22                                               |
+| Keywords:                              | Fishing cage Fishing spear Fishing tool Spectral |
+| Search Keyword:                        | Fishing                                          |
+| Properties:                            | Properties:                                      |
 
 ### Table 5 (Introduction)
 
-| Spectral fishing cagespear (Perfect) | Spectral fishing cagespear (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Fishing cage Fishing spear Fishing tool Spectral |
-| Search Keyword: | Fishing |
-| Properties: | Properties: |
+| Spectral fishing cagespear (Perfect) | Spectral fishing cagespear (Perfect)\_2          |
+| ------------------------------------ | ------------------------------------------------ |
+| Quality:                             |                                                  |
+| Type:                                | Crafted                                          |
+| Slot:                                | Tools                                            |
+| Value:                               | 22                                               |
+| Keywords:                            | Fishing cage Fishing spear Fishing tool Spectral |
+| Search Keyword:                      | Fishing                                          |
+| Properties:                          | Properties:                                      |
 
 ### Table 6 (Introduction)
 
-| Spectral fishing cagespear (Eternal) | Spectral fishing cagespear (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Fishing cage Fishing spear Fishing tool Spectral |
-| Search Keyword: | Fishing |
-| Properties: | Properties: |
+| Spectral fishing cagespear (Eternal) | Spectral fishing cagespear (Eternal)\_2          |
+| ------------------------------------ | ------------------------------------------------ |
+| Quality:                             |                                                  |
+| Type:                                | Crafted                                          |
+| Slot:                                | Tools                                            |
+| Value:                               | 22                                               |
+| Keywords:                            | Fishing cage Fishing spear Fishing tool Spectral |
+| Search Keyword:                      | Fishing                                          |
+| Properties:                          | Properties:                                      |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
-| +10% Work efficiency While doing Fishing. -40% Fine material finding While doing Fishing. +2% Double rewards While doing Fishing. +6% Double rewards While doing Fishing. While in Spectral location. |
-| +25% Work efficiency While doing Fishing. +70% Chest finding While doing Fishing. +2% Double action While doing Fishing. -35% Fine material finding While doing Fishing. +6% Double rewards While doing Fishing. While in Spectral location. +5% Double rewards While doing Fishing. +2% Chance to find 1 ectoplasm While doing Fishing. While in Spectral location. |
-| +40% Work efficiency While doing Fishing. +85% Chest finding While doing Fishing. +4% Double action While doing Fishing. -25% Fine material finding While doing Fishing. +6% Double rewards While doing Fishing. While in Spectral location. +8% Double rewards While doing Fishing. +4% Chance to find 1 ectoplasm While doing Fishing. While in Spectral location. |
-| +55% Work efficiency While doing Fishing. +95% Chest finding While doing Fishing. +6% Double action While doing Fishing. -15% Fine material finding While doing Fishing. +6% Double rewards While doing Fishing. While in Spectral location. +12% Double rewards While doing Fishing. +8% Chance to find 1 ectoplasm While doing Fishing. While in Spectral location. |
-| +70% Work efficiency While doing Fishing. +110% Chest finding While doing Fishing. +8% Double action While doing Fishing. -5% Fine material finding While doing Fishing. +6% Double rewards While doing Fishing. While in Spectral location. +16% Double rewards While doing Fishing. +13% Chance to find 1 ectoplasm While doing Fishing. While in Spectral location. |
+| Attributes                                                                                                                                                                                                                                                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| +10% Work efficiency While doing Fishing. -40% Fine material finding While doing Fishing. +2% Double rewards While doing Fishing. +6% Double rewards While doing Fishing. While in Spectral location.                                                                                                                                                                   |
+| +25% Work efficiency While doing Fishing. +70% Chest finding While doing Fishing. +2% Double action While doing Fishing. -35% Fine material finding While doing Fishing. +6% Double rewards While doing Fishing. While in Spectral location. +5% Double rewards While doing Fishing. +2% Chance to find 1 ectoplasm While doing Fishing. While in Spectral location.    |
+| +40% Work efficiency While doing Fishing. +85% Chest finding While doing Fishing. +4% Double action While doing Fishing. -25% Fine material finding While doing Fishing. +6% Double rewards While doing Fishing. While in Spectral location. +8% Double rewards While doing Fishing. +4% Chance to find 1 ectoplasm While doing Fishing. While in Spectral location.    |
+| +55% Work efficiency While doing Fishing. +95% Chest finding While doing Fishing. +6% Double action While doing Fishing. -15% Fine material finding While doing Fishing. +6% Double rewards While doing Fishing. While in Spectral location. +12% Double rewards While doing Fishing. +8% Chance to find 1 ectoplasm While doing Fishing. While in Spectral location.   |
+| +70% Work efficiency While doing Fishing. +110% Chest finding While doing Fishing. +8% Double action While doing Fishing. -5% Fine material finding While doing Fishing. +6% Double rewards While doing Fishing. While in Spectral location. +16% Double rewards While doing Fishing. +13% Chance to find 1 ectoplasm While doing Fishing. While in Spectral location.  |
 | +85% Work efficiency While doing Fishing. +125% Chest finding While doing Fishing. +18% Double action While doing Fishing. +5% Fine material finding While doing Fishing. +6% Double rewards While doing Fishing. While in Spectral location. +20% Double rewards While doing Fishing. +19% Chance to find 1 ectoplasm While doing Fishing. While in Spectral location. |
 
 ### Table 8 (Craft a spectral fishing cagespear)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name                        | Level            | Service Requirement                               | Materials Used         | Recipe Outputs                |
+| ---------------------------------- | ---------------- | ------------------------------------------------- | ---------------------- | ----------------------------- |
 | Craft a spectral fishing cagespear | Crafting lvl. 55 | Needs Advanced Cursed Workshop service or better. | 3x Bones 10x Ectoplasm | 1x Spectral fishing cagespear |
 
 ### Table 9 (Craft a spectral fishing cagespear)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Craft a spectral fishing cagespear | 170 | 250 | 0.680 | 120 steps | 210% | 1.417 | 2,588 steps |
+| Recipe Name                        | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ---------------------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Craft a spectral fishing cagespear | 170     | 250        | 0.680        | 120 steps     | 210%                | 1.417       | 2,588 steps          |
 
 ### Table 10 (Craft a spectral fishing cagespear)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Crafting chest | Container | 1 | 0.400% | ~1 in 250 | 62,500 steps | 30,000 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Crafting chest | Container | 1        | 0.400% | ~1 in 250 | 62,500 steps | 30,000 steps |
 
 ### Table 11 (Related Items)
 
-| Fishing cage | Fishing cage_2 | Fishing spear | Spectral |
-| --- | --- | --- | --- |
-| Crafted | 35 - Lobster Pot 55 - Spectral fishing cagespear | 25 - Fishing spear 45 - Coral fishing spear 55 - Spectral fishing cagespear | 55 - Spectral fishing cagespear 55 - Spectral fishing rod 55 - Spectral hatchet 55 - Spectral pickaxe 55 - Spectral sickle 55 - Wraithwater flower necklace 58 - Spectral chisel 58 - Spectral hammer 58 - Spectral pan 58 - Spectral saw 58 - Spectral wrench |
-| Loot | None | None | - Ghost trap pack |
+| Fishing cage | Fishing cage_2                                   | Fishing spear                                                               | Spectral                                                                                                                                                                                                                                                       |
+| ------------ | ------------------------------------------------ | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Crafted      | 35 - Lobster Pot 55 - Spectral fishing cagespear | 25 - Fishing spear 45 - Coral fishing spear 55 - Spectral fishing cagespear | 55 - Spectral fishing cagespear 55 - Spectral fishing rod 55 - Spectral hatchet 55 - Spectral pickaxe 55 - Spectral sickle 55 - Wraithwater flower necklace 58 - Spectral chisel 58 - Spectral hammer 58 - Spectral pan 58 - Spectral saw 58 - Spectral wrench |
+| Loot         | None                                             | None                                                                        | - Ghost trap pack                                                                                                                                                                                                                                              |

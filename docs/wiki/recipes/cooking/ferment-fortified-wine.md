@@ -12,7 +12,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Ferment fortified wine
 
 > Darkened wine that consists of deep and earthy flavor. It is stronger than regular wine thanks to the additional ingredients and fermenting it has undergone.
@@ -55,55 +54,55 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Fortified wine | Fortified wine_2 |
-| --- | --- |
-| Type: | Consumable |
-| Value: | 8 |
-| Fine Value: | 40 |
-| Keywords: | Alcohol Beverage |
-| Search Keyword: | Global |
-| Duration: | 1000 steps |
-| Properties: | Properties: |
+| Fortified wine  | Fortified wine_2 |
+| --------------- | ---------------- |
+| Type:           | Consumable       |
+| Value:          | 8                |
+| Fine Value:     | 40               |
+| Keywords:       | Alcohol Beverage |
+| Search Keyword: | Global           |
+| Duration:       | 1000 steps       |
+| Properties:     | Properties:      |
 
 ### Table 2 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                                                 |
+| ---------------------------------------------------------- |
 | Global -10% Bonus experience Global +40% Find collectibles |
 | Global -10% Bonus experience Global +60% Find collectibles |
 
 ### Table 3 (Recipe Ingredient)
 
-| Item Name | Service Requirement | Skills | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Item Name             | Service Requirement                       | Skills          | Materials Used                           | Recipe Outputs   |
+| --------------------- | ----------------------------------------- | --------------- | ---------------------------------------- | ---------------- |
 | Ferment fireball wine | Needs Advanced Kitchen service or better. | Cooking lvl. 63 | 10x Fortified wine 5x Crystallized flame | 5x Fireball wine |
 
 ### Table 4 (Ferment fortified wine)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name            | Level           | Service Requirement                    | Materials Used     | Recipe Outputs    |
+| ---------------------- | --------------- | -------------------------------------- | ------------------ | ----------------- |
 | Ferment fortified wine | Cooking lvl. 47 | Needs Basic Kitchen service or better. | 10x Wine 5x Rotbud | 5x Fortified wine |
 
 ### Table 5 (Ferment fortified wine)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Ferment fortified wine | 569 | 550 | 1.035 | 275 steps | 200% | 2.069 | 740 steps |
+| Recipe Name            | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ---------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Ferment fortified wine | 569     | 550        | 1.035        | 275 steps     | 200%                | 2.069       | 740 steps            |
 
 ### Table 6 (Ferment fortified wine)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Cooking chest | Container | 1 | 0.400% | ~1 in 250 | 137,500 steps | 68,750 steps |
+| Item Name     | Item Type | Quantity | Chance | Odds      | Base Rate     | W.E.A.R.     |
+| ------------- | --------- | -------- | ------ | --------- | ------------- | ------------ |
+| Cooking chest | Container | 1        | 0.400% | ~1 in 250 | 137,500 steps | 68,750 steps |
 
 ### Table 7 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials         |
+| --------------------- |
 | 30x Berries 5x Rotbud |
 
 ### Table 8 (Related Items)
 
-| Beverage | Beverage_2 | Alcohol |
-| --- | --- | --- |
+| Beverage   | Beverage_2                                                                                                 | Alcohol                                                     |
+| ---------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | Consumable | Beer, Chocolate milk Fireball wine, Fortified wine Moonshine, Nettle tea Saltrum, Spicy pumpkin juice Wine | Beer, Fireball wine Fortified wine, Moonshine Saltrum, Wine |

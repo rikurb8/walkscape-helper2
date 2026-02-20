@@ -17,7 +17,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Make a tarsilium sword
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -64,74 +63,74 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Tarsilium sword (Normal) | Tarsilium sword (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 15 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Tarsilium sword (Normal) | Tarsilium sword (Normal)\_2 |
+| ------------------------ | --------------------------- |
+| Quality:                 |                             |
+| Type:                    | Crafted                     |
+| Slot:                    | Primary                     |
+| Value:                   | 15                          |
+| Keyword:                 | Weapon                      |
+| Properties:              | Properties:                 |
 
 ### Table 2 (Introduction)
 
-| Tarsilium sword (Good) | Tarsilium sword (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 15 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Tarsilium sword (Good) | Tarsilium sword (Good)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Primary                   |
+| Value:                 | 15                        |
+| Keyword:               | Weapon                    |
+| Properties:            | Properties:               |
 
 ### Table 3 (Introduction)
 
-| Tarsilium sword (Great) | Tarsilium sword (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 15 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Tarsilium sword (Great) | Tarsilium sword (Great)\_2 |
+| ----------------------- | -------------------------- |
+| Quality:                |                            |
+| Type:                   | Crafted                    |
+| Slot:                   | Primary                    |
+| Value:                  | 15                         |
+| Keyword:                | Weapon                     |
+| Properties:             | Properties:                |
 
 ### Table 4 (Introduction)
 
-| Tarsilium sword (Excellent) | Tarsilium sword (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 15 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Tarsilium sword (Excellent) | Tarsilium sword (Excellent)\_2 |
+| --------------------------- | ------------------------------ |
+| Quality:                    |                                |
+| Type:                       | Crafted                        |
+| Slot:                       | Primary                        |
+| Value:                      | 15                             |
+| Keyword:                    | Weapon                         |
+| Properties:                 | Properties:                    |
 
 ### Table 5 (Introduction)
 
-| Tarsilium sword (Perfect) | Tarsilium sword (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 15 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Tarsilium sword (Perfect) | Tarsilium sword (Perfect)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Primary                      |
+| Value:                    | 15                           |
+| Keyword:                  | Weapon                       |
+| Properties:               | Properties:                  |
 
 ### Table 6 (Introduction)
 
-| Tarsilium sword (Eternal) | Tarsilium sword (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 15 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Tarsilium sword (Eternal) | Tarsilium sword (Eternal)\_2 |
+| ------------------------- | ---------------------------- |
+| Quality:                  |                              |
+| Type:                     | Crafted                      |
+| Slot:                     | Primary                      |
+| Value:                    | 15                           |
+| Keyword:                  | Weapon                       |
+| Properties:               | Properties:                  |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                   |
+| ---------------------------- |
 | This item has no attributes. |
 | This item has no attributes. |
 | This item has no attributes. |
@@ -141,31 +140,31 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 8 (Make a tarsilium sword)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name            | Level            | Service Requirement                  | Materials Used   | Recipe Outputs     |
+| ---------------------- | ---------------- | ------------------------------------ | ---------------- | ------------------ |
 | Make a tarsilium sword | Smithing lvl. 46 | Needs Basic Forge service or better. | 2x Tarsilium bar | 1x Tarsilium sword |
 
 ### Table 9 (Make a tarsilium sword)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Make a tarsilium sword | 168 | 240 | 0.700 | 127 steps | 190% | 1.323 | 505 steps |
+| Recipe Name            | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ---------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Make a tarsilium sword | 168     | 240        | 0.700        | 127 steps     | 190%                | 1.323       | 505 steps            |
 
 ### Table 10 (Make a tarsilium sword)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Smithing chest | Container | 1 | 0.400% | ~1 in 250 | 60,000 steps | 31,750 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Smithing chest | Container | 1        | 0.400% | ~1 in 250 | 60,000 steps | 31,750 steps |
 
 ### Table 11 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                                    |
+| ------------------------------------------------ |
 | 4x Coal and 2x Tarsilium ore or 160x Metal scrap |
 
 ### Table 12 (Related Items)
 
-| Weapon | Weapon_2 |
-| --- | --- |
+| Weapon  | Weapon_2                                                                                                                       |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | Crafted | 1 - Wooden sword 6 - Copper sword 16 - Bronze sword 26 - Iron sword 36 - Steel sword 46 - Tarsilium sword 56 - Farganite sword |
-| Loot | - Swashbuckler sword |
+| Loot    | - Swashbuckler sword                                                                                                           |

@@ -10,7 +10,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Shape an ethernite
 
 > A valuable glassy purple gem. You feel a dreadful sensation when you look at it, yet somehow it's very difficult to look away from it.
@@ -51,41 +50,41 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Ethernite | Ethernite_2 |
-| --- | --- |
-| Type: | Material |
-| Value: | 108 |
-| Fine Value: | 502 |
-| Keywords: | Cut gem Gem |
+| Ethernite   | Ethernite_2 |
+| ----------- | ----------- |
+| Type:       | Material    |
+| Value:      | 108         |
+| Fine Value: | 502         |
+| Keywords:   | Cut gem Gem |
 | Properties: | Properties: |
 
 ### Table 2 (Recipe Ingredient)
 
-| Item Name | Service Requirement | Skills | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Create a silver ethernite ring | Needs Basic Trinketry Bench service or better. | Trinketry lvl. 47 | 1x Ethernite 1x Silver bar | 1x Silver ethernite ring |
-| Create a gold ethernite ring | Needs Advanced Trinketry Bench service or better. | Trinketry lvl. 57 | 1x Ethernite 1x Gold bar | 1x Gold ethernite ring |
+| Item Name                      | Service Requirement                               | Skills            | Materials Used             | Recipe Outputs           |
+| ------------------------------ | ------------------------------------------------- | ----------------- | -------------------------- | ------------------------ |
+| Create a silver ethernite ring | Needs Basic Trinketry Bench service or better.    | Trinketry lvl. 47 | 1x Ethernite 1x Silver bar | 1x Silver ethernite ring |
+| Create a gold ethernite ring   | Needs Advanced Trinketry Bench service or better. | Trinketry lvl. 57 | 1x Ethernite 1x Gold bar   | 1x Gold ethernite ring   |
 
 ### Table 3 (Shape an ethernite)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Shape an ethernite | Trinketry lvl. 38 | Needs Basic Trinketry Bench service or better. | 1x Rough ethernite | 1x Ethernite |
+| Recipe Name        | Level             | Service Requirement                            | Materials Used     | Recipe Outputs |
+| ------------------ | ----------------- | ---------------------------------------------- | ------------------ | -------------- |
+| Shape an ethernite | Trinketry lvl. 38 | Needs Basic Trinketry Bench service or better. | 1x Rough ethernite | 1x Ethernite   |
 
 ### Table 4 (Shape an ethernite)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Shape an ethernite | 210 | 325 | 0.646 | 148 steps | 220% | 1.419 | 670,355 steps |
+| Recipe Name        | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------ | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Shape an ethernite | 210     | 325        | 0.646        | 148 steps     | 220%                | 1.419       | 670,355 steps        |
 
 ### Table 5 (Shape an ethernite)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Trinketry chest | Container | 1 | 0.400% | ~1 in 250 | 81,250 steps | 37,000 steps |
+| Item Name       | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| --------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Trinketry chest | Container | 1        | 0.400% | ~1 in 250 | 81,250 steps | 37,000 steps |
 
 ### Table 6 (Related Items)
 
-| Gem | Gem_2 | Cut gem |
-| --- | --- | --- |
+| Gem      | Gem_2                                                                                                                                                                                          | Cut gem                                                             |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | Material | Ethernite, Jade Opal, Pearls Rough ethernite, Rough jade Rough opal, Rough ruby Rough star pearl, Rough sun stone Rough topaz, Rough wrentmarine Ruby, Star pearl Sun stone, Topaz Wrentmarine | Ethernite, Jade Opal, Ruby Star pearl, Sun stone Topaz, Wrentmarine |

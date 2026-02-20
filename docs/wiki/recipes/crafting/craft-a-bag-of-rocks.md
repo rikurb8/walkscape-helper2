@@ -18,7 +18,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Craft a bag of rocks
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -63,95 +62,95 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Bag of rocks (Normal) | Bag of rocks (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Back |
-| Value: | 10 |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Bag of rocks (Normal) | Bag of rocks (Normal)\_2 |
+| --------------------- | ------------------------ |
+| Quality:              |                          |
+| Type:                 | Crafted                  |
+| Slot:                 | Back                     |
+| Value:                | 10                       |
+| Search Keyword:       | Global                   |
+| Properties:           | Properties:              |
 
 ### Table 2 (Introduction)
 
-| Bag of rocks (Good) | Bag of rocks (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Back |
-| Value: | 10 |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Bag of rocks (Good) | Bag of rocks (Good)\_2 |
+| ------------------- | ---------------------- |
+| Quality:            |                        |
+| Type:               | Crafted                |
+| Slot:               | Back                   |
+| Value:              | 10                     |
+| Search Keyword:     | Global                 |
+| Properties:         | Properties:            |
 
 ### Table 3 (Introduction)
 
-| Bag of rocks (Great) | Bag of rocks (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Back |
-| Value: | 10 |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Bag of rocks (Great) | Bag of rocks (Great)\_2 |
+| -------------------- | ----------------------- |
+| Quality:             |                         |
+| Type:                | Crafted                 |
+| Slot:                | Back                    |
+| Value:               | 10                      |
+| Search Keyword:      | Global                  |
+| Properties:          | Properties:             |
 
 ### Table 4 (Introduction)
 
-| Bag of rocks (Excellent) | Bag of rocks (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Back |
-| Value: | 10 |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Bag of rocks (Excellent) | Bag of rocks (Excellent)\_2 |
+| ------------------------ | --------------------------- |
+| Quality:                 |                             |
+| Type:                    | Crafted                     |
+| Slot:                    | Back                        |
+| Value:                   | 10                          |
+| Search Keyword:          | Global                      |
+| Properties:              | Properties:                 |
 
 ### Table 5 (Introduction)
 
-| Bag of rocks (Perfect) | Bag of rocks (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Back |
-| Value: | 10 |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Bag of rocks (Perfect) | Bag of rocks (Perfect)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Back                      |
+| Value:                 | 10                        |
+| Search Keyword:        | Global                    |
+| Properties:            | Properties:               |
 
 ### Table 6 (Introduction)
 
-| Bag of rocks (Eternal) | Bag of rocks (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Back |
-| Value: | 10 |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Bag of rocks (Eternal) | Bag of rocks (Eternal)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Back                      |
+| Value:                 | 10                        |
+| Search Keyword:        | Global                    |
+| Properties:            | Properties:               |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                                              |
+| ------------------------------------------------------- |
 | Global -10% Work efficiency Global +3% Bonus experience |
-| Global -8% Work efficiency Global +3% Bonus experience |
-| Global -6% Work efficiency Global +3% Bonus experience |
-| Global -4% Work efficiency Global +3% Bonus experience |
-| Global -2% Work efficiency Global +3% Bonus experience |
-| Global +0% Work efficiency Global +3% Bonus experience |
+| Global -8% Work efficiency Global +3% Bonus experience  |
+| Global -6% Work efficiency Global +3% Bonus experience  |
+| Global -4% Work efficiency Global +3% Bonus experience  |
+| Global -2% Work efficiency Global +3% Bonus experience  |
+| Global +0% Work efficiency Global +3% Bonus experience  |
 
 ### Table 8 (Craft a bag of rocks)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Craft a bag of rocks | Crafting lvl. 5 | None | 1x Sturdy branch 1x Large stone | 1x Bag of rocks |
+| Recipe Name          | Level           | Service Requirement | Materials Used                  | Recipe Outputs  |
+| -------------------- | --------------- | ------------------- | ------------------------------- | --------------- |
+| Craft a bag of rocks | Crafting lvl. 5 | None                | 1x Sturdy branch 1x Large stone | 1x Bag of rocks |
 
 ### Table 9 (Craft a bag of rocks)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Craft a bag of rocks | 120 | 200 | 0.600 | 125 steps | 160% | 0.960 | 2,019 steps |
+| Recipe Name          | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| -------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Craft a bag of rocks | 120     | 200        | 0.600        | 125 steps     | 160%                | 0.960       | 2,019 steps          |
 
 ### Table 10 (Craft a bag of rocks)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Crafting chest | Container | 1 | 0.400% | ~1 in 250 | 50,000 steps | 31,250 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Crafting chest | Container | 1        | 0.400% | ~1 in 250 | 50,000 steps | 31,250 steps |

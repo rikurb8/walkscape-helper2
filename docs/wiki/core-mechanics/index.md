@@ -7,7 +7,6 @@ categories:
   - "Game_Mechanics"
 ---
 
-
 # Core Mechanics
 
 ## Welcome to WalkScape!
@@ -32,14 +31,14 @@ In addition to skills, your account has an overall [Character Level](https://wik
 
 There are many types of items in WalkScape:
 
--   [Crafted](https://wiki.walkscape.app/wiki/Crafted_Items "Crafted Items"). These are typically obtained mainly by crafting them yourself or buying one that's been crafted by someone else.
--   [Loot](https://wiki.walkscape.app/wiki/Loot_Items "Loot Items"). You can gain loot from shops, [chests](https://wiki.walkscape.app/wiki/Chests "Chests"), dead enemies, randomly from some [activities](../activities/index.md), quest rewards and so forth.
--   [Equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment"). Is divided up into [gear](https://wiki.walkscape.app/wiki/Gear "Gear") and [tools](https://wiki.walkscape.app/wiki/Tools "Tools"), that can be equipped to your character. They will be either [Crafted](https://wiki.walkscape.app/wiki/Crafted_Items "Crafted Items") or [Loot](https://wiki.walkscape.app/wiki/Loot_Items "Loot Items") themselves too.
--   [Material](https://wiki.walkscape.app/wiki/Material_Items "Material Items"). They're what's used to [craft](https://wiki.walkscape.app/wiki/Crafted_Items "Crafted Items") other [items](https://wiki.walkscape.app/wiki/Items "Items"). Pretty self explanatory.
--   [Consumables](https://wiki.walkscape.app/wiki/Consumables "Consumables"). They're things like potions and food which can be consumed to heal yourself or to gain a buff.
--   [Treasury](https://wiki.walkscape.app/wiki/Treasury "Treasury"). They do not need an [inventory](https://wiki.walkscape.app/wiki/Inventory "Inventory") space and can be opened. These contain other [items](https://wiki.walkscape.app/wiki/Items "Items").
--   Quest. These don't need an [inventory](https://wiki.walkscape.app/wiki/Inventory "Inventory") space and are used in quests to progress.
--   [Collectibles](https://wiki.walkscape.app/wiki/Collectibles "Collectibles"). These do not take up [inventory](https://wiki.walkscape.app/wiki/Inventory "Inventory") space and are always with your character.
+- [Crafted](https://wiki.walkscape.app/wiki/Crafted_Items "Crafted Items"). These are typically obtained mainly by crafting them yourself or buying one that's been crafted by someone else.
+- [Loot](https://wiki.walkscape.app/wiki/Loot_Items "Loot Items"). You can gain loot from shops, [chests](https://wiki.walkscape.app/wiki/Chests "Chests"), dead enemies, randomly from some [activities](../activities/index.md), quest rewards and so forth.
+- [Equipment](https://wiki.walkscape.app/wiki/Equipment "Equipment"). Is divided up into [gear](https://wiki.walkscape.app/wiki/Gear "Gear") and [tools](https://wiki.walkscape.app/wiki/Tools "Tools"), that can be equipped to your character. They will be either [Crafted](https://wiki.walkscape.app/wiki/Crafted_Items "Crafted Items") or [Loot](https://wiki.walkscape.app/wiki/Loot_Items "Loot Items") themselves too.
+- [Material](https://wiki.walkscape.app/wiki/Material_Items "Material Items"). They're what's used to [craft](https://wiki.walkscape.app/wiki/Crafted_Items "Crafted Items") other [items](https://wiki.walkscape.app/wiki/Items "Items"). Pretty self explanatory.
+- [Consumables](https://wiki.walkscape.app/wiki/Consumables "Consumables"). They're things like potions and food which can be consumed to heal yourself or to gain a buff.
+- [Treasury](https://wiki.walkscape.app/wiki/Treasury "Treasury"). They do not need an [inventory](https://wiki.walkscape.app/wiki/Inventory "Inventory") space and can be opened. These contain other [items](https://wiki.walkscape.app/wiki/Items "Items").
+- Quest. These don't need an [inventory](https://wiki.walkscape.app/wiki/Inventory "Inventory") space and are used in quests to progress.
+- [Collectibles](https://wiki.walkscape.app/wiki/Collectibles "Collectibles"). These do not take up [inventory](https://wiki.walkscape.app/wiki/Inventory "Inventory") space and are always with your character.
 
 ### [Achievements](https://wiki.walkscape.app/wiki/Achievements "Achievements")
 

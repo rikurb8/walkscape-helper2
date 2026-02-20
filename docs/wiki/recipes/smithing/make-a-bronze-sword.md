@@ -17,7 +17,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Make a bronze sword
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -64,74 +63,74 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Bronze sword (Normal) | Bronze sword (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 3 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Bronze sword (Normal) | Bronze sword (Normal)\_2 |
+| --------------------- | ------------------------ |
+| Quality:              |                          |
+| Type:                 | Crafted                  |
+| Slot:                 | Primary                  |
+| Value:                | 3                        |
+| Keyword:              | Weapon                   |
+| Properties:           | Properties:              |
 
 ### Table 2 (Introduction)
 
-| Bronze sword (Good) | Bronze sword (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 3 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Bronze sword (Good) | Bronze sword (Good)\_2 |
+| ------------------- | ---------------------- |
+| Quality:            |                        |
+| Type:               | Crafted                |
+| Slot:               | Primary                |
+| Value:              | 3                      |
+| Keyword:            | Weapon                 |
+| Properties:         | Properties:            |
 
 ### Table 3 (Introduction)
 
-| Bronze sword (Great) | Bronze sword (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 3 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Bronze sword (Great) | Bronze sword (Great)\_2 |
+| -------------------- | ----------------------- |
+| Quality:             |                         |
+| Type:                | Crafted                 |
+| Slot:                | Primary                 |
+| Value:               | 3                       |
+| Keyword:             | Weapon                  |
+| Properties:          | Properties:             |
 
 ### Table 4 (Introduction)
 
-| Bronze sword (Excellent) | Bronze sword (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 3 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Bronze sword (Excellent) | Bronze sword (Excellent)\_2 |
+| ------------------------ | --------------------------- |
+| Quality:                 |                             |
+| Type:                    | Crafted                     |
+| Slot:                    | Primary                     |
+| Value:                   | 3                           |
+| Keyword:                 | Weapon                      |
+| Properties:              | Properties:                 |
 
 ### Table 5 (Introduction)
 
-| Bronze sword (Perfect) | Bronze sword (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 3 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Bronze sword (Perfect) | Bronze sword (Perfect)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Primary                   |
+| Value:                 | 3                         |
+| Keyword:               | Weapon                    |
+| Properties:            | Properties:               |
 
 ### Table 6 (Introduction)
 
-| Bronze sword (Eternal) | Bronze sword (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Primary |
-| Value: | 3 |
-| Keyword: | Weapon |
-| Properties: | Properties: |
+| Bronze sword (Eternal) | Bronze sword (Eternal)\_2 |
+| ---------------------- | ------------------------- |
+| Quality:               |                           |
+| Type:                  | Crafted                   |
+| Slot:                  | Primary                   |
+| Value:                 | 3                         |
+| Keyword:               | Weapon                    |
+| Properties:            | Properties:               |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                   |
+| ---------------------------- |
 | This item has no attributes. |
 | This item has no attributes. |
 | This item has no attributes. |
@@ -141,31 +140,31 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 8 (Make a bronze sword)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Make a bronze sword | Smithing lvl. 16 | Needs Basic Forge service or better. | 2x Bronze bar | 1x Bronze sword |
+| Recipe Name         | Level            | Service Requirement                  | Materials Used | Recipe Outputs  |
+| ------------------- | ---------------- | ------------------------------------ | -------------- | --------------- |
+| Make a bronze sword | Smithing lvl. 16 | Needs Basic Forge service or better. | 2x Bronze bar  | 1x Bronze sword |
 
 ### Table 9 (Make a bronze sword)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Make a bronze sword | 67 | 160 | 0.419 | 100 steps | 160% | 0.670 | 326 steps |
+| Recipe Name         | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Make a bronze sword | 67      | 160        | 0.419        | 100 steps     | 160%                | 0.670       | 326 steps            |
 
 ### Table 10 (Make a bronze sword)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Smithing chest | Container | 1 | 0.400% | ~1 in 250 | 40,000 steps | 25,000 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Smithing chest | Container | 1        | 0.400% | ~1 in 250 | 40,000 steps | 25,000 steps |
 
 ### Table 11 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                                   |
+| ----------------------------------------------- |
 | 2x Copper ore and 2x Tin ore or 20x Metal scrap |
 
 ### Table 12 (Related Items)
 
-| Weapon | Weapon_2 |
-| --- | --- |
+| Weapon  | Weapon_2                                                                                                                       |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | Crafted | 1 - Wooden sword 6 - Copper sword 16 - Bronze sword 26 - Iron sword 36 - Steel sword 46 - Tarsilium sword 56 - Farganite sword |
-| Loot | - Swashbuckler sword |
+| Loot    | - Swashbuckler sword                                                                                                           |

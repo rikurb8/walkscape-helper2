@@ -11,7 +11,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Fry a trout
 
 > It's a trout.
@@ -54,49 +53,49 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Cooked trout | Cooked trout_2 |
-| --- | --- |
-| Type: | Consumable |
-| Value: | 2 |
-| Fine Value: | 15 |
-| Keywords: | Cooked fish Food |
-| Search Keyword: | Cooking |
-| Duration: | 500 steps |
-| Properties: | Properties: |
+| Cooked trout    | Cooked trout_2   |
+| --------------- | ---------------- |
+| Type:           | Consumable       |
+| Value:          | 2                |
+| Fine Value:     | 15               |
+| Keywords:       | Cooked fish Food |
+| Search Keyword: | Cooking          |
+| Duration:       | 500 steps        |
+| Properties:     | Properties:      |
 
 ### Table 2 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                             |
+| -------------------------------------- |
 | -1 Steps required While doing Cooking. |
 | -2 Steps required While doing Cooking. |
 
 ### Table 3 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Azurazera job board | Azurazera | 56 | +2 Jarvonia Faction Reputation 1x Cooking chest |
+| Job Board Name      | Location  | Quantity | Rewards                                         |
+| ------------------- | --------- | -------- | ----------------------------------------------- |
+| Azurazera job board | Azurazera | 56       | +2 Jarvonia Faction Reputation 1x Cooking chest |
 
 ### Table 4 (Fry a trout)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Fry a trout | Cooking lvl. 20 | Needs Basic Kitchen service or better. | 1x Raw trout | 1x Cooked trout |
+| Recipe Name | Level           | Service Requirement                    | Materials Used | Recipe Outputs  |
+| ----------- | --------------- | -------------------------------------- | -------------- | --------------- |
+| Fry a trout | Cooking lvl. 20 | Needs Basic Kitchen service or better. | 1x Raw trout   | 1x Cooked trout |
 
 ### Table 5 (Fry a trout)
 
 | Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Fry a trout | 52 | 90 | 0.578 | 50 steps | 180% | 1.040 | 166 steps |
+| ----------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Fry a trout | 52      | 90         | 0.578        | 50 steps      | 180%                | 1.040       | 166 steps            |
 
 ### Table 6 (Fry a trout)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Cooking chest | Container | 1 | 0.400% | ~1 in 250 | 22,500 steps | 12,500 steps |
+| Item Name     | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| ------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Cooking chest | Container | 1        | 0.400% | ~1 in 250 | 22,500 steps | 12,500 steps |
 
 ### Table 7 (Related Items)
 
-| Food | Food_2 | Cooked fish |
-| --- | --- | --- |
+| Food       | Food_2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Cooked fish                                                                                                                                                                                                              |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Consumable | Bagel, Beef stew Bread, Cooked anglerfish Cooked carp, Cooked jellyfish Cooked largemouth bass, Cooked lobster Cooked perch, Cooked pike Cooked salmon, Cooked shark Cooked shrimp, Cooked squid Cooked stingray, Cooked swordfish Cooked trout, Creme brulee Dried fruit, Fried fish sandwich Fried noodles, Fruit cake Jarvonian pastry, Jelly sandwich Kelp rolls, Mud pie Mushroom curry, Nut mix Pancake, Pickles Porridge, Roasted bell pepper Salmon pie, Schnitzel Sweet carrot pie, Tasty breakfast Trout soup, Underwater salad Veggie soup | Cooked anglerfish, Cooked carp Cooked jellyfish, Cooked largemouth bass Cooked lobster, Cooked perch Cooked pike, Cooked salmon Cooked shark, Cooked shrimp Cooked squid, Cooked stingray Cooked swordfish, Cooked trout |

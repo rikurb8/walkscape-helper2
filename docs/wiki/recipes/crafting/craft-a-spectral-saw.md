@@ -24,7 +24,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Craft a spectral saw
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -35,7 +34,7 @@ The **Spectral saw** [item](https://wiki.walkscape.app/wiki/Special:MyLanguage/I
 
 # Requirement
 
--   At least Carpentry lvl. 58.
+- At least Carpentry lvl. 58.
 
 # Attributes
 
@@ -45,7 +44,7 @@ The **Spectral saw** [item](https://wiki.walkscape.app/wiki/Special:MyLanguage/I
 
 Spectral saw is required to do the following activity:
 
--   [Repair the bank](../../activities/repair-the-bank.md)
+- [Repair the bank](../../activities/repair-the-bank.md)
 
 # Sources
 
@@ -75,108 +74,108 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Spectral saw (Normal) | Spectral saw (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Carpentry tool Saw Spectral |
-| Search Keyword: | Carpentry |
-| Properties: | Properties: |
+| Spectral saw (Normal) | Spectral saw (Normal)\_2    |
+| --------------------- | --------------------------- |
+| Quality:              |                             |
+| Type:                 | Crafted                     |
+| Slot:                 | Tools                       |
+| Value:                | 22                          |
+| Keywords:             | Carpentry tool Saw Spectral |
+| Search Keyword:       | Carpentry                   |
+| Properties:           | Properties:                 |
 
 ### Table 2 (Introduction)
 
-| Spectral saw (Good) | Spectral saw (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Carpentry tool Saw Spectral |
-| Search Keyword: | Carpentry |
-| Properties: | Properties: |
+| Spectral saw (Good) | Spectral saw (Good)\_2      |
+| ------------------- | --------------------------- |
+| Quality:            |                             |
+| Type:               | Crafted                     |
+| Slot:               | Tools                       |
+| Value:              | 22                          |
+| Keywords:           | Carpentry tool Saw Spectral |
+| Search Keyword:     | Carpentry                   |
+| Properties:         | Properties:                 |
 
 ### Table 3 (Introduction)
 
-| Spectral saw (Great) | Spectral saw (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Carpentry tool Saw Spectral |
-| Search Keyword: | Carpentry |
-| Properties: | Properties: |
+| Spectral saw (Great) | Spectral saw (Great)\_2     |
+| -------------------- | --------------------------- |
+| Quality:             |                             |
+| Type:                | Crafted                     |
+| Slot:                | Tools                       |
+| Value:               | 22                          |
+| Keywords:            | Carpentry tool Saw Spectral |
+| Search Keyword:      | Carpentry                   |
+| Properties:          | Properties:                 |
 
 ### Table 4 (Introduction)
 
-| Spectral saw (Excellent) | Spectral saw (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Carpentry tool Saw Spectral |
-| Search Keyword: | Carpentry |
-| Properties: | Properties: |
+| Spectral saw (Excellent) | Spectral saw (Excellent)\_2 |
+| ------------------------ | --------------------------- |
+| Quality:                 |                             |
+| Type:                    | Crafted                     |
+| Slot:                    | Tools                       |
+| Value:                   | 22                          |
+| Keywords:                | Carpentry tool Saw Spectral |
+| Search Keyword:          | Carpentry                   |
+| Properties:              | Properties:                 |
 
 ### Table 5 (Introduction)
 
-| Spectral saw (Perfect) | Spectral saw (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Carpentry tool Saw Spectral |
-| Search Keyword: | Carpentry |
-| Properties: | Properties: |
+| Spectral saw (Perfect) | Spectral saw (Perfect)\_2   |
+| ---------------------- | --------------------------- |
+| Quality:               |                             |
+| Type:                  | Crafted                     |
+| Slot:                  | Tools                       |
+| Value:                 | 22                          |
+| Keywords:              | Carpentry tool Saw Spectral |
+| Search Keyword:        | Carpentry                   |
+| Properties:            | Properties:                 |
 
 ### Table 6 (Introduction)
 
-| Spectral saw (Eternal) | Spectral saw (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Tools |
-| Value: | 22 |
-| Keywords: | Carpentry tool Saw Spectral |
-| Search Keyword: | Carpentry |
-| Properties: | Properties: |
+| Spectral saw (Eternal) | Spectral saw (Eternal)\_2   |
+| ---------------------- | --------------------------- |
+| Quality:               |                             |
+| Type:                  | Crafted                     |
+| Slot:                  | Tools                       |
+| Value:                 | 22                          |
+| Keywords:              | Carpentry tool Saw Spectral |
+| Search Keyword:        | Carpentry                   |
+| Properties:            | Properties:                 |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
-| -50% Work efficiency While doing Carpentry. +2.5% Double rewards While doing Carpentry. While in Spectral location. +3.5% Double rewards While doing Carpentry. +1% No materials consumed While doing Carpentry. +3 Quality outcome While doing Carpentry. +1% Chance to find 1 ectoplasm While doing Carpentry. While in Spectral location. |
-| -35% Work efficiency While doing Carpentry. +2.5% Double rewards While doing Carpentry. While in Spectral location. +4.5% Double rewards While doing Carpentry. +2% No materials consumed While doing Carpentry. +6 Quality outcome While doing Carpentry. +3% Chance to find 1 ectoplasm While doing Carpentry. While in Spectral location. |
-| -20% Work efficiency While doing Carpentry. +2.5% Double rewards While doing Carpentry. While in Spectral location. +5.5% Double rewards While doing Carpentry. +3% No materials consumed While doing Carpentry. +10 Quality outcome While doing Carpentry. +6% Chance to find 1 ectoplasm While doing Carpentry. While in Spectral location. |
-| -5% Work efficiency While doing Carpentry. +2.5% Double rewards While doing Carpentry. While in Spectral location. +6.5% Double rewards While doing Carpentry. +4% No materials consumed While doing Carpentry. +14 Quality outcome While doing Carpentry. +10% Chance to find 1 ectoplasm While doing Carpentry. While in Spectral location. |
+| Attributes                                                                                                                                                                                                                                                                                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -50% Work efficiency While doing Carpentry. +2.5% Double rewards While doing Carpentry. While in Spectral location. +3.5% Double rewards While doing Carpentry. +1% No materials consumed While doing Carpentry. +3 Quality outcome While doing Carpentry. +1% Chance to find 1 ectoplasm While doing Carpentry. While in Spectral location.   |
+| -35% Work efficiency While doing Carpentry. +2.5% Double rewards While doing Carpentry. While in Spectral location. +4.5% Double rewards While doing Carpentry. +2% No materials consumed While doing Carpentry. +6 Quality outcome While doing Carpentry. +3% Chance to find 1 ectoplasm While doing Carpentry. While in Spectral location.   |
+| -20% Work efficiency While doing Carpentry. +2.5% Double rewards While doing Carpentry. While in Spectral location. +5.5% Double rewards While doing Carpentry. +3% No materials consumed While doing Carpentry. +10 Quality outcome While doing Carpentry. +6% Chance to find 1 ectoplasm While doing Carpentry. While in Spectral location.  |
+| -5% Work efficiency While doing Carpentry. +2.5% Double rewards While doing Carpentry. While in Spectral location. +6.5% Double rewards While doing Carpentry. +4% No materials consumed While doing Carpentry. +14 Quality outcome While doing Carpentry. +10% Chance to find 1 ectoplasm While doing Carpentry. While in Spectral location.  |
 | +10% Work efficiency While doing Carpentry. +2.5% Double rewards While doing Carpentry. While in Spectral location. +7.5% Double rewards While doing Carpentry. +6% No materials consumed While doing Carpentry. +18 Quality outcome While doing Carpentry. +15% Chance to find 1 ectoplasm While doing Carpentry. While in Spectral location. |
 | +25% Work efficiency While doing Carpentry. +2.5% Double rewards While doing Carpentry. While in Spectral location. +8.5% Double rewards While doing Carpentry. +8% No materials consumed While doing Carpentry. +22 Quality outcome While doing Carpentry. +21% Chance to find 1 ectoplasm While doing Carpentry. While in Spectral location. |
 
 ### Table 8 (Craft a spectral saw)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name          | Level            | Service Requirement                               | Materials Used         | Recipe Outputs  |
+| -------------------- | ---------------- | ------------------------------------------------- | ---------------------- | --------------- |
 | Craft a spectral saw | Crafting lvl. 58 | Needs Advanced Cursed Workshop service or better. | 5x Bones 15x Ectoplasm | 1x Spectral saw |
 
 ### Table 9 (Craft a spectral saw)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Craft a spectral saw | 174 | 260 | 0.669 | 116 steps | 225% | 1.500 | 3,851 steps |
+| Recipe Name          | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| -------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Craft a spectral saw | 174     | 260        | 0.669        | 116 steps     | 225%                | 1.500       | 3,851 steps          |
 
 ### Table 10 (Craft a spectral saw)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Crafting chest | Container | 1 | 0.400% | ~1 in 250 | 65,000 steps | 29,000 steps |
+| Item Name      | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.     |
+| -------------- | --------- | -------- | ------ | --------- | ------------ | ------------ |
+| Crafting chest | Container | 1        | 0.400% | ~1 in 250 | 65,000 steps | 29,000 steps |
 
 ### Table 11 (Related Items)
 
-| Carpentry tool | Carpentry tool_2 | Saw | Spectral |
-| --- | --- | --- | --- |
-| Crafted | 12 - Bronze saw 42 - Tarsilium saw 58 - Spectral saw | 12 - Bronze saw 42 - Tarsilium saw 58 - Spectral saw | 55 - Spectral fishing cagespear 55 - Spectral fishing rod 55 - Spectral hatchet 55 - Spectral pickaxe 55 - Spectral sickle 55 - Wraithwater flower necklace 58 - Spectral chisel 58 - Spectral hammer 58 - Spectral pan 58 - Spectral saw 58 - Spectral wrench |
-| Loot | - Simple saw - Ice cutter - Adventuring saw - Handsaw | - Simple saw - Wire saw, Adventuring saw - Handsaw | - Ghost trap pack |
+| Carpentry tool | Carpentry tool_2                                      | Saw                                                  | Spectral                                                                                                                                                                                                                                                       |
+| -------------- | ----------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Crafted        | 12 - Bronze saw 42 - Tarsilium saw 58 - Spectral saw  | 12 - Bronze saw 42 - Tarsilium saw 58 - Spectral saw | 55 - Spectral fishing cagespear 55 - Spectral fishing rod 55 - Spectral hatchet 55 - Spectral pickaxe 55 - Spectral sickle 55 - Wraithwater flower necklace 58 - Spectral chisel 58 - Spectral hammer 58 - Spectral pan 58 - Spectral saw 58 - Spectral wrench |
+| Loot           | - Simple saw - Ice cutter - Adventuring saw - Handsaw | - Simple saw - Wire saw, Adventuring saw - Handsaw   | - Ghost trap pack                                                                                                                                                                                                                                              |

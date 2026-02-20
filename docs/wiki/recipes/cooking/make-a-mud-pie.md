@@ -10,7 +10,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Make a mud pie
 
 > A simple, earthy treat, crafted from mud and imagination.
@@ -53,50 +52,50 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Mud pie | Mud pie_2 |
-| --- | --- |
-| Type: | Consumable |
-| Value: | 4 |
-| Fine Value: | 24 |
-| Keyword: | Food |
-| Search Keyword: | Global |
-| Duration: | 1000 steps |
-| Properties: | Properties: |
+| Mud pie         | Mud pie_2   |
+| --------------- | ----------- |
+| Type:           | Consumable  |
+| Value:          | 4           |
+| Fine Value:     | 24          |
+| Keyword:        | Food        |
+| Search Keyword: | Global      |
+| Duration:       | 1000 steps  |
+| Properties:     | Properties: |
 
 ### Table 2 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                    |
+| ----------------------------- |
 | Global -100% Bonus experience |
 | Global -200% Bonus experience |
 
 ### Table 3 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Halfling Campgrounds job board | Halfling Campgrounds | 13 | +3 Halfling Rebels Faction Reputation 1x Cooking chest |
-| Halfling Campgrounds job board | Halfling Campgrounds | 2 | +4 Halfling Rebels Faction Reputation 1x Chest of the Halfling Rebels |
+| Job Board Name                 | Location             | Quantity | Rewards                                                               |
+| ------------------------------ | -------------------- | -------- | --------------------------------------------------------------------- |
+| Halfling Campgrounds job board | Halfling Campgrounds | 13       | +3 Halfling Rebels Faction Reputation 1x Cooking chest                |
+| Halfling Campgrounds job board | Halfling Campgrounds | 2        | +4 Halfling Rebels Faction Reputation 1x Chest of the Halfling Rebels |
 
 ### Table 4 (Make a mud pie)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Make a mud pie | Cooking lvl. 35 | Needs Basic Kitchen service or better. | 1x Mud 2x Wheat | 1x Mud pie |
+| Recipe Name    | Level           | Service Requirement                    | Materials Used  | Recipe Outputs |
+| -------------- | --------------- | -------------------------------------- | --------------- | -------------- |
+| Make a mud pie | Cooking lvl. 35 | Needs Basic Kitchen service or better. | 1x Mud 2x Wheat | 1x Mud pie     |
 
 ### Table 5 (Make a mud pie)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Make a mud pie | 32 | 40 | 0.800 | 23 steps | 180% | 1.391 | 244 steps |
+| Recipe Name    | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| -------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Make a mud pie | 32      | 40         | 0.800        | 23 steps      | 180%                | 1.391       | 244 steps            |
 
 ### Table 6 (Make a mud pie)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Cooking chest | Container | 1 | 0.400% | ~1 in 250 | 10,000 steps | 5,750 steps |
+| Item Name     | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.    |
+| ------------- | --------- | -------- | ------ | --------- | ------------ | ----------- |
+| Cooking chest | Container | 1        | 0.400% | ~1 in 250 | 10,000 steps | 5,750 steps |
 
 ### Table 7 (Related Items)
 
-| Food | Food_2 |
-| --- | --- |
+| Food       | Food_2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Consumable | Bagel, Beef stew Bread, Cooked anglerfish Cooked carp, Cooked jellyfish Cooked largemouth bass, Cooked lobster Cooked perch, Cooked pike Cooked salmon, Cooked shark Cooked shrimp, Cooked squid Cooked stingray, Cooked swordfish Cooked trout, Creme brulee Dried fruit, Fried fish sandwich Fried noodles, Fruit cake Jarvonian pastry, Jelly sandwich Kelp rolls, Mud pie Mushroom curry, Nut mix Pancake, Pickles Porridge, Roasted bell pepper Salmon pie, Schnitzel Sweet carrot pie, Tasty breakfast Trout soup, Underwater salad Veggie soup |

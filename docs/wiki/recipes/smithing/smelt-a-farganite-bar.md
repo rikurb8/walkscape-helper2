@@ -9,7 +9,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Smelt a farganite bar
 
 > A bright blue bar.
@@ -59,56 +58,56 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 ### Table 1 (Introduction)
 
 | Farganite bar | Farganite bar_2 |
-| --- | --- |
-| Type: | Material |
-| Value: | 8 |
-| Fine Value: | 45 |
-| Keyword: | Bar |
-| Properties: | Properties: |
+| ------------- | --------------- |
+| Type:         | Material        |
+| Value:        | 8               |
+| Fine Value:   | 45              |
+| Keyword:      | Bar             |
+| Properties:   | Properties:     |
 
 ### Table 2 (Recipe Ingredient)
 
-| Item Name | Service Requirement | Skills | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
-| Craft a farganite hatchet | Needs Advanced Workshop service or better. | Crafting lvl. 50 | 2x Farganite bar 1x Mangrove plank | 1x Farganite hatchet |
-| Craft a farganite pickaxe | Needs Advanced Workshop service or better. | Crafting lvl. 50 | 2x Farganite bar 1x Mangrove plank | 1x Farganite pickaxe |
-| Make a farganite shield | Needs Advanced Forge service or better. | Smithing lvl. 53 | 2x Farganite bar | 1x Farganite shield |
-| Make a farganite sword | Needs Advanced Forge service or better. | Smithing lvl. 56 | 2x Farganite bar | 1x Farganite sword |
-| Make a gem shield | Needs Advanced Forge service or better. | Smithing lvl. 59 | 2x Farganite bar 1x Gold bar 1x Sun stone 1x Ruby 1x Jade 1x Topaz 1x Wrentmarine | 1x Gem shield |
+| Item Name                 | Service Requirement                        | Skills           | Materials Used                                                                    | Recipe Outputs       |
+| ------------------------- | ------------------------------------------ | ---------------- | --------------------------------------------------------------------------------- | -------------------- |
+| Craft a farganite hatchet | Needs Advanced Workshop service or better. | Crafting lvl. 50 | 2x Farganite bar 1x Mangrove plank                                                | 1x Farganite hatchet |
+| Craft a farganite pickaxe | Needs Advanced Workshop service or better. | Crafting lvl. 50 | 2x Farganite bar 1x Mangrove plank                                                | 1x Farganite pickaxe |
+| Make a farganite shield   | Needs Advanced Forge service or better.    | Smithing lvl. 53 | 2x Farganite bar                                                                  | 1x Farganite shield  |
+| Make a farganite sword    | Needs Advanced Forge service or better.    | Smithing lvl. 56 | 2x Farganite bar                                                                  | 1x Farganite sword   |
+| Make a gem shield         | Needs Advanced Forge service or better.    | Smithing lvl. 59 | 2x Farganite bar 1x Gold bar 1x Sun stone 1x Ruby 1x Jade 1x Topaz 1x Wrentmarine | 1x Gem shield        |
 
 ### Table 3 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Azurazera job board | Azurazera | 19 | +2 Jarvonia Faction Reputation 1x Chest of Jarvonia |
+| Job Board Name      | Location  | Quantity | Rewards                                             |
+| ------------------- | --------- | -------- | --------------------------------------------------- |
+| Azurazera job board | Azurazera | 19       | +2 Jarvonia Faction Reputation 1x Chest of Jarvonia |
 
 ### Table 4 (Chest Drops)
 
-| Chest Name | Quantity | Chance (Per Roll) | Chance (Per Chest)† | Odds |
-| --- | --- | --- | --- | --- |
-| Crafting chest | 5-8 | 2.315% | 8.943% | ~1 in 11 |
+| Chest Name     | Quantity | Chance (Per Roll) | Chance (Per Chest)† | Odds     |
+| -------------- | -------- | ----------------- | ------------------- | -------- |
+| Crafting chest | 5-8      | 2.315%            | 8.943%              | ~1 in 11 |
 
 ### Table 5 (Smelt a farganite bar)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name           | Level            | Service Requirement                     | Materials Used           | Recipe Outputs   |
+| --------------------- | ---------------- | --------------------------------------- | ------------------------ | ---------------- |
 | Smelt a farganite bar | Smithing lvl. 50 | Needs Advanced Forge service or better. | 1x Farganite ore 3x Coal | 1x Farganite bar |
 
 ### Table 6 (Smelt a farganite bar)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Smelt a farganite bar | 48.5 | 120 | 0.404 | 60 steps | 200% | 0.808 | 248 steps |
+| Recipe Name           | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| --------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Smelt a farganite bar | 48.5    | 120        | 0.404        | 60 steps      | 200%                | 0.808       | 248 steps            |
 
 ### Table 7 (Smelt a farganite bar)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. | Note |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Smithing chest | Container | 1 | 0.400% | ~1 in 250 | 30,000 steps | 15,000 steps |  |
-| Silver nugget | Material | 1 or more | 25.195% | ~1 in 4 | 429 steps | 214 steps | Does 4 rolls |
+| Item Name      | Item Type | Quantity  | Chance  | Odds      | Base Rate    | W.E.A.R.     | Note         |
+| -------------- | --------- | --------- | ------- | --------- | ------------ | ------------ | ------------ |
+| Smithing chest | Container | 1         | 0.400%  | ~1 in 250 | 30,000 steps | 15,000 steps |              |
+| Silver nugget  | Material  | 1 or more | 25.195% | ~1 in 4   | 429 steps    | 214 steps    | Does 4 rolls |
 
 ### Table 8 (Related Items)
 
-| Bar | Bar_2 |
-| --- | --- |
+| Bar      | Bar_2                                                                                                                               |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | Material | Adamant bar, Bronze bar Copper bar, Farganite bar Gold bar, Hydrilium bar Iron bar, Silver bar Steel bar, Tarsilium bar Violite bar |

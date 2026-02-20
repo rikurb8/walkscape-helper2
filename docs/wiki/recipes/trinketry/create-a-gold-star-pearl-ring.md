@@ -19,7 +19,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Create a gold star pearl ring
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -66,116 +65,116 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Gold star pearl ring (Normal) | Gold star pearl ring (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 32 |
-| Keyword: | Ring |
-| Search Keywords: | Global Mining |
-| Properties: | Properties: |
+| Gold star pearl ring (Normal) | Gold star pearl ring (Normal)\_2 |
+| ----------------------------- | -------------------------------- |
+| Quality:                      |                                  |
+| Type:                         | Crafted                          |
+| Slot:                         | Ring                             |
+| Value:                        | 32                               |
+| Keyword:                      | Ring                             |
+| Search Keywords:              | Global Mining                    |
+| Properties:                   | Properties:                      |
 
 ### Table 2 (Introduction)
 
-| Gold star pearl ring (Good) | Gold star pearl ring (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 32 |
-| Keyword: | Ring |
-| Search Keywords: | Global Mining |
-| Properties: | Properties: |
+| Gold star pearl ring (Good) | Gold star pearl ring (Good)\_2 |
+| --------------------------- | ------------------------------ |
+| Quality:                    |                                |
+| Type:                       | Crafted                        |
+| Slot:                       | Ring                           |
+| Value:                      | 32                             |
+| Keyword:                    | Ring                           |
+| Search Keywords:            | Global Mining                  |
+| Properties:                 | Properties:                    |
 
 ### Table 3 (Introduction)
 
-| Gold star pearl ring (Great) | Gold star pearl ring (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 32 |
-| Keyword: | Ring |
-| Search Keywords: | Global Mining |
-| Properties: | Properties: |
+| Gold star pearl ring (Great) | Gold star pearl ring (Great)\_2 |
+| ---------------------------- | ------------------------------- |
+| Quality:                     |                                 |
+| Type:                        | Crafted                         |
+| Slot:                        | Ring                            |
+| Value:                       | 32                              |
+| Keyword:                     | Ring                            |
+| Search Keywords:             | Global Mining                   |
+| Properties:                  | Properties:                     |
 
 ### Table 4 (Introduction)
 
-| Gold star pearl ring (Excellent) | Gold star pearl ring (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 32 |
-| Keyword: | Ring |
-| Search Keywords: | Global Mining |
-| Properties: | Properties: |
+| Gold star pearl ring (Excellent) | Gold star pearl ring (Excellent)\_2 |
+| -------------------------------- | ----------------------------------- |
+| Quality:                         |                                     |
+| Type:                            | Crafted                             |
+| Slot:                            | Ring                                |
+| Value:                           | 32                                  |
+| Keyword:                         | Ring                                |
+| Search Keywords:                 | Global Mining                       |
+| Properties:                      | Properties:                         |
 
 ### Table 5 (Introduction)
 
-| Gold star pearl ring (Perfect) | Gold star pearl ring (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 32 |
-| Keyword: | Ring |
-| Search Keywords: | Global Mining |
-| Properties: | Properties: |
+| Gold star pearl ring (Perfect) | Gold star pearl ring (Perfect)\_2 |
+| ------------------------------ | --------------------------------- |
+| Quality:                       |                                   |
+| Type:                          | Crafted                           |
+| Slot:                          | Ring                              |
+| Value:                         | 32                                |
+| Keyword:                       | Ring                              |
+| Search Keywords:               | Global Mining                     |
+| Properties:                    | Properties:                       |
 
 ### Table 6 (Introduction)
 
-| Gold star pearl ring (Eternal) | Gold star pearl ring (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 32 |
-| Keyword: | Ring |
-| Search Keywords: | Global Mining |
-| Properties: | Properties: |
+| Gold star pearl ring (Eternal) | Gold star pearl ring (Eternal)\_2 |
+| ------------------------------ | --------------------------------- |
+| Quality:                       |                                   |
+| Type:                          | Crafted                           |
+| Slot:                          | Ring                              |
+| Value:                         | 32                                |
+| Keyword:                       | Ring                              |
+| Search Keywords:               | Global Mining                     |
+| Properties:                    | Properties:                       |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
-| Global +1% Chest finding +4% Find gems While doing Mining. |
-| Global +2% Chest finding +5% Find gems While doing Mining. |
-| Global +3% Chest finding +6% Find gems While doing Mining. |
-| Global +4% Chest finding +7% Find gems While doing Mining. |
-| Global +5% Chest finding +9% Find gems While doing Mining. |
+| Attributes                                                  |
+| ----------------------------------------------------------- |
+| Global +1% Chest finding +4% Find gems While doing Mining.  |
+| Global +2% Chest finding +5% Find gems While doing Mining.  |
+| Global +3% Chest finding +6% Find gems While doing Mining.  |
+| Global +4% Chest finding +7% Find gems While doing Mining.  |
+| Global +5% Chest finding +9% Find gems While doing Mining.  |
 | Global +6% Chest finding +11% Find gems While doing Mining. |
 
 ### Table 8 (Job Boards)
 
-| Job Board Name | Location | Quantity | Rewards |
-| --- | --- | --- | --- |
-| Blackspell Port job board | Blackspell Port | 3 | +2 Erdwise Faction Reputation 1x Trinketry chest |
-| Blackspell Port job board | Blackspell Port | 1 | +2 Erdwise Faction Reputation 1x Chest of Erdwise |
-| Everhaven combined job board | Everhaven | 3 | +2 Erdwise Faction Reputation 1x Trinketry chest |
-| Everhaven combined job board | Everhaven | 1 | +2 Erdwise Faction Reputation 1x Chest of Erdwise |
+| Job Board Name               | Location        | Quantity | Rewards                                           |
+| ---------------------------- | --------------- | -------- | ------------------------------------------------- |
+| Blackspell Port job board    | Blackspell Port | 3        | +2 Erdwise Faction Reputation 1x Trinketry chest  |
+| Blackspell Port job board    | Blackspell Port | 1        | +2 Erdwise Faction Reputation 1x Chest of Erdwise |
+| Everhaven combined job board | Everhaven       | 3        | +2 Erdwise Faction Reputation 1x Trinketry chest  |
+| Everhaven combined job board | Everhaven       | 1        | +2 Erdwise Faction Reputation 1x Chest of Erdwise |
 
 ### Table 9 (Create a gold star pearl ring)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name                   | Level             | Service Requirement                            | Materials Used            | Recipe Outputs          |
+| ----------------------------- | ----------------- | ---------------------------------------------- | ------------------------- | ----------------------- |
 | Create a gold star pearl ring | Trinketry lvl. 27 | Needs Basic Trinketry Bench service or better. | 1x Star pearl 1x Gold bar | 1x Gold star pearl ring |
 
 ### Table 10 (Create a gold star pearl ring)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Create a gold star pearl ring | 496 | 800 | 0.620 | 445 steps | 180% | 1.115 | 2,213 steps |
+| Recipe Name                   | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ----------------------------- | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Create a gold star pearl ring | 496     | 800        | 0.620        | 445 steps     | 180%                | 1.115       | 2,213 steps          |
 
 ### Table 11 (Create a gold star pearl ring)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Trinketry chest | Container | 1 | 0.400% | ~1 in 250 | 200,000 steps | 111,250 steps |
+| Item Name       | Item Type | Quantity | Chance | Odds      | Base Rate     | W.E.A.R.      |
+| --------------- | --------- | -------- | ------ | --------- | ------------- | ------------- |
+| Trinketry chest | Container | 1        | 0.400% | ~1 in 250 | 200,000 steps | 111,250 steps |
 
 ### Table 12 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                                     |
+| ------------------------------------------------- |
 | 1x Rough star pearl 2x Gold ore or 7x Gold nugget |

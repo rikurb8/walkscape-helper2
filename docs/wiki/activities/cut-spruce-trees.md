@@ -8,7 +8,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Cut spruce trees
 
 > Gripping your axe tightly, you channel your strength to strike down the towering spruce trees.
@@ -19,9 +18,9 @@ The **Cut spruce trees** [activity](index.md) is a [Woodcutting](../skills/woodc
 
 This activity can be done at the following locations:
 
--   [Casbrant Fields](https://wiki.walkscape.app/wiki/Special:MyLanguage/Casbrant_Fields "Special:MyLanguage/Casbrant Fields") in [Jarvonia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Jarvonia "Special:MyLanguage/Jarvonia")
--   [Noiseless Pass](https://wiki.walkscape.app/wiki/Special:MyLanguage/Noiseless_Pass "Special:MyLanguage/Noiseless Pass") in [Jarvonia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Jarvonia "Special:MyLanguage/Jarvonia")
--   [Nomad Woods](https://wiki.walkscape.app/wiki/Special:MyLanguage/Nomad_Woods "Special:MyLanguage/Nomad Woods") in [Jarvonia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Jarvonia "Special:MyLanguage/Jarvonia")
+- [Casbrant Fields](https://wiki.walkscape.app/wiki/Special:MyLanguage/Casbrant_Fields "Special:MyLanguage/Casbrant Fields") in [Jarvonia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Jarvonia "Special:MyLanguage/Jarvonia")
+- [Noiseless Pass](https://wiki.walkscape.app/wiki/Special:MyLanguage/Noiseless_Pass "Special:MyLanguage/Noiseless Pass") in [Jarvonia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Jarvonia "Special:MyLanguage/Jarvonia")
+- [Nomad Woods](https://wiki.walkscape.app/wiki/Special:MyLanguage/Nomad_Woods "Special:MyLanguage/Nomad Woods") in [Jarvonia](https://wiki.walkscape.app/wiki/Special:MyLanguage/Jarvonia "Special:MyLanguage/Jarvonia")
 
 # Visibility
 
@@ -31,11 +30,11 @@ This activity is always visible.
 
 Skill Level Requirements:
 
--   At least Woodcutting lvl. 20.
+- At least Woodcutting lvl. 20.
 
 Keyword Requirements:
 
--   Have [Hatchet](https://wiki.walkscape.app/wiki/Special:MyLanguage/Hatchet_Keyword "Special:MyLanguage/Hatchet Keyword") equipped.
+- Have [Hatchet](https://wiki.walkscape.app/wiki/Special:MyLanguage/Hatchet_Keyword "Special:MyLanguage/Hatchet Keyword") equipped.
 
 # Experience Information
 
@@ -62,25 +61,25 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 ### Table 1 (Introduction)
 
 | Cut spruce trees | Cut spruce trees_2 |
-| --- | --- |
-| Main Skill: | Woodcutting |
-| Max Efficiency: | 170% |
+| ---------------- | ------------------ |
+| Main Skill:      | Woodcutting        |
+| Max Efficiency:  | 170%               |
 
 ### Table 2 (Experience Information)
 
-| Skill | Base XP | Base Steps | Base XP/Step | Total Base XP/Step | Minimum Steps | Max XP/Step | Total Max XP/Step |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Woodcutting | 29 | 50 | 0.580 | 0.580 | 30 | 0.967 | 0.967 |
+| Skill       | Base XP | Base Steps | Base XP/Step | Total Base XP/Step | Minimum Steps | Max XP/Step | Total Max XP/Step |
+| ----------- | ------- | ---------- | ------------ | ------------------ | ------------- | ----------- | ----------------- |
+| Woodcutting | 29      | 50         | 0.580        | 0.580              | 30            | 0.967       | 0.967             |
 
 ### Table 3 (Main Drops)
 
-| Item Name | Quantity | Chance | Odds | Base Rate | W.E.A.R. | Value Single (Stack) |
-| --- | --- | --- | --- | --- | --- | --- |
-| Spruce logs | 1 | 100.000% | ~1 in 1 | 50 steps | 30 steps | 1 (1) |
+| Item Name   | Quantity | Chance   | Odds    | Base Rate | W.E.A.R. | Value Single (Stack) |
+| ----------- | -------- | -------- | ------- | --------- | -------- | -------------------- |
+| Spruce logs | 1        | 100.000% | ~1 in 1 | 50 steps  | 30 steps | 1 (1)                |
 
 ### Table 4 (Secondary Drops)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Bird nest | Container | 1 | 0.400% | ~1 in 250 | 12,500 steps | 7,500 steps |
-| Woodcutting chest | Container | 1 | 0.400% | ~1 in 250 | 12,500 steps | 7,500 steps |
+| Item Name         | Item Type | Quantity | Chance | Odds      | Base Rate    | W.E.A.R.    |
+| ----------------- | --------- | -------- | ------ | --------- | ------------ | ----------- |
+| Bird nest         | Container | 1        | 0.400% | ~1 in 250 | 12,500 steps | 7,500 steps |
+| Woodcutting chest | Container | 1        | 0.400% | ~1 in 250 | 12,500 steps | 7,500 steps |

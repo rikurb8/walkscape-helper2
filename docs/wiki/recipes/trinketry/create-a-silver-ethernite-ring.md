@@ -19,7 +19,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Create a silver ethernite ring
 
 [Normal](#tabber-Normal)[Good](#tabber-Good)[Great](#tabber-Great)[Excellent](#tabber-Excellent)[Perfect](#tabber-Perfect)[Eternal](#tabber-Eternal)
@@ -64,80 +63,80 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 1 (Introduction)
 
-| Silver ethernite ring (Normal) | Silver ethernite ring (Normal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 25 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Silver ethernite ring (Normal) | Silver ethernite ring (Normal)\_2 |
+| ------------------------------ | --------------------------------- |
+| Quality:                       |                                   |
+| Type:                          | Crafted                           |
+| Slot:                          | Ring                              |
+| Value:                         | 25                                |
+| Keyword:                       | Ring                              |
+| Search Keyword:                | Global                            |
+| Properties:                    | Properties:                       |
 
 ### Table 2 (Introduction)
 
-| Silver ethernite ring (Good) | Silver ethernite ring (Good)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 25 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Silver ethernite ring (Good) | Silver ethernite ring (Good)\_2 |
+| ---------------------------- | ------------------------------- |
+| Quality:                     |                                 |
+| Type:                        | Crafted                         |
+| Slot:                        | Ring                            |
+| Value:                       | 25                              |
+| Keyword:                     | Ring                            |
+| Search Keyword:              | Global                          |
+| Properties:                  | Properties:                     |
 
 ### Table 3 (Introduction)
 
-| Silver ethernite ring (Great) | Silver ethernite ring (Great)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 25 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Silver ethernite ring (Great) | Silver ethernite ring (Great)\_2 |
+| ----------------------------- | -------------------------------- |
+| Quality:                      |                                  |
+| Type:                         | Crafted                          |
+| Slot:                         | Ring                             |
+| Value:                        | 25                               |
+| Keyword:                      | Ring                             |
+| Search Keyword:               | Global                           |
+| Properties:                   | Properties:                      |
 
 ### Table 4 (Introduction)
 
-| Silver ethernite ring (Excellent) | Silver ethernite ring (Excellent)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 25 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Silver ethernite ring (Excellent) | Silver ethernite ring (Excellent)\_2 |
+| --------------------------------- | ------------------------------------ |
+| Quality:                          |                                      |
+| Type:                             | Crafted                              |
+| Slot:                             | Ring                                 |
+| Value:                            | 25                                   |
+| Keyword:                          | Ring                                 |
+| Search Keyword:                   | Global                               |
+| Properties:                       | Properties:                          |
 
 ### Table 5 (Introduction)
 
-| Silver ethernite ring (Perfect) | Silver ethernite ring (Perfect)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 25 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Silver ethernite ring (Perfect) | Silver ethernite ring (Perfect)\_2 |
+| ------------------------------- | ---------------------------------- |
+| Quality:                        |                                    |
+| Type:                           | Crafted                            |
+| Slot:                           | Ring                               |
+| Value:                          | 25                                 |
+| Keyword:                        | Ring                               |
+| Search Keyword:                 | Global                             |
+| Properties:                     | Properties:                        |
 
 ### Table 6 (Introduction)
 
-| Silver ethernite ring (Eternal) | Silver ethernite ring (Eternal)_2 |
-| --- | --- |
-| Quality: |  |
-| Type: | Crafted |
-| Slot: | Ring |
-| Value: | 25 |
-| Keyword: | Ring |
-| Search Keyword: | Global |
-| Properties: | Properties: |
+| Silver ethernite ring (Eternal) | Silver ethernite ring (Eternal)\_2 |
+| ------------------------------- | ---------------------------------- |
+| Quality:                        |                                    |
+| Type:                           | Crafted                            |
+| Slot:                           | Ring                               |
+| Value:                          | 25                                 |
+| Keyword:                        | Ring                               |
+| Search Keyword:                 | Global                             |
+| Properties:                     | Properties:                        |
 
 ### Table 7 (Attributes)
 
-| Attributes |
-| --- |
+| Attributes                                                 |
+| ---------------------------------------------------------- |
 | Global +1% Fine material finding Global +2 Quality outcome |
 | Global +2% Fine material finding Global +3 Quality outcome |
 | Global +3% Fine material finding Global +4 Quality outcome |
@@ -147,24 +146,24 @@ No gear sets exist yet. [You can help make one.](https://wiki.walkscape.app/inde
 
 ### Table 8 (Create a silver ethernite ring)
 
-| Recipe Name | Level | Service Requirement | Materials Used | Recipe Outputs |
-| --- | --- | --- | --- | --- |
+| Recipe Name                    | Level             | Service Requirement                            | Materials Used             | Recipe Outputs           |
+| ------------------------------ | ----------------- | ---------------------------------------------- | -------------------------- | ------------------------ |
 | Create a silver ethernite ring | Trinketry lvl. 47 | Needs Basic Trinketry Bench service or better. | 1x Ethernite 1x Silver bar | 1x Silver ethernite ring |
 
 ### Table 9 (Create a silver ethernite ring)
 
-| Recipe Name | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Create a silver ethernite ring | 1219 | 1300 | 0.938 | 566 steps | 230% | 2.154 | 671,054 steps |
+| Recipe Name                    | Base XP | Base Steps | Base XP/Step | Minimum Steps | Max Work Efficiency | Max XP/Step | Full Recipe W.E.A.R. |
+| ------------------------------ | ------- | ---------- | ------------ | ------------- | ------------------- | ----------- | -------------------- |
+| Create a silver ethernite ring | 1219    | 1300       | 0.938        | 566 steps     | 230%                | 2.154       | 671,054 steps        |
 
 ### Table 10 (Create a silver ethernite ring)
 
-| Item Name | Item Type | Quantity | Chance | Odds | Base Rate | W.E.A.R. |
-| --- | --- | --- | --- | --- | --- | --- |
-| Trinketry chest | Container | 1 | 0.400% | ~1 in 250 | 325,000 steps | 141,500 steps |
+| Item Name       | Item Type | Quantity | Chance | Odds      | Base Rate     | W.E.A.R.      |
+| --------------- | --------- | -------- | ------ | --------- | ------------- | ------------- |
+| Trinketry chest | Container | 1        | 0.400% | ~1 in 250 | 325,000 steps | 141,500 steps |
 
 ### Table 11 (Crafting Flow)
 
-| Raw Materials |
-| --- |
+| Raw Materials                                        |
+| ---------------------------------------------------- |
 | 1x Rough ethernite 7x Silver nugget or 2x Silver ore |

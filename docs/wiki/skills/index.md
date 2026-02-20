@@ -8,7 +8,6 @@ categories:
   - "Skills"
 ---
 
-
 # Skills
 
 There are currently 10 skills in WalkScape.
@@ -45,40 +44,40 @@ These skills mainly provide aid toward other actions or have special benefits ot
 
 ### Table 1 (Skills)
 
-| Skill | Uses |
-| --- | --- |
-| Agility | Traveling across the world and accessing shortcuts. |
-| Carpentry | Woodworking for turning logs into planks for crafting. |
-| Cooking | Recipe based skill that turns raw materials into consumables. |
-| Crafting | For turning transformed materials into final usable crafted items. |
-| Fishing | Catching fish to use as raw materials, primarily in cooking. |
-| Foraging | Gathering plants as raw materials for use in crafting and cooking. |
-| Mining | Mines ore based raw materials for use in smithing. |
-| Smithing | Turns ores into bars for use in crafting. |
-| Trinketry | Turns gems and trinkets into rings and amulets. |
-| Woodcutting | Cuts down trees for their logs as materials for carpentry. |
+| Skill       | Uses                                                               |
+| ----------- | ------------------------------------------------------------------ |
+| Agility     | Traveling across the world and accessing shortcuts.                |
+| Carpentry   | Woodworking for turning logs into planks for crafting.             |
+| Cooking     | Recipe based skill that turns raw materials into consumables.      |
+| Crafting    | For turning transformed materials into final usable crafted items. |
+| Fishing     | Catching fish to use as raw materials, primarily in cooking.       |
+| Foraging    | Gathering plants as raw materials for use in crafting and cooking. |
+| Mining      | Mines ore based raw materials for use in smithing.                 |
+| Smithing    | Turns ores into bars for use in crafting.                          |
+| Trinketry   | Turns gems and trinkets into rings and amulets.                    |
+| Woodcutting | Cuts down trees for their logs as materials for carpentry.         |
 
 ### Table 2 (Gathering)
 
 | Gathering Skills |
-| --- |
-| Fishing |
-| Foraging |
-| Mining |
-| Woodcutting |
+| ---------------- |
+| Fishing          |
+| Foraging         |
+| Mining           |
+| Woodcutting      |
 
 ### Table 3 (Artisan)
 
 | Artisan Skills |
-| --- |
-| Carpentry |
-| Cooking |
-| Crafting |
-| Smithing |
-| Trinketry |
+| -------------- |
+| Carpentry      |
+| Cooking        |
+| Crafting       |
+| Smithing       |
+| Trinketry      |
 
 ### Table 4 (Utility)
 
 | Utility Skills |
-| --- |
-| Agility |
+| -------------- |
+| Agility        |
