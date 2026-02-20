@@ -13,6 +13,10 @@ Supported collections: `skills`, `core-mechanics`, `activities` (including activ
 - `src/scraper/link-rewrite.ts` - internal wiki link rewriting for generated docs
 - `src/scraper/api.ts` - MediaWiki API fetch/parsing layer
 - `src/scraper/extract.ts` - HTML cleanup, table extraction, and markdown rendering
+- `src/mastra/index.ts` - Mastra instance with local-data skill Q&A workflow and agent
+- `src/mastra/workflows/answer-skill-question-workflow.ts` - deterministic progression planning workflow
+- `src/mastra/tools/*.ts` - local wiki data + route planner tools
+- `src/mastra/evals/fishing-30-55.eval.ts` - fishing 30->55 eval using `@mastra/evals` scorer
 
 ## What it generates
 
@@ -63,6 +67,35 @@ task ci
 ```
 
 This runs formatting checks, linting, type checking, TypeScript build, and docs build.
+
+## Mastra local skill planning
+
+This repo includes a Mastra 1.x setup that uses only local scraped wiki data.
+
+- Agent: `src/mastra/agents/wiki-coach-agent.ts`
+- Workflow: `src/mastra/workflows/answer-skill-question-workflow.ts`
+- Tools: `wiki-skill-data` and `skill-route-planner`
+
+Run tests and the fixed eval case:
+
+```bash
+pnpm test
+pnpm eval:fishing
+```
+
+Run Mastra Studio/API locally:
+
+```bash
+pnpm mastra:dev
+```
+
+Studio will be available at `http://localhost:4111`.
+
+Ask a local progression question from CLI:
+
+```bash
+pnpm ask "what should i do to get fishing from 30 to 55?"
+```
 
 ## Optional: specific collections only
 
