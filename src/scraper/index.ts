@@ -38,20 +38,25 @@ export async function runScrape(options: ScrapeOptions = {}): Promise<ScrapeRunR
 }
 
 export function printScrapeSummary(result: ScrapeRunResult): void {
-  const { sectionCount, summary } = result;
+  const { collections, sectionCount, summary } = result;
   const pagesGenerated = Number(summary.pages_generated_total ?? 0);
   const tablesFound = Number(summary.tables_found_total ?? 0);
   const requestCount = Number(summary.request_count ?? 0);
   const writeStats = (summary.write_stats as Record<string, unknown>) ?? {};
 
-  console.log(`Generated ${pagesGenerated} page(s) across ${sectionCount} section(s)`);
-  console.log(`Extracted ${tablesFound} table(s) total`);
+  console.log("\n=== Scrape Summary ===");
+  console.log(`Collections: ${collections.join(", ")}`);
+  console.log(`Sections: ${sectionCount}`);
+  console.log(`Pages generated: ${pagesGenerated}`);
+  console.log(`Tables extracted: ${tablesFound}`);
   console.log(`MediaWiki requests: ${requestCount}`);
 
   const docsWritten = writeStats.docs_written;
   const docsSkipped = writeStats.docs_skipped;
+  const docsRemoved = writeStats.docs_removed;
   if (typeof docsWritten === "number" && typeof docsSkipped === "number") {
-    console.log(`Docs written: ${docsWritten}, skipped: ${docsSkipped}`);
+    const removedText = typeof docsRemoved === "number" ? `, removed: ${docsRemoved}` : "";
+    console.log(`Docs written: ${docsWritten}, skipped: ${docsSkipped}${removedText}`);
   }
 
   const warnings = summary.warnings;

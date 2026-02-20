@@ -6,6 +6,7 @@ import { marked } from "marked";
 import { markedTerminal } from "marked-terminal";
 import ora from "ora";
 
+import { printCommandError, printJson } from "./cli-output.js";
 import {
   isScrapeCollection,
   printScrapeSummary,
@@ -50,22 +51,44 @@ class ScrapeCommandCli extends Command {
       char: "p",
       default: false,
       description: "Print saved docs after scrape"
+    }),
+    json: Flags.boolean({
+      default: false,
+      description: "Output machine-readable JSON"
     })
   };
 
   async run(): Promise<void> {
     const { args, flags } = await this.parse(ScrapeCommandCli);
+    const jsonMode = flags.json;
 
     if (flags.help) {
+      if (jsonMode) {
+        printJson({
+          mode: "scrape",
+          ok: true,
+          help: renderHelp()
+        });
+        return;
+      }
+
       this.log(renderHelp());
       return;
     }
 
     const collections = parseCollections(args.collections, flags.collections);
-    const hasTty = Boolean(process.stdout.isTTY);
-    const spinner = ora({ text: "Starting scrape", isEnabled: hasTty }).start();
+    const hasTty = Boolean(process.stdout.isTTY) && !jsonMode;
+    const spinner = hasTty
+      ? ora({ text: "Charting your local WalkScape wiki map", isEnabled: true }).start()
+      : null;
+    const progressEvents: ScrapeProgressEvent[] = [];
 
     const onProgress = (event: ScrapeProgressEvent): void => {
+      if (jsonMode) {
+        progressEvents.push(event);
+        return;
+      }
+
       const text = formatProgress(event);
 
       if (!hasTty) {
@@ -76,12 +99,14 @@ class ScrapeCommandCli extends Command {
       }
 
       if (event.stage === "warning") {
-        spinner.warn(text);
-        spinner.start("Continuing scrape");
+        spinner?.warn(text);
+        spinner?.start("Continuing scrape");
         return;
       }
 
-      spinner.text = text;
+      if (spinner) {
+        spinner.text = text;
+      }
     };
 
     try {
@@ -91,21 +116,52 @@ class ScrapeCommandCli extends Command {
         onProgress
       });
 
-      spinner.succeed(`Completed scrape (${result.collections.join(", ")})`);
+      const savedDocs = flags["print-docs"] ? await readSavedDocs(result.summary) : null;
+
+      if (spinner) {
+        spinner.succeed(`Completed scrape (${result.collections.join(", ")})`);
+      } else if (!jsonMode) {
+        this.log(`Completed scrape (${result.collections.join(", ")})`);
+      }
+
+      if (jsonMode) {
+        printJson({
+          mode: "scrape",
+          ok: true,
+          collections: result.collections,
+          sectionCount: result.sectionCount,
+          summary: result.summary,
+          progress: progressEvents,
+          savedDocs: savedDocs?.documents ?? [],
+          savedDocWarnings: savedDocs?.warnings ?? []
+        });
+        return;
+      }
+
       printScrapeSummary(result);
 
-      if (flags["print-docs"]) {
-        await printSavedDocs(result.summary);
+      if (savedDocs) {
+        printSavedDocs(savedDocs);
       }
     } catch (error) {
-      spinner.fail("Scrape failed");
+      spinner?.fail("Scrape failed");
       throw error;
     }
   }
 }
 
+interface SavedDoc {
+  path: string;
+  markdown: string;
+}
+
+interface SavedDocsReadResult {
+  documents: SavedDoc[];
+  warnings: string[];
+}
+
 function formatProgress(event: ScrapeProgressEvent): string {
-  const phase = event.phase === "collect" ? "Collect" : "Write";
+  const phase = event.phase === "collect" ? "COLLECT" : "WRITE";
   const progress =
     typeof event.current === "number" && typeof event.total === "number"
       ? ` ${event.current}/${event.total}`
@@ -114,9 +170,9 @@ function formatProgress(event: ScrapeProgressEvent): string {
     Boolean(value)
   );
   const scope = scopeParts.length ? ` (${scopeParts.join(" > ")})` : "";
-  const prefix = event.stage === "warning" ? "Warning: " : "";
+  const stageLabel = event.stage === "warning" ? "WARN" : "INFO";
 
-  return `${phase}${progress}: ${prefix}${event.message}${scope}`;
+  return `[${phase}${progress}] ${stageLabel}: ${event.message}${scope}`;
 }
 
 function renderHelp(): string {
@@ -125,7 +181,7 @@ function renderHelp(): string {
     "Scrape WalkScape wiki pages into local docs/raw outputs",
     "",
     "Usage:",
-    "  tsx src/main.ts [collection-a,collection-b] [--collections <name>]... [--incremental] [--full] [--print-docs]",
+    "  tsx src/main.ts [collection-a,collection-b] [--collections <name>]... [--incremental] [--full] [--print-docs] [--json]",
     "",
     `Collections: ${supportedCollections}`,
     "If no collections are provided, all collections are scraped.",
@@ -136,19 +192,23 @@ function renderHelp(): string {
     "  -i, --incremental  Skip rewriting unchanged pages by comparing source_oldid (default)",
     "      --full         Disable incremental mode and force full rewrite",
     "  -p, --print-docs   Print saved docs after scrape",
+    "      --json         Output machine-readable JSON",
     ""
   ].join("\n");
 }
 
-async function printSavedDocs(summary: Record<string, unknown>): Promise<void> {
+async function readSavedDocs(summary: Record<string, unknown>): Promise<SavedDocsReadResult> {
   const docPaths = getSavedDocPaths(summary);
 
   if (!docPaths.length) {
-    console.log("No saved docs found to print.");
-    return;
+    return {
+      documents: [],
+      warnings: []
+    };
   }
 
-  console.log(`\nPrinting ${docPaths.length} saved doc(s):`);
+  const documents: SavedDoc[] = [];
+  const warnings: string[] = [];
 
   for (const docPath of docPaths) {
     const absolutePath = path.resolve(process.cwd(), docPath);
@@ -157,15 +217,39 @@ async function printSavedDocs(summary: Record<string, unknown>): Promise<void> {
     try {
       markdown = await fs.readFile(absolutePath, "utf-8");
     } catch {
-      console.warn(`Could not read saved doc: ${docPath}`);
+      warnings.push(`Could not read saved doc: ${docPath}`);
       continue;
     }
 
-    const printableMarkdown = stripFrontmatter(markdown).trim() || "_(empty document)_";
-    const rendered = marked.parse(printableMarkdown) as string;
+    documents.push({
+      path: docPath,
+      markdown: stripFrontmatter(markdown).trim() || "_(empty document)_"
+    });
+  }
 
-    console.log(`\n--- ${docPath} ---`);
+  return {
+    documents,
+    warnings
+  };
+}
+
+function printSavedDocs(result: SavedDocsReadResult): void {
+  if (!result.documents.length) {
+    console.log("No saved docs found to print.");
+    return;
+  }
+
+  console.log(`\n=== Saved Docs (${result.documents.length}) ===`);
+
+  for (const doc of result.documents) {
+    const rendered = marked.parse(doc.markdown) as string;
+
+    console.log(`\n--- ${doc.path} ---`);
     console.log(rendered.trimEnd());
+  }
+
+  for (const warning of result.warnings) {
+    console.warn(warning);
   }
 }
 
@@ -238,7 +322,9 @@ function parseCollections(
   return deduped;
 }
 
+const jsonMode = process.argv.includes("--json");
+
 void ScrapeCommandCli.run(process.argv.slice(2)).catch((error) => {
-  console.error(error instanceof Error ? (error.stack ?? error.message) : String(error));
+  printCommandError("scrape", error, jsonMode);
   process.exitCode = 1;
 });

@@ -3,6 +3,7 @@ import { pathToFileURL } from "node:url";
 import { createKeywordCoverageScorer } from "@mastra/evals/scorers/prebuilt";
 import { createAgentTestRun, createTestMessage } from "@mastra/evals/scorers/utils";
 
+import { printCommandError, printJson, stripBooleanFlag } from "../../cli-output.js";
 import { runLocalSkillQuestion } from "../index.js";
 
 export interface EvalResult {
@@ -75,14 +76,37 @@ export async function runFishing3055Eval(): Promise<EvalResult> {
 }
 
 async function main(): Promise<void> {
+  const parsed = stripBooleanFlag(process.argv.slice(2), "--json");
   const result = await runFishing3055Eval();
-  console.log(JSON.stringify(result, null, 2));
+
+  if (parsed.enabled) {
+    printJson({
+      mode: "eval:fishing",
+      ok: true,
+      eval: "fishing-30-55",
+      result
+    });
+  } else {
+    console.log("=== Eval: Fishing 30 -> 55 ===");
+    console.log(`Passed: ${result.passed ? "yes" : "no"}`);
+    console.log(`Score: ${result.score.toFixed(2)}`);
+    console.log(`Scorer (${result.scorer.name}): ${result.scorer.score.toFixed(3)}`);
+    console.log("");
+    for (const detail of result.details) {
+      console.log(`- ${detail}`);
+    }
+  }
 
   if (!result.passed) {
     process.exitCode = 1;
   }
 }
 
+const jsonMode = process.argv.includes("--json");
+
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
-  void main();
+  void main().catch((error: unknown) => {
+    printCommandError("eval:fishing", error, jsonMode);
+    process.exitCode = 1;
+  });
 }

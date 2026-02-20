@@ -9,6 +9,11 @@ The project is centered around four concepts:
 - `guide`: ask context-aware questions using your own character profile + local wiki data;
 - `evals`: run repeatable quality checks so you can track response quality as prompts/tools evolve over time.
 
+CLI output modes:
+
+- by default, every operation is optimized for human terminal use;
+- add `--json` to any operation for machine-readable output (automation/AI workflows).
+
 ## Try it now
 
 ```bash
@@ -36,6 +41,9 @@ pnpm guide show
 # 7) Ask a context-aware progression question
 #    - guide can infer your current level from imported profile
 pnpm guide ask "how do i get fishing to 70?"
+
+# 7b) Get machine-readable output for AI agents/tools
+pnpm guide ask --json "how do i get fishing to 70?"
 
 # 8) Optional: compare with raw search matches
 pnpm wiki:search "magnet fishing location"
@@ -103,6 +111,7 @@ pnpm scrape --full
 pnpm scrape --collections skills --collections recipes
 pnpm scrape skills,activities
 pnpm scrape --print-docs
+pnpm scrape --json
 ```
 
 Behavior notes:
@@ -116,6 +125,8 @@ Behavior notes:
 
 ```bash
 pnpm wiki "best fishing activity around level 40"
+# machine-readable mode
+pnpm wiki --json "best fishing activity around level 40"
 ```
 
 ### Guide (personal context-aware assistant)
@@ -124,6 +135,7 @@ Save username:
 
 ```bash
 pnpm guide set --username your_name
+pnpm guide set --json --username your_name
 ```
 
 Import character export:
@@ -132,6 +144,8 @@ Import character export:
 pnpm guide import --character-export-file ./example-character-export.json
 # or
 pnpm guide import --character-export-json '{"username":"your_name","skills":{"fishing":{"level":35}}}'
+# machine-readable mode
+pnpm guide import --json --character-export-file ./example-character-export.json
 ```
 
 Notes:
@@ -143,6 +157,7 @@ Ask with context:
 
 ```bash
 pnpm guide ask "how do i get fishing to 55?"
+pnpm guide ask --json "how do i get fishing to 55?"
 ```
 
 Inspect/reset context:
@@ -150,12 +165,29 @@ Inspect/reset context:
 ```bash
 pnpm guide show
 pnpm guide reset
+pnpm guide show --json
+pnpm guide reset --json
 ```
 
 ### Search local wiki index (raw match mode)
 
 ```bash
 pnpm wiki:search "best fishing activity around level 40"
+pnpm wiki:search --json "best fishing activity around level 40"
+```
+
+### Route-only ask (skill planner)
+
+```bash
+pnpm ask "how to get from fishing 35 to 50?"
+pnpm ask --json "how to get from fishing 35 to 50?"
+```
+
+### Evals
+
+```bash
+pnpm eval:fishing
+pnpm eval:fishing --json
 ```
 
 ## Outputs you should expect

@@ -182,14 +182,16 @@ const formatAnswerStep = createStep({
   }),
   execute: async ({ inputData }) => {
     const titleSkill = `${inputData.skill.charAt(0).toUpperCase()}${inputData.skill.slice(1)}`;
-    const introPrefix = inputData.username ? `${inputData.username}, ` : "";
+    const introLine = inputData.username
+      ? `${inputData.username}, your ${titleSkill} game plan is ready: ${inputData.fromLevel} -> ${inputData.toLevel}.`
+      : `Your ${titleSkill} game plan is ready: ${inputData.fromLevel} -> ${inputData.toLevel}.`;
     const contextLine = inputData.usedProfileLevel
-      ? `Using your saved profile level (${titleSkill} ${inputData.fromLevel}) as the starting point.`
-      : "";
-    const routeLines = inputData.segments.map((segment) => {
+      ? `I used your saved profile level (${titleSkill} ${inputData.fromLevel}) as the launch point.`
+      : "Route built from local wiki data with the level range from your question.";
+    const routeLines = inputData.segments.map((segment, index) => {
       const xp = segment.totalMaxXpPerStep ?? segment.totalBaseXpPerStep;
       const xpText = typeof xp === "number" ? xp.toFixed(3) : "n/a";
-      return `- ${segment.fromLevel}-${segment.toLevel}: ${segment.activityName} @ ${segment.location} (req lvl ${segment.requiredLevel}, xp/step ${xpText})`;
+      return `- Leg ${index + 1} (${segment.fromLevel}-${segment.toLevel}): ${segment.activityName} @ ${segment.location} (req lvl ${segment.requiredLevel}, xp/step ${xpText})`;
     });
 
     const consumableLines = inputData.consumables.slice(0, 5).map((entry) => {
@@ -197,12 +199,20 @@ const formatAnswerStep = createStep({
     });
 
     const answer = [
-      `${introPrefix}${titleSkill} ${inputData.fromLevel}-${inputData.toLevel} route (local wiki data):`,
+      introLine,
+      "",
+      "Quick vibe check: this route favors best available XP/step as you unlock new activities.",
       contextLine,
+      "",
+      "Route:",
       ...routeLines,
       consumableLines.length ? "" : "",
-      consumableLines.length ? "Helpful consumables:" : "",
-      ...consumableLines
+      consumableLines.length ? "Optional boosts:" : "",
+      ...consumableLines,
+      "",
+      inputData.username
+        ? `You have this, ${inputData.username}. Boots on, progress on.`
+        : "Boots on, progress on."
     ]
       .filter(Boolean)
       .join("\n");

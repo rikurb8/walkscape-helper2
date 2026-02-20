@@ -52,8 +52,8 @@ test("runLocalSkillQuestion uses guide profile levels for target-only question",
 
   assert.equal(result.route.fromLevel, 30);
   assert.equal(result.route.toLevel, 55);
-  assert.match(result.answer, /riku, Fishing 30-55 route/i);
-  assert.match(result.answer, /Using your saved profile level/i);
+  assert.match(result.answer, /riku, your Fishing game plan is ready/i);
+  assert.match(result.answer, /saved profile level/i);
 });
 
 test("runLocalSkillQuestion fails clearly when current level is missing", async () => {

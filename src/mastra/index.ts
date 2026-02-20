@@ -160,7 +160,7 @@ export async function runLocalWikiQuestion(question: string): Promise<{
     throw new Error("Question cannot be empty");
   }
 
-  if (isProgressionQuestion(normalizedQuestion)) {
+  if (isProgressionQuestion(normalizedQuestion) && hasExplicitLevelRange(normalizedQuestion)) {
     try {
       const skillResult = await runLocalSkillQuestion(normalizedQuestion);
       return {
@@ -225,4 +225,8 @@ function isProgressionQuestion(question: string): boolean {
   }
 
   return /(from|to|level|lvl|route|progress|train|get\s+.+\s+to)\b/i.test(lower);
+}
+
+function hasExplicitLevelRange(question: string): boolean {
+  return /(?:from\s+)?(\d+)\s*(?:to|-)\s*(\d+)/i.test(question);
 }
