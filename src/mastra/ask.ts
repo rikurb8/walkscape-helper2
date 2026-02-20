@@ -1,4 +1,9 @@
-import { printCommandError, printJson, stripBooleanFlag } from "../cli-output.js";
+import {
+  printAiUsageSummary,
+  printCommandError,
+  printJson,
+  stripBooleanFlag
+} from "../cli-output.js";
 import { runLocalSkillQuestion } from "./index.js";
 
 async function main(): Promise<void> {
@@ -16,7 +21,7 @@ async function main(): Promise<void> {
       ok: true,
       question: rawQuestion,
       answer: result.answer,
-      route: result.route
+      ai: result.ai
     });
     return;
   }
@@ -25,6 +30,8 @@ async function main(): Promise<void> {
   console.log(`Question: ${rawQuestion}`);
   console.log("");
   console.log(result.answer);
+  console.log("");
+  printAiUsageSummary(result.ai);
 }
 
 const jsonMode = process.argv.includes("--json");

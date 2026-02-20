@@ -1,6 +1,8 @@
 import { Mastra } from "@mastra/core/mastra";
 import { LibSQLStore } from "@mastra/libsql";
 
+import type { AiUsageSummary } from "../cli-output.js";
+import { EMPTY_AI_USAGE_SUMMARY, createAiUsageCollector } from "./ai-usage.js";
 import { wikiCoachAgent } from "./agents/wiki-coach-agent.js";
 import { searchLocalWiki, type WikiSearchResult } from "./wiki-workspace.js";
 import { answerSkillQuestionWorkflow } from "./workflows/answer-skill-question-workflow.js";
@@ -38,6 +40,7 @@ const SKILL_NAMES = [
 
 export async function runLocalSkillQuestion(question: string): Promise<{
   answer: string;
+  ai: AiUsageSummary;
   route: {
     skill: string;
     fromLevel: number;
@@ -63,6 +66,7 @@ export async function runLocalSkillQuestion(
   options: { guideContext?: GuideRuntimeContext }
 ): Promise<{
   answer: string;
+  ai: AiUsageSummary;
   route: {
     skill: string;
     fromLevel: number;
@@ -88,6 +92,7 @@ export async function runLocalSkillQuestion(
   options?: { guideContext?: GuideRuntimeContext }
 ): Promise<{
   answer: string;
+  ai: AiUsageSummary;
   route: {
     skill: string;
     fromLevel: number;
@@ -126,7 +131,19 @@ export async function runLocalSkillQuestion(
     throw new Error(`Workflow failed with status '${result.status}'`);
   }
 
-  return result.result;
+  const aiAnswer = await tryAnswerSkillRouteWithWikiCoach(question, result.result.route, {
+    username: options?.guideContext?.username,
+    skillLevels: options?.guideContext?.skillLevels
+  });
+  if (!aiAnswer) {
+    throw new Error("AI-generated progression answer unavailable. Set OPENAI_API_KEY and retry.");
+  }
+
+  return {
+    answer: aiAnswer.answer,
+    ai: aiAnswer.ai,
+    route: result.result.route
+  };
 }
 
 function getWorkflowErrorMessage(
@@ -153,6 +170,7 @@ function getWorkflowErrorMessage(
 
 export async function runLocalWikiQuestion(question: string): Promise<{
   answer: string;
+  ai: AiUsageSummary;
   matches: WikiSearchResult[];
 }> {
   const normalizedQuestion = question.trim();
@@ -165,6 +183,7 @@ export async function runLocalWikiQuestion(question: string): Promise<{
       const skillResult = await runLocalSkillQuestion(normalizedQuestion);
       return {
         answer: skillResult.answer,
+        ai: skillResult.ai,
         matches: []
       };
     } catch {
@@ -176,37 +195,141 @@ export async function runLocalWikiQuestion(question: string): Promise<{
   if (!matches.length) {
     return {
       answer: "I could not find matching local wiki content for that question.",
+      ai: EMPTY_AI_USAGE_SUMMARY,
       matches
     };
   }
 
-  const lines = matches.slice(0, 3).map((match, index) => {
-    const title = inferTitle(match);
-    const snippet = collapseWhitespace(stripFrontmatter(match.content)).slice(0, 220);
-    return `${index + 1}. ${title}: ${snippet}`;
-  });
-
-  const sourceLines = matches.slice(0, 5).map((match) => `- ${match.id}`);
+  const aiAnswer = await tryAnswerWithWikiCoach(normalizedQuestion, matches);
+  if (!aiAnswer) {
+    throw new Error("AI-generated wiki answer unavailable. Set OPENAI_API_KEY and retry.");
+  }
 
   return {
-    answer: [
-      "Based on local wiki content, these are the closest matches:",
-      ...lines,
-      "",
-      "Sources:",
-      ...sourceLines
-    ].join("\n"),
+    answer: aiAnswer.answer,
+    ai: aiAnswer.ai,
     matches
   };
 }
 
-function inferTitle(result: WikiSearchResult): string {
-  const firstLine = stripFrontmatter(result.content).split(/\r?\n/, 1)[0]?.trim() ?? "";
-  if (firstLine.startsWith("# ")) {
-    return firstLine.slice(2).trim();
+async function tryAnswerSkillRouteWithWikiCoach(
+  question: string,
+  route: {
+    skill: string;
+    fromLevel: number;
+    toLevel: number;
+    segments: Array<{
+      fromLevel: number;
+      toLevel: number;
+      activityName: string;
+      location: string;
+      requiredLevel: number;
+      totalMaxXpPerStep: number | null;
+      totalBaseXpPerStep: number | null;
+    }>;
+    consumables: Array<{
+      itemName: string;
+      attributes: string;
+      duration: string;
+    }>;
+  },
+  context?: GuideRuntimeContext
+): Promise<{ answer: string; ai: AiUsageSummary } | null> {
+  if (!process.env.OPENAI_API_KEY) {
+    return null;
   }
 
-  return result.id;
+  const collector = createAiUsageCollector();
+  const prompt = [
+    "Answer the user progression question using only the route plan below, which is derived from local wiki data.",
+    "Do not invent activities, level requirements, or XP values.",
+    "Keep the answer concise and practical.",
+    "Use this structure:",
+    "- one short intro line",
+    "- a Route section with bullets for each leg",
+    "- an Optional boosts section (max 5 items) if consumables exist",
+    "- one short closing line",
+    "",
+    `Question: ${question}`,
+    `Username: ${context?.username ?? "(not provided)"}`,
+    `Profile skill level available: ${typeof context?.skillLevels?.[route.skill] === "number" ? context.skillLevels[route.skill] : "no"}`,
+    "",
+    "Route plan JSON:",
+    JSON.stringify(route, null, 2)
+  ].join("\n");
+
+  try {
+    const agent = mastra.getAgent("wikiCoachAgent");
+    const output = await agent.generate(prompt, {
+      maxSteps: 4,
+      onStepFinish: (event) => {
+        collector.onStepFinish(event);
+      }
+    });
+
+    const answer = output.text?.trim();
+    if (!answer) {
+      return null;
+    }
+
+    return {
+      answer,
+      ai: collector.buildSummary()
+    };
+  } catch {
+    return null;
+  }
+}
+
+async function tryAnswerWithWikiCoach(
+  question: string,
+  matches: WikiSearchResult[]
+): Promise<{ answer: string; ai: AiUsageSummary } | null> {
+  if (!process.env.OPENAI_API_KEY) {
+    return null;
+  }
+
+  const collector = createAiUsageCollector();
+  const contextBlock = matches
+    .slice(0, 5)
+    .map((match, index) => {
+      const excerpt = collapseWhitespace(stripFrontmatter(match.content)).slice(0, 700);
+      return `${index + 1}. ${match.id}\n${excerpt}`;
+    })
+    .join("\n\n");
+
+  const prompt = [
+    "Answer the user question using only the local wiki excerpts below.",
+    "If details are missing, say so instead of guessing.",
+    "Include a short 'Sources:' section with bullet IDs from the excerpts.",
+    "",
+    `Question: ${question}`,
+    "",
+    "Local excerpts:",
+    contextBlock
+  ].join("\n");
+
+  try {
+    const agent = mastra.getAgent("wikiCoachAgent");
+    const output = await agent.generate(prompt, {
+      maxSteps: 4,
+      onStepFinish: (event) => {
+        collector.onStepFinish(event);
+      }
+    });
+
+    const answer = output.text?.trim();
+    if (!answer) {
+      return null;
+    }
+
+    return {
+      answer,
+      ai: collector.buildSummary()
+    };
+  } catch {
+    return null;
+  }
 }
 
 function collapseWhitespace(value: string): string {

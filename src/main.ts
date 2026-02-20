@@ -81,11 +81,9 @@ class ScrapeCommandCli extends Command {
     const spinner = hasTty
       ? ora({ text: "Charting your local WalkScape wiki map", isEnabled: true }).start()
       : null;
-    const progressEvents: ScrapeProgressEvent[] = [];
 
     const onProgress = (event: ScrapeProgressEvent): void => {
       if (jsonMode) {
-        progressEvents.push(event);
         return;
       }
 
@@ -130,8 +128,7 @@ class ScrapeCommandCli extends Command {
           ok: true,
           collections: result.collections,
           sectionCount: result.sectionCount,
-          summary: result.summary,
-          progress: progressEvents,
+          stats: toStructuredScrapeSummary(result.summary),
           savedDocs: savedDocs?.documents ?? [],
           savedDocWarnings: savedDocs?.warnings ?? []
         });
@@ -287,6 +284,44 @@ function getSavedDocPaths(summary: Record<string, unknown>): string[] {
 
 function stripFrontmatter(markdown: string): string {
   return markdown.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, "");
+}
+
+function toStructuredScrapeSummary(summary: Record<string, unknown>): {
+  pagesGenerated: number;
+  tablesExtracted: number;
+  mediaWikiRequests: number;
+  docs: {
+    written: number;
+    skipped: number;
+    removed: number;
+  };
+  warningsCount: number;
+} {
+  const writeStats =
+    summary.write_stats && typeof summary.write_stats === "object"
+      ? (summary.write_stats as Record<string, unknown>)
+      : {};
+  const warnings = Array.isArray(summary.warnings) ? summary.warnings : [];
+
+  return {
+    pagesGenerated: toNumber(summary.pages_generated_total),
+    tablesExtracted: toNumber(summary.tables_found_total),
+    mediaWikiRequests: toNumber(summary.request_count),
+    docs: {
+      written: toNumber(writeStats.docs_written),
+      skipped: toNumber(writeStats.docs_skipped),
+      removed: toNumber(writeStats.docs_removed)
+    },
+    warningsCount: warnings.length
+  };
+}
+
+function toNumber(value: unknown): number {
+  if (typeof value === "number" && Number.isFinite(value)) {
+    return value;
+  }
+
+  return 0;
 }
 
 function parseCollections(

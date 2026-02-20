@@ -16,6 +16,11 @@ tasks:
     cmds:
       - pnpm typecheck
 
+  test:
+    desc: Run automated tests
+    cmds:
+      - pnpm test
+
   build:
     desc: Build TypeScript output
     cmds:
@@ -32,5 +37,6 @@ tasks:
       - task format:check
       - task lint
       - task typecheck
+      - task test
       - task build
       - task docs:build

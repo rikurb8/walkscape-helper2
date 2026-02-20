@@ -1,6 +1,12 @@
 import { promises as fs } from "node:fs";
 
-import { printCommandError, printJson, stripBooleanFlag } from "../cli-output.js";
+import {
+  printAiUsageSummary,
+  printCommandError,
+  printJson,
+  stripBooleanFlag,
+  type AiUsageSummary
+} from "../cli-output.js";
 import {
   loadGuideContext,
   parseCharacterExport,
@@ -44,6 +50,7 @@ interface GuideAskResult {
   answerType: "progression" | "wiki";
   username?: string;
   answer: string;
+  ai: AiUsageSummary;
   route?: SkillQuestionResult["route"];
   matches: WikiQuestionResult["matches"];
 }
@@ -74,7 +81,7 @@ async function main(): Promise<void> {
         mode: "guide",
         ok: true,
         operation: "set",
-        ...result
+        username: result.username
       });
       return;
     }
@@ -90,7 +97,8 @@ async function main(): Promise<void> {
         mode: "guide",
         ok: true,
         operation: "import",
-        ...result
+        context: result.context,
+        importedSkills: result.importedSkills
       });
       return;
     }
@@ -106,7 +114,7 @@ async function main(): Promise<void> {
         mode: "guide",
         ok: true,
         operation: "show",
-        ...result
+        context: result.context
       });
       return;
     }
@@ -137,7 +145,12 @@ async function main(): Promise<void> {
         mode: "guide",
         ok: true,
         operation: "ask",
-        ...result
+        question: result.question,
+        answerType: result.answerType,
+        username: result.username,
+        answer: result.answer,
+        matches: toMatches(result.matches),
+        ai: result.ai
       });
       return;
     }
@@ -229,6 +242,7 @@ async function handleAsk(args: string[]): Promise<GuideAskResult> {
       answerType: "progression",
       username: context.username,
       answer: skillResult.answer,
+      ai: skillResult.ai,
       route: skillResult.route,
       matches: []
     };
@@ -243,6 +257,7 @@ async function handleAsk(args: string[]): Promise<GuideAskResult> {
     answer: context.username
       ? `${context.username}, quick detour answer incoming:\n${wikiResult.answer}`
       : `Quick detour answer incoming:\n${wikiResult.answer}`,
+    ai: wikiResult.ai,
     matches: wikiResult.matches
   };
 }
@@ -296,6 +311,9 @@ function renderAskResult(result: GuideAskResult): void {
       console.log(`${index + 1}. ${match.id} (score ${match.score.toFixed(3)})`);
     }
   }
+
+  console.log("");
+  printAiUsageSummary(result.ai);
 }
 
 function readFlagValue(args: string[], flagName: string): string | undefined {
@@ -339,6 +357,16 @@ function renderHelp(): string {
     "  pass --json for machine-readable output",
     ""
   ].join("\n");
+}
+
+function toMatches(matches: Array<{ id: string; score: number }>): Array<{
+  id: string;
+  score: number;
+}> {
+  return matches.slice(0, 5).map((match) => ({
+    id: match.id,
+    score: match.score
+  }));
 }
 
 const jsonMode = process.argv.includes("--json");

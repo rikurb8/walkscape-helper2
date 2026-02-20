@@ -1,4 +1,9 @@
-import { printCommandError, printJson, stripBooleanFlag } from "../cli-output.js";
+import {
+  printAiUsageSummary,
+  printCommandError,
+  printJson,
+  stripBooleanFlag
+} from "../cli-output.js";
 import { runLocalWikiQuestion } from "./index.js";
 
 async function main(): Promise<void> {
@@ -16,7 +21,8 @@ async function main(): Promise<void> {
       ok: true,
       question: rawQuestion,
       answer: result.answer,
-      matches: result.matches
+      matches: toMatches(result.matches),
+      ai: result.ai
     });
     return;
   }
@@ -33,6 +39,9 @@ async function main(): Promise<void> {
       console.log(`${index + 1}. ${match.id} (score ${match.score.toFixed(3)})`);
     }
   }
+
+  console.log("");
+  printAiUsageSummary(result.ai);
 }
 
 const jsonMode = process.argv.includes("--json");
@@ -41,3 +50,13 @@ void main().catch((error: unknown) => {
   printCommandError("wiki", error, jsonMode);
   process.exitCode = 1;
 });
+
+function toMatches(matches: Array<{ id: string; score: number }>): Array<{
+  id: string;
+  score: number;
+}> {
+  return matches.slice(0, 5).map((match) => ({
+    id: match.id,
+    score: match.score
+  }));
+}

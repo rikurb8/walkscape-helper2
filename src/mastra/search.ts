@@ -17,8 +17,12 @@ async function main(): Promise<void> {
       mode: "wiki-search",
       ok: true,
       query,
-      count: results.length,
-      results
+      matches: results.map((result) => ({
+        id: result.id,
+        score: result.score,
+        lineRange: result.lineRange,
+        snippet: collapseWhitespace(stripFrontmatter(result.content)).slice(0, 240)
+      }))
     });
     return;
   }
