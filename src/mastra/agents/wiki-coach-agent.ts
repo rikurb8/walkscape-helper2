@@ -3,6 +3,7 @@ import { Memory } from "@mastra/memory";
 
 import { skillRoutePlannerTool } from "../tools/skill-route-planner-tool.js";
 import { wikiSkillDataTool } from "../tools/wiki-skill-data-tool.js";
+import { wikiWorkspaceSearchTool } from "../tools/wiki-workspace-search-tool.js";
 import { answerSkillQuestionWorkflow } from "../workflows/answer-skill-question-workflow.js";
 
 export const wikiCoachAgent = new Agent({
@@ -13,6 +14,7 @@ export const wikiCoachAgent = new Agent({
     "Use only local scraped wiki data made available through tools/workflows.",
     "Never invent activities, level requirements, or XP metrics.",
     "For leveling questions, prefer workflow-answerSkillQuestion first.",
+    "For general wiki questions, use wiki-workspace-search before answering.",
     "When relevant, include short consumable suggestions from the data."
   ],
   model: "openai/gpt-4.1-mini",
@@ -23,7 +25,8 @@ export const wikiCoachAgent = new Agent({
   }),
   tools: {
     wikiSkillDataTool,
-    skillRoutePlannerTool
+    skillRoutePlannerTool,
+    wikiWorkspaceSearchTool
   },
   workflows: {
     answerSkillQuestion: answerSkillQuestionWorkflow

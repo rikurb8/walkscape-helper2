@@ -1,120 +1,153 @@
 # WalkScape Helper
 
-WalkScape helper with wiki scraping and AI-powered Q&A. The default run scrapes all supported collections into structured markdown for AI use.
+`walkscape-helper` turns the WalkScape wiki into a local, queryable knowledge base for progression planning.
 
-Supported collections: `skills`, `core-mechanics`, `activities` (including activity pages listed in the Activities table), and `recipes`.
+It is designed for a local-first workflow:
 
-## Code structure
+- scrape and normalize wiki content into docs + structured data;
+- search and inspect that data locally;
+- ask progression questions against local content;
+- evaluate answer quality with repeatable checks.
 
-- `src/main.ts` - oclif CLI entrypoint (`--help`, flags, and live progress spinner)
-- `src/scraper/index.ts` - public scraper entry API (`runScrape`)
-- `src/scraper/collections.ts` - section/page discovery and collection building
-- `src/scraper/writers.ts` - markdown/raw/doc-nav/report output writing
-- `src/scraper/link-rewrite.ts` - internal wiki link rewriting for generated docs
-- `src/scraper/api.ts` - MediaWiki API fetch/parsing layer
-- `src/scraper/extract.ts` - HTML cleanup, table extraction, and markdown rendering
-- `src/mastra/index.ts` - Mastra instance with local-data skill Q&A workflow and agent
-- `src/mastra/workflows/answer-skill-question-workflow.ts` - deterministic progression planning workflow
-- `src/mastra/tools/*.ts` - local wiki data + route planner tools
-- `src/mastra/evals/fishing-30-55.eval.ts` - fishing 30->55 eval using `@mastra/evals` scorer
+## What this project does
 
-## What it generates
+At a high level, this repository combines three capabilities:
 
-- `docs/wiki/skills/index.md` - cleaned overview markdown + extracted tables
-- `docs/wiki/skills/*.md` - one cleaned page for each skill found in overview (`agility.md`, `carpentry.md`, etc.)
-- `docs/wiki/core-mechanics/index.md` - cleaned Core Mechanics page
-- `docs/wiki/activities/index.md` + `docs/wiki/activities/*.md` - Activities overview and activity pages found from the Activities table
-- `docs/wiki/recipes/index.md` - cleaned Recipes page with extracted tables
-- `data/raw/*_parse.json` - raw MediaWiki parse response snapshots for each scraped page
-- `data/raw/*_structured.json` - extracted table data payload for each scraped page
-- `reports/scrape_report.json` - summary for the latest scrape run
-- `docs/.vitepress/config.mts` - auto-generated VitePress navigation/sidebar config for scraped pages
+1. **Wiki ingestion pipeline** (`scrape`): fetches selected wiki sections, cleans and transforms HTML, extracts tabular data, rewrites links, and writes deterministic outputs.
+2. **Local knowledge access** (`wiki:search`, docs site): lets you browse and keyword-search what was scraped.
+3. **Route-planning assistant workflow** (`ask`, `eval:fishing`): uses local scraped data in a deterministic planning workflow to answer skill progression questions.
 
-## Copy-paste run commands
+Supported scrape collections:
+
+- `skills`
+- `core-mechanics`
+- `activities` (plus linked activity pages from the Activities table)
+- `recipes`
+
+## Quick start
 
 ```bash
 pnpm install
 pnpm scrape
-pnpm docs:dev
+pnpm ask "how to get from fishing 35 to 50?"
 ```
 
-You can inspect CLI help with:
+Optional next commands:
+
+```bash
+pnpm wiki:search "magnet fishing location"
+pnpm docs:dev
+pnpm eval:fishing
+```
+
+## Typical workflow
+
+1. **Build local snapshot**: run `pnpm scrape` (or `pnpm scrape --incremental`).
+2. **Inspect data**: use `pnpm wiki:search "..."` and/or browse docs with `pnpm docs:dev`.
+3. **Ask planning questions**: run `pnpm ask "..."` for level-by-level routes.
+4. **Validate quality**: run tests/evals and build checks.
+
+## CLI usage
+
+### Scrape
+
+```bash
+pnpm scrape
+```
+
+Useful variants:
 
 ```bash
 pnpm scrape --help
+pnpm scrape --incremental
+pnpm scrape --collections skills --collections recipes
+pnpm scrape skills,activities
+pnpm scrape --print-docs
 ```
 
-Open the local URL shown by VitePress (usually `http://localhost:5173`) to validate rendering.
+Behavior notes:
 
-## Build static docs
+- if no collections are passed, all supported collections are scraped;
+- incremental mode skips unchanged pages using `source_oldid`;
+- progress is streamed in collect/write phases with warnings surfaced during the run.
+
+### Ask progression questions
 
 ```bash
+pnpm ask "how to get from fishing 35 to 50?"
+```
+
+### Search local wiki index
+
+```bash
+pnpm wiki:search "best fishing activity around level 40"
+```
+
+## Outputs you should expect
+
+After a scrape, key artifacts are written to:
+
+- `docs/wiki/...` for cleaned markdown pages used for browsing;
+- `data/raw/*_parse.json` for raw MediaWiki parse snapshots;
+- `data/raw/*_structured.json` for extracted table-oriented payloads;
+- `reports/scrape_report.json` for run metadata and summary;
+- `docs/.vitepress/config.mts` for generated docs navigation/sidebar.
+
+Representative docs outputs:
+
+- `docs/wiki/skills/index.md` and `docs/wiki/skills/*.md`
+- `docs/wiki/core-mechanics/index.md`
+- `docs/wiki/activities/index.md` and `docs/wiki/activities/*.md`
+- `docs/wiki/recipes/index.md`
+
+## Repository map
+
+- `src/main.ts`: CLI entrypoint, flags, progress rendering.
+- `src/scraper/index.ts`: scraper orchestration API (`runScrape`) and summary printing.
+- `src/scraper/api.ts`: MediaWiki API access and request pacing.
+- `src/scraper/collections.ts`: section/page discovery and collection assembly.
+- `src/scraper/extract.ts`: HTML cleanup, table extraction, markdown conversion.
+- `src/scraper/link-rewrite.ts`: internal link rewriting for generated docs.
+- `src/scraper/writers.ts`: markdown/raw/report/docs-config writers.
+- `src/mastra/index.ts`: local Q&A integration entrypoint.
+- `src/mastra/workflows/answer-skill-question-workflow.ts`: deterministic route-planning workflow.
+- `src/mastra/tools/*.ts`: local data + planning/search tools used by the workflow.
+- `src/mastra/wiki-workspace.ts`: local wiki indexing and retrieval.
+- `src/mastra/evals/fishing-30-55.eval.ts`: fixed fishing progression evaluation.
+
+## Build, test, and quality checks
+
+Primary checks:
+
+```bash
+pnpm lint
+pnpm typecheck
+pnpm test
+pnpm build
 pnpm docs:build
 ```
 
-To preview the built site locally:
-
-```bash
-pnpm docs:preview
-```
-
-## Quality gates
-
-If you use `go-task`, run all checks with:
+If you use `go-task`, you can run the aggregate pipeline with:
 
 ```bash
 task ci
 ```
 
-This runs formatting checks, linting, type checking, TypeScript build, and docs build.
+## Docs and local tools
 
-## Mastra local skill planning
+- Start docs dev server: `pnpm docs:dev` (typically `http://localhost:5173`).
+- Build docs site: `pnpm docs:build`.
+- Preview built docs: `pnpm docs:preview`.
+- Start Mastra Studio/API: `pnpm mastra:dev` (typically `http://localhost:4111`).
 
-This repo includes a Mastra 1.x setup that uses only local scraped wiki data.
+## Recommended verification flow for changes
 
-- Agent: `src/mastra/agents/wiki-coach-agent.ts`
-- Workflow: `src/mastra/workflows/answer-skill-question-workflow.ts`
-- Tools: `wiki-skill-data` and `skill-route-planner`
-
-Run tests and the fixed eval case:
-
-```bash
-pnpm test
-pnpm eval:fishing
-```
-
-Run Mastra Studio/API locally:
+For scraper/knowledge-path changes, this sequence is usually enough:
 
 ```bash
-pnpm mastra:dev
+pnpm build
+pnpm scrape --collections skills --incremental
+pnpm docs:build
 ```
 
-Studio will be available at `http://localhost:4111`.
-
-Ask a local progression question from CLI:
-
-```bash
-pnpm ask "what should i do to get fishing from 30 to 55?"
-```
-
-## Optional: specific collections only
-
-```bash
-pnpm scrape --collections skills --collections recipes
-```
-
-## Optional: incremental refresh (skip unchanged pages)
-
-```bash
-pnpm scrape --incremental
-```
-
-You can also pass a comma-separated collection list positionally:
-
-```bash
-pnpm scrape skills,activities
-```
-
-Incremental mode compares each page's `source_oldid` and skips rewriting markdown/raw files when unchanged.
-
-During scraping, the CLI shows TUI-style progress updates for both collection and writing phases so you can follow page-by-page progress.
+Run a full scrape only when necessary (it performs network requests and rewrites generated outputs).
