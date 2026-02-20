@@ -36,8 +36,8 @@ const nav: NavItem[] = [{ text: "Home", link: "/" }, ...sections.map((section) =
 const sidebar: SidebarSection[] = sections.map((section) => ({ text: section.sectionTitle, items: section.items }));
 
 export default defineConfig({
-  title: "WalkScape Wiki Scraper",
-  description: "Local validation viewer for scraped WalkScape markdown",
+  title: "WalkScape Helper",
+  description: "WalkScape helper with wiki scraping and AI-powered Q&A",
   cleanUrls: true,
   themeConfig: {
     nav,

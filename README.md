@@ -1,6 +1,6 @@
-# WalkScape Wiki Scraper
+# WalkScape Helper
 
-TypeScript + pnpm scraper for WalkScape wiki pages. The default run scrapes all supported collections into structured markdown for AI use.
+WalkScape helper with wiki scraping and AI-powered Q&A. The default run scrapes all supported collections into structured markdown for AI use.
 
 Supported collections: `skills`, `core-mechanics`, `activities` (including activity pages listed in the Activities table), and `recipes`.
 
