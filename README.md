@@ -1,8 +1,5 @@
 # WalkScape Helper
-
-🇼 🇦 🇱 🇰 🇸 🇨 🇦 🇵 🇪 🇭 🇪 🇱 🇵 🇪 🇷
-
-🎣 🪓 ⛏️ 🧪 📜 🗺️ `local wiki + guide routes + progression planning`
+> 🇧 🇦 🇱 🇰 🇸 🇨 🇦 🇵 🇪 🇭 🇪 🇱 🇵 🇪 🇷
 
 `walkscape-helper` is a CLI driven helper for Walkscape. It turns the WalkScape wiki into a local, queryable knowledge base for progression planning. Other game related functionality will be added later (gear optimizer, ...)
 
