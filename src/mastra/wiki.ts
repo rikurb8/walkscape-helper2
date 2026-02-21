@@ -15,7 +15,7 @@ export async function runWikiCommandCli(argv: string[]): Promise<void> {
   const rawQuestion = parsed.args.join(" ").trim();
   if (!rawQuestion) {
     throw new Error(
-      'Usage: walkscape-helper wiki [--json] "where can i train fishing around level 50?"'
+      'Usage: walkscape-helper wiki [--json] "where can i train fishing from level 32 to 50?"'
     );
   }
 

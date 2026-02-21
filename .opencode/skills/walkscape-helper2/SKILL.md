@@ -32,7 +32,7 @@ Use this skill when the user wants to use the project as a CLI tool, for example
 2. Build local wiki snapshot:
    - `pnpm scrape`
 3. Ask a wiki-only question:
-   - `pnpm wiki "where can i train fishing around level 50?"`
+   - `pnpm wiki "where can i train fishing from level 32 to 50?"`
 4. (Optional) set personal guide context:
    - `pnpm guide set --username <name>`
    - `pnpm guide import --character-export-file ./example-character-export.json`

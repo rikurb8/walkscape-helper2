@@ -18,7 +18,7 @@ void runRootCommand(rootCommand, args).catch((error: unknown) => {
 
 async function runRootCommand(command: string | undefined, argv: string[]): Promise<void> {
   if (!command) {
-    await runScrapeCommandCli(argv);
+    process.stdout.write(`${renderRootHelp()}\n`);
     return;
   }
 
@@ -84,15 +84,17 @@ function renderRootHelp(): string {
   return [
     "walkscape-helper - unified WalkScape helper CLI",
     "",
+    "Welcome! Start by running one of the commands below.",
+    "",
     "Usage:",
     "  walkscape-helper [scrape] [flags]",
     '  walkscape-helper ask [--json] "how to get from fishing 35 to 50?"',
     "  walkscape-helper guide <set|import|show|reset|ask> [args]",
-    '  walkscape-helper wiki [--json] "where can i train fishing around level 50?"',
+    '  walkscape-helper wiki [--json] "where can i train fishing from level 32 to 50?"',
     '  walkscape-helper wiki-search [--json] "magnet fishing location"',
     "",
     "Notes:",
-    "  omit command to run scrape (backward compatible)",
+    "  run `walkscape-helper scrape` to build/update local wiki data",
     "  pass --json for machine-readable output"
   ].join("\n");
 }

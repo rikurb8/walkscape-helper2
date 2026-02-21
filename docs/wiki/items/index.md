@@ -6,7 +6,6 @@ scraped_at: "2026-02-21T09:42:05.255Z"
 categories: []
 ---
 
-
 # Items
 
 Items are objects that can be collected, used, or sold. They can be found in the world, bought from vendors, or crafted by players.
@@ -19,8 +18,8 @@ In WalkScape, items are a core part of what you will be walking for. They can be
 
 **Examples**:
 
--   [Wooden sword](https://wiki.walkscape.app/wiki/Wooden_sword "Wooden sword")
--   [Tarsilium shield](https://wiki.walkscape.app/wiki/Tarsilium_shield "Tarsilium shield")
+- [Wooden sword](https://wiki.walkscape.app/wiki/Wooden_sword "Wooden sword")
+- [Tarsilium shield](https://wiki.walkscape.app/wiki/Tarsilium_shield "Tarsilium shield")
 
 ## Loot Items
 
@@ -28,8 +27,8 @@ In WalkScape, items are a core part of what you will be walking for. They can be
 
 **Examples**:
 
--   [Feather cape](https://wiki.walkscape.app/wiki/Feather_cape "Feather cape")
--   [Cool sunglasses](https://wiki.walkscape.app/wiki/Cool_sunglasses "Cool sunglasses")
+- [Feather cape](https://wiki.walkscape.app/wiki/Feather_cape "Feather cape")
+- [Cool sunglasses](https://wiki.walkscape.app/wiki/Cool_sunglasses "Cool sunglasses")
 
 ## Material Items
 
@@ -37,8 +36,8 @@ In WalkScape, items are a core part of what you will be walking for. They can be
 
 **Examples**:
 
--   [Farganite ore](https://wiki.walkscape.app/wiki/Farganite_ore "Farganite ore")
--   [Fishing line](https://wiki.walkscape.app/wiki/Fishing_line "Fishing line")
+- [Farganite ore](https://wiki.walkscape.app/wiki/Farganite_ore "Farganite ore")
+- [Fishing line](https://wiki.walkscape.app/wiki/Fishing_line "Fishing line")
 
 ## Consumable Items
 
@@ -46,8 +45,8 @@ In WalkScape, items are a core part of what you will be walking for. They can be
 
 **Examples**:
 
--   [Beer](https://wiki.walkscape.app/wiki/Beer "Beer")
--   [Cooked squid](https://wiki.walkscape.app/wiki/Cooked_squid "Cooked squid")
+- [Beer](https://wiki.walkscape.app/wiki/Beer "Beer")
+- [Cooked squid](https://wiki.walkscape.app/wiki/Cooked_squid "Cooked squid")
 
 ## Openable Items
 
@@ -55,8 +54,8 @@ In WalkScape, items are a core part of what you will be walking for. They can be
 
 **Examples**:
 
--   [Sunken chest](https://wiki.walkscape.app/wiki/Sunken_chest "Sunken chest")
--   [Smithing chest](https://wiki.walkscape.app/wiki/Smithing_chest "Smithing chest")
+- [Sunken chest](https://wiki.walkscape.app/wiki/Sunken_chest "Sunken chest")
+- [Smithing chest](https://wiki.walkscape.app/wiki/Smithing_chest "Smithing chest")
 
 ## Collectible Items
 
@@ -64,8 +63,8 @@ In WalkScape, items are a core part of what you will be walking for. They can be
 
 **Examples**:
 
--   [Soup kitchen badge](https://wiki.walkscape.app/wiki/Soup_kitchen_badge "Soup kitchen badge")
--   [Old war sword](https://wiki.walkscape.app/wiki/Old_war_sword "Old war sword")
+- [Soup kitchen badge](https://wiki.walkscape.app/wiki/Soup_kitchen_badge "Soup kitchen badge")
+- [Old war sword](https://wiki.walkscape.app/wiki/Old_war_sword "Old war sword")
 
 ## Ability Items
 
@@ -73,4 +72,4 @@ In WalkScape, items are a core part of what you will be walking for. They can be
 
 **Examples**:
 
--   [Ring of homesickness](https://wiki.walkscape.app/wiki/Ring_of_homesickness "Ring of homesickness")
+- [Ring of homesickness](https://wiki.walkscape.app/wiki/Ring_of_homesickness "Ring of homesickness")

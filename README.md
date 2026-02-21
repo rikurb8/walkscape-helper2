@@ -14,7 +14,7 @@ pnpm install
 pnpm scrape
 
 # 3) Ask a wiki-only question (no player context)
-pnpm wiki "where can i train fishing around level 50?"
+pnpm wiki "where can i train fishing from level 32 to 50?"
 
 # 4) Set up your personal guide context
 pnpm guide set --username Riku1
@@ -56,28 +56,19 @@ pnpm eval:fishing
 
 ## NPX usage tips
 
-You can run this project without cloning it by executing binaries directly from the repo:
+You can run the published CLI directly with `npx`:
 
 ```bash
-# scrape CLI (default binary)
-npx -y github:riku/walkscape-helper2 --help
-
-# run helper commands through the main binary
-npx -y github:riku/walkscape-helper2 wiki "where can i train fishing around level 50?"
-npx -y github:riku/walkscape-helper2 guide show
-npx -y github:riku/walkscape-helper2 ask "how to get from fishing 35 to 50?"
-npx -y github:riku/walkscape-helper2 wiki-search "magnet fishing location"
-
-# legacy binaries still work
-npx -y --package=github:riku/walkscape-helper2 walkscape-helper-wiki "where can i train fishing around level 50?"
-npx -y --package=github:riku/walkscape-helper2 walkscape-helper-guide show
-npx -y --package=github:riku/walkscape-helper2 walkscape-helper-ask "how to get from fishing 35 to 50?"
-npx -y --package=github:riku/walkscape-helper2 walkscape-helper-wiki-search "magnet fishing location"
+npx walkscape-helper --help
+npx walkscape-helper wiki "where can i train fishing from level 32 to 50?"
+npx walkscape-helper guide show
+npx walkscape-helper ask "how to get from fishing 35 to 50?"
+npx walkscape-helper wiki-search "magnet fishing location"
 ```
 
 Notes:
 
-- first run may take longer because `npx` installs/builds the package;
+- first run may take longer because `npx` installs the package;
 - add `--json` to any of the commands above for machine-readable output.
 
 CLI output modes:

@@ -10,7 +10,7 @@ export async function runWikiSearchCommandCli(argv: string[]): Promise<void> {
   const query = parsed.args.join(" ").trim();
   if (!query) {
     throw new Error(
-      'Usage: walkscape-helper wiki-search [--json] "where can i train fishing around level 50?"'
+      'Usage: walkscape-helper wiki-search [--json] "where can i train fishing from level 32 to 50?"'
     );
   }
 

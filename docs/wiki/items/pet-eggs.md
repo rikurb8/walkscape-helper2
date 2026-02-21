@@ -7,7 +7,6 @@ categories:
   - "Pages_That_Automatically_Update"
 ---
 
-
 # Pet Eggs
 
 Pet eggs are [items](index.md) that the player gathers from activities or purchases at shops. Pet eggs can be **claimed** and then **hatched** into [pets](https://wiki.walkscape.app/wiki/Pets "Pets") that can help you on your journeys.
@@ -16,7 +15,7 @@ Pet eggs also have a _Rare_ version of that can be be received in place of the r
 
 # Trivia
 
--   According to Schamppu everything in Arenum hatches from eggs, including the player character.
+- According to Schamppu everything in Arenum hatches from eggs, including the player character.
 
 1.  [↑](#cite_ref-1) [https://discord.com/channels/1037510064333926402/1196163572661755964/1450783880767602741](https://discord.com/channels/1037510064333926402/1196163572661755964/1450783880767602741)
 
@@ -24,10 +23,10 @@ Pet eggs also have a _Rare_ version of that can be be received in place of the r
 
 ### Table 1 (Introduction)
 
-| Item Name | Pet Name | Rare Pet Name |
-| --- | --- | --- |
-| Camel egg | Camel | Two-Hump Camel |
-| Chicken egg | Chicken | Lovestruck Chicken |
-| Dolphin egg | Dolphin | Trick Dolphin |
-| Reindeer egg | Reindeer | Festive Reindeer |
-| Tortoise egg | Tortoise | Precious Tortoise |
+| Item Name    | Pet Name | Rare Pet Name      |
+| ------------ | -------- | ------------------ |
+| Camel egg    | Camel    | Two-Hump Camel     |
+| Chicken egg  | Chicken  | Lovestruck Chicken |
+| Dolphin egg  | Dolphin  | Trick Dolphin      |
+| Reindeer egg | Reindeer | Festive Reindeer   |
+| Tortoise egg | Tortoise | Precious Tortoise  |
