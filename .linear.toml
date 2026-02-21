@@ -1,0 +1,6 @@
+# linear cli
+# https://github.com/schpet/linear-cli
+
+workspace = "good-consulting"
+team_id = "GOO"
+issue_sort = "manual"
