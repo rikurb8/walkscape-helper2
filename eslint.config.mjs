@@ -11,7 +11,8 @@ export default tseslint.config(
       "docs/.vitepress/cache/**",
       "docs/.vitepress/dist/**",
       "data/raw/**",
-      "reports/**"
+      "reports/**",
+      ".opencode/**"
     ]
   },
   js.configs.recommended,
