@@ -127,6 +127,7 @@ TRANSITION=$(node ./.opencode/get-shit-done/bin/gsd-tools.cjs phase complete "${
 ```
 
 The CLI handles:
+
 - Marking the phase checkbox as `[x]` complete with today's date
 - Updating plan count to final (e.g., "3/3 plans complete")
 - Updating the Progress table (Status → Complete, adding date)
@@ -182,7 +183,8 @@ Make the edits inline. Update "Last updated" footer:
 
 ```markdown
 ---
-*Last updated: [date] after Phase [X]*
+
+_Last updated: [date] after Phase [X]_
 ```
 
 **Example evolution:**
@@ -340,12 +342,14 @@ Resume file: None
 **Use the transition result from `gsd-tools phase complete`:**
 
 The `is_last_phase` field from the phase complete result tells you directly:
+
 - `is_last_phase: false` → More phases remain → Go to **Route A**
 - `is_last_phase: true` → Milestone complete → Go to **Route B**
 
 The `next_phase` and `next_phase_name` fields give you the next phase details.
 
 If you need additional context, use:
+
 ```bash
 ROADMAP=$(node ./.opencode/get-shit-done/bin/gsd-tools.cjs roadmap analyze)
 ```
@@ -452,6 +456,7 @@ Exit skill and invoke skill("/gsd-discuss-phase [X+1] --auto")
 **Route B: Milestone complete (all phases done)**
 
 **Clear auto-advance** — milestone boundary is the natural stopping point:
+
 ```bash
 node ./.opencode/get-shit-done/bin/gsd-tools.cjs config-set workflow.auto_advance false
 ```

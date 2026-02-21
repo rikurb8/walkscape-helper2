@@ -20,9 +20,11 @@ Debug issues using scientific method with subagent isolation.
 User's issue: $ARGUMENTS
 
 Check for active sessions:
+
 ```bash
 ls .planning/debug/*.md 2>/dev/null | grep -v resolved | head -5
 ```
+
 </context>
 
 <process>
@@ -34,6 +36,7 @@ INIT=$(node ./.opencode/get-shit-done/bin/gsd-tools.cjs state load)
 ```
 
 Extract `commit_docs` from init JSON. Resolve debugger model:
+
 ```bash
 DEBUGGER_MODEL=$(node ./.opencode/get-shit-done/bin/gsd-tools.cjs resolve-model gsd-debugger --raw)
 ```
@@ -41,10 +44,12 @@ DEBUGGER_MODEL=$(node ./.opencode/get-shit-done/bin/gsd-tools.cjs resolve-model 
 ## 1. Check Active Sessions
 
 If active sessions exist AND no $ARGUMENTS:
+
 - List sessions with status, hypothesis, next action
 - User picks number to resume OR describes new issue
 
 If $ARGUMENTS provided OR user describes new issue:
+
 - Continue to symptom gathering
 
 ## 2. Gather Symptoms (if new issue)
@@ -100,6 +105,7 @@ Task(
 ## 4. Handle Agent Return
 
 **If `## ROOT CAUSE FOUND`:**
+
 - Display root cause and evidence summary
 - Offer options:
   - "Fix now" - spawn fix subagent
@@ -107,11 +113,13 @@ Task(
   - "Manual fix" - done
 
 **If `## CHECKPOINT REACHED`:**
+
 - Present checkpoint details to user
 - Get user response
 - Spawn continuation agent (see step 5)
 
 **If `## INVESTIGATION INCONCLUSIVE`:**
+
 - Show what was checked and eliminated
 - Offer options:
   - "Continue investigating" - spawn new agent with additional context
@@ -129,9 +137,10 @@ Continue debugging {slug}. Evidence is in the debug file.
 
 <prior_state>
 <files_to_read>
+
 - .planning/debug/{slug}.md (Debug session state)
-</files_to_read>
-</prior_state>
+  </files_to_read>
+  </prior_state>
 
 <checkpoint_response>
 **Type:** {checkpoint_type}
@@ -155,9 +164,10 @@ Task(
 </process>
 
 <success_criteria>
+
 - [ ] Active sessions checked
 - [ ] Symptoms gathered (if new)
 - [ ] gsd-debugger spawned with context
 - [ ] Checkpoints handled correctly
 - [ ] Root cause confirmed before fixing
-</success_criteria>
+      </success_criteria>

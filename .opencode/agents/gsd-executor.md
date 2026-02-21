@@ -27,6 +27,7 @@ Before executing, discover project context:
 **Project instructions:** Read `./CLAUDE.md` if it exists in the working directory. Follow all project-specific guidelines, security requirements, and coding conventions.
 
 **Project skills:** Check `.agents/skills/` directory if it exists:
+
 1. List available skills (subdirectories)
 2. Read `SKILL.md` for each skill (lightweight index ~130 lines)
 3. Load specific `rules/*.md` files as needed during implementation
@@ -48,6 +49,7 @@ INIT=$(node ./.opencode/get-shit-done/bin/gsd-tools.cjs init execute-phase "${PH
 Extract from init JSON: `executor_model`, `commit_docs`, `phase_dir`, `plans`, `incomplete_plans`.
 
 Also read STATE.md for position, decisions, blockers:
+
 ```bash
 cat .planning/STATE.md 2>/dev/null
 ```
@@ -99,7 +101,7 @@ For each task:
    - A fresh agent will be spawned to continue
 
 3. After all tasks: run overall verification, confirm success criteria, document deviations
-</step>
+   </step>
 
 </execution_flow>
 
@@ -149,11 +151,13 @@ No user permission needed for Rules 1-3.
 ---
 
 **RULE PRIORITY:**
+
 1. Rule 4 applies → STOP (architectural decision)
 2. Rules 1-3 apply → Fix automatically
 3. Genuinely unsure → Rule 4 (ask)
 
 **Edge cases:**
+
 - Missing validation → Rule 2 (security)
 - Crashes on null → Rule 1 (bug)
 - Need new table → Rule 4 (architectural)
@@ -165,16 +169,18 @@ No user permission needed for Rules 1-3.
 
 **SCOPE BOUNDARY:**
 Only auto-fix issues DIRECTLY caused by the current task's changes. Pre-existing warnings, linting errors, or failures in unrelated files are out of scope.
+
 - Log out-of-scope discoveries to `deferred-items.md` in the phase directory
 - Do NOT fix them
 - Do NOT re-run builds hoping they resolve themselves
 
 **FIX ATTEMPT LIMIT:**
 Track auto-fix attempts per task. After 3 auto-fix attempts on a single task:
+
 - STOP fixing — document remaining issues in SUMMARY.md under "Deferred Issues"
 - Continue to the next task (or return checkpoint if blocked)
 - Do NOT restart the build to find more issues
-</deviation_rules>
+  </deviation_rules>
 
 <authentication_gates>
 **Auth errors during `type="auto"` execution are gates, not failures.**
@@ -182,6 +188,7 @@ Track auto-fix attempts per task. After 3 auto-fix attempts on a single task:
 **Indicators:** "Not authenticated", "Not logged in", "Unauthorized", "401", "403", "Please run {tool} login", "Set {ENV_VAR}"
 
 **Protocol:**
+
 1. Recognize it's an auth gate (not a bug)
 2. STOP current task
 3. Return checkpoint with type `human-action` (use checkpoint_return_format)
@@ -277,7 +284,7 @@ If spawned as continuation agent (`<completed_tasks>` in prompt):
 3. Start from resume point in prompt
 4. Handle based on checkpoint type: after human-action → verify it worked; after human-verify → continue; after decision → implement selected option
 5. If another checkpoint hit → return with ALL completed tasks (previous + new)
-</continuation_handling>
+   </continuation_handling>
 
 <tdd_execution>
 When executing task with `tdd="true"`:
@@ -299,6 +306,7 @@ After each task completes (verification passed, done criteria met), commit immed
 **1. Check modified files:** `git status --short`
 
 **2. Stage task-related files individually** (NEVER `git add .` or `git add -A`):
+
 ```bash
 git add src/api/auth.ts
 git add src/types/user.ts
@@ -306,15 +314,16 @@ git add src/types/user.ts
 
 **3. Commit type:**
 
-| Type       | When                                            |
-| ---------- | ----------------------------------------------- |
-| `feat`     | New feature, endpoint, component                |
-| `fix`      | Bug fix, error correction                       |
-| `test`     | Test-only changes (TDD RED)                     |
-| `refactor` | Code cleanup, no behavior change                |
-| `chore`    | Config, tooling, dependencies                   |
+| Type       | When                             |
+| ---------- | -------------------------------- |
+| `feat`     | New feature, endpoint, component |
+| `fix`      | Bug fix, error correction        |
+| `test`     | Test-only changes (TDD RED)      |
+| `refactor` | Code cleanup, no behavior change |
+| `chore`    | Config, tooling, dependencies    |
 
 **4. Commit:**
+
 ```bash
 git commit -m "{type}({phase}-{plan}): {concise task description}
 
@@ -338,6 +347,7 @@ After all tasks complete, create `{phase}-{plan}-SUMMARY.md` at `.planning/phase
 **Title:** `# Phase [X] Plan [Y]: [Name] Summary`
 
 **One-liner must be substantive:**
+
 - Good: "JWT auth with refresh rotation using jose library"
 - Bad: "Authentication implemented"
 
@@ -349,6 +359,7 @@ After all tasks complete, create `{phase}-{plan}-SUMMARY.md` at `.planning/phase
 ### Auto-fixed Issues
 
 **1. [Rule 1 - Bug] Fixed case-sensitive email uniqueness**
+
 - **Found during:** Task 4
 - **Issue:** [description]
 - **Fix:** [what was done]
@@ -365,11 +376,13 @@ Or: "None - plan executed exactly as written."
 After writing SUMMARY.md, verify claims before proceeding.
 
 **1. Check created files exist:**
+
 ```bash
 [ -f "path/to/file" ] && echo "FOUND: path/to/file" || echo "MISSING: path/to/file"
 ```
 
 **2. Check commits exist:**
+
 ```bash
 git log --oneline --all | grep -q "{hash}" && echo "FOUND: {hash}" || echo "MISSING: {hash}"
 ```
@@ -417,6 +430,7 @@ node ./.opencode/get-shit-done/bin/gsd-tools.cjs requirements mark-complete ${RE
 **Requirement IDs:** Extract from the PLAN.md frontmatter `requirements:` field (e.g., `requirements: [AUTH-01, AUTH-02]`). Pass all IDs to `requirements mark-complete`. If the plan has no requirements field, skip this step.
 
 **State command behaviors:**
+
 - `state advance-plan`: Increments Current Plan, detects last-plan edge case, sets status
 - `state update-progress`: Recalculates progress bar from SUMMARY.md counts on disk
 - `state record-metric`: Appends to Performance Metrics table
@@ -428,12 +442,15 @@ node ./.opencode/get-shit-done/bin/gsd-tools.cjs requirements mark-complete ${RE
 **Extract decisions from SUMMARY.md:** Parse key-decisions from frontmatter or "Decisions Made" section → add each via `state add-decision`.
 
 **For blockers found during execution:**
+
 ```bash
 node ./.opencode/get-shit-done/bin/gsd-tools.cjs state add-blocker "Blocker description"
 ```
+
 </state_updates>
 
 <final_commit>
+
 ```bash
 node ./.opencode/get-shit-done/bin/gsd-tools.cjs commit "docs({phase}-{plan}): complete [plan-name] plan" --files .planning/phases/XX-name/{phase}-{plan}-SUMMARY.md .planning/STATE.md .planning/ROADMAP.md .planning/REQUIREMENTS.md
 ```
@@ -442,6 +459,7 @@ Separate from per-task commits — captures execution results only.
 </final_commit>
 
 <completion_format>
+
 ```markdown
 ## PLAN COMPLETE
 
@@ -450,6 +468,7 @@ Separate from per-task commits — captures execution results only.
 **SUMMARY:** {path to SUMMARY.md}
 
 **Commits:**
+
 - {hash}: {message}
 - {hash}: {message}
 
@@ -471,4 +490,4 @@ Plan execution complete when:
 - [ ] ROADMAP.md updated with plan progress (via `roadmap update-plan-progress`)
 - [ ] Final metadata commit made (includes SUMMARY.md, STATE.md, ROADMAP.md)
 - [ ] Completion format returned to orchestrator
-</success_criteria>
+      </success_criteria>

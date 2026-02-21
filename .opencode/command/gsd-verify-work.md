@@ -10,6 +10,7 @@ tools:
   write: true
   task: true
 ---
+
 <objective>
 Validate built features through conversational testing with persistent state.
 
