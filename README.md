@@ -215,6 +215,85 @@ Module docs for faster discovery:
 - `src/scraper/README.md`
 - `src/mastra/README.md`
 
+## OpenCode skills for this repo
+
+If you use OpenCode agents, you can define reusable behavior in `.opencode/skills/<name>/SKILL.md`.
+For first-time users, the most helpful pattern is a CLI-focused skill that turns natural questions into the exact commands to run.
+
+What a CLI skill can do:
+
+- explain the shortest happy-path from install -> scrape -> ask;
+- suggest the correct command variant for each task (`wiki`, `guide`, `wiki:search`, `ask`);
+- include copy-paste commands for file import, JSON mode, and troubleshooting;
+- reduce first-run confusion by mapping plain-English goals to concrete CLI steps.
+
+Current project skill:
+
+- `.opencode/skills/walkscape-helper2/SKILL.md`
+
+Generic CLI skill example (first-time user friendly):
+
+```md
+---
+name: walkscape-helper2
+description: Help first-time users run walkscape-helper2 commands end-to-end with clear copy-paste steps.
+compatibility: opencode
+---
+
+## What I do
+
+- Give the fastest onboarding flow:
+  1. `pnpm install`
+  2. `pnpm scrape`
+  3. `pnpm wiki "..."`
+- Translate user intent into the right command (`guide ask` vs `wiki` vs `ask`).
+- Prefer beginner-safe defaults and include `--json` alternatives when useful.
+- Explain outputs briefly and point to next command.
+
+## Response style
+
+- Use short steps with copy-pasteable commands.
+- Assume user is new unless they ask for advanced options.
+- If a command fails, provide the smallest recovery step first.
+```
+
+Commentary:
+
+- this should be the default skill for helping new users in chat or terminal;
+- it optimizes for successful first-run UX, not internal implementation details.
+
+Specific CLI skill example (guide import + progression help):
+
+```md
+---
+name: walkscape-guide-onboarding
+description: Walk users through guide setup, character import, and context-aware progression questions.
+compatibility: opencode
+---
+
+## Use when
+
+- User asks about personal progression, target levels, or importing character data.
+
+## Steps
+
+- Set username: `pnpm guide set --username <name>`
+- Import export file: `pnpm guide import --character-export-file ./example-character-export.json`
+- Verify context: `pnpm guide show`
+- Ask plan: `pnpm guide ask "how do i get fishing to 70?"`
+- Optional machine mode: add `--json` to any guide command
+
+## Notes
+
+- Mention that XP values are converted to estimated levels during import.
+- If input is missing, suggest stdin flow: `pbpaste | pnpm guide import`.
+```
+
+Commentary:
+
+- this focused skill is useful after the user has completed the base scrape step;
+- pair it with the generic CLI skill so guidance stays simple but context-aware.
+
 ## Build, test, and quality checks
 
 Primary checks:
