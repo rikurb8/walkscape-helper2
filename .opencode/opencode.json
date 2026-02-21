@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permission": {
+    "read": {
+      "/Users/riku/projects/walkscape/tmp/walkscape-helper2/.opencode/get-shit-done/*": "allow"
+    },
+    "external_directory": {
+      "/Users/riku/projects/walkscape/tmp/walkscape-helper2/.opencode/get-shit-done/*": "allow"
+    }
+  }
+}

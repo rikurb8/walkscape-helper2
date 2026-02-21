@@ -1,7 +1,7 @@
 # WalkScape Helper
 
 `walkscape-helper` is a local-first CLI for WalkScape progression planning.
-It turns the WalkScape wiki into a deterministic, queryable local knowledge base and adds optional profile-aware guidance.
+It turns the WalkScape wiki into a queryable local knowledge base and adds optional profile-aware guidance. Other functionalities coming later.
 
 ## Try it out
 
