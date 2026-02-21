@@ -25,6 +25,16 @@ interface RecipeTarget {
   sourcePageTitle: string;
 }
 
+const ITEM_CHILD_TITLES = [
+  "Equipment",
+  "Materials",
+  "Consumables",
+  "Collectibles",
+  "Chests",
+  "Pet Eggs",
+  "Cosmetics"
+] as const;
+
 export async function collectSections(
   selectedCollections: ScrapeCollection[],
   onProgress?: ScrapeProgressHandler
@@ -52,6 +62,9 @@ export async function collectSections(
   }
   if (selected.has("recipes")) {
     collections.push(await buildRecipesCollection(fetchCache, onProgress));
+  }
+  if (selected.has("items")) {
+    collections.push(await buildItemsCollection(fetchCache, onProgress));
   }
 
   return collections;
@@ -205,6 +218,20 @@ async function buildRecipesCollection(
     pageRecords,
     warnings
   };
+}
+
+async function buildItemsCollection(
+  fetchCache: FetchCache,
+  onProgress?: ScrapeProgressHandler
+): Promise<CollectionResult> {
+  return buildCollection({
+    sectionSlug: "items",
+    sectionTitle: "Items",
+    rootTitle: "Items",
+    childTitles: [...ITEM_CHILD_TITLES],
+    fetchCache,
+    onProgress
+  });
 }
 
 async function buildSinglePageCollection(

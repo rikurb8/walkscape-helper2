@@ -1,7 +1,13 @@
 import type { ParsedPage } from "./api.js";
 import type { ExtractedDocument } from "./extract.js";
 
-export const SUPPORTED_COLLECTIONS = ["skills", "core-mechanics", "activities", "recipes"] as const;
+export const SUPPORTED_COLLECTIONS = [
+  "skills",
+  "core-mechanics",
+  "activities",
+  "recipes",
+  "items"
+] as const;
 
 export type ScrapeCollection = (typeof SUPPORTED_COLLECTIONS)[number];
 

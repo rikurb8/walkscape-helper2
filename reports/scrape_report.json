@@ -4,7 +4,8 @@
     "skills",
     "core-mechanics",
     "activities",
-    "recipes"
+    "recipes",
+    "items"
   ],
   "incremental": true,
   "sections": [
@@ -382,19 +383,37 @@
         "docs/wiki/recipes/trinketry/create-a-gold-ethernite-ring.md"
       ],
       "warnings": []
+    },
+    {
+      "section": "Items",
+      "section_slug": "items",
+      "root_title": "Items",
+      "pages_generated": 8,
+      "tables_found": 35,
+      "output_files": [
+        "docs/wiki/items/index.md",
+        "docs/wiki/items/equipment.md",
+        "docs/wiki/items/materials.md",
+        "docs/wiki/items/consumables.md",
+        "docs/wiki/items/collectibles.md",
+        "docs/wiki/items/chests.md",
+        "docs/wiki/items/pet-eggs.md",
+        "docs/wiki/items/cosmetics.md"
+      ],
+      "warnings": []
     }
   ],
-  "pages_generated_total": 335,
-  "tables_found_total": 2762,
-  "request_count": 321,
+  "pages_generated_total": 343,
+  "tables_found_total": 2797,
+  "request_count": 329,
   "write_stats": {
     "docs_written": 0,
-    "docs_skipped": 335,
+    "docs_skipped": 343,
     "docs_removed": 0,
-    "raw_written": 335,
-    "raw_skipped": 0,
+    "raw_written": 0,
+    "raw_skipped": 343,
     "raw_removed": 0,
-    "structured_written": 335,
+    "structured_written": 343,
     "structured_removed": 0
   },
   "warnings": []

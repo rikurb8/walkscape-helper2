@@ -74,6 +74,7 @@ Currently data is only fetched for the following collections. Wiki has lots more
 - `core-mechanics`
 - `activities` (plus linked activity pages from the Activities table)
 - `recipes`
+- `items` (plus canonical item category pages: equipment, materials, consumables, collectibles, chests, pet eggs, cosmetics)
 
 ## CLI usage
 
@@ -90,6 +91,7 @@ pnpm scrape --help
 pnpm scrape --incremental
 pnpm scrape --full
 pnpm scrape --collections skills --collections recipes
+pnpm scrape --collections items
 pnpm scrape skills,activities
 pnpm scrape --print-docs
 pnpm scrape --json

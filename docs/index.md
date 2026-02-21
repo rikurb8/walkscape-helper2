@@ -4,3 +4,4 @@
 - [Core Mechanics](wiki/core-mechanics/)
 - [Activities](wiki/activities/)
 - [Recipes](wiki/recipes/)
+- [Items](wiki/items/)
