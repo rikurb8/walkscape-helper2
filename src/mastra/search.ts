@@ -1,14 +1,16 @@
 #!/usr/bin/env node
 
+import { pathToFileURL } from "node:url";
+
 import { printCommandError, printJson, stripBooleanFlag } from "../cli-output.js";
 import { searchLocalWiki } from "./wiki-workspace.js";
 
-async function main(): Promise<void> {
-  const parsed = stripBooleanFlag(process.argv.slice(2), "--json");
+export async function runWikiSearchCommandCli(argv: string[]): Promise<void> {
+  const parsed = stripBooleanFlag(argv, "--json");
   const query = parsed.args.join(" ").trim();
   if (!query) {
     throw new Error(
-      'Usage: walkscape-helper-wiki-search [--json] "where can i train fishing around level 50?"'
+      'Usage: walkscape-helper wiki-search [--json] "where can i train fishing around level 50?"'
     );
   }
 
@@ -48,12 +50,14 @@ async function main(): Promise<void> {
   }
 }
 
-const jsonMode = process.argv.includes("--json");
+if (isDirectExecution()) {
+  const jsonMode = process.argv.includes("--json");
 
-void main().catch((error: unknown) => {
-  printCommandError("wiki-search", error, jsonMode);
-  process.exitCode = 1;
-});
+  void runWikiSearchCommandCli(process.argv.slice(2)).catch((error: unknown) => {
+    printCommandError("wiki-search", error, jsonMode);
+    process.exitCode = 1;
+  });
+}
 
 function collapseWhitespace(value: string): string {
   return value.replace(/\s+/g, " ").trim();
@@ -61,4 +65,13 @@ function collapseWhitespace(value: string): string {
 
 function stripFrontmatter(value: string): string {
   return value.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, "");
+}
+
+function isDirectExecution(): boolean {
+  const entryPoint = process.argv[1];
+  if (!entryPoint) {
+    return false;
+  }
+
+  return import.meta.url === pathToFileURL(entryPoint).href;
 }

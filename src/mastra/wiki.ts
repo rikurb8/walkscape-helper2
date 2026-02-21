@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+import { pathToFileURL } from "node:url";
+
 import {
   printAiUsageSummary,
   printCommandError,
@@ -8,12 +10,12 @@ import {
 } from "../cli-output.js";
 import { runLocalWikiQuestion } from "./index.js";
 
-async function main(): Promise<void> {
-  const parsed = stripBooleanFlag(process.argv.slice(2), "--json");
+export async function runWikiCommandCli(argv: string[]): Promise<void> {
+  const parsed = stripBooleanFlag(argv, "--json");
   const rawQuestion = parsed.args.join(" ").trim();
   if (!rawQuestion) {
     throw new Error(
-      'Usage: walkscape-helper-wiki [--json] "where can i train fishing around level 50?"'
+      'Usage: walkscape-helper wiki [--json] "where can i train fishing around level 50?"'
     );
   }
 
@@ -48,12 +50,14 @@ async function main(): Promise<void> {
   printAiUsageSummary(result.ai);
 }
 
-const jsonMode = process.argv.includes("--json");
+if (isDirectExecution()) {
+  const jsonMode = process.argv.includes("--json");
 
-void main().catch((error: unknown) => {
-  printCommandError("wiki", error, jsonMode);
-  process.exitCode = 1;
-});
+  void runWikiCommandCli(process.argv.slice(2)).catch((error: unknown) => {
+    printCommandError("wiki", error, jsonMode);
+    process.exitCode = 1;
+  });
+}
 
 function toMatches(matches: Array<{ id: string; score: number }>): Array<{
   id: string;
@@ -63,4 +67,13 @@ function toMatches(matches: Array<{ id: string; score: number }>): Array<{
     id: match.id,
     score: match.score
   }));
+}
+
+function isDirectExecution(): boolean {
+  const entryPoint = process.argv[1];
+  if (!entryPoint) {
+    return false;
+  }
+
+  return import.meta.url === pathToFileURL(entryPoint).href;
 }

@@ -62,7 +62,13 @@ You can run this project without cloning it by executing binaries directly from 
 # scrape CLI (default binary)
 npx -y github:riku/walkscape-helper2 --help
 
-# run specific helper binaries from the same repo
+# run helper commands through the main binary
+npx -y github:riku/walkscape-helper2 wiki "where can i train fishing around level 50?"
+npx -y github:riku/walkscape-helper2 guide show
+npx -y github:riku/walkscape-helper2 ask "how to get from fishing 35 to 50?"
+npx -y github:riku/walkscape-helper2 wiki-search "magnet fishing location"
+
+# legacy binaries still work
 npx -y --package=github:riku/walkscape-helper2 walkscape-helper-wiki "where can i train fishing around level 50?"
 npx -y --package=github:riku/walkscape-helper2 walkscape-helper-guide show
 npx -y --package=github:riku/walkscape-helper2 walkscape-helper-ask "how to get from fishing 35 to 50?"

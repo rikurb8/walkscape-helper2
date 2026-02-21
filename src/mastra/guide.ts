@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import { promises as fs } from "node:fs";
+import { pathToFileURL } from "node:url";
 
 import {
   printAiUsageSummary,
@@ -57,8 +58,8 @@ interface GuideAskResult {
   matches: WikiQuestionResult["matches"];
 }
 
-async function main(): Promise<void> {
-  const parsed = stripBooleanFlag(process.argv.slice(2), "--json");
+export async function runGuideCommandCli(argv: string[]): Promise<void> {
+  const parsed = stripBooleanFlag(argv, "--json");
   const args = parsed.args;
   const command = args[0];
 
@@ -167,7 +168,7 @@ async function main(): Promise<void> {
 async function handleSet(args: string[]): Promise<GuideSetResult> {
   const username = readFlagValue(args, "--username");
   if (!username) {
-    throw new Error('Usage: walkscape-helper-guide set [--json] --username "your_name"');
+    throw new Error('Usage: walkscape-helper guide set [--json] --username "your_name"');
   }
 
   const existing = await loadGuideContext();
@@ -188,7 +189,7 @@ async function handleImport(args: string[]): Promise<GuideImportResult> {
 
   if (!exportFile && !exportJson && !pipedInput) {
     throw new Error(
-      "Usage: walkscape-helper-guide import [--json] --character-export-file <path> OR --character-export-json '<json>' OR pipe JSON into stdin"
+      "Usage: walkscape-helper guide import [--json] --character-export-file <path> OR --character-export-json '<json>' OR pipe JSON into stdin"
     );
   }
 
@@ -230,7 +231,7 @@ async function handleReset(): Promise<void> {
 async function handleAsk(args: string[]): Promise<GuideAskResult> {
   const question = args.join(" ").trim();
   if (!question) {
-    throw new Error('Usage: walkscape-helper-guide ask [--json] "how do i get fishing to 55?"');
+    throw new Error('Usage: walkscape-helper guide ask [--json] "how do i get fishing to 55?"');
   }
 
   const context = await loadGuideContext();
@@ -364,13 +365,13 @@ function renderHelp(): string {
     "Guide command - save character context and ask personalized questions",
     "",
     "Usage:",
-    "  pnpm guide [--json] set --username <name>",
-    "  pnpm guide [--json] import --character-export-file <path>",
-    "  pnpm guide [--json] import --character-export-json '<json>'",
-    "  pbpaste | pnpm guide [--json] import",
-    "  pnpm guide [--json] show",
-    "  pnpm guide [--json] reset",
-    '  pnpm guide [--json] ask "how do i get fishing to 55?"',
+    "  walkscape-helper guide [--json] set --username <name>",
+    "  walkscape-helper guide [--json] import --character-export-file <path>",
+    "  walkscape-helper guide [--json] import --character-export-json '<json>'",
+    "  pbpaste | walkscape-helper guide [--json] import",
+    "  walkscape-helper guide [--json] show",
+    "  walkscape-helper guide [--json] reset",
+    '  walkscape-helper guide [--json] ask "how do i get fishing to 55?"',
     "",
     "Output modes:",
     "  default output is tuned for humans in the terminal",
@@ -389,9 +390,20 @@ function toMatches(matches: Array<{ id: string; score: number }>): Array<{
   }));
 }
 
-const jsonMode = process.argv.includes("--json");
+if (isDirectExecution()) {
+  const jsonMode = process.argv.includes("--json");
 
-void main().catch((error: unknown) => {
-  printCommandError("guide", error, jsonMode);
-  process.exitCode = 1;
-});
+  void runGuideCommandCli(process.argv.slice(2)).catch((error: unknown) => {
+    printCommandError("guide", error, jsonMode);
+    process.exitCode = 1;
+  });
+}
+
+function isDirectExecution(): boolean {
+  const entryPoint = process.argv[1];
+  if (!entryPoint) {
+    return false;
+  }
+
+  return import.meta.url === pathToFileURL(entryPoint).href;
+}

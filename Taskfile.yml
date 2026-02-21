@@ -31,6 +31,36 @@ tasks:
     cmds:
       - pnpm docs:build
 
+  publish:dry-run:
+    desc: Validate npm publish payload without uploading
+    cmds:
+      - pnpm build
+      - pnpm publish --access public --dry-run
+
+  publish:
+    desc: Publish current package version to npm
+    cmds:
+      - pnpm build
+      - pnpm publish --access public
+
+  release:patch:
+    desc: Bump patch version and publish to npm
+    cmds:
+      - pnpm version patch
+      - task publish
+
+  release:minor:
+    desc: Bump minor version and publish to npm
+    cmds:
+      - pnpm version minor
+      - task publish
+
+  release:major:
+    desc: Bump major version and publish to npm
+    cmds:
+      - pnpm version major
+      - task publish
+
   ci:
     desc: Run all quality gates
     cmds:
