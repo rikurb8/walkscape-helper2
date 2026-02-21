@@ -1,6 +1,6 @@
 {
   "name": "walkscape-helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "WalkScape helper - wiki scraping and AI-powered Q&A",
   "type": "module",
