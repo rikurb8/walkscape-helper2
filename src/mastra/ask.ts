@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import {
   printAiUsageSummary,
   printCommandError,
@@ -10,7 +12,7 @@ async function main(): Promise<void> {
   const parsed = stripBooleanFlag(process.argv.slice(2), "--json");
   const rawQuestion = parsed.args.join(" ").trim();
   if (!rawQuestion) {
-    throw new Error('Usage: pnpm ask [--json] "how to get from fishing 35 to 50?"');
+    throw new Error('Usage: walkscape-helper-ask [--json] "how to get from fishing 35 to 50?"');
   }
 
   const result = await runLocalSkillQuestion(rawQuestion);

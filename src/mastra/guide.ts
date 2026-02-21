@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { promises as fs } from "node:fs";
 
 import {
@@ -165,7 +167,7 @@ async function main(): Promise<void> {
 async function handleSet(args: string[]): Promise<GuideSetResult> {
   const username = readFlagValue(args, "--username");
   if (!username) {
-    throw new Error('Usage: pnpm guide set [--json] --username "your_name"');
+    throw new Error('Usage: walkscape-helper-guide set [--json] --username "your_name"');
   }
 
   const existing = await loadGuideContext();
@@ -186,7 +188,7 @@ async function handleImport(args: string[]): Promise<GuideImportResult> {
 
   if (!exportFile && !exportJson && !pipedInput) {
     throw new Error(
-      "Usage: pnpm guide import [--json] --character-export-file <path> OR --character-export-json '<json>' OR pipe JSON into stdin"
+      "Usage: walkscape-helper-guide import [--json] --character-export-file <path> OR --character-export-json '<json>' OR pipe JSON into stdin"
     );
   }
 
@@ -228,7 +230,7 @@ async function handleReset(): Promise<void> {
 async function handleAsk(args: string[]): Promise<GuideAskResult> {
   const question = args.join(" ").trim();
   if (!question) {
-    throw new Error('Usage: pnpm guide ask [--json] "how do i get fishing to 55?"');
+    throw new Error('Usage: walkscape-helper-guide ask [--json] "how do i get fishing to 55?"');
   }
 
   const context = await loadGuideContext();

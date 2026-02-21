@@ -54,6 +54,26 @@ pnpm eval:fishing
 - `ask`: use the deterministic route planner directly for skill/target-level questions
 - `eval:fishing`: run repeatable quality checks to compare behavior over time
 
+## NPX usage tips
+
+You can run this project without cloning it by executing binaries directly from the repo:
+
+```bash
+# scrape CLI (default binary)
+npx -y github:riku/walkscape-helper2 --help
+
+# run specific helper binaries from the same repo
+npx -y --package=github:riku/walkscape-helper2 walkscape-helper-wiki "where can i train fishing around level 50?"
+npx -y --package=github:riku/walkscape-helper2 walkscape-helper-guide show
+npx -y --package=github:riku/walkscape-helper2 walkscape-helper-ask "how to get from fishing 35 to 50?"
+npx -y --package=github:riku/walkscape-helper2 walkscape-helper-wiki-search "magnet fishing location"
+```
+
+Notes:
+
+- first run may take longer because `npx` installs/builds the package;
+- add `--json` to any of the commands above for machine-readable output.
+
 CLI output modes:
 
 - by default human mode, every operation is optimized for human terminal use;

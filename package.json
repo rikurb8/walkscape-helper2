@@ -1,12 +1,25 @@
 {
   "name": "walkscape-helper",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "description": "WalkScape helper - wiki scraping and AI-powered Q&A",
   "type": "module",
+  "bin": {
+    "walkscape-helper": "./dist/main.js",
+    "walkscape-helper-ask": "./dist/mastra/ask.js",
+    "walkscape-helper-guide": "./dist/mastra/guide.js",
+    "walkscape-helper-wiki": "./dist/mastra/wiki.js",
+    "walkscape-helper-wiki-search": "./dist/mastra/search.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "packageManager": "pnpm@10.5.2",
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "prepare": "pnpm build",
+    "prepublishOnly": "pnpm build",
     "test": "tsx --test src/**/*.test.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "lint": "eslint . --max-warnings=0",

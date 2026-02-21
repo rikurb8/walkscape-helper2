@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import {
   printAiUsageSummary,
   printCommandError,
@@ -10,7 +12,9 @@ async function main(): Promise<void> {
   const parsed = stripBooleanFlag(process.argv.slice(2), "--json");
   const rawQuestion = parsed.args.join(" ").trim();
   if (!rawQuestion) {
-    throw new Error('Usage: pnpm wiki [--json] "where can i train fishing around level 50?"');
+    throw new Error(
+      'Usage: walkscape-helper-wiki [--json] "where can i train fishing around level 50?"'
+    );
   }
 
   const result = await runLocalWikiQuestion(rawQuestion);

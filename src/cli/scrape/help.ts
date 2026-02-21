@@ -3,7 +3,7 @@ export function renderScrapeHelp(supportedCollections: readonly string[]): strin
     "Scrape WalkScape wiki pages into local docs/raw outputs",
     "",
     "Usage:",
-    "  tsx src/main.ts [collection-a,collection-b] [--collections <name>]... [--incremental] [--full] [--print-docs] [--json]",
+    "  walkscape-helper [collection-a,collection-b] [--collections <name>]... [--incremental] [--full] [--print-docs] [--json]",
     "",
     `Collections: ${supportedCollections.join(", ")}`,
     "If no collections are provided, all collections are scraped.",

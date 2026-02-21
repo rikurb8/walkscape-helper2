@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { printCommandError } from "./cli-output.js";
 import { isJsonModeArgv, runScrapeCommandCli } from "./cli/scrape-command.js";
 

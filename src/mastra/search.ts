@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { printCommandError, printJson, stripBooleanFlag } from "../cli-output.js";
 import { searchLocalWiki } from "./wiki-workspace.js";
 
@@ -6,7 +8,7 @@ async function main(): Promise<void> {
   const query = parsed.args.join(" ").trim();
   if (!query) {
     throw new Error(
-      'Usage: pnpm wiki:search [--json] "where can i train fishing around level 50?"'
+      'Usage: walkscape-helper-wiki-search [--json] "where can i train fishing around level 50?"'
     );
   }
 
